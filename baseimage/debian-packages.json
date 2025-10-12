@@ -3391,10 +3391,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.38), libsqlite3-0 (>= 3.5.9)",
+    "Depends": "libc6 (>= 2.38), libsqlite3-0 (>= 3.7.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "49",
+    "Installed-Size": "50",
     "Origin": "",
     "Package": "libwtmpdb0",
     "Pre-Depends": "",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.74.0-2",
+    "Version": "0.75.0-4",
     "binary:Package": "libwtmpdb0:amd64",
     "binary:Summary": "wtmp database shared library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "wtmpdb",
-    "source:Version": "0.74.0-2"
+    "source:Version": "0.75.0-4"
   },
   {
     "Architecture": "amd64",
