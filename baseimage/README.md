@@ -164,7 +164,7 @@ ii   libseccomp2                  2.6.0-2                      amd64  high level
 ii   libselinux1                  3.8.1-1                      amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.8.1-1                      all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.8.1-1                      amd64  SELinux policy management library
-ii   libsepol2                    3.8.1-1                      amd64  SELinux library for manipulating binary security policies
+ii   libsepol2                    3.9-2                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-5+b2                   amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.41.2-4                     amd64  smart column output alignment library
 ii   libsqlite3-0                 3.46.1-8                     amd64  SQLite 3 shared library
@@ -195,9 +195,9 @@ ii   mount                        2.41.2-4                     amd64  tools for 
 ii   ncurses-base                 6.5+20250216-2               all    basic terminal type definitions
 ii   ncurses-bin                  6.5+20250216-2               amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                       amd64  NET-3 networking toolkit
-ii   openssh-client               1:10.2p1-1                   amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:10.2p1-1                   amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.2p1-1                   amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:10.2p1-2                   amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:10.2p1-2                   amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.2p1-2                   amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.5.4-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.5.4-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.22                         all    Orphaned System-V-like init scripts
