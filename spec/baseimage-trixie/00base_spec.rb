@@ -291,7 +291,7 @@ describe 'minimum2scp/baseimage-trixie' do
     end
 
     describe command('docker --version') do
-      its(:stdout){ should start_with('Docker version 28.3.3, ') }
+      its(:stdout){ should start_with('Docker version 28.5.1, ') }
     end
   end
 
