@@ -57,14 +57,13 @@ I: Validating libseccomp2 2.6.0-2
 I: Validating libselinux1 3.8.1-1
 I: Validating libsemanage-common 3.8.1-1
 I: Validating libsemanage2 3.8.1-1
-I: Validating libsepol2 3.8.1-1
+I: Retrieving libsepol2 3.9-2
+I: Validating libsepol2 3.9-2
 I: Validating libsmartcols1 2.41.2-4
 I: Validating libssl3t64 3.5.4-1
 I: Validating libstdc++6 15.2.0-4
-I: Retrieving libsystemd0 258.1-1
 I: Validating libsystemd0 258.1-1
 I: Validating libtinfo6 6.5+20250216-2
-I: Retrieving libudev1 258.1-1
 I: Validating libudev1 258.1-1
 I: Validating libuuid1 2.41.2-4
 I: Validating libxxhash0 0.8.3-2
