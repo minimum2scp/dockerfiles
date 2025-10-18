@@ -2050,7 +2050,7 @@
     "Depends": "libc6 (>= 2.38), libestr0 (>= 0.1.0), libfastjson4 (>= 0.99.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "173",
+    "Installed-Size": "174",
     "Origin": "",
     "Package": "liblognorm5",
     "Pre-Depends": "",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.0.6-5",
+    "Version": "2.0.7-1",
     "binary:Package": "liblognorm5:amd64",
     "binary:Summary": "log normalizing library",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "liblognorm",
-    "source:Version": "2.0.6-5"
+    "source:Version": "2.0.7-1"
   },
   {
     "Architecture": "amd64",

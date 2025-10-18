@@ -133,7 +133,7 @@ ii   libkeyutils1                 1.6.3-6                      amd64  Linux Key 
 ii   libkrb5-3                    1.21.3-5                     amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.21.3-5                     amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap2                     2.6.10+dfsg-1                amd64  OpenLDAP libraries
-ii   liblognorm5                  2.0.6-5                      amd64  log normalizing library
+ii   liblognorm5                  2.0.7-1                      amd64  log normalizing library
 ii   liblz4-1                     1.10.0-4                     amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.8.1-2                      amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
