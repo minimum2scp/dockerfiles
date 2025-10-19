@@ -2834,7 +2834,7 @@
     "Depends": "libc6 (>= 2.38), libpcre2-8-0 (>= 10.22)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "229",
+    "Installed-Size": "221",
     "Origin": "",
     "Package": "libselinux1",
     "Pre-Depends": "",
@@ -2845,7 +2845,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.8.1-1",
+    "Version": "3.9-2",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -2853,7 +2853,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libselinux",
-    "source:Version": "3.8.1-1"
+    "source:Version": "3.9-2"
   },
   {
     "Architecture": "all",
@@ -2873,7 +2873,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.8.1-1",
+    "Version": "3.9-1",
     "binary:Package": "libsemanage-common",
     "binary:Summary": "Common files for SELinux policy management libraries",
     "db:Status-Abbrev": "ii ",
@@ -2881,16 +2881,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "3.8.1-1"
+    "source:Version": "3.9-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libsemanage-common (>= 3.8.1-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.38), libselinux1 (>= 3.8.1), libsepol2 (>= 3.8.1)",
+    "Depends": "libsemanage-common (>= 3.9-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.38), libselinux1 (>= 3.9), libsepol2 (>= 3.9)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "313",
+    "Installed-Size": "317",
     "Origin": "",
     "Package": "libsemanage2",
     "Pre-Depends": "",
@@ -2901,7 +2901,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.8.1-1",
+    "Version": "3.9-1",
     "binary:Package": "libsemanage2:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",
@@ -2909,7 +2909,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "3.8.1-1"
+    "source:Version": "3.9-1"
   },
   {
     "Architecture": "amd64",
