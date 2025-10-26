@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.153                        all    add and remove users and groups
-ii   apt                          3.1.9                        amd64  commandline package manager
+ii   apt                          3.1.10                       amd64  commandline package manager
 ii   base-files                   14                           amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                        amd64  Debian base system master password and group files
 ii   bash                         5.3-1                        amd64  GNU Bourne Again SHell
@@ -93,7 +93,7 @@ ii   initscripts                  3.15-5                       all    scripts fo
 ii   insserv                      1.27.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                   amd64  access control list - shared library
 ii   libapparmor1                 4.1.0-1                      amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.1.9                        amd64  package management runtime library
+ii   libapt-pkg7.0                3.1.10                       amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                    amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                    all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.1.2-1                    amd64  Dynamic library for security auditing
@@ -200,7 +200,7 @@ ii   openssh-server               1:10.2p1-2                   amd64  secure she
 ii   openssh-sftp-server          1:10.2p1-2                   amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.5.4-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.5.4-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   orphan-sysvinit-scripts      0.22                         all    Orphaned System-V-like init scripts
+ii   orphan-sysvinit-scripts      0.23                         all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.18.0-2                   amd64  change and administer password and group data
 ii   perl                         5.40.1-6                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.1-6                     amd64  minimal Perl system
@@ -218,7 +218,7 @@ ii   sysv-rc                      3.15-5                       all    System-V-l
 ii   sysvinit-core                3.15-5                       amd64  System-V-like init
 ii   sysvinit-utils               3.15-5                       amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3.1                amd64  GNU version of the tar archiving utility
-ii   tree                         2.2.1-1                      amd64  displays an indented directory tree, in color
+ii   tree                         2.2.1-3                      amd64  displays an indented directory tree, in color
 ii   tzdata                       2025b-5                      all    time zone and daylight-saving time data
 ii   ucf                          3.0052                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                       amd64  De-archiver for .zip files
