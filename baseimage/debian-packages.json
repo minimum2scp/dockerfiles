@@ -2078,7 +2078,7 @@
     "Depends": "libc6 (>= 2.14), libxxhash0 (>= 0.6.5)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "173",
+    "Installed-Size": "193",
     "Origin": "",
     "Package": "liblz4-1",
     "Pre-Depends": "",
@@ -2089,7 +2089,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.10.0-4",
+    "Version": "1.10.0-6",
     "binary:Package": "liblz4-1:amd64",
     "binary:Summary": "Fast LZ compression algorithm library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2097,7 +2097,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lz4",
-    "source:Version": "1.10.0-4"
+    "source:Version": "1.10.0-6"
   },
   {
     "Architecture": "amd64",
@@ -3114,7 +3114,7 @@
     "Depends": "libc6 (>= 2.39), libcap2 (>= 1:2.10)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1236",
+    "Installed-Size": "1237",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "",
@@ -3125,7 +3125,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "258.1-1",
+    "Version": "258.1-2",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3133,7 +3133,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "258.1-1"
+    "source:Version": "258.1-2"
   },
   {
     "Architecture": "amd64",
@@ -3282,7 +3282,7 @@
     "Depends": "libc6 (>= 2.38), libcap2 (>= 1:2.10)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "361",
+    "Installed-Size": "362",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "258.1-1",
+    "Version": "258.1-2",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "258.1-1"
+    "source:Version": "258.1-2"
   },
   {
     "Architecture": "amd64",
@@ -4290,18 +4290,18 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libcap2 (>= 1:2.10), libcrypt1 (>= 1:4.4.0), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "348",
+    "Installed-Size": "349",
     "Origin": "",
     "Package": "systemd-standalone-sysusers",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-sysusers (= 258.1-1)",
+    "Provides": "systemd-sysusers (= 258.1-2)",
     "Recommends": "",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "libcryptsetup12, libidn2-0, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64",
-    "Version": "258.1-1",
+    "Version": "258.1-2",
     "binary:Package": "systemd-standalone-sysusers",
     "binary:Summary": "standalone sysusers binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "258.1-1"
+    "source:Version": "258.1-2"
   },
   {
     "Architecture": "all",
@@ -4570,7 +4570,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1877",
+    "Installed-Size": "1878",
     "Origin": "",
     "Package": "vim-common",
     "Pre-Depends": "",
@@ -4581,7 +4581,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:9.1.1846-1",
+    "Version": "2:9.1.1882-1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4589,13 +4589,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:9.1.1846-1"
+    "source:Version": "2:9.1.1882-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:9.1.1846-1), libacl1 (>= 2.2.23), libc6 (>= 2.38), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
+    "Depends": "vim-common (= 2:9.1.1882-1), libacl1 (>= 2.2.23), libc6 (>= 2.38), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1873",
@@ -4609,7 +4609,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:9.1.1846-1",
+    "Version": "2:9.1.1882-1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4617,7 +4617,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:9.1.1846-1"
+    "source:Version": "2:9.1.1882-1"
   },
   {
     "Architecture": "amd64",
