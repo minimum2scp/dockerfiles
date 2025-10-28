@@ -7,7 +7,6 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
-I: Retrieving apt 3.1.11
 I: Validating apt 3.1.11
 I: Validating base-files 14
 I: Validating base-passwd 3.6.7
@@ -27,7 +26,6 @@ I: Validating gzip 1.13-1
 I: Validating hostname 3.25
 I: Validating init-system-helpers 1.69
 I: Validating libacl1 2.3.2-2+b1
-I: Retrieving libapt-pkg7.0 3.1.11
 I: Validating libapt-pkg7.0 3.1.11
 I: Validating libattr1 1:2.5.2-3
 I: Validating libaudit-common 1:4.1.2-1
@@ -45,7 +43,8 @@ I: Validating libdebconfclient0 0.280
 I: Validating libgcc-s1 15.2.0-7
 I: Validating libgmp10 2:6.3.0+dfsg-5
 I: Validating libhogweed6t64 3.10.2-1
-I: Validating liblz4-1 1.10.0-4
+I: Retrieving liblz4-1 1.10.0-6
+I: Validating liblz4-1 1.10.0-6
 I: Validating liblzma5 5.8.1-2
 I: Validating libmd0 1.1.0-2+b1
 I: Validating libmount1 2.41.2-4
@@ -63,9 +62,11 @@ I: Validating libsepol2 3.9-2
 I: Validating libsmartcols1 2.41.2-4
 I: Validating libssl3t64 3.5.4-1
 I: Validating libstdc++6 15.2.0-7
-I: Validating libsystemd0 258.1-1
+I: Retrieving libsystemd0 258.1-2
+I: Validating libsystemd0 258.1-2
 I: Validating libtinfo6 6.5+20250216-2
-I: Validating libudev1 258.1-1
+I: Retrieving libudev1 258.1-2
+I: Validating libudev1 258.1-2
 I: Validating libuuid1 2.41.2-4
 I: Validating libxxhash0 0.8.3-2
 I: Validating libzstd1 1.5.7+dfsg-2
