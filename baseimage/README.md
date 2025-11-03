@@ -181,7 +181,7 @@ ii   libudev1                     258.1-2                      amd64  libudev sh
 ii   libunistring5                1.3-2                        amd64  Unicode string library for C
 ii   libuuid1                     2.41.2-4                     amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36                     amd64  Wietse Venema's TCP wrappers library
-ii   libwtmpdb0                   0.75.0-4                     amd64  wtmp database shared library
+ii   libwtmpdb0                   0.75.0-5                     amd64  wtmp database shared library
 ii   libxxhash0                   0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                     1.5.7+dfsg-2                 amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                     all    reclaim disk space by removing unneeded localizations
@@ -218,7 +218,7 @@ ii   sysv-rc                      3.15-5                       all    System-V-l
 ii   sysvinit-core                3.15-5                       amd64  System-V-like init
 ii   sysvinit-utils               3.15-5                       amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3.1                amd64  GNU version of the tar archiving utility
-ii   tree                         2.2.1-3                      amd64  displays an indented directory tree, in color
+ii   tree                         2.2.1-4                      amd64  displays an indented directory tree, in color
 ii   tzdata                       2025b-5                      all    time zone and daylight-saving time data
 ii   ucf                          3.0052                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                       amd64  De-archiver for .zip files
