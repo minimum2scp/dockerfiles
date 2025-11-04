@@ -90,7 +90,7 @@
     "Depends": "libc6 (>= 2.34), libdebconfclient0 (>= 0.145), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "272",
+    "Installed-Size": "285",
     "Origin": "",
     "Package": "base-passwd",
     "Pre-Depends": "",
@@ -101,7 +101,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.6.7",
+    "Version": "3.6.8",
     "binary:Package": "base-passwd",
     "binary:Summary": "Debian base system master password and group files",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-passwd",
-    "source:Version": "3.6.7"
+    "source:Version": "3.6.8"
   },
   {
     "Architecture": "amd64",
