@@ -63,7 +63,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -100,7 +100,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -134,7 +134,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -171,7 +171,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -205,7 +205,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -239,7 +239,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
@@ -273,7 +273,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
@@ -307,7 +307,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
@@ -341,7 +341,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
@@ -426,7 +426,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with: { name: baseimage-trixie, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-trixie.tar.gz | docker load
 
@@ -460,7 +460,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with: { name: baseimage-trixie, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-trixie.tar.gz | docker load
 
@@ -545,7 +545,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with: { name: baseimage-bookworm, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-bookworm.tar.gz | docker load
 
@@ -579,7 +579,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with: { name: baseimage-bookworm, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-bookworm.tar.gz | docker load
 
