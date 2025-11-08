@@ -48,7 +48,7 @@ ii   libc-bin                 2.41-12                      amd64  GNU C Library:
 ii   libc6                    2.41-12                      amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.5-4+b1                   amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.75-10+b1                 amd64  POSIX 1003.1e capabilities (library)
-ii   libcrypt1                1:4.4.38-1                   amd64  libcrypt shared library
+ii   libcrypt1                1:4.5.1-1                    amd64  libcrypt shared library
 ii   libdb5.3t64              5.3.28+dfsg2-10              amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.280                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libgcc-s1                15.2.0-7                     amd64  GCC support library
