@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.153                        all    add and remove users and groups
-ii   apt                          3.1.11                       amd64  commandline package manager
+ii   apt                          3.1.12                       amd64  commandline package manager
 ii   base-files                   14                           amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.8                        amd64  Debian base system master password and group files
 ii   bash                         5.3-1                        amd64  GNU Bourne Again SHell
@@ -93,7 +93,7 @@ ii   initscripts                  3.15-5                       all    scripts fo
 ii   insserv                      1.27.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                   amd64  access control list - shared library
 ii   libapparmor1                 4.1.0-1                      amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.1.11                       amd64  package management runtime library
+ii   libapt-pkg7.0                3.1.12                       amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                    amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                    all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.1.2-1                    amd64  Dynamic library for security auditing
@@ -112,7 +112,7 @@ ii   libcrypt1                    1:4.5.1-1                    amd64  libcrypt s
 ii   libcurl3t64-gnutls           8.17.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.17.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-10              amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0            0.280                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0            0.281                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20250104-1               amd64  BSD editline and history libraries
 ii   liberror-perl                0.17030-1                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-2                     amd64  Helper functions for handling strings (lib)
