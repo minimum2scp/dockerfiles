@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                      3.152                           all    add and remove users and groups
 ii   apt                          3.0.3                           amd64  commandline package manager
-ii   base-files                   13.8+deb13u1                    amd64  Debian base system miscellaneous files
+ii   base-files                   13.8+deb13u2                    amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                           amd64  Debian base system master password and group files
 ii   bash                         5.2.37-2+b5                     amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.41-5                          amd64  extra utilities from 4.4BSD-Lite
@@ -72,7 +72,7 @@ ii   ca-certificates              20250419                        all    Common 
 ii   coreutils                    9.7-3                           amd64  GNU core utilities
 ii   cron                         3.0pl1-197                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-197                      all    process scheduling daemon's configuration files
-ii   curl                         8.14.1-2                        amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.14.1-2+deb13u2                amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                       amd64  POSIX-compliant shell
 ii   debconf                      1.5.91                          all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                          all    OpenPGP archive certificates of the Debian archive
@@ -109,8 +109,8 @@ ii   libcap2                      1:2.75-10+b1                    amd64  POSIX 1
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-3+b3                     amd64  common error description library
 ii   libcrypt1                    1:4.4.38-1                      amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.14.1-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.14.1-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3t64-gnutls           8.14.1-2+deb13u2                amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.14.1-2+deb13u2                amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-9                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.280                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20250104-1                  amd64  BSD editline and history libraries
@@ -169,19 +169,19 @@ ii   libslang2                    2.3.3-5+b2                      amd64  S-Lang 
 ii   libsmartcols1                2.41-5                          amd64  smart column output alignment library
 ii   libsqlite3-0                 3.46.1-7                        amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
-ii   libssl3t64                   3.5.1-1+deb13u1                 amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3t64                   3.5.4-1~deb13u1                 amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-19                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  257.8-1~deb13u1                 amd64  systemd utility library
+ii   libsystemd0                  257.9-1~deb13u1                 amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.5+20250216-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     257.8-1~deb13u1                 amd64  libudev shared library
+ii   libudev1                     257.9-1~deb13u1                 amd64  libudev shared library
 ii   libunistring5                1.3-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.41-5                          amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36                        amd64  Wietse Venema's TCP wrappers library
-ii   libwtmpdb0                   0.73.0-3                        amd64  wtmp database shared library
+ii   libwtmpdb0                   0.73.0-3+deb13u1                amd64  wtmp database shared library
 ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.7+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
@@ -198,9 +198,9 @@ ii   net-tools                    2.10-1.3                        amd64  NET-3 n
 ii   openssh-client               1:10.0p1-7                      amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:10.0p1-7                      amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:10.0p1-7                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.5.1-1+deb13u1                 amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   openssl-provider-legacy      3.5.1-1+deb13u1                 amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   orphan-sysvinit-scripts      0.21+deb13u1                    all    Orphaned System-V-like init scripts
+ii   openssl                      3.5.4-1~deb13u1                 amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl-provider-legacy      3.5.4-1~deb13u1                 amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   orphan-sysvinit-scripts      0.21+deb13u2                    all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.17.4-2                      amd64  change and administer password and group data
 ii   perl                         5.40.1-6                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.1-6                        amd64  minimal Perl system
@@ -213,7 +213,7 @@ ii   sensible-utils               0.0.25                          all    Utiliti
 ii   sqv                          1.3.0-3                         amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p2-3                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  257.8-1~deb13u1                 amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  257.9-1~deb13u1                 amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.14-4                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.14-4                          amd64  System-V-like init
 ii   sysvinit-utils               3.14-4                          amd64  System-V-like utilities
