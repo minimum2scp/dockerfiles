@@ -89,7 +89,7 @@ ii   groff-base                   1.23.0-9                     amd64  GNU troff 
 ii   gzip                         1.13-1                       amd64  GNU compression utilities
 ii   hostname                     3.25                         amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.69                         all    helper tools for all init systems
-ii   initscripts                  3.15-5                       all    scripts for initializing and shutting down the system
+ii   initscripts                  3.15-6                       all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                   amd64  access control list - shared library
 ii   libapparmor1                 4.1.0-1                      amd64  changehat AppArmor library
@@ -146,7 +146,7 @@ ii   libnghttp3-9                 1.12.0-1                     amd64  HTTP/3 map
 ii   libngtcp2-16                 1.16.0-1                     amd64  QUIC protocol library
 ii   libngtcp2-crypto-gnutls8     1.16.0-1                     amd64  crypto helper library for with GnuTLS backend
 ii   libngtcp2-crypto-ossl0       1.16.0-1                     amd64  crypto helper library for with OpenSSL backend
-ii   libp11-kit0                  0.25.9-2                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0                  0.25.10-1                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.7.0-5                      amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.7.0-5                      amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.7.0-5                      all    Runtime support for the PAM library
@@ -214,9 +214,9 @@ ii   sqv                          1.3.0-3                      amd64  OpenPGP si
 ii   startpar                     0.67-1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-1                   amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  258.1-2                      amd64  standalone sysusers binary for use in non-systemd systems
-ii   sysv-rc                      3.15-5                       all    System-V-like runlevel change mechanism
-ii   sysvinit-core                3.15-5                       amd64  System-V-like init
-ii   sysvinit-utils               3.15-5                       amd64  System-V-like utilities
+ii   sysv-rc                      3.15-6                       all    System-V-like runlevel change mechanism
+ii   sysvinit-core                3.15-6                       amd64  System-V-like init
+ii   sysvinit-utils               3.15-6                       amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3.1                amd64  GNU version of the tar archiving utility
 ii   tree                         2.2.1-4                      amd64  displays an indented directory tree, in color
 ii   tzdata                       2025b-5                      all    time zone and daylight-saving time data
