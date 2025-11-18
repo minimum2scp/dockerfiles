@@ -72,9 +72,9 @@ ii   libsepol2                3.9-2                        amd64  SELinux librar
 ii   libsmartcols1            2.41.2-4                     amd64  smart column output alignment library
 ii   libssl3t64               3.5.4-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               15.2.0-8                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0              258.1-2                      amd64  systemd utility library
+ii   libsystemd0              259~rc1-1                    amd64  systemd utility library
 ii   libtinfo6                6.5+20250216-2               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                 258.1-2                      amd64  libudev shared library
+ii   libudev1                 259~rc1-1                    amd64  libudev shared library
 ii   libuuid1                 2.41.2-4                     amd64  Universally Unique ID library
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                 1.5.7+dfsg-2                 amd64  fast lossless compression algorithm
@@ -86,7 +86,7 @@ ii   ncurses-base             6.5+20250216-2               all    basic terminal
 ii   ncurses-bin              6.5+20250216-2               amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy  3.5.4-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                   1:4.18.0-2                   amd64  change and administer password and group data
-ii   perl-base                5.40.1-6                     amd64  minimal Perl system
+ii   perl-base                5.40.1-7                     amd64  minimal Perl system
 ii   sed                      4.9-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sqv                      1.3.0-3                      amd64  OpenPGP signature verification program from Sequoia
 ii   sysvinit-utils           3.15-6                       amd64  System-V-like utilities

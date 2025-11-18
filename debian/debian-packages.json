@@ -1515,7 +1515,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.39), libcap2 (>= 1:2.10)",
+    "Depends": "libc6 (>= 2.39)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1237",
@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "258.1-2",
+    "Version": "259~rc1-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "258.1-2"
+    "source:Version": "259~rc1-1"
   },
   {
     "Architecture": "amd64",
@@ -1571,7 +1571,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.38), libcap2 (>= 1:2.10)",
+    "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "362",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "258.1-2",
+    "Version": "259~rc1-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "258.1-2"
+    "source:Version": "259~rc1-1"
   },
   {
     "Architecture": "amd64",
@@ -1910,7 +1910,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7811",
+    "Installed-Size": "7828",
     "Origin": "",
     "Package": "perl-base",
     "Pre-Depends": "libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0)",
@@ -1921,7 +1921,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.40.1-6",
+    "Version": "5.40.1-7",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.40.1-6"
+    "source:Version": "5.40.1-7"
   },
   {
     "Architecture": "amd64",
