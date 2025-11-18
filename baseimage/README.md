@@ -152,7 +152,7 @@ ii   libpam-modules-bin           1.7.0-5                      amd64  Pluggable 
 ii   libpam-runtime               1.7.0-5                      all    Runtime support for the PAM library
 ii   libpam0g                     1.7.0-5                      amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.46-1                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libperl5.40                  5.40.1-6                     amd64  shared Perl library
+ii   libperl5.40                  5.40.1-7                     amd64  shared Perl library
 ii   libpipeline1                 1.5.8-1                      amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2                  amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-9                    amd64  library for accessing process information from /proc
@@ -171,13 +171,13 @@ ii   libsqlite3-0                 3.46.1-8                     amd64  SQLite 3 s
 ii   libssh2-1t64                 1.11.1-1                     amd64  SSH2 client-side library
 ii   libssl3t64                   3.5.4-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   15.2.0-8                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  258.1-2                      amd64  systemd utility library
+ii   libsystemd0                  259~rc1-1                    amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                   amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                      all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.5+20250216-2               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-2                      amd64  universal charset detection library - shared library
-ii   libudev1                     258.1-2                      amd64  libudev shared library
+ii   libudev1                     259~rc1-1                    amd64  libudev shared library
 ii   libunistring5                1.3-2                        amd64  Unicode string library for C
 ii   libuuid1                     2.41.2-4                     amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36                     amd64  Wietse Venema's TCP wrappers library
@@ -202,9 +202,9 @@ ii   openssl                      3.5.4-1                      amd64  Secure Soc
 ii   openssl-provider-legacy      3.5.4-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.23                         all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.18.0-2                   amd64  change and administer password and group data
-ii   perl                         5.40.1-6                     amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                    5.40.1-6                     amd64  minimal Perl system
-ii   perl-modules-5.40            5.40.1-6                     all    Core Perl modules
+ii   perl                         5.40.1-7                     amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                    5.40.1-7                     amd64  minimal Perl system
+ii   perl-modules-5.40            5.40.1-7                     all    Core Perl modules
 ii   procps                       2:4.0.4-9                    amd64  /proc file system utilities
 ii   rsyslog                      8.2510.0-2                   amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                       all    dh-runit implementation detail
@@ -213,7 +213,7 @@ ii   sensible-utils               0.0.26                       all    Utilities 
 ii   sqv                          1.3.0-3                      amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-1                   amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  258.1-2                      amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  259~rc1-1                    amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.15-6                       all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.15-6                       amd64  System-V-like init
 ii   sysvinit-utils               3.15-6                       amd64  System-V-like utilities
