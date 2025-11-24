@@ -339,7 +339,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libcurl4t64 (= 8.17.0-2), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)",
+    "Depends": "libcurl4t64 (= 8.17.0-3), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "503",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.17.0-2",
+    "Version": "8.17.0-3",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.17.0-2"
+    "source:Version": "8.17.0-3"
   },
   {
     "Architecture": "amd64",
@@ -1374,7 +1374,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libcurl3-gnutls (<< 8.17.0-2)",
+    "Breaks": "libcurl3-gnutls (<< 8.17.0-3)",
     "Depends": "libnghttp3-9 (>= 1.11.0~), libngtcp2-16 (>= 1.16.0~), libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgnutls30t64 (>= 3.8.6), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnettle8t64, libnghttp2-14 (>= 1.50.0), libngtcp2-crypto-gnutls8 (>= 1.1.0), libpsl5t64 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1t64 (>= 1.11.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
     "Enhances": "",
     "Essential": "no",
@@ -1383,13 +1383,13 @@
     "Package": "libcurl3t64-gnutls",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcurl3-gnutls (= 8.17.0-2)",
+    "Provides": "libcurl3-gnutls (= 8.17.0-3)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.17.0-2",
+    "Version": "8.17.0-3",
     "binary:Package": "libcurl3t64-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1397,12 +1397,12 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.17.0-2"
+    "source:Version": "8.17.0-3"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "libcurl3",
-    "Breaks": "libcurl4 (<< 8.17.0-2)",
+    "Breaks": "libcurl4 (<< 8.17.0-3)",
     "Depends": "libnghttp3-9 (>= 1.11.0~), libngtcp2-16 (>= 1.16.0~), libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnghttp2-14 (>= 1.50.0), libngtcp2-crypto-ossl0 (>= 1.15.1), libpsl5t64 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1t64 (>= 1.11.1), libssl3t64 (>= 3.2.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
     "Enhances": "",
     "Essential": "no",
@@ -1411,13 +1411,13 @@
     "Package": "libcurl4t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcurl4 (= 8.17.0-2)",
+    "Provides": "libcurl4 (= 8.17.0-3)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.17.0-2",
+    "Version": "8.17.0-3",
     "binary:Package": "libcurl4t64:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1425,7 +1425,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.17.0-2"
+    "source:Version": "8.17.0-3"
   },
   {
     "Architecture": "amd64",
@@ -1794,22 +1794,22 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libgnutls30 (<< 3.8.10-3)",
+    "Breaks": "libgnutls30 (<< 3.8.11-3)",
     "Depends": "libc6 (>= 2.38), libgmp10 (>= 2:6.3.0+dfsg), libhogweed6t64 (>= 3.10), libidn2-0 (>= 2.0.0), libnettle8t64 (>= 3.10), libp11-kit0 (>= 0.25.1), libtasn1-6 (>= 4.14), libunistring5 (>= 1.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3564",
+    "Installed-Size": "3589",
     "Origin": "",
     "Package": "libgnutls30t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgnutls30 (= 3.8.10-3)",
+    "Provides": "libgnutls30 (= 3.8.11-3)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.8.10-3",
+    "Version": "3.8.11-3",
     "binary:Package": "libgnutls30t64:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.8.10-3"
+    "source:Version": "3.8.11-3"
   },
   {
     "Architecture": "amd64",
@@ -2187,7 +2187,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo6 (= 6.5+20251115-2), libc6 (>= 2.38)",
+    "Depends": "libtinfo6 (= 6.5+20251122-1), libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "423",
@@ -2201,7 +2201,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.5+20251115-2",
+    "Version": "6.5+20251122-1",
     "binary:Package": "libncursesw6:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.5+20251115-2"
+    "source:Version": "6.5+20251122-1"
   },
   {
     "Architecture": "amd64",
@@ -2610,7 +2610,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "101",
+    "Installed-Size": "105",
     "Origin": "",
     "Package": "libpipeline1",
     "Pre-Depends": "",
@@ -2621,7 +2621,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.8-1",
+    "Version": "1.5.8-2",
     "binary:Package": "libpipeline1:amd64",
     "binary:Summary": "Unix process pipeline manipulation library",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libpipeline",
-    "source:Version": "1.5.8-1"
+    "source:Version": "1.5.8-2"
   },
   {
     "Architecture": "amd64",
@@ -3237,7 +3237,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.5+20251115-2",
+    "Version": "6.5+20251122-1",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -3245,7 +3245,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.5+20251115-2"
+    "source:Version": "6.5+20251122-1"
   },
   {
     "Architecture": "amd64",
@@ -3713,7 +3713,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.5+20251115-2",
+    "Version": "6.5+20251122-1",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.5+20251115-2"
+    "source:Version": "6.5+20251122-1"
   },
   {
     "Architecture": "amd64",
@@ -3741,7 +3741,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.5+20251115-2",
+    "Version": "6.5+20251122-1",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -3749,7 +3749,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.5+20251115-2"
+    "source:Version": "6.5+20251122-1"
   },
   {
     "Architecture": "amd64",
@@ -4105,7 +4105,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-doc, rsyslog-mysql, rsyslog-pgsql, rsyslog-mongodb, rsyslog-elasticsearch, rsyslog-kafka, rsyslog-hiredis, rsyslog-snmp, rsyslog-kubernetes, rsyslog-docker, rsyslog-clickhouse, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.2510.0-4",
+    "Version": "8.2510.0-5",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4113,7 +4113,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.2510.0-4"
+    "source:Version": "8.2510.0-5"
   },
   {
     "Architecture": "all",
