@@ -72,9 +72,9 @@ ii   libsepol2                3.9-2                        amd64  SELinux librar
 ii   libsmartcols1            2.41.2-4                     amd64  smart column output alignment library
 ii   libssl3t64               3.5.4-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               15.2.0-9                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0              259~rc1-1                    amd64  systemd utility library
+ii   libsystemd0              259~rc2-1                    amd64  systemd utility library
 ii   libtinfo6                6.5+20251123-1               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                 259~rc1-1                    amd64  libudev shared library
+ii   libudev1                 259~rc2-1                    amd64  libudev shared library
 ii   libuuid1                 2.41.2-4                     amd64  Universally Unique ID library
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                 1.5.7+dfsg-2                 amd64  fast lossless compression algorithm

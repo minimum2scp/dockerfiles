@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "259~rc1-1",
+    "Version": "259~rc2-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "259~rc1-1"
+    "source:Version": "259~rc2-1"
   },
   {
     "Architecture": "amd64",
@@ -1584,8 +1584,8 @@
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
-    "Suggests": "libidn2-0",
-    "Version": "259~rc1-1",
+    "Suggests": "",
+    "Version": "259~rc2-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "259~rc1-1"
+    "source:Version": "259~rc2-1"
   },
   {
     "Architecture": "amd64",
