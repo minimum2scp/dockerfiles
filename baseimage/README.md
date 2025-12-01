@@ -105,9 +105,9 @@ ii   libc-bin                     2.41-12                      amd64  GNU C Libr
 ii   libc-l10n                    2.41-12                      all    GNU C Library: localization files
 ii   libc6                        2.41-12                      amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b1                   amd64  alternate POSIX capabilities library
-ii   libcap2                      1:2.75-10+b1                 amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                      1:2.75-10+b2                 amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.1                   amd64  library for parsing and generating CBOR (RFC 7049)
-ii   libcom-err2                  1.47.2-3+b3                  amd64  common error description library
+ii   libcom-err2                  1.47.2-3+b4                  amd64  common error description library
 ii   libcrypt1                    1:4.5.1-1                    amd64  libcrypt shared library
 ii   libcurl3t64-gnutls           8.17.0-3                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.17.0-3                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -210,7 +210,7 @@ ii   rsyslog                      8.2510.0-5                   amd64  reliable s
 ii   runit-helper                 2.16.4                       all    dh-runit implementation detail
 ii   sed                          4.9-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                       all    Utilities for sensible alternative selection
-ii   sqv                          1.3.0-3                      amd64  OpenPGP signature verification program from Sequoia
+ii   sqv                          1.3.0-3+b1                   amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-1                   amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  259~rc2-1                    amd64  standalone sysusers binary for use in non-systemd systems
