@@ -165,7 +165,7 @@ ii   libselinux1                  3.9-4                        amd64  SELinux ru
 ii   libsemanage-common           3.9-1                        all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.9-1                        amd64  SELinux policy management library
 ii   libsepol2                    3.9-2                        amd64  SELinux library for manipulating binary security policies
-ii   libslang2                    2.3.3-5+b2                   amd64  S-Lang programming library - runtime version
+ii   libslang2                    2.3.3-5+b3                   amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.41.2-4                     amd64  smart column output alignment library
 ii   libsqlite3-0                 3.46.1-8                     amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-1                     amd64  SSH2 client-side library
@@ -227,7 +227,7 @@ ii   vim-common                   2:9.1.1882-1                 all    Vi IMprove
 ii   vim-tiny                     2:9.1.1882-1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1  amd64  compression library - runtime
-ii   zsh                          5.9-8+b14                    amd64  shell with lots of features
+ii   zsh                          5.9-8+b15                    amd64  shell with lots of features
 ii   zsh-common                   5.9-8                        all    architecture independent files for Zsh
 ii   zstd                         1.5.7+dfsg-2                 amd64  fast lossless compression algorithm -- CLI tool
 ```
