@@ -92,18 +92,19 @@ ii   init-system-helpers          1.69                         all    helper too
 ii   initscripts                  3.15-6                       all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                   amd64  access control list - shared library
-ii   libapparmor1                 4.1.0-1                      amd64  changehat AppArmor library
+ii   libapparmor1                 4.1.0-1+b1                   amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.1.12                       amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                    amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                    all    Dynamic library for security auditing - common files
-ii   libaudit1                    1:4.1.2-1                    amd64  Dynamic library for security auditing
+ii   libaudit1                    1:4.1.2-1+b1                 amd64  Dynamic library for security auditing
 ii   libblkid1                    2.41.2-4                     amd64  block device ID library
 ii   libbrotli1                   1.1.0-2+b9                   amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.41-12                      amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.41-12                      all    GNU C Library: localization files
-ii   libc6                        2.41-12                      amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.42-4                       amd64  GNU C Library: Binaries
+ii   libc-gconv-modules-extra     2.42-4                       amd64  GNU C Library: Non-essential gconv modules
+ii   libc-l10n                    2.42-4                       all    GNU C Library: localization files
+ii   libc6                        2.42-4                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b2                   amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.75-10+b2                 amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.1                   amd64  library for parsing and generating CBOR (RFC 7049)
@@ -111,7 +112,7 @@ ii   libcom-err2                  1.47.2-3+b4                  amd64  common err
 ii   libcrypt1                    1:4.5.1-1                    amd64  libcrypt shared library
 ii   libcurl3t64-gnutls           8.17.0-3                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.17.0-3                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libdb5.3t64                  5.3.28+dfsg2-10              amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3t64                  5.3.28+dfsg2-11              amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.282                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20250104-1               amd64  BSD editline and history libraries
 ii   liberror-perl                0.17030-1                    all    Perl module for error/exception handling in an OO-ish way
@@ -163,7 +164,7 @@ ii   libsasl2-modules-db          2.1.28+dfsg1-10              amd64  Cyrus SASL
 ii   libseccomp2                  2.6.0-2+b1                   amd64  high level interface to Linux seccomp filter
 ii   libselinux1                  3.9-4+b1                     amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.9-1                        all    Common files for SELinux policy management libraries
-ii   libsemanage2                 3.9-1                        amd64  SELinux policy management library
+ii   libsemanage2                 3.9-1+b1                     amd64  SELinux policy management library
 ii   libsepol2                    3.9-2                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-5+b3                   amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.41.2-4                     amd64  smart column output alignment library
@@ -185,7 +186,7 @@ ii   libwtmpdb0                   0.75.0-5                     amd64  wtmp datab
 ii   libxxhash0                   0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                     1.5.7+dfsg-2                 amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                     all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.41-12                      all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.42-4                       all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.41.2-4    amd64  system login tools
 ii   login.defs                   1:4.18.0-2                   all    system user management configuration
 ii   lv                           4.51-10                      amd64  Powerful Multilingual File Viewer
