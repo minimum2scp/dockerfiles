@@ -51,7 +51,7 @@ ii   libcap-ng0                0.8.5-4+b2                   amd64  alternate POS
 ii   libcap2                   1:2.75-10+b2                 amd64  POSIX 1003.1e capabilities (library)
 ii   libcrypt1                 1:4.5.1-1                    amd64  libcrypt shared library
 ii   libdb5.3t64               5.3.28+dfsg2-11              amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0         0.282                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0         0.282+b2                     amd64  Debian Configuration Management System (C-implementation library)
 ii   libgcc-s1                 15.2.0-10                    amd64  GCC support library
 ii   libgmp10                  2:6.3.0+dfsg-5               amd64  Multiprecision arithmetic library
 ii   libhogweed6t64            3.10.2-1                     amd64  low level cryptographic library (public-key cryptos)
