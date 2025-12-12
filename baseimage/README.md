@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.41.2-4                   amd64  basic util
 ii   bzip2                        1.0.8-6                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20250419                     all    Common CA certificates
 ii   coreutils                    9.7-3                        amd64  GNU core utilities
-ii   cron                         3.0pl1-200                   amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-200                   all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-201                   amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-201                   all    process scheduling daemon's configuration files
 ii   curl                         8.17.0-3                     amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                    amd64  POSIX-compliant shell
 ii   debconf                      1.5.91                       all    Debian configuration management system
@@ -207,7 +207,7 @@ ii   perl                         5.40.1-7                     amd64  Larry Wall
 ii   perl-base                    5.40.1-7                     amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-7                     all    Core Perl modules
 ii   procps                       2:4.0.4-9                    amd64  /proc file system utilities
-ii   rsyslog                      8.2510.0-5                   amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2512.0-1                   amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                       all    dh-runit implementation detail
 ii   sed                          4.9-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                       all    Utilities for sensible alternative selection
@@ -220,7 +220,7 @@ ii   sysvinit-core                3.15-6                       amd64  System-V-l
 ii   sysvinit-utils               3.15-6                       amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3.1                amd64  GNU version of the tar archiving utility
 ii   tree                         2.2.1-4                      amd64  displays an indented directory tree, in color
-ii   tzdata                       2025b-5                      all    time zone and daylight-saving time data
+ii   tzdata                       2025c-1                      all    time zone and daylight-saving time data
 ii   ucf                          3.0052                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                       amd64  De-archiver for .zip files
 ii   util-linux                   2.41.2-4                     amd64  miscellaneous system utilities
