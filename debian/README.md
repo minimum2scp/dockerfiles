@@ -44,9 +44,9 @@ ii   libaudit1                 1:4.1.2-1+b1                 amd64  Dynamic libra
 ii   libblkid1                 2.41.2-4                     amd64  block device ID library
 ii   libbsd0                   0.12.2-2                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                1.0.8-6                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                  2.42-5                       amd64  GNU C Library: Binaries
-ii   libc-gconv-modules-extra  2.42-5                       amd64  GNU C Library: Non-essential gconv modules
-ii   libc6                     2.42-5                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                  2.42-6                       amd64  GNU C Library: Binaries
+ii   libc-gconv-modules-extra  2.42-6                       amd64  GNU C Library: Non-essential gconv modules
+ii   libc6                     2.42-6                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                0.8.5-4+b2                   amd64  alternate POSIX capabilities library
 ii   libcap2                   1:2.75-10+b2                 amd64  POSIX 1003.1e capabilities (library)
 ii   libcrypt1                 1:4.5.1-1                    amd64  libcrypt shared library
@@ -89,7 +89,7 @@ ii   openssl-provider-legacy   3.5.4-1                      amd64  Secure Socket
 ii   passwd                    1:4.18.0-2                   amd64  change and administer password and group data
 ii   perl-base                 5.40.1-7                     amd64  minimal Perl system
 ii   sed                       4.9-2                        amd64  GNU stream editor for filtering/transforming text
-ii   sqv                       1.3.0-4                      amd64  OpenPGP signature verification program from Sequoia
+ii   sqv                       1.3.0-5                      amd64  OpenPGP signature verification program from Sequoia
 ii   sysvinit-utils            3.15-6                       amd64  System-V-like utilities
 ii   tar                       1.35+dfsg-3.1                amd64  GNU version of the tar archiving utility
 ii   tzdata                    2025c-1                      all    time zone and daylight-saving time data
