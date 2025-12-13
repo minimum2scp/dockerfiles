@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.41.2-4                   amd64  basic util
 ii   bzip2                        1.0.8-6                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20250419                     all    Common CA certificates
 ii   coreutils                    9.7-3                        amd64  GNU core utilities
-ii   cron                         3.0pl1-201                   amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-201                   all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-202                   amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-202                   all    process scheduling daemon's configuration files
 ii   curl                         8.17.0-3                     amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                    amd64  POSIX-compliant shell
 ii   debconf                      1.5.91                       all    Debian configuration management system
@@ -101,10 +101,10 @@ ii   libblkid1                    2.41.2-4                     amd64  block devi
 ii   libbrotli1                   1.1.0-2+b9                   amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.42-5                       amd64  GNU C Library: Binaries
-ii   libc-gconv-modules-extra     2.42-5                       amd64  GNU C Library: Non-essential gconv modules
-ii   libc-l10n                    2.42-5                       all    GNU C Library: localization files
-ii   libc6                        2.42-5                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.42-6                       amd64  GNU C Library: Binaries
+ii   libc-gconv-modules-extra     2.42-6                       amd64  GNU C Library: Non-essential gconv modules
+ii   libc-l10n                    2.42-6                       all    GNU C Library: localization files
+ii   libc6                        2.42-6                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b2                   amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.75-10+b2                 amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.1                   amd64  library for parsing and generating CBOR (RFC 7049)
@@ -186,7 +186,7 @@ ii   libwtmpdb0                   0.75.0-5                     amd64  wtmp datab
 ii   libxxhash0                   0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                     1.5.7+dfsg-2                 amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                     all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.42-5                       all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.42-6                       all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.41.2-4    amd64  system login tools
 ii   login.defs                   1:4.18.0-2                   all    system user management configuration
 ii   lv                           4.51-10                      amd64  Powerful Multilingual File Viewer
@@ -211,7 +211,7 @@ ii   rsyslog                      8.2512.0-1                   amd64  reliable s
 ii   runit-helper                 2.16.4                       all    dh-runit implementation detail
 ii   sed                          4.9-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                       all    Utilities for sensible alternative selection
-ii   sqv                          1.3.0-4                      amd64  OpenPGP signature verification program from Sequoia
+ii   sqv                          1.3.0-5                      amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-1                   amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  259~rc3-1                    amd64  standalone sysusers binary for use in non-systemd systems
