@@ -45,7 +45,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage:latest | pigz -c - > /tmp/baseimage.tar.gz
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         with: { name: baseimage, path: /tmp/baseimage.tar.gz }
 
       # push image to docker hub
@@ -82,7 +82,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/ruby:latest | pigz -c - > /tmp/ruby.tar.gz
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         with: { name: ruby, path: /tmp/ruby.tar.gz }
 
       # push image to docker hub
@@ -408,7 +408,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage-trixie:latest | pigz -c - > /tmp/baseimage-trixie.tar.gz
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         with: { name: baseimage-trixie, path: /tmp/baseimage-trixie.tar.gz }
 
       # push image to docker hub
@@ -527,7 +527,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage-bookworm:latest | pigz -c - > /tmp/baseimage-bookworm.tar.gz
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         with: { name: baseimage-bookworm, path: /tmp/baseimage-bookworm.tar.gz }
 
       # push image to docker hub
