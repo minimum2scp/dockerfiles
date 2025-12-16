@@ -70,9 +70,9 @@ ii   bsdutils                     1:2.41.2-4                   amd64  basic util
 ii   bzip2                        1.0.8-6                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20250419                     all    Common CA certificates
 ii   coreutils                    9.7-3                        amd64  GNU core utilities
-ii   cron                         3.0pl1-203                   amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-203                   all    process scheduling daemon's configuration files
-ii   curl                         8.17.0-3                     amd64  command line tool for transferring data with URL syntax
+ii   cron                         3.0pl1-205                   amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-205                   all    process scheduling daemon's configuration files
+ii   curl                         8.18.0~rc2-1                 amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                    amd64  POSIX-compliant shell
 ii   debconf                      1.5.91                       all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                       all    OpenPGP archive certificates of the Debian archive
@@ -110,8 +110,8 @@ ii   libcap2                      1:2.75-10+b2                 amd64  POSIX 1003
 ii   libcbor0.10                  0.10.2-2.1                   amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-3+b4                  amd64  common error description library
 ii   libcrypt1                    1:4.5.1-1                    amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.17.0-3                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.17.0-3                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3t64-gnutls           8.18.0~rc2-1                 amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.18.0~rc2-1                 amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11              amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.282+b2                     amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20250104-1               amd64  BSD editline and history libraries
@@ -220,7 +220,7 @@ ii   sysvinit-core                3.15-6                       amd64  System-V-l
 ii   sysvinit-utils               3.15-6                       amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3.1                amd64  GNU version of the tar archiving utility
 ii   tree                         2.2.1-4                      amd64  displays an indented directory tree, in color
-ii   tzdata                       2025c-1                      all    time zone and daylight-saving time data
+ii   tzdata                       2025c-2                      all    time zone and daylight-saving time data
 ii   ucf                          3.0052                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                       amd64  De-archiver for .zip files
 ii   util-linux                   2.41.2-4                     amd64  miscellaneous system utilities
