@@ -33,11 +33,8 @@ I: Validating libaudit1 1:4.1.2-1+b1
 I: Validating libblkid1 2.41.2-4
 I: Validating libbsd0 0.12.2-2
 I: Validating libbz2-1.0 1.0.8-6
-I: Retrieving libc-bin 2.42-6
 I: Validating libc-bin 2.42-6
-I: Retrieving libc-gconv-modules-extra 2.42-6
 I: Validating libc-gconv-modules-extra 2.42-6
-I: Retrieving libc6 2.42-6
 I: Validating libc6 2.42-6
 I: Validating libcap-ng0 0.8.5-4+b2
 I: Validating libcap2 1:2.75-10+b2
@@ -81,11 +78,11 @@ I: Validating openssl-provider-legacy 3.5.4-1
 I: Validating passwd 1:4.18.0-2
 I: Validating perl-base 5.40.1-7
 I: Validating sed 4.9-2
-I: Retrieving sqv 1.3.0-5
 I: Validating sqv 1.3.0-5
 I: Validating sysvinit-utils 3.15-6
 I: Validating tar 1.35+dfsg-3.1
-I: Validating tzdata 2025c-1
+I: Retrieving tzdata 2025c-2
+I: Validating tzdata 2025c-2
 I: Validating util-linux 2.41.2-4
 I: Validating zlib1g 1:1.3.dfsg+really1.3.1-1+b1
 I: Chosen extractor for .deb packages: dpkg-deb
