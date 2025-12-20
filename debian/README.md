@@ -29,7 +29,7 @@ ii   debconf                   1.5.91                       all    Debian config
 ii   debian-archive-keyring    2025.1                       all    OpenPGP archive certificates of the Debian archive
 ii   debianutils               5.23.2                       amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                 1:3.12-1                     amd64  File comparison utilities
-ii   dpkg                      1.23.2                       amd64  Debian package management system
+ii   dpkg                      1.23.3                       amd64  Debian package management system
 ii   findutils                 4.10.0-3                     amd64  utilities for finding files--find, xargs
 ii   gcc-15-base               15.2.0-12                    amd64  GCC, the GNU Compiler Collection (base package)
 ii   grep                      3.12-1                       amd64  GNU grep, egrep and fgrep
