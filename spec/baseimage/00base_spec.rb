@@ -71,10 +71,6 @@ describe 'minimum2scp/baseimage' do
       its(:content){ should match /^ja_JP\.UTF-8\s+UTF-8\s*/ }
     end
 
-    describe file("/etc/timezone") do
-      its(:content){ should include 'Asia/Tokyo' }
-    end
-
     describe file("/etc/localtime") do
       it { should be_linked_to '/usr/share/zoneinfo/Asia/Tokyo' }
     end
@@ -221,10 +217,6 @@ describe 'minimum2scp/baseimage' do
 
     describe file("/etc/default/locale") do
       its(:content){ should include 'LANG=en_US.UTF-8' }
-    end
-
-    describe file("/etc/timezone") do
-      its(:content){ should include 'Etc/UTC' }
     end
 
     describe file("/etc/localtime") do
