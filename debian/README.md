@@ -81,7 +81,7 @@ ii   libxxhash0                0.8.3-2                      amd64  shared librar
 ii   libzstd1                  1.5.7+dfsg-2                 amd64  fast lossless compression algorithm
 ii   login                     1:4.16.0-2+really2.41.3-2    amd64  system login tools
 ii   login.defs                1:4.18.0-2                   all    system user management configuration
-ii   mawk                      1.3.4.20250131-1             amd64  Pattern scanning and text processing language
+ii   mawk                      1.3.4.20250131-2             amd64  Pattern scanning and text processing language
 ii   mount                     2.41.3-2                     amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base              6.5+20251123-1               all    basic terminal type definitions
 ii   ncurses-bin               6.5+20251123-1               amd64  terminal-related programs and man pages
