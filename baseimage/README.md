@@ -106,7 +106,7 @@ ii   libc-gconv-modules-extra     2.42-6                       amd64  GNU C Libr
 ii   libc-l10n                    2.42-6                       all    GNU C Library: localization files
 ii   libc6                        2.42-6                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b2                   amd64  alternate POSIX capabilities library
-ii   libcap2                      1:2.75-10+b2                 amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                      1:2.75-10+b5                 amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.1                   amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-3+b6                  amd64  common error description library
 ii   libcrypt1                    1:4.5.1-1                    amd64  libcrypt shared library
