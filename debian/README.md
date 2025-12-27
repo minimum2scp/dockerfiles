@@ -56,7 +56,7 @@ ii   libgcc-s1                 15.2.0-12                    amd64  GCC support l
 ii   libgmp10                  2:6.3.0+dfsg-5               amd64  Multiprecision arithmetic library
 ii   libhogweed6t64            3.10.2-1                     amd64  low level cryptographic library (public-key cryptos)
 ii   liblz4-1                  1.10.0-6                     amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                  5.8.1-2                      amd64  XZ-format compression library
+ii   liblzma5                  5.8.2-1                      amd64  XZ-format compression library
 ii   libmd0                    1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                 2.41.3-2                     amd64  device mounting library
 ii   libnettle8t64             3.10.2-1                     amd64  low level cryptographic library (symmetric and one-way cryptos)

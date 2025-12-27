@@ -37,7 +37,6 @@ I: Validating libc-bin 2.42-6
 I: Validating libc-gconv-modules-extra 2.42-6
 I: Validating libc6 2.42-6
 I: Validating libcap-ng0 0.8.5-4+b2
-I: Retrieving libcap2 1:2.75-10+b5
 I: Validating libcap2 1:2.75-10+b5
 I: Validating libcrypt1 1:4.5.1-1
 I: Validating libdb5.3t64 5.3.28+dfsg2-11
@@ -46,7 +45,8 @@ I: Validating libgcc-s1 15.2.0-12
 I: Validating libgmp10 2:6.3.0+dfsg-5
 I: Validating libhogweed6t64 3.10.2-1
 I: Validating liblz4-1 1.10.0-6
-I: Validating liblzma5 5.8.1-2
+I: Retrieving liblzma5 5.8.2-1
+I: Validating liblzma5 5.8.2-1
 I: Validating libmd0 1.1.0-2+b1
 I: Validating libmount1 2.41.3-2
 I: Validating libnettle8t64 3.10.2-1
