@@ -139,7 +139,7 @@ ii   liblz4-1                     1.10.0-6                     amd64  Fast LZ co
 ii   liblzma5                     5.8.2-1                      amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.41.3-3                     amd64  device mounting library
-ii   libncursesw6                 6.5+20251123-1               amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw6                 6.6+20251231-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10.2-1                     amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.25-1+b1                 amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.64.0-1.1+b1                amd64  library implementing HTTP/2 protocol (shared library)
@@ -176,7 +176,7 @@ ii   libsystemd0                  259-1                        amd64  systemd ut
 ii   libtasn1-6                   4.20.0-2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                   amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                      all    internationalized substitute of Text::Wrap
-ii   libtinfo6                    6.5+20251123-1               amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6                    6.6+20251231-1               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-2                      amd64  universal charset detection library - shared library
 ii   libudev1                     259-1                        amd64  libudev shared library
 ii   libunistring5                1.3-2                        amd64  Unicode string library for C
@@ -193,8 +193,8 @@ ii   lv                           4.51-10                      amd64  Powerful M
 ii   man-db                       2.13.1-1                     amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20250131-2             amd64  Pattern scanning and text processing language
 ii   mount                        2.41.3-3                     amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base                 6.5+20251123-1               all    basic terminal type definitions
-ii   ncurses-bin                  6.5+20251123-1               amd64  terminal-related programs and man pages
+ii   ncurses-base                 6.6+20251231-1               all    basic terminal type definitions
+ii   ncurses-bin                  6.6+20251231-1               amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                       amd64  NET-3 networking toolkit
 ii   openssh-client               1:10.2p1-3                   amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:10.2p1-3                   amd64  secure shell (SSH) server, for secure access from remote machines
