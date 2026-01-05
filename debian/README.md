@@ -44,9 +44,9 @@ ii   libaudit1                 1:4.1.2-1+b1                 amd64  Dynamic libra
 ii   libblkid1                 2.41.3-3                     amd64  block device ID library
 ii   libbsd0                   0.12.2-2                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                1.0.8-6                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                  2.42-6                       amd64  GNU C Library: Binaries
-ii   libc-gconv-modules-extra  2.42-6                       amd64  GNU C Library: Non-essential gconv modules
-ii   libc6                     2.42-6                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                  2.42-7                       amd64  GNU C Library: Binaries
+ii   libc-gconv-modules-extra  2.42-7                       amd64  GNU C Library: Non-essential gconv modules
+ii   libc6                     2.42-7                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                0.8.5-4+b2                   amd64  alternate POSIX capabilities library
 ii   libcap2                   1:2.75-10+b5                 amd64  POSIX 1003.1e capabilities (library)
 ii   libcrypt1                 1:4.5.1-1                    amd64  libcrypt shared library

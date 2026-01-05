@@ -734,7 +734,7 @@
     "Depends": "libc6 (>> 2.42), libc6 (<< 2.43)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2259",
+    "Installed-Size": "2265",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -745,7 +745,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.42-6",
+    "Version": "2.42-7",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-6"
+    "source:Version": "2.42-7"
   },
   {
     "Architecture": "amd64",
@@ -762,7 +762,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "8032",
+    "Installed-Size": "8033",
     "Origin": "",
     "Package": "libc-gconv-modules-extra",
     "Pre-Depends": "",
@@ -773,7 +773,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.42-6",
+    "Version": "2.42-7",
     "binary:Package": "libc-gconv-modules-extra:amd64",
     "binary:Summary": "GNU C Library: Non-essential gconv modules",
     "db:Status-Abbrev": "ii ",
@@ -781,16 +781,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-6"
+    "source:Version": "2.42-7"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "base-files (<< 13.3~), dhcpcd (<< 1:10.1.0-7~), libamdhip64-5 (<< 5.7.1-5+b1), libhiprtc-builtins5 (<< 5.7.1-5+b1), librccl1 (<< 5.4.3-3+b1), libswupdate0.1 (<< 2024.12.1+dfsg-1+b3), locales (<< 2.42), locales-all (<< 2.42), lua-swupdate (<< 2024.12.1+dfsg-1+b3), nscd (<< 2.42), pd-scaf (<< 1:0.14.1+darcs20180201-6+b4), postgresql-15-pllua (<< 1:2.0.12-4), postgresql-17-pllua (<< 1:2.0.12-3+b2), python3-mrgingham (<< 1.25-1), python3-onnxruntime (<< 1.20.1+dfsg-2~), sysvinit (<< 3.09-2~), sysvinit-core (<< 3.09-2~), uwsgi-plugin-pypy3 (<< 0.0.2+b1)",
-    "Depends": "libgcc-s1, libc-gconv-modules-extra (= 2.42-6)",
+    "Depends": "libgcc-s1, libc-gconv-modules-extra (= 2.42-7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "5678",
+    "Installed-Size": "5690",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -801,7 +801,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.42-6",
+    "Version": "2.42-7",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-6"
+    "source:Version": "2.42-7"
   },
   {
     "Architecture": "amd64",
