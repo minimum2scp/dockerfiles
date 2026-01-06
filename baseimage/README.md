@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.154                        all    add and remove users and groups
-ii   apt                          3.1.12                       amd64  commandline package manager
+ii   apt                          3.1.13                       amd64  commandline package manager
 ii   base-files                   14                           amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.8                        amd64  Debian base system master password and group files
 ii   bash                         5.3-1                        amd64  GNU Bourne Again SHell
@@ -93,7 +93,7 @@ ii   initscripts                  3.15-6                       all    scripts fo
 ii   insserv                      1.27.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                   amd64  access control list - shared library
 ii   libapparmor1                 4.1.0-1+b1                   amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.1.12                       amd64  package management runtime library
+ii   libapt-pkg7.0                3.1.13                       amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                    amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                    all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.1.2-1+b1                 amd64  Dynamic library for security auditing
@@ -184,11 +184,11 @@ ii   libuuid1                     2.41.3-3                     amd64  Universall
 ii   libwrap0                     7.6.q-36                     amd64  Wietse Venema's TCP wrappers library
 ii   libwtmpdb0                   0.75.0-5                     amd64  wtmp database shared library
 ii   libxxhash0                   0.8.3-2                      amd64  shared library for xxhash
-ii   libzstd1                     1.5.7+dfsg-2                 amd64  fast lossless compression algorithm
+ii   libzstd1                     1.5.7+dfsg-3                 amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                     all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.42-7                       all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.41.3-3    amd64  system login tools
-ii   login.defs                   1:4.18.0-2                   all    system user management configuration
+ii   login.defs                   1:4.19.0-2                   all    system user management configuration
 ii   lv                           4.51-10                      amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.1-1                     amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20250131-2             amd64  Pattern scanning and text processing language
@@ -202,7 +202,7 @@ ii   openssh-sftp-server          1:10.2p1-3                   amd64  secure she
 ii   openssl                      3.5.4-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.5.4-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.23                         all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.18.0-2                   amd64  change and administer password and group data
+ii   passwd                       1:4.19.0-2                   amd64  change and administer password and group data
 ii   perl                         5.40.1-7                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.1-7                     amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-7                     all    Core Perl modules
@@ -230,5 +230,5 @@ ii   whiptail                     0.52.25-1+b1                 amd64  Displays u
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b2  amd64  compression library - runtime
 ii   zsh                          5.9-8+b19                    amd64  shell with lots of features
 ii   zsh-common                   5.9-8                        all    architecture independent files for Zsh
-ii   zstd                         1.5.7+dfsg-2                 amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                         1.5.7+dfsg-3                 amd64  fast lossless compression algorithm -- CLI tool
 ```
