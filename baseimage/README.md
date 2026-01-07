@@ -188,8 +188,8 @@ ii   libzstd1                     1.5.7+dfsg-3                 amd64  fast lossl
 ii   localepurge                  0.7.3.11                     all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.42-7                       all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.41.3-3    amd64  system login tools
-ii   login.defs                   1:4.19.0-2                   all    system user management configuration
-ii   lv                           4.51-10                      amd64  Powerful Multilingual File Viewer
+ii   login.defs                   1:4.19.0-3                   all    system user management configuration
+ii   lv                           4.51-10.1                    amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.1-1                     amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20250131-2             amd64  Pattern scanning and text processing language
 ii   mount                        2.41.3-3                     amd64  tools for mounting and manipulating filesystems
@@ -202,7 +202,7 @@ ii   openssh-sftp-server          1:10.2p1-3                   amd64  secure she
 ii   openssl                      3.5.4-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.5.4-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.23                         all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.19.0-2                   amd64  change and administer password and group data
+ii   passwd                       1:4.19.0-3                   amd64  change and administer password and group data
 ii   perl                         5.40.1-7                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.1-7                     amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-7                     all    Core Perl modules
