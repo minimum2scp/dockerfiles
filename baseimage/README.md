@@ -70,9 +70,9 @@ ii   bsdutils                     1:2.41.3-3                   amd64  basic util
 ii   bzip2                        1.0.8-6                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20250419                     all    Common CA certificates
 ii   coreutils                    9.7-3                        amd64  GNU core utilities
-ii   cron                         3.0pl1-205                   amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-205                   all    process scheduling daemon's configuration files
-ii   curl                         8.18.0~rc3-1                 amd64  command line tool for transferring data with URL syntax
+ii   cron                         3.0pl1-206                   amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-206                   all    process scheduling daemon's configuration files
+ii   curl                         8.18.0-1                     amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                    amd64  POSIX-compliant shell
 ii   debconf                      1.5.91                       all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                       all    OpenPGP archive certificates of the Debian archive
@@ -110,8 +110,8 @@ ii   libcap2                      1:2.75-10+b5                 amd64  POSIX 1003
 ii   libcbor0.10                  0.10.2-2.1                   amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-3+b8                  amd64  common error description library
 ii   libcrypt1                    1:4.5.1-1                    amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.18.0~rc3-1                 amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.18.0~rc3-1                 amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3t64-gnutls           8.18.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.18.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11              amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.282+b2                     amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20251016-1               amd64  BSD editline and history libraries
@@ -188,7 +188,7 @@ ii   libzstd1                     1.5.7+dfsg-3                 amd64  fast lossl
 ii   localepurge                  0.7.3.11                     all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.42-7                       all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.41.3-3    amd64  system login tools
-ii   login.defs                   1:4.19.0-3                   all    system user management configuration
+ii   login.defs                   1:4.19.0-4                   all    system user management configuration
 ii   lv                           4.51-10.1                    amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.1-1                     amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20250131-2             amd64  Pattern scanning and text processing language
@@ -202,12 +202,12 @@ ii   openssh-sftp-server          1:10.2p1-3                   amd64  secure she
 ii   openssl                      3.5.4-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.5.4-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.23                         all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.19.0-3                   amd64  change and administer password and group data
+ii   passwd                       1:4.19.0-4                   amd64  change and administer password and group data
 ii   perl                         5.40.1-7                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.1-7                     amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-7                     all    Core Perl modules
 ii   procps                       2:4.0.4-9                    amd64  /proc file system utilities
-ii   rsyslog                      8.2512.0-2+b1                amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2512.0-3                   amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                       all    dh-runit implementation detail
 ii   sed                          4.9-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                       all    Utilities for sensible alternative selection
