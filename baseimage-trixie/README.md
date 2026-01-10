@@ -62,9 +62,9 @@ installed packages:
 ```
 ii   adduser                      3.152                           all    add and remove users and groups
 ii   apt                          3.0.3                           amd64  commandline package manager
-ii   base-files                   13.8+deb13u2                    amd64  Debian base system miscellaneous files
+ii   base-files                   13.8+deb13u3                    amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                           amd64  Debian base system master password and group files
-ii   bash                         5.2.37-2+b5                     amd64  GNU Bourne Again SHell
+ii   bash                         5.2.37-2+b7                     amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.41-5                          amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.41-5                        amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
@@ -101,13 +101,13 @@ ii   libblkid1                    2.41-5                          amd64  block d
 ii   libbrotli1                   1.1.0-2+b7                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.41-12                         amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.41-12                         all    GNU C Library: localization files
-ii   libc6                        2.41-12                         amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.41-12+deb13u1                 amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.41-12+deb13u1                 all    GNU C Library: localization files
+ii   libc6                        2.41-12+deb13u1                 amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b1                      amd64  alternate POSIX capabilities library
-ii   libcap2                      1:2.75-10+b1                    amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                      1:2.75-10+b3                    amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
-ii   libcom-err2                  1.47.2-3+b3                     amd64  common error description library
+ii   libcom-err2                  1.47.2-3+b7                     amd64  common error description library
 ii   libcrypt1                    1:4.4.38-1                      amd64  libcrypt shared library
 ii   libcurl3t64-gnutls           8.14.1-2+deb13u2                amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.14.1-2+deb13u2                amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -124,7 +124,7 @@ ii   libgcc-s1                    14.2.0-19                       amd64  GCC sup
 ii   libgdbm-compat4t64           1.24-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.24-2                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-3                  amd64  Multiprecision arithmetic library
-ii   libgnutls30t64               3.8.9-3                         amd64  GNU TLS library - main runtime library
+ii   libgnutls30t64               3.8.9-3+deb13u1                 amd64  GNU TLS library - main runtime library
 ii   libgssapi-krb5-2             1.21.3-5                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10.1-1                        amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.8-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -185,7 +185,7 @@ ii   libwtmpdb0                   0.73.0-3+deb13u1                amd64  wtmp da
 ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.7+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.41-12                         all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.41-12+deb13u1                 all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.41-5         amd64  system login tools
 ii   login.defs                   1:4.17.4-2                      all    system user management configuration
 ii   lv                           4.51-10                         amd64  Powerful Multilingual File Viewer
@@ -210,7 +210,7 @@ ii   rsyslog                      8.2504.0-1                      amd64  reliabl
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.25                          all    Utilities for sensible alternative selection
-ii   sqv                          1.3.0-3                         amd64  OpenPGP signature verification program from Sequoia
+ii   sqv                          1.3.0-3+b2                      amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p2-3                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  257.9-1~deb13u1                 amd64  standalone sysusers binary for use in non-systemd systems
@@ -227,7 +227,7 @@ ii   vim-common                   2:9.1.1230-2                    all    Vi IMpr
 ii   vim-tiny                     2:9.1.1230-2                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1     amd64  compression library - runtime
-ii   zsh                          5.9-8+b14                       amd64  shell with lots of features
+ii   zsh                          5.9-8+b18                       amd64  shell with lots of features
 ii   zsh-common                   5.9-8                           all    architecture independent files for Zsh
 ii   zstd                         1.5.7+dfsg-1                    amd64  fast lossless compression algorithm -- CLI tool
 ```
