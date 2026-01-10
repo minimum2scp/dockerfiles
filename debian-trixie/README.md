@@ -19,9 +19,9 @@ installed packages:
 
 ```
 ii   apt                      3.0.3                        amd64  commandline package manager
-ii   base-files               13.8+deb13u2                 amd64  Debian base system miscellaneous files
+ii   base-files               13.8+deb13u3                 amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.7                        amd64  Debian base system master password and group files
-ii   bash                     5.2.37-2+b5                  amd64  GNU Bourne Again SHell
+ii   bash                     5.2.37-2+b7                  amd64  GNU Bourne Again SHell
 ii   bsdutils                 1:2.41-5                     amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                9.7-3                        amd64  GNU core utilities
 ii   dash                     0.5.12-12                    amd64  POSIX-compliant shell
@@ -44,10 +44,10 @@ ii   libaudit1                1:4.0.2-2+b2                 amd64  Dynamic librar
 ii   libblkid1                2.41-5                       amd64  block device ID library
 ii   libbsd0                  0.12.2-2                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-6                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.41-12                      amd64  GNU C Library: Binaries
-ii   libc6                    2.41-12                      amd64  GNU C Library: Shared libraries
+ii   libc-bin                 2.41-12+deb13u1              amd64  GNU C Library: Binaries
+ii   libc6                    2.41-12+deb13u1              amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.5-4+b1                   amd64  alternate POSIX capabilities library
-ii   libcap2                  1:2.75-10+b1                 amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                  1:2.75-10+b3                 amd64  POSIX 1003.1e capabilities (library)
 ii   libcrypt1                1:4.4.38-1                   amd64  libcrypt shared library
 ii   libdb5.3t64              5.3.28+dfsg2-9               amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.280                        amd64  Debian Configuration Management System (C-implementation library)
@@ -90,7 +90,7 @@ ii   openssl-provider-legacy  3.5.4-1~deb13u1              amd64  Secure Sockets
 ii   passwd                   1:4.17.4-2                   amd64  change and administer password and group data
 ii   perl-base                5.40.1-6                     amd64  minimal Perl system
 ii   sed                      4.9-2                        amd64  GNU stream editor for filtering/transforming text
-ii   sqv                      1.3.0-3                      amd64  OpenPGP signature verification program from Sequoia
+ii   sqv                      1.3.0-3+b2                   amd64  OpenPGP signature verification program from Sequoia
 ii   sysvinit-utils           3.14-4                       amd64  System-V-like utilities
 ii   tar                      1.35+dfsg-3.1                amd64  GNU version of the tar archiving utility
 ii   tzdata                   2025b-4+deb13u1              all    time zone and daylight-saving time data
