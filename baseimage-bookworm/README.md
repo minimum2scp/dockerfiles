@@ -62,9 +62,9 @@ installed packages:
 ```
 ii   adduser                  3.134                           all    add and remove users and groups
 ii   apt                      2.6.1                           amd64  commandline package manager
-ii   base-files               12.4+deb12u12                   amd64  Debian base system miscellaneous files
+ii   base-files               12.4+deb12u13                   amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                           amd64  Debian base system master password and group files
-ii   bash                     5.2.15-2+b9                     amd64  GNU Bourne Again SHell
+ii   bash                     5.2.15-2+b10                    amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.38.1-5+deb12u3                amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                 1:2.38.1-5+deb12u3              amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                    1.0.8-5+b1                      amd64  high-quality block-sorting file compressor - utilities
@@ -83,9 +83,9 @@ ii   e2fsprogs                1.47.0-2+b2                     amd64  ext2/ext3/e
 ii   etckeeper                1.18.20-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-4                         amd64  utilities for finding files--find, xargs
 ii   gcc-12-base              12.2.0-14+deb12u1               amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                      1:2.39.5-0+deb12u2              amd64  fast, scalable, distributed revision control system
-ii   git-man                  1:2.39.5-0+deb12u2              all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                     2.2.40-1.1+deb12u1              amd64  GNU privacy guard - signature verification tool
+ii   git                      1:2.39.5-0+deb12u3              amd64  fast, scalable, distributed revision control system
+ii   git-man                  1:2.39.5-0+deb12u3              all    fast, scalable, distributed revision control system (manual pages)
+ii   gpgv                     2.2.40-1.1+deb12u2              amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.8-5                           amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-10                       amd64  GNU troff text-formatting system (base system components)
 ii   gzip                     1.12-1                          amd64  GNU compression utilities
@@ -106,7 +106,7 @@ ii   libc-bin                 2.36-9+deb12u13                 amd64  GNU C Libra
 ii   libc-l10n                2.36-9+deb12u13                 all    GNU C Library: localization files
 ii   libc6                    2.36-9+deb12u13                 amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.3-1+b3                      amd64  alternate POSIX capabilities library
-ii   libcap2                  1:2.66-4+deb12u2                amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                  1:2.66-4+deb12u2+b2             amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2+b1                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.47.0-2+b2                     amd64  common error description library
 ii   libcrypt1                1:4.4.33-2                      amd64  libcrypt shared library
@@ -148,10 +148,10 @@ ii   libnewt0.52              0.52.23-1+b1                    amd64  Not Erik's 
 ii   libnghttp2-14            1.52.0-1+deb12u2                amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                  1.3.0-2                         amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0              0.24.1-2                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules           1.5.2-6+deb12u1                 amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin       1.5.2-6+deb12u1                 amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime           1.5.2-6+deb12u1                 all    Runtime support for the PAM library
-ii   libpam0g                 1.5.2-6+deb12u1                 amd64  Pluggable Authentication Modules library
+ii   libpam-modules           1.5.2-6+deb12u2                 amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin       1.5.2-6+deb12u2                 amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime           1.5.2-6+deb12u2                 all    Runtime support for the PAM library
+ii   libpam0g                 1.5.2-6+deb12u2                 amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.42-1                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.36              5.36.0-7+deb12u3                amd64  shared Perl library
 ii   libpipeline1             1.5.7-1                         amd64  Unix process pipeline manipulation library
@@ -170,7 +170,7 @@ ii   libslang2                2.3.3-3                         amd64  S-Lang prog
 ii   libsmartcols1            2.38.1-5+deb12u3                amd64  smart column output alignment library
 ii   libss2                   1.47.0-2+b2                     amd64  command-line interface parsing library
 ii   libssh2-1                1.10.0-3+b1                     amd64  SSH2 client-side library
-ii   libssl3                  3.0.17-1~deb12u3                amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3                  3.0.18-1~deb12u1                amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.2.0-14+deb12u1               amd64  GNU Standard C++ Library v3
 ii   libsystemd0              252.39-1~deb12u1                amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2+deb12u1                amd64  Manage ASN.1 structures (runtime)
@@ -186,7 +186,7 @@ ii   libxxhash0               0.8.1-1                         amd64  shared libr
 ii   libzstd1                 1.5.4+dfsg2-5                   amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                  2.36-9+deb12u13                 all    GNU C Library: National Language (locale) data [support]
-ii   login                    1:4.13+dfsg1-1+deb12u1          amd64  system login tools
+ii   login                    1:4.13+dfsg1-1+deb12u2          amd64  system login tools
 ii   logsave                  1.47.0-2+b2                     amd64  save the output of a command in a log file
 ii   lv                       4.51-9                          amd64  Powerful Multilingual File Viewer
 ii   man-db                   2.11.2-2                        amd64  tools for reading manual pages
@@ -198,9 +198,9 @@ ii   net-tools                2.10-0.1+deb12u2                amd64  NET-3 netwo
 ii   openssh-client           1:9.2p1-2+deb12u7               amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server           1:9.2p1-2+deb12u7               amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server      1:9.2p1-2+deb12u7               amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                  3.0.17-1~deb12u3                amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                  3.0.18-1~deb12u1                amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.14                            all    Orphaned System-V-like init scripts
-ii   passwd                   1:4.13+dfsg1-1+deb12u1          amd64  change and administer password and group data
+ii   passwd                   1:4.13+dfsg1-1+deb12u2          amd64  change and administer password and group data
 ii   perl                     5.36.0-7+deb12u3                amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                5.36.0-7+deb12u3                amd64  minimal Perl system
 ii   perl-modules-5.36        5.36.0-7+deb12u3                all    Core Perl modules
@@ -210,7 +210,7 @@ ii   runit-helper             2.15.2                          all    dh-runit im
 ii   sed                      4.9-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1+b1                       amd64  run processes in parallel and multiplex their output
-ii   sudo                     1.9.13p3-1+deb12u2              amd64  Provide limited super user privileges to specific users
+ii   sudo                     1.9.13p3-1+deb12u3              amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                  3.06-4                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core            3.06-4                          amd64  System-V-like init
 ii   sysvinit-utils           3.06-4                          amd64  System-V-like utilities
@@ -226,7 +226,7 @@ ii   vim-common               2:9.0.1378-2+deb12u2            all    Vi IMproved
 ii   vim-tiny                 2:9.0.1378-2+deb12u2            amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                 0.52.23-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                   1:1.2.13.dfsg-1                 amd64  compression library - runtime
-ii   zsh                      5.9-4+b7                        amd64  shell with lots of features
+ii   zsh                      5.9-4+b8                        amd64  shell with lots of features
 ii   zsh-common               5.9-4                           all    architecture independent files for Zsh
 ii   zstd                     1.5.4+dfsg2-5                   amd64  fast lossless compression algorithm -- CLI tool
 ```
