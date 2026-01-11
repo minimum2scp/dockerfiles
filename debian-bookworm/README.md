@@ -20,9 +20,9 @@ installed packages:
 ```
 ii   adduser                 3.134                   all    add and remove users and groups
 ii   apt                     2.6.1                   amd64  commandline package manager
-ii   base-files              12.4+deb12u12           amd64  Debian base system miscellaneous files
+ii   base-files              12.4+deb12u13           amd64  Debian base system miscellaneous files
 ii   base-passwd             3.6.1                   amd64  Debian base system master password and group files
-ii   bash                    5.2.15-2+b9             amd64  GNU Bourne Again SHell
+ii   bash                    5.2.15-2+b10            amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.38.1-5+deb12u3      amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               9.1-1                   amd64  GNU core utilities
 ii   dash                    0.5.12-2                amd64  POSIX-compliant shell
@@ -34,7 +34,7 @@ ii   dpkg                    1.21.22                 amd64  Debian package manag
 ii   e2fsprogs               1.47.0-2+b2             amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-4                 amd64  utilities for finding files--find, xargs
 ii   gcc-12-base             12.2.0-14+deb12u1       amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.40-1.1+deb12u1      amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.40-1.1+deb12u2      amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.8-5                   amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1                  amd64  GNU compression utilities
 ii   hostname                3.23+nmu1               amd64  utility to set/show the host name or domain name
@@ -49,7 +49,7 @@ ii   libbz2-1.0              1.0.8-5+b1              amd64  high-quality block-s
 ii   libc-bin                2.36-9+deb12u13         amd64  GNU C Library: Binaries
 ii   libc6                   2.36-9+deb12u13         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.3-1+b3              amd64  alternate POSIX capabilities library
-ii   libcap2                 1:2.66-4+deb12u2        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                 1:2.66-4+deb12u2+b2     amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.47.0-2+b2             amd64  common error description library
 ii   libcrypt1               1:4.4.33-2              amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg2-1          amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -69,10 +69,10 @@ ii   libmd0                  1.0.4-2                 amd64  message digest funct
 ii   libmount1               2.38.1-5+deb12u3        amd64  device mounting library
 ii   libnettle8              3.8.1-2                 amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.24.1-2                amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.5.2-6+deb12u1         amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.5.2-6+deb12u1         amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.5.2-6+deb12u1         all    Runtime support for the PAM library
-ii   libpam0g                1.5.2-6+deb12u1         amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.5.2-6+deb12u2         amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.5.2-6+deb12u2         amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.5.2-6+deb12u2         all    Runtime support for the PAM library
+ii   libpam0g                1.5.2-6+deb12u2         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.42-1                 amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2             2.5.4-1+deb12u1         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.4-1+b6                amd64  SELinux runtime shared libraries
@@ -90,13 +90,13 @@ ii   libunistring2           1.0-2                   amd64  Unicode string libra
 ii   libuuid1                2.38.1-5+deb12u3        amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1                 amd64  shared library for xxhash
 ii   libzstd1                1.5.4+dfsg2-5           amd64  fast lossless compression algorithm
-ii   login                   1:4.13+dfsg1-1+deb12u1  amd64  system login tools
+ii   login                   1:4.13+dfsg1-1+deb12u2  amd64  system login tools
 ii   logsave                 1.47.0-2+b2             amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20200120-3.1      amd64  Pattern scanning and text processing language
 ii   mount                   2.38.1-5+deb12u3        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.4-4                   all    basic terminal type definitions
 ii   ncurses-bin             6.4-4                   amd64  terminal-related programs and man pages
-ii   passwd                  1:4.13+dfsg1-1+deb12u1  amd64  change and administer password and group data
+ii   passwd                  1:4.13+dfsg1-1+deb12u2  amd64  change and administer password and group data
 ii   perl-base               5.36.0-7+deb12u3        amd64  minimal Perl system
 ii   sed                     4.9-1                   amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.06-4                  amd64  System-V-like utilities
