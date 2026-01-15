@@ -72,7 +72,7 @@ ii   ca-certificates              20250419                     all    Common CA 
 ii   coreutils                    9.7-3                        amd64  GNU core utilities
 ii   cron                         3.0pl1-206                   amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-206                   all    process scheduling daemon's configuration files
-ii   curl                         8.18.0-1                     amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.18.0-2                     amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                    amd64  POSIX-compliant shell
 ii   debconf                      1.5.91                       all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                       all    OpenPGP archive certificates of the Debian archive
@@ -92,7 +92,7 @@ ii   init-system-helpers          1.69                         all    helper too
 ii   initscripts                  3.15-6                       all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                   amd64  access control list - shared library
-ii   libapparmor1                 4.1.0-1+b1                   amd64  changehat AppArmor library
+ii   libapparmor1                 4.1.3-1                      amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.1.13                       amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                    amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                    all    Dynamic library for security auditing - common files
@@ -110,8 +110,8 @@ ii   libcap2                      1:2.75-10+b5                 amd64  POSIX 1003
 ii   libcbor0.10                  0.10.2-2.1                   amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-3+b8                  amd64  common error description library
 ii   libcrypt1                    1:4.5.1-1                    amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.18.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.18.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3t64-gnutls           8.18.0-2                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.18.0-2                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11              amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.282+b2                     amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20251016-1               amd64  BSD editline and history libraries
