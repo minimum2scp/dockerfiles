@@ -60,11 +60,11 @@ ii   liblzma5                  5.8.2-2                      amd64  XZ-format com
 ii   libmd0                    1.1.0-2+b2                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                 2.41.3-3                     amd64  device mounting library
 ii   libnettle8t64             3.10.2-1                     amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libpam-modules            1.7.0-5                      amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin        1.7.0-5                      amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-modules            1.7.0-5+b1                   amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin        1.7.0-5+b1                   amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime            1.7.0-5                      all    Runtime support for the PAM library
-ii   libpam0g                  1.7.0-5                      amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0              10.46-1                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpam0g                  1.7.0-5+b1                   amd64  Pluggable Authentication Modules library
+ii   libpcre2-8-0              10.46-1+b1                   amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2               2.6.0-2+b1                   amd64  high level interface to Linux seccomp filter
 ii   libselinux1               3.9-4+b1                     amd64  SELinux runtime shared libraries
 ii   libsemanage-common        3.9-1                        all    Common files for SELinux policy management libraries
@@ -77,7 +77,7 @@ ii   libsystemd0               259-1                        amd64  systemd utili
 ii   libtinfo6                 6.6+20251231-1               amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                  259-1                        amd64  libudev shared library
 ii   libuuid1                  2.41.3-3                     amd64  Universally Unique ID library
-ii   libxxhash0                0.8.3-2                      amd64  shared library for xxhash
+ii   libxxhash0                0.8.3-2+b1                   amd64  shared library for xxhash
 ii   libzstd1                  1.5.7+dfsg-3+b1              amd64  fast lossless compression algorithm
 ii   login                     1:4.16.0-2+really2.41.3-3    amd64  system login tools
 ii   login.defs                1:4.19.0-4                   all    system user management configuration
