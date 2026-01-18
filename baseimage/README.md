@@ -133,7 +133,7 @@ ii   libk5crypto3                 1.22.1-2                        amd64  MIT Ker
 ii   libkeyutils1                 1.6.3-6+b1                      amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.22.1-2                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.22.1-2                        amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap2                     2.6.10+dfsg-1                   amd64  OpenLDAP libraries
+ii   libldap2                     2.6.10+dfsg-1+b1                amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.9-1                         amd64  log normalizing library
 ii   liblz4-1                     1.10.0-6                        amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.8.2-2                         amd64  XZ-format compression library
@@ -148,15 +148,15 @@ ii   libngtcp2-16                 1.16.0-1                        amd64  QUIC pr
 ii   libngtcp2-crypto-gnutls8     1.16.0-1                        amd64  crypto helper library for with GnuTLS backend
 ii   libngtcp2-crypto-ossl0       1.16.0-1                        amd64  crypto helper library for with OpenSSL backend
 ii   libp11-kit0                  0.25.10-1+b1                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules               1.7.0-5                         amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin           1.7.0-5                         amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-modules               1.7.0-5+b1                      amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin           1.7.0-5+b1                      amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.7.0-5                         all    Runtime support for the PAM library
-ii   libpam0g                     1.7.0-5                         amd64  Pluggable Authentication Modules library
+ii   libpam0g                     1.7.0-5+b1                      amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.46-1+b1                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.40                  5.40.1-7                        amd64  shared Perl library
 ii   libpipeline1                 1.5.8-2                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2+b1                  amd64  lib for parsing cmdline parameters
-ii   libproc2-0                   2:4.0.4-9                       amd64  library for accessing process information from /proc
+ii   libproc2-0                   2:4.0.4-9+b1                    amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b2                   amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-3+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-10                 amd64  Cyrus SASL - authentication abstraction library
@@ -177,13 +177,13 @@ ii   libtasn1-6                   4.20.0-2+b1                     amd64  Manage 
 ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.6+20251231-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libuchardet0                 0.0.8-2                         amd64  universal charset detection library - shared library
+ii   libuchardet0                 0.0.8-2+b1                      amd64  universal charset detection library - shared library
 ii   libudev1                     259-1                           amd64  libudev shared library
 ii   libunistring5                1.3-2+b1                        amd64  Unicode string library for C
 ii   libuuid1                     2.41.3-3                        amd64  Universally Unique ID library
-ii   libwrap0                     7.6.q-36+b1                     amd64  Wietse Venema's TCP wrappers library
+ii   libwrap0                     7.6.q-36+b2                     amd64  Wietse Venema's TCP wrappers library
 ii   libwtmpdb0                   0.75.0-5                        amd64  wtmp database shared library
-ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
+ii   libxxhash0                   0.8.3-2+b1                      amd64  shared library for xxhash
 ii   libzstd1                     1.5.7+dfsg-3+b1                 amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.42-8                          all    GNU C Library: National Language (locale) data [support]
@@ -206,7 +206,7 @@ ii   passwd                       1:4.19.0-4                      amd64  change 
 ii   perl                         5.40.1-7                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.1-7                        amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-7                        all    Core Perl modules
-ii   procps                       2:4.0.4-9                       amd64  /proc file system utilities
+ii   procps                       2:4.0.4-9+b1                    amd64  /proc file system utilities
 ii   rsyslog                      8.2512.0-3                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
