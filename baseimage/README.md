@@ -78,7 +78,7 @@ ii   debconf                      1.5.91                          all    Debian 
 ii   debian-archive-keyring       2025.1                          all    OpenPGP archive certificates of the Debian archive
 ii   debianutils                  5.23.2                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.12-1                        amd64  File comparison utilities
-ii   dpkg                         1.23.3                          amd64  Debian package management system
+ii   dpkg                         1.23.4                          amd64  Debian package management system
 ii   etckeeper                    1.18.23-2                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
 ii   gcc-15-base                  15.2.0-12                       amd64  GCC, the GNU Compiler Collection (base package)
@@ -101,10 +101,10 @@ ii   libblkid1                    2.41.3-3                        amd64  block d
 ii   libbrotli1                   1.1.0-2+b9                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2+b1                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6+b1                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.42-8                          amd64  GNU C Library: Binaries
-ii   libc-gconv-modules-extra     2.42-8                          amd64  GNU C Library: Non-essential gconv modules
-ii   libc-l10n                    2.42-8                          all    GNU C Library: localization files
-ii   libc6                        2.42-8                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.42-9                          amd64  GNU C Library: Binaries
+ii   libc-gconv-modules-extra     2.42-9                          amd64  GNU C Library: Non-essential gconv modules
+ii   libc-l10n                    2.42-9                          all    GNU C Library: localization files
+ii   libc6                        2.42-9                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b2                      amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.75-10+b5                    amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.1                      amd64  library for parsing and generating CBOR (RFC 7049)
@@ -173,7 +173,7 @@ ii   libssh2-1t64                 1.11.1-1+b1                     amd64  SSH2 cl
 ii   libssl3t64                   3.5.4-1+b1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   15.2.0-12                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  259-1                           amd64  systemd utility library
-ii   libtasn1-6                   4.20.0-2+b1                     amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6                   4.21.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.6+20251231-1                  amd64  shared low-level terminfo library for terminal handling
@@ -186,7 +186,7 @@ ii   libwtmpdb0                   0.75.0-5                        amd64  wtmp da
 ii   libxxhash0                   0.8.3-2+b1                      amd64  shared library for xxhash
 ii   libzstd1                     1.5.7+dfsg-3+b1                 amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.42-8                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.42-9                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.41.3-3       amd64  system login tools
 ii   login.defs                   1:4.19.0-4                      all    system user management configuration
 ii   lv                           4.51-10.1                       amd64  Powerful Multilingual File Viewer
