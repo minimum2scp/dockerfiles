@@ -174,7 +174,7 @@ ii   libssl3t64                   3.5.4-1+b1                      amd64  Secure 
 ii   libstdc++6                   15.2.0-12                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  259-1                           amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2                        amd64  Manage ASN.1 structures (runtime)
-ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
+ii   libtext-charwidth-perl       0.04-11+b5                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.6+20251231-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-2+b1                      amd64  universal charset detection library - shared library
