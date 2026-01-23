@@ -510,7 +510,7 @@
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6389",
+    "Installed-Size": "6385",
     "Origin": "",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.38), liblzma5 (>= 5.4.0), libmd0 (>= 0.0.0), libselinux1 (>= 3.1~), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.23.4",
+    "Version": "1.23.5",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.23.4"
+    "source:Version": "1.23.5"
   },
   {
     "Architecture": "all",
@@ -4598,7 +4598,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1878",
+    "Installed-Size": "1875",
     "Origin": "",
     "Package": "vim-common",
     "Pre-Depends": "",
@@ -4609,7 +4609,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:9.1.1882-1",
+    "Version": "2:9.1.2103-1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4617,16 +4617,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:9.1.1882-1"
+    "source:Version": "2:9.1.2103-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:9.1.1882-1), libacl1 (>= 2.2.23), libc6 (>= 2.38), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
+    "Depends": "vim-common (= 2:9.1.2103-1), libacl1 (>= 2.2.23), libc6 (>= 2.38), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1873",
+    "Installed-Size": "1877",
     "Origin": "",
     "Package": "vim-tiny",
     "Pre-Depends": "",
@@ -4637,7 +4637,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:9.1.1882-1",
+    "Version": "2:9.1.2103-1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4645,7 +4645,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:9.1.1882-1"
+    "source:Version": "2:9.1.2103-1"
   },
   {
     "Architecture": "amd64",

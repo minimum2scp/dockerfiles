@@ -78,7 +78,7 @@ ii   debconf                      1.5.91                          all    Debian 
 ii   debian-archive-keyring       2025.1                          all    OpenPGP archive certificates of the Debian archive
 ii   debianutils                  5.23.2                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.12-1                        amd64  File comparison utilities
-ii   dpkg                         1.23.4                          amd64  Debian package management system
+ii   dpkg                         1.23.5                          amd64  Debian package management system
 ii   etckeeper                    1.18.23-2                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
 ii   gcc-15-base                  15.2.0-12                       amd64  GCC, the GNU Compiler Collection (base package)
@@ -224,8 +224,8 @@ ii   tzdata                       2025c-3                         all    time zo
 ii   ucf                          3.0052                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                          amd64  De-archiver for .zip files
 ii   util-linux                   2.41.3-3                        amd64  miscellaneous system utilities
-ii   vim-common                   2:9.1.1882-1                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.1.1882-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.1.2103-1                    all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.1.2103-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b2     amd64  compression library - runtime
 ii   zsh                          5.9-8+b19                       amd64  shell with lots of features
