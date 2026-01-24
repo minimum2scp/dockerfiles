@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.154                           all    add and remove users and groups
-ii   apt                          3.1.13                          amd64  commandline package manager
+ii   apt                          3.1.14                          amd64  commandline package manager
 ii   base-files                   14                              amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.8                           amd64  Debian base system master password and group files
 ii   bash                         5.3-1                           amd64  GNU Bourne Again SHell
@@ -93,7 +93,7 @@ ii   initscripts                  3.15-6                          all    scripts
 ii   insserv                      1.27.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b2                      amd64  access control list - shared library
 ii   libapparmor1                 4.1.3-1                         amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.1.13                          amd64  package management runtime library
+ii   libapt-pkg7.0                3.1.14                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3+b1                    amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.1.2-1+b1                    amd64  Dynamic library for security auditing
@@ -117,7 +117,7 @@ ii   libdebconfclient0            0.282+b2                        amd64  Debian 
 ii   libedit2                     3.1-20251016-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17030-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-2+b1                     amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.7.3-1                         amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.7.3-2                         amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2304.0-2+b1                   amd64  fast json library for C
 ii   libffi8                      3.5.2-3+b1                      amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.16.0-2+b1                     amd64  library for generating and verifying FIDO 2.0 objects
@@ -168,7 +168,7 @@ ii   libsemanage2                 3.9-1+b1                        amd64  SELinux
 ii   libsepol2                    3.9-2                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-5+b3                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.41.3-3                        amd64  smart column output alignment library
-ii   libsqlite3-0                 3.46.1-8                        amd64  SQLite 3 shared library
+ii   libsqlite3-0                 3.46.1-9                        amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-1+b1                     amd64  SSH2 client-side library
 ii   libssl3t64                   3.5.4-1+b1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   15.2.0-12                       amd64  GNU Standard C++ Library v3
