@@ -7,14 +7,10 @@ export DEBIAN_FRONTEND=noninteractive
 ##
 ## install yarn (https://yarnpkg.com/en/docs/install)
 ##
-apt-get install -y --no-install-recommends gnupg
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | \
-  gpg --no-default-keyring --keyring /tmp/yarn.gpg --import
-gpg --no-default-keyring --keyring /tmp/yarn.gpg \
-  --export --output /etc/apt/keyrings/yarn.gpg
-rm /tmp/yarn.gpg
+curl -sSf https://dl.yarnpkg.com/debian/pubkey.gpg \
+  -o /etc/apt/keyrings/yarn-archive-keyring.asc
 
-echo "deb [signed-by=/etc/apt/keyrings/yarn.gpg] http://dl.yarnpkg.com/debian/ stable main" > /etc/apt/sources.list.d/yarn.list
+echo "deb [signed-by=/etc/apt/keyrings/yarn-archive-keyring.asc] https://dl.yarnpkg.com/debian/ stable main" > /etc/apt/sources.list.d/yarn.list
 if etckeeper unclean 1>/dev/null 2>/dev/null; then
   etckeeper commit "add apt-line for yarn"
 fi
