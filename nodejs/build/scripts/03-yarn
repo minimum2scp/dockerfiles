@@ -14,6 +14,26 @@ echo "deb [signed-by=/etc/apt/keyrings/yarn-archive-keyring.asc] https://dl.yarn
 if etckeeper unclean 1>/dev/null 2>/dev/null; then
   etckeeper commit "add apt-line for yarn"
 fi
-apt-get update
+
+## workaround: use gpgv because sqv fails signature verification
+##
+## --------------------------------------------------------------------------------
+## $ sudo apt-get update
+## Hit:1 http://deb.debian.org/debian sid InRelease
+## Get:2 http://dl.yarnpkg.com/debian stable InRelease
+## Err:2 http://dl.yarnpkg.com/debian stable InRelease
+##   Sub-process /usr/bin/sqv returned an error code (1), error message is: Signing key on 72ECF46A56B4AD39C907BBB71646B01B86E50310 is bad:            The subkey is not live   because: Expired on 2023-01-24T19:06:41Z
+## Reading package lists... Done
+## W: OpenPGP signature verification failed: http://dl.yarnpkg.com/debian stable InRelease: Sub-process /usr/bin/sqv returned an error code (1), error message is: Signing key on 72ECF46A56B4AD39C907BBB71646B01B86E50310 is bad:            The subkey is not live   because: Expired on 2023-01-24T19:06:41Z
+## E: The repository 'http://dl.yarnpkg.com/debian stable InRelease' is not signed.
+## N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+## N: See apt-secure(8) manpage for repository creation and user configuration details.
+## N: Some sources can be modernized. Run 'apt modernize-sources' to do so.
+## --------------------------------------------------------------------------------
+##
+apt-get install -y --no-install-recommends gpgv
+apt-get update -o Apt::Key::GPGVCommand=1
 apt-get install -y --no-install-recommends yarn
 
+sed -i -e 's/^/# /g' /etc/apt/sources.list.d/yarn.list
+apt-get remove -y --purge --auto-remove gpgv
