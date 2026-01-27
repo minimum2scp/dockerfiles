@@ -1154,7 +1154,7 @@
     "Depends": "libc6 (>> 2.42), libc6 (<< 2.43)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2134",
+    "Installed-Size": "2133",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.42-10+b1",
+    "Version": "2.42-11",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-10"
+    "source:Version": "2.42-11"
   },
   {
     "Architecture": "amd64",
@@ -1182,7 +1182,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "8014",
+    "Installed-Size": "8013",
     "Origin": "",
     "Package": "libc-gconv-modules-extra",
     "Pre-Depends": "",
@@ -1193,7 +1193,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.42-10+b1",
+    "Version": "2.42-11",
     "binary:Package": "libc-gconv-modules-extra:amd64",
     "binary:Summary": "GNU C Library: Non-essential gconv modules",
     "db:Status-Abbrev": "ii ",
@@ -1201,7 +1201,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-10"
+    "source:Version": "2.42-11"
   },
   {
     "Architecture": "all",
@@ -1221,7 +1221,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.42-10",
+    "Version": "2.42-11",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1229,16 +1229,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-10"
+    "source:Version": "2.42-11"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "base-files (<< 13.3~), dhcpcd (<< 1:10.1.0-7~), libamdhip64-5 (<< 5.7.1-5+b1), libhiprtc-builtins5 (<< 5.7.1-5+b1), librccl1 (<< 5.4.3-3+b1), libswupdate0.1 (<< 2024.12.1+dfsg-1+b3), locales (<< 2.42), locales-all (<< 2.42), lua-swupdate (<< 2024.12.1+dfsg-1+b3), nscd (<< 2.42), pd-scaf (<< 1:0.14.1+darcs20180201-6+b4), postgresql-15-pllua (<< 1:2.0.12-4), postgresql-17-pllua (<< 1:2.0.12-3+b2), python3-mrgingham (<< 1.25-1), python3-onnxruntime (<< 1.20.1+dfsg-2~), sysvinit (<< 3.09-2~), sysvinit-core (<< 3.09-2~), uwsgi-plugin-pypy3 (<< 0.0.2+b1)",
-    "Depends": "libgcc-s1, libc-gconv-modules-extra (= 2.42-10+b1)",
+    "Depends": "libgcc-s1, libc-gconv-modules-extra (= 2.42-11)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "5371",
+    "Installed-Size": "5370",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.42-10+b1",
+    "Version": "2.42-11",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-10"
+    "source:Version": "2.42-11"
   },
   {
     "Architecture": "amd64",
@@ -3545,7 +3545,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.42-10",
+    "Version": "2.42-11",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-10"
+    "source:Version": "2.42-11"
   },
   {
     "Architecture": "amd64",
@@ -3601,7 +3601,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.19.0-4",
+    "Version": "1:4.19.2-1",
     "binary:Package": "login.defs",
     "binary:Summary": "system user management configuration",
     "db:Status-Abbrev": "ii ",
@@ -3609,7 +3609,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.19.0-4"
+    "source:Version": "1:4.19.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3982,7 +3982,7 @@
     "Depends": "base-passwd (>= 3.6.4), libpam-modules, login.defs, libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.44), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.11.0), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsemanage2 (>= 2.0.32)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4786",
+    "Installed-Size": "4772",
     "Origin": "",
     "Package": "passwd",
     "Pre-Depends": "",
@@ -3993,7 +3993,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.19.0-4",
+    "Version": "1:4.19.2-1",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -4001,7 +4001,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.19.0-4"
+    "source:Version": "1:4.19.2-1"
   },
   {
     "Architecture": "amd64",
