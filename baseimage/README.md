@@ -213,7 +213,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.26                          all    Utilities for sensible alternative selection
 ii   sqv                          1.3.0-5                         amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                          amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.17p2-1                      amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.17p2-2                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  259-1                           amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.15-6                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.15-6                          amd64  System-V-like init

@@ -4285,12 +4285,12 @@
   },
   {
     "Architecture": "amd64",
-    "Conflicts": "sudo-ldap",
-    "Breaks": "",
-    "Depends": "libpam-modules, libapparmor1 (>= 2.7.0~beta1+bzr1772), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.0.2)",
+    "Conflicts": "",
+    "Breaks": "sudo-ldap (<< 1.9.17p2-1exp1)",
+    "Depends": "libpam-modules, libapparmor1 (>= 2.7.0~beta1+bzr1772), libaudit1 (>= 1:2.2.1), libc6 (>= 2.42), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.0.2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "6768",
+    "Installed-Size": "6773",
     "Origin": "",
     "Package": "sudo",
     "Pre-Depends": "init-system-helpers (>= 1.54~)",
@@ -4301,7 +4301,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.9.17p2-1",
+    "Version": "1.9.17p2-2",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sudo",
-    "source:Version": "1.9.17p2-1"
+    "source:Version": "1.9.17p2-2"
   },
   {
     "Architecture": "amd64",
