@@ -3086,7 +3086,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "6026",
+    "Installed-Size": "6027",
     "Origin": "",
     "Package": "libssl3",
     "Pre-Depends": "",
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0.18-1~deb12u1",
+    "Version": "3.0.18-1~deb12u2",
     "binary:Package": "libssl3:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.0.18-1~deb12u1"
+    "source:Version": "3.0.18-1~deb12u2"
   },
   {
     "Architecture": "amd64",
@@ -3870,7 +3870,7 @@
     "Depends": "libc6 (>= 2.34), libssl3 (>= 3.0.9)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2304",
+    "Installed-Size": "2305",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -3881,7 +3881,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "3.0.18-1~deb12u1",
+    "Version": "3.0.18-1~deb12u2",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -3889,7 +3889,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.0.18-1~deb12u1"
+    "source:Version": "3.0.18-1~deb12u2"
   },
   {
     "Architecture": "all",
