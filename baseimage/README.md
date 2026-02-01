@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.154                           all    add and remove users and groups
-ii   apt                          3.1.14                          amd64  commandline package manager
+ii   apt                          3.1.15                          amd64  commandline package manager
 ii   base-files                   14                              amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.8                           amd64  Debian base system master password and group files
 ii   bash                         5.3-1                           amd64  GNU Bourne Again SHell
@@ -93,7 +93,7 @@ ii   initscripts                  3.15-6                          all    scripts
 ii   insserv                      1.27.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b2                      amd64  access control list - shared library
 ii   libapparmor1                 4.1.3-1                         amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.1.14                          amd64  package management runtime library
+ii   libapt-pkg7.0                3.1.15                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3+b1                    amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.1.2-1+b1                    amd64  Dynamic library for security auditing
@@ -117,7 +117,7 @@ ii   libdebconfclient0            0.282+b2                        amd64  Debian 
 ii   libedit2                     3.1-20251016-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17030-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-2+b1                     amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.7.3-2                         amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.7.4-1                         amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2304.0-2+b1                   amd64  fast json library for C
 ii   libffi8                      3.5.2-3+b1                      amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.16.0-2+b1                     amd64  library for generating and verifying FIDO 2.0 objects
@@ -213,7 +213,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.26                          all    Utilities for sensible alternative selection
 ii   sqv                          1.3.0-5                         amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                          amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.17p2-2                      amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.17p2-3                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  259-1                           amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.15-6                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.15-6                          amd64  System-V-like init
@@ -227,7 +227,7 @@ ii   util-linux                   2.41.3-3                        amd64  miscell
 ii   vim-common                   2:9.1.2103-1                    all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.1.2103-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b2     amd64  compression library - runtime
+ii   zlib1g                       1:1.3.dfsg+really1.3.1-2        amd64  compression library - runtime
 ii   zsh                          5.9-8+b19                       amd64  shell with lots of features
 ii   zsh-common                   5.9-8                           all    architecture independent files for Zsh
 ii   zstd                         1.5.7+dfsg-3+b1                 amd64  fast lossless compression algorithm -- CLI tool
