@@ -98,7 +98,7 @@ ii   libattr1                     1:2.5.2-3+b1                    amd64  extende
 ii   libaudit-common              1:4.1.2-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.1.2-1+b1                    amd64  Dynamic library for security auditing
 ii   libblkid1                    2.41.3-3                        amd64  block device ID library
-ii   libbrotli1                   1.1.0-2+b9                      amd64  library implementing brotli encoder and decoder (shared libraries)
+ii   libbrotli1                   1.2.0-1                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2+b1                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6+b1                      amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                     2.42-11                         amd64  GNU C Library: Binaries
