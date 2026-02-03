@@ -101,10 +101,10 @@ ii   libblkid1                    2.41.3-3                        amd64  block d
 ii   libbrotli1                   1.2.0-1                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2+b1                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6+b1                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.42-11                         amd64  GNU C Library: Binaries
-ii   libc-gconv-modules-extra     2.42-11                         amd64  GNU C Library: Non-essential gconv modules
+ii   libc-bin                     2.42-11+b1                      amd64  GNU C Library: Binaries
+ii   libc-gconv-modules-extra     2.42-11+b1                      amd64  GNU C Library: Non-essential gconv modules
 ii   libc-l10n                    2.42-11                         all    GNU C Library: localization files
-ii   libc6                        2.42-11                         amd64  GNU C Library: Shared libraries
+ii   libc6                        2.42-11+b1                      amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b2                      amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.75-10+b5                    amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.1                      amd64  library for parsing and generating CBOR (RFC 7049)
