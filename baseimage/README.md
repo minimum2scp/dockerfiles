@@ -191,7 +191,7 @@ ii   login                        1:4.16.0-2+really2.41.3-3       amd64  system 
 ii   login.defs                   1:4.19.2-1                      all    system user management configuration
 ii   lv                           4.51-10.1                       amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.1-1                        amd64  tools for reading manual pages
-ii   mawk                         1.3.4.20250131-2                amd64  Pattern scanning and text processing language
+ii   mawk                         1.3.4.20260129-1                amd64  Pattern scanning and text processing language
 ii   mount                        2.41.3-3                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.6+20251231-1                  all    basic terminal type definitions
 ii   ncurses-bin                  6.6+20251231-1                  amd64  terminal-related programs and man pages
@@ -219,7 +219,7 @@ ii   sysv-rc                      3.15-6                          all    System-
 ii   sysvinit-core                3.15-6                          amd64  System-V-like init
 ii   sysvinit-utils               3.15-6                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3.1                   amd64  GNU version of the tar archiving utility
-ii   tree                         2.2.1-4                         amd64  displays an indented directory tree, in color
+ii   tree                         2.3.1-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2025c-3                         all    time zone and daylight-saving time data
 ii   ucf                          3.0052                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                          amd64  De-archiver for .zip files
