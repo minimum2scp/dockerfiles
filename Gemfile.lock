@@ -42,7 +42,7 @@ GEM
     rspec-mocks (3.13.7)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
-    rspec-support (3.13.6)
+    rspec-support (3.13.7)
     serverspec (2.43.0)
       multi_json
       rspec (~> 3.0)
@@ -90,7 +90,7 @@ CHECKSUMS
   rspec-expectations (3.13.5) sha256=33a4d3a1d95060aea4c94e9f237030a8f9eae5615e9bd85718fe3a09e4b58836
   rspec-its (2.0.0) sha256=a88e8bc38149f2835e93533591ec4f5c829aacbfd41269a2e6f9f5b82f5260df
   rspec-mocks (3.13.7) sha256=0979034e64b1d7a838aaaddf12bf065ea4dc40ef3d4c39f01f93ae2c66c62b1c
-  rspec-support (3.13.6) sha256=2e8de3702427eab064c9352fe74488cc12a1bfae887ad8b91cba480ec9f8afb2
+  rspec-support (3.13.7) sha256=0640e5570872aafefd79867901deeeeb40b0c9875a36b983d85f54fb7381c47c
   serverspec (2.43.0) sha256=0207ed5f4066a63767ea7332211e6aaf793c047bb33ad1f7946aa5983d4b8e77
   sfl (2.3) sha256=99739e51c33062e3964e1802a700ee9cd8d0f9c389b2a07f8a5fdf84e186a4e2
   specinfra (2.94.1) sha256=8c7c2ae29c6c636d6bd06b4918dc4bddb30e8902667be220d7a6c57c0cdeebd2
