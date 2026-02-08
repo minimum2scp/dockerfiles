@@ -381,7 +381,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "15.2.0-12",
+    "Version": "15.2.0-13",
     "binary:Package": "gcc-15-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -389,7 +389,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-15",
-    "source:Version": "15.2.0-12"
+    "source:Version": "15.2.0-13"
   },
   {
     "Architecture": "amd64",
@@ -734,7 +734,7 @@
     "Depends": "libc6 (>> 2.42), libc6 (<< 2.43)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2134",
+    "Installed-Size": "2133",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -745,7 +745,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.42-11+b1",
+    "Version": "2.42-12",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-11"
+    "source:Version": "2.42-12"
   },
   {
     "Architecture": "amd64",
@@ -762,7 +762,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "8014",
+    "Installed-Size": "8013",
     "Origin": "",
     "Package": "libc-gconv-modules-extra",
     "Pre-Depends": "",
@@ -773,7 +773,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.42-11+b1",
+    "Version": "2.42-12",
     "binary:Package": "libc-gconv-modules-extra:amd64",
     "binary:Summary": "GNU C Library: Non-essential gconv modules",
     "db:Status-Abbrev": "ii ",
@@ -781,16 +781,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-11"
+    "source:Version": "2.42-12"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "base-files (<< 13.3~), dhcpcd (<< 1:10.1.0-7~), libamdhip64-5 (<< 5.7.1-5+b1), libhiprtc-builtins5 (<< 5.7.1-5+b1), librccl1 (<< 5.4.3-3+b1), libswupdate0.1 (<< 2024.12.1+dfsg-1+b3), locales (<< 2.42), locales-all (<< 2.42), lua-swupdate (<< 2024.12.1+dfsg-1+b3), nscd (<< 2.42), pd-scaf (<< 1:0.14.1+darcs20180201-6+b4), postgresql-15-pllua (<< 1:2.0.12-4), postgresql-17-pllua (<< 1:2.0.12-3+b2), python3-mrgingham (<< 1.25-1), python3-onnxruntime (<< 1.20.1+dfsg-2~), sysvinit (<< 3.09-2~), sysvinit-core (<< 3.09-2~), uwsgi-plugin-pypy3 (<< 0.0.2+b1)",
-    "Depends": "libgcc-s1, libc-gconv-modules-extra (= 2.42-11+b1)",
+    "Depends": "libgcc-s1, libc-gconv-modules-extra (= 2.42-12)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "5371",
+    "Installed-Size": "5370",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -801,7 +801,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.42-11+b1",
+    "Version": "2.42-12",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-11"
+    "source:Version": "2.42-12"
   },
   {
     "Architecture": "amd64",
@@ -955,7 +955,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "gcc-15-base (= 15.2.0-12), libc6 (>= 2.35)",
+    "Depends": "gcc-15-base (= 15.2.0-13), libc6 (>= 2.35)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "193",
@@ -963,13 +963,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:15.2.0-12)",
+    "Provides": "libgcc1 (= 1:15.2.0-13)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "15.2.0-12",
+    "Version": "15.2.0-13",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-15",
-    "source:Version": "15.2.0-12"
+    "source:Version": "15.2.0-13"
   },
   {
     "Architecture": "amd64",
@@ -1515,7 +1515,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-15-base (= 15.2.0-12), libc6 (>= 2.38), libgcc-s1 (>= 4.3)",
+    "Depends": "gcc-15-base (= 15.2.0-13), libc6 (>= 2.38), libgcc-s1 (>= 4.3)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "3079",
@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "15.2.0-12",
+    "Version": "15.2.0-13",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-15",
-    "source:Version": "15.2.0-12"
+    "source:Version": "15.2.0-13"
   },
   {
     "Architecture": "amd64",
