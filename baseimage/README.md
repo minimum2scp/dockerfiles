@@ -125,7 +125,7 @@ ii   libgcc-s1                    15.2.0-13                       amd64  GCC sup
 ii   libgdbm-compat4t64           1.26-1+b1                       amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.26-1+b1                       amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-5+b1               amd64  Multiprecision arithmetic library
-ii   libgnutls30t64               3.8.11-3                        amd64  GNU TLS library - main runtime library
+ii   libgnutls30t64               3.8.12-1                        amd64  GNU TLS library - main runtime library
 ii   libgssapi-krb5-2             1.22.1-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10.2-1                        amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.8-4+b1                      amd64  Internationalized domain names (IDNA2008/TR46) library
