@@ -125,7 +125,7 @@ ii   libgcc-s1                    15.2.0-13                       amd64  GCC sup
 ii   libgdbm-compat4t64           1.26-1+b1                       amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.26-1+b1                       amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-5+b1               amd64  Multiprecision arithmetic library
-ii   libgnutls30t64               3.8.12-1                        amd64  GNU TLS library - main runtime library
+ii   libgnutls30t64               3.8.12-2                        amd64  GNU TLS library - main runtime library
 ii   libgssapi-krb5-2             1.22.1-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10.2-1                        amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.8-4+b1                      amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -213,7 +213,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.26                          all    Utilities for sensible alternative selection
 ii   sqv                          1.3.0-5                         amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                          amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.17p2-3                      amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.17p2-4                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  259.1-1                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.15-6                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.15-6                          amd64  System-V-like init
