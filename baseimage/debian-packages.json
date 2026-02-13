@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.1.3-1",
+    "Version": "4.1.6-2",
     "binary:Package": "libapparmor1:amd64",
     "binary:Summary": "changehat AppArmor library",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apparmor",
-    "source:Version": "4.1.3-1"
+    "source:Version": "4.1.6-2"
   },
   {
     "Architecture": "amd64",
@@ -2274,7 +2274,7 @@
     "Depends": "libc6 (>= 2.38), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "366",
+    "Installed-Size": "365",
     "Origin": "",
     "Package": "libnewt0.52",
     "Pre-Depends": "",
@@ -2285,7 +2285,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.25-1+b1",
+    "Version": "0.52.25-2",
     "binary:Package": "libnewt0.52:amd64",
     "binary:Summary": "Not Erik's Windowing Toolkit - text mode windowing with slang",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2293,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.25-1"
+    "source:Version": "0.52.25-2"
   },
   {
     "Architecture": "amd64",
@@ -4654,7 +4654,7 @@
     "Depends": "libc6 (>= 2.38), libnewt0.52 (>= 0.52.25), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "62",
+    "Installed-Size": "61",
     "Origin": "",
     "Package": "whiptail",
     "Pre-Depends": "",
@@ -4665,7 +4665,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.25-1+b1",
+    "Version": "0.52.25-2",
     "binary:Package": "whiptail",
     "binary:Summary": "Displays user-friendly dialog boxes from shell scripts",
     "db:Status-Abbrev": "ii ",
@@ -4673,7 +4673,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.25-1"
+    "source:Version": "0.52.25-2"
   },
   {
     "Architecture": "amd64",

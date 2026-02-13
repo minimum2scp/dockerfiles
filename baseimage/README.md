@@ -92,7 +92,7 @@ ii   init-system-helpers          1.69                            all    helper 
 ii   initscripts                  3.15-6                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b2                      amd64  access control list - shared library
-ii   libapparmor1                 4.1.3-1                         amd64  changehat AppArmor library
+ii   libapparmor1                 4.1.6-2                         amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.1.15                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3+b1                    amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                       all    Dynamic library for security auditing - common files
@@ -141,7 +141,7 @@ ii   libmd0                       1.1.0-2+b2                      amd64  message
 ii   libmount1                    2.41.3-3                        amd64  device mounting library
 ii   libncursesw6                 6.6+20251231-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10.2-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnewt0.52                  0.52.25-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
+ii   libnewt0.52                  0.52.25-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.68.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnghttp3-9                 1.12.0-1                        amd64  HTTP/3 mapping over QUIC and QPACK (library)
 ii   libngtcp2-16                 1.16.0-1                        amd64  QUIC protocol library
@@ -226,7 +226,7 @@ ii   unzip                        6.0-29                          amd64  De-arch
 ii   util-linux                   2.41.3-3                        amd64  miscellaneous system utilities
 ii   vim-common                   2:9.1.2141-1                    all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.1.2141-1                    amd64  Vi IMproved - enhanced vi editor - compact version
-ii   whiptail                     0.52.25-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
+ii   whiptail                     0.52.25-2                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-2        amd64  compression library - runtime
 ii   zsh                          5.9-8+b19                       amd64  shell with lots of features
 ii   zsh-common                   5.9-8                           all    architecture independent files for Zsh
