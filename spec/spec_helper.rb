@@ -39,7 +39,7 @@ def start_container(opts)
   set :docker_container_obj, container
 
   ## configure ssh
-  set :host, container.json['NetworkSettings']['IPAddress']
+  set :host, container.json.dig('NetworkSettings', 'Networks', 'bridge', 'IPAddress')
 
   ## wait for sshd in container start
   wait_container_port(22)
