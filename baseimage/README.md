@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.154                           all    add and remove users and groups
-ii   apt                          3.1.15                          amd64  commandline package manager
+ii   apt                          3.1.16                          amd64  commandline package manager
 ii   base-files                   14                              amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.8                           amd64  Debian base system master password and group files
 ii   bash                         5.3-2                           amd64  GNU Bourne Again SHell
@@ -74,7 +74,7 @@ ii   cron                         3.0pl1-206                      amd64  process
 ii   cron-daemon-common           3.0pl1-206                      all    process scheduling daemon's configuration files
 ii   curl                         8.18.0-2                        amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                       amd64  POSIX-compliant shell
-ii   debconf                      1.5.91                          all    Debian configuration management system
+ii   debconf                      1.5.92                          all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                          all    OpenPGP archive certificates of the Debian archive
 ii   debianutils                  5.23.2                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.12-1                        amd64  File comparison utilities
@@ -93,7 +93,7 @@ ii   initscripts                  3.15-6                          all    scripts
 ii   insserv                      1.27.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-3                         amd64  access control list - shared library
 ii   libapparmor1                 4.1.6-2                         amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.1.15                          amd64  package management runtime library
+ii   libapt-pkg7.0                3.1.16                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-4                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.1.2-1+b1                    amd64  Dynamic library for security auditing
@@ -227,7 +227,7 @@ ii   util-linux                   2.41.3-3                        amd64  miscell
 ii   vim-common                   2:9.1.2141-1                    all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.1.2141-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-2                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   zlib1g                       1:1.3.dfsg+really1.3.1-2        amd64  compression library - runtime
+ii   zlib1g                       1:1.3.dfsg+really1.3.1-3        amd64  compression library - runtime
 ii   zsh                          5.9-8+b19                       amd64  shell with lots of features
 ii   zsh-common                   5.9-8                           all    architecture independent files for Zsh
 ii   zstd                         1.5.7+dfsg-3+b1                 amd64  fast lossless compression algorithm -- CLI tool
