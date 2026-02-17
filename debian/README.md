@@ -18,14 +18,14 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   apt                       3.1.15                     amd64  commandline package manager
+ii   apt                       3.1.16                     amd64  commandline package manager
 ii   base-files                14                         amd64  Debian base system miscellaneous files
 ii   base-passwd               3.6.8                      amd64  Debian base system master password and group files
 ii   bash                      5.3-2                      amd64  GNU Bourne Again SHell
 ii   bsdutils                  1:2.41.3-3                 amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                 9.7-3                      amd64  GNU core utilities
 ii   dash                      0.5.12-12                  amd64  POSIX-compliant shell
-ii   debconf                   1.5.91                     all    Debian configuration management system
+ii   debconf                   1.5.92                     all    Debian configuration management system
 ii   debian-archive-keyring    2025.1                     all    OpenPGP archive certificates of the Debian archive
 ii   debianutils               5.23.2                     amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                 1:3.12-1                   amd64  File comparison utilities
@@ -37,7 +37,7 @@ ii   gzip                      1.13-1                     amd64  GNU compression
 ii   hostname                  3.25                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers       1.69                       all    helper tools for all init systems
 ii   libacl1                   2.3.2-3                    amd64  access control list - shared library
-ii   libapt-pkg7.0             3.1.15                     amd64  package management runtime library
+ii   libapt-pkg7.0             3.1.16                     amd64  package management runtime library
 ii   libattr1                  1:2.5.2-4                  amd64  extended attribute handling - shared library
 ii   libaudit-common           1:4.1.2-1                  all    Dynamic library for security auditing - common files
 ii   libaudit1                 1:4.1.2-1+b1               amd64  Dynamic library for security auditing
@@ -94,5 +94,5 @@ ii   sysvinit-utils            3.15-6                     amd64  System-V-like u
 ii   tar                       1.35+dfsg-3.1              amd64  GNU version of the tar archiving utility
 ii   tzdata                    2025c-3                    all    time zone and daylight-saving time data
 ii   util-linux                2.41.3-3                   amd64  miscellaneous system utilities
-ii   zlib1g                    1:1.3.dfsg+really1.3.1-2   amd64  compression library - runtime
+ii   zlib1g                    1:1.3.dfsg+really1.3.1-3   amd64  compression library - runtime
 ```
