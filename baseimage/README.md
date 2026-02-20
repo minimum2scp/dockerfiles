@@ -196,9 +196,9 @@ ii   mount                        2.41.3-3                        amd64  tools f
 ii   ncurses-base                 6.6+20251231-1                  all    basic terminal type definitions
 ii   ncurses-bin                  6.6+20251231-1                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                          amd64  NET-3 networking toolkit
-ii   openssh-client               1:10.2p1-3                      amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:10.2p1-3                      amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.2p1-3                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:10.2p1-5                      amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:10.2p1-5                      amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.2p1-5                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.5.5-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.5.5-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.23                            all    Orphaned System-V-like init scripts
@@ -218,7 +218,7 @@ ii   systemd-standalone-sysusers  259.1-1                         amd64  standal
 ii   sysv-rc                      3.15-6                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.15-6                          amd64  System-V-like init
 ii   sysvinit-utils               3.15-6                          amd64  System-V-like utilities
-ii   tar                          1.35+dfsg-3.1                   amd64  GNU version of the tar archiving utility
+ii   tar                          1.35+dfsg-4                     amd64  GNU version of the tar archiving utility
 ii   tree                         2.3.1-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2025c-3                         all    time zone and daylight-saving time data
 ii   ucf                          3.0052                          all    Update Configuration File(s): preserve user changes to config files
