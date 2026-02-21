@@ -47,7 +47,7 @@ ii   libbz2-1.0                1.0.8-6+b1                 amd64  high-quality bl
 ii   libc-bin                  2.42-13                    amd64  GNU C Library: Binaries
 ii   libc-gconv-modules-extra  2.42-13                    amd64  GNU C Library: Non-essential gconv modules
 ii   libc6                     2.42-13                    amd64  GNU C Library: Shared libraries
-ii   libcap-ng0                0.8.5-4+b2                 amd64  alternate POSIX capabilities library
+ii   libcap-ng0                0.9.1-1                    amd64  alternate POSIX capabilities library
 ii   libcap2                   1:2.75-10+b5               amd64  POSIX 1003.1e capabilities (library)
 ii   libcrypt1                 1:4.5.1-1                  amd64  libcrypt shared library
 ii   libdb5.3t64               5.3.28+dfsg2-11            amd64  Berkeley v5.3 Database Libraries [runtime]
