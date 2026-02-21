@@ -1266,7 +1266,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "62",
+    "Installed-Size": "61",
     "Origin": "",
     "Package": "libcap-ng0",
     "Pre-Depends": "",
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.8.5-4+b2",
+    "Version": "0.9.1-1",
     "binary:Package": "libcap-ng0:amd64",
     "binary:Summary": "alternate POSIX capabilities library",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap-ng",
-    "source:Version": "0.8.5-4"
+    "source:Version": "0.9.1-1"
   },
   {
     "Architecture": "amd64",
