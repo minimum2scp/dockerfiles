@@ -167,6 +167,12 @@ describe 'minimum2scp/baseimage-trixie' do
     describe file('/tmp/build') do
       it { should_not be_directory }
     end
+
+    describe command('etckeeper vcs config get gc.auto') do
+      its(:stdout){ should eq "0\n" }
+      its(:stderr){ should eq "" }
+      its(:exit_status){ should eq 0 }
+    end
   end
 
 

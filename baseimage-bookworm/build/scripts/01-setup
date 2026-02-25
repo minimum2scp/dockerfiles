@@ -27,6 +27,7 @@ git config --global user.email "root@`hostname`"
 git config --global user.name "root"
 sed -i -e 's@^GIT_COMMIT_OPTIONS=""$@GIT_COMMIT_OPTIONS="-v"@' /etc/etckeeper/etckeeper.conf
 etckeeper commit "etckeeper: set -v to GIT_COMMIT_OPTIONS"
+etckeeper vcs config gc.auto 0
 
 ##
 ## configure locales
