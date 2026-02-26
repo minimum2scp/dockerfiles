@@ -92,7 +92,7 @@ ii   init-system-helpers          1.69                            all    helper 
 ii   initscripts                  3.15-6                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-3                         amd64  access control list - shared library
-ii   libapparmor1                 4.1.6-2                         amd64  changehat AppArmor library
+ii   libapparmor1                 4.1.6-3                         amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.1.16                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-4                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                       all    Dynamic library for security auditing - common files
@@ -135,14 +135,14 @@ ii   libkrb5-3                    1.22.1-2                        amd64  MIT Ker
 ii   libkrb5support0              1.22.1-2                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap2                     2.6.10+dfsg-1+b1                amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.9-1                         amd64  log normalizing library
-ii   liblz4-1                     1.10.0-7                        amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                     1.10.0-8                        amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.8.2-2                         amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b2                      amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.41.3-4                        amd64  device mounting library
 ii   libncursesw6                 6.6+20251231-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10.2-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.25-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14                1.68.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14                1.68.0-2                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnghttp3-9                 1.12.0-1                        amd64  HTTP/3 mapping over QUIC and QPACK (library)
 ii   libngtcp2-16                 1.16.0-1                        amd64  QUIC protocol library
 ii   libngtcp2-crypto-gnutls8     1.16.0-1                        amd64  crypto helper library for with GnuTLS backend
@@ -172,13 +172,13 @@ ii   libsqlite3-0                 3.46.1-9                        amd64  SQLite 
 ii   libssh2-1t64                 1.11.1-1+b1                     amd64  SSH2 client-side library
 ii   libssl3t64                   3.5.5-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   15.2.0-14                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  259.1-1                         amd64  systemd utility library
+ii   libsystemd0                  260~rc1-2                       amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b5                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.6+20251231-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-2+b1                      amd64  universal charset detection library - shared library
-ii   libudev1                     259.1-1                         amd64  libudev shared library
+ii   libudev1                     260~rc1-2                       amd64  libudev shared library
 ii   libunistring5                1.3-2+b1                        amd64  Unicode string library for C
 ii   libuuid1                     2.41.3-4                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36+b2                     amd64  Wietse Venema's TCP wrappers library
@@ -214,7 +214,7 @@ ii   sensible-utils               0.0.26                          all    Utiliti
 ii   sqv                          1.3.0-5                         amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-4                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  259.1-1                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  260~rc1-2                       amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.15-6                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.15-6                          amd64  System-V-like init
 ii   sysvinit-utils               3.15-6                          amd64  System-V-like utilities

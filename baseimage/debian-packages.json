@@ -902,7 +902,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "115",
+    "Installed-Size": "107",
     "Origin": "",
     "Package": "libapparmor1",
     "Pre-Depends": "",
@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.1.6-2",
+    "Version": "4.1.6-3",
     "binary:Package": "libapparmor1:amd64",
     "binary:Summary": "changehat AppArmor library",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apparmor",
-    "source:Version": "4.1.6-2"
+    "source:Version": "4.1.6-3"
   },
   {
     "Architecture": "amd64",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.10.0-7",
+    "Version": "1.10.0-8",
     "binary:Package": "liblz4-1:amd64",
     "binary:Summary": "Fast LZ compression algorithm library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lz4",
-    "source:Version": "1.10.0-7"
+    "source:Version": "1.10.0-8"
   },
   {
     "Architecture": "amd64",
@@ -2302,7 +2302,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "223",
+    "Installed-Size": "222",
     "Origin": "",
     "Package": "libnghttp2-14",
     "Pre-Depends": "",
@@ -2313,7 +2313,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.68.0-1",
+    "Version": "1.68.0-2",
     "binary:Package": "libnghttp2-14:amd64",
     "binary:Summary": "library implementing HTTP/2 protocol (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -2321,7 +2321,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nghttp2",
-    "source:Version": "1.68.0-1"
+    "source:Version": "1.68.0-2"
   },
   {
     "Architecture": "amd64",
@@ -3142,7 +3142,7 @@
     "Depends": "libc6 (>= 2.39)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1242",
+    "Installed-Size": "1218",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "259.1-1",
+    "Version": "260~rc1-2",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "259.1-1"
+    "source:Version": "260~rc1-2"
   },
   {
     "Architecture": "amd64",
@@ -3310,7 +3310,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "363",
+    "Installed-Size": "343",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "259.1-1",
+    "Version": "260~rc1-2",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "259.1-1"
+    "source:Version": "260~rc1-2"
   },
   {
     "Architecture": "amd64",
@@ -4315,21 +4315,21 @@
     "Architecture": "amd64",
     "Conflicts": "systemd-sysusers",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.38), libcrypt1 (>= 1:4.4.0)",
+    "Depends": "libc6 (>= 2.39), libssl3t64 (>= 3.0.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "358",
+    "Installed-Size": "819",
     "Origin": "",
     "Package": "systemd-standalone-sysusers",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-sysusers (= 259.1-1)",
-    "Recommends": "libaudit1, libblkid1, libmount1, libselinux1",
+    "Provides": "systemd-sysusers (= 260~rc1-2)",
+    "Recommends": "libaudit1, libblkid1, libcrypt1, libmount1, libselinux1",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "libcryptsetup12, libidn2-0, libtss2-esys-3.0.2-0t64, libtss2-mu-4.0.1-0t64, libtss2-rc0t64",
-    "Version": "259.1-1",
+    "Version": "260~rc1-2",
     "binary:Package": "systemd-standalone-sysusers",
     "binary:Summary": "standalone sysusers binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4337,7 +4337,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "259.1-1"
+    "source:Version": "260~rc1-2"
   },
   {
     "Architecture": "all",
