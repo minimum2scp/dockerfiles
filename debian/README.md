@@ -91,7 +91,7 @@ ii   sed                       4.9-2                      amd64  GNU stream edit
 ii   sqv                       1.3.0-5                    amd64  OpenPGP signature verification program from Sequoia
 ii   sysvinit-utils            3.15-6                     amd64  System-V-like utilities
 ii   tar                       1.35+dfsg-4                amd64  GNU version of the tar archiving utility
-ii   tzdata                    2025c-3                    all    time zone and daylight-saving time data
+ii   tzdata                    2026a-1                    all    time zone and daylight-saving time data
 ii   util-linux                2.41.3-4                   amd64  miscellaneous system utilities
 ii   zlib1g                    1:1.3.dfsg+really1.3.1-3   amd64  compression library - runtime
 ```
