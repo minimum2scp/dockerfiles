@@ -29,7 +29,7 @@ ii   debconf                   1.5.92                     all    Debian configur
 ii   debian-archive-keyring    2025.1                     all    OpenPGP archive certificates of the Debian archive
 ii   debianutils               5.23.2                     amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                 1:3.12-1                   amd64  File comparison utilities
-ii   dpkg                      1.23.5                     amd64  Debian package management system
+ii   dpkg                      1.23.6                     amd64  Debian package management system
 ii   findutils                 4.10.0-3                   amd64  utilities for finding files--find, xargs
 ii   gcc-15-base               15.2.0-14                  amd64  GCC, the GNU Compiler Collection (base package)
 ii   grep                      3.12-1                     amd64  GNU grep, egrep and fgrep
@@ -72,9 +72,9 @@ ii   libsepol2                 3.9-2                      amd64  SELinux library
 ii   libsmartcols1             2.41.3-4                   amd64  smart column output alignment library
 ii   libssl3t64                3.5.5-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                15.2.0-14                  amd64  GNU Standard C++ Library v3
-ii   libsystemd0               260~rc1-2                  amd64  systemd utility library
+ii   libsystemd0               260~rc2-1                  amd64  systemd utility library
 ii   libtinfo6                 6.6+20251231-1             amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                  260~rc1-2                  amd64  libudev shared library
+ii   libudev1                  260~rc2-1                  amd64  libudev shared library
 ii   libuuid1                  2.41.3-4                   amd64  Universally Unique ID library
 ii   libxxhash0                0.8.3-2+b1                 amd64  shared library for xxhash
 ii   libzstd1                  1.5.7+dfsg-3+b1            amd64  fast lossless compression algorithm
