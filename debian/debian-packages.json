@@ -1742,7 +1742,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "296",
+    "Installed-Size": "295",
     "Origin": "",
     "Package": "mawk",
     "Pre-Depends": "",
@@ -1753,7 +1753,7 @@
     "Section": "interpreters",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.3.4.20260129-1",
+    "Version": "1.3.4.20260302-1",
     "binary:Package": "mawk",
     "binary:Summary": "Pattern scanning and text processing language",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "mawk",
-    "source:Version": "1.3.4.20260129-1"
+    "source:Version": "1.3.4.20260302-1"
   },
   {
     "Architecture": "amd64",
