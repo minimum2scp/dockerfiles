@@ -78,7 +78,7 @@ ii   debconf                      1.5.92                          all    Debian 
 ii   debian-archive-keyring       2025.1                          all    OpenPGP archive certificates of the Debian archive
 ii   debianutils                  5.23.2                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.12-1                        amd64  File comparison utilities
-ii   dpkg                         1.23.6                          amd64  Debian package management system
+ii   dpkg                         1.23.7                          amd64  Debian package management system
 ii   etckeeper                    1.18.23-2                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
 ii   gcc-15-base                  15.2.0-14                       amd64  GCC, the GNU Compiler Collection (base package)
@@ -108,7 +108,7 @@ ii   libc6                        2.42-13                         amd64  GNU C L
 ii   libcap-ng0                   0.9.1-1                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.75-10+b7                    amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.1                      amd64  library for parsing and generating CBOR (RFC 7049)
-ii   libcom-err2                  1.47.2-3+b8                     amd64  common error description library
+ii   libcom-err2                  1.47.4-1                        amd64  common error description library
 ii   libcrypt1                    1:4.5.1-1                       amd64  libcrypt shared library
 ii   libcurl3t64-gnutls           8.19.0~rc3-1                    amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.19.0~rc3-1                    amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -143,7 +143,7 @@ ii   libncursesw6                 6.6+20251231-1                  amd64  shared 
 ii   libnettle8t64                3.10.2-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.25-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.68.0-2                        amd64  library implementing HTTP/2 protocol (shared library)
-ii   libnghttp3-9                 1.12.0-1                        amd64  HTTP/3 mapping over QUIC and QPACK (library)
+ii   libnghttp3-9                 1.15.0-1                        amd64  HTTP/3 mapping over QUIC and QPACK (library)
 ii   libngtcp2-16                 1.16.0-1                        amd64  QUIC protocol library
 ii   libngtcp2-crypto-gnutls8     1.16.0-1                        amd64  crypto helper library for with GnuTLS backend
 ii   libngtcp2-crypto-ossl0       1.16.0-1                        amd64  crypto helper library for with OpenSSL backend

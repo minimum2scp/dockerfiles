@@ -510,7 +510,7 @@
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6406",
+    "Installed-Size": "6399",
     "Origin": "",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.38), liblzma5 (>= 5.4.0), libmd0 (>= 0.0.0), libselinux1 (>= 3.1~), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.23.6",
+    "Version": "1.23.7",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.23.6"
+    "source:Version": "1.23.7"
   },
   {
     "Architecture": "all",
@@ -1350,18 +1350,18 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "64",
+    "Installed-Size": "58",
     "Origin": "",
     "Package": "libcom-err2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcom-err2t64 (= 1.47.2-3+b8), libcomerr2 (= 1.47.2-3+b8)",
+    "Provides": "libcom-err2t64 (= 1.47.4-1), libcomerr2 (= 1.47.4-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.47.2-3+b8",
+    "Version": "1.47.4-1",
     "binary:Package": "libcom-err2:amd64",
     "binary:Summary": "common error description library",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.47.2-3"
+    "source:Version": "1.47.4-1"
   },
   {
     "Architecture": "amd64",
@@ -2330,7 +2330,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "207",
+    "Installed-Size": "206",
     "Origin": "",
     "Package": "libnghttp3-9",
     "Pre-Depends": "",
@@ -2341,7 +2341,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.12.0-1",
+    "Version": "1.15.0-1",
     "binary:Package": "libnghttp3-9:amd64",
     "binary:Summary": "HTTP/3 mapping over QUIC and QPACK (library)",
     "db:Status-Abbrev": "ii ",
@@ -2349,7 +2349,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nghttp3",
-    "source:Version": "1.12.0-1"
+    "source:Version": "1.15.0-1"
   },
   {
     "Architecture": "amd64",
