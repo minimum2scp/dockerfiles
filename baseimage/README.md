@@ -81,7 +81,7 @@ ii   diffutils                    1:3.12-1                        amd64  File co
 ii   dpkg                         1.23.7                          amd64  Debian package management system
 ii   etckeeper                    1.18.23-2                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
-ii   gcc-15-base                  15.2.0-14                       amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-16-base                  16-20260307-1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.53.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.53.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.12-1                          amd64  GNU grep, egrep and fgrep
@@ -121,7 +121,7 @@ ii   libexpat1                    2.7.4-1                         amd64  XML par
 ii   libfastjson4                 1.2304.0-2+b1                   amd64  fast json library for C
 ii   libffi8                      3.5.2-3+b1                      amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.16.0-2+b1                     amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    15.2.0-14                       amd64  GCC support library
+ii   libgcc-s1                    16-20260307-1                   amd64  GCC support library
 ii   libgdbm-compat4t64           1.26-1+b1                       amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.26-1+b1                       amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-5+b1               amd64  Multiprecision arithmetic library
@@ -144,9 +144,9 @@ ii   libnettle8t64                3.10.2-1                        amd64  low lev
 ii   libnewt0.52                  0.52.25-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.68.0-2                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnghttp3-9                 1.15.0-1                        amd64  HTTP/3 mapping over QUIC and QPACK (library)
-ii   libngtcp2-16                 1.16.0-1                        amd64  QUIC protocol library
-ii   libngtcp2-crypto-gnutls8     1.16.0-1                        amd64  crypto helper library for with GnuTLS backend
-ii   libngtcp2-crypto-ossl0       1.16.0-1                        amd64  crypto helper library for with OpenSSL backend
+ii   libngtcp2-16                 1.21.0-1                        amd64  QUIC protocol library
+ii   libngtcp2-crypto-gnutls8     1.21.0-1                        amd64  crypto helper library for with GnuTLS backend
+ii   libngtcp2-crypto-ossl0       1.21.0-1                        amd64  crypto helper library for with OpenSSL backend
 ii   libp11-kit0                  0.26.2-2                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.7.0-5+b1                      amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.7.0-5+b1                      amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -171,7 +171,7 @@ ii   libsmartcols1                2.41.3-4                        amd64  smart c
 ii   libsqlite3-0                 3.46.1-9+b1                     amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-1+b1                     amd64  SSH2 client-side library
 ii   libssl3t64                   3.5.5-1                         amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   15.2.0-14                       amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   16-20260307-1                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  260~rc2-1                       amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b5                      amd64  get display widths of characters on the terminal
@@ -228,7 +228,7 @@ ii   vim-common                   2:9.1.2141-1                    all    Vi IMpr
 ii   vim-tiny                     2:9.1.2141-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-2                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-3        amd64  compression library - runtime
-ii   zsh                          5.9-8+b19                       amd64  shell with lots of features
+ii   zsh                          5.9-8+b20                       amd64  shell with lots of features
 ii   zsh-common                   5.9-8                           all    architecture independent files for Zsh
 ii   zstd                         1.5.7+dfsg-3+b1                 amd64  fast lossless compression algorithm -- CLI tool
 ```
