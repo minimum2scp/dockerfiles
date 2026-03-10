@@ -224,8 +224,8 @@ ii   tzdata                       2026a-1                         all    time zo
 ii   ucf                          3.0052                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                          amd64  De-archiver for .zip files
 ii   util-linux                   2.41.3-4                        amd64  miscellaneous system utilities
-ii   vim-common                   2:9.1.2141-1                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.1.2141-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.2.0119-1                    all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.2.0119-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-2                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-3        amd64  compression library - runtime
 ii   zsh                          5.9-8+b22                       amd64  shell with lots of features
