@@ -92,7 +92,7 @@ ii   init-system-helpers          1.69                            all    helper 
 ii   initscripts                  3.15-6                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-3                         amd64  access control list - shared library
-ii   libapparmor1                 4.1.6-3                         amd64  changehat AppArmor library
+ii   libapparmor1                 4.1.7-1                         amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.1.16                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-4                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                       all    Dynamic library for security auditing - common files
@@ -117,7 +117,7 @@ ii   libdebconfclient0            0.282+b2                        amd64  Debian 
 ii   libedit2                     3.1-20251016-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17030-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-2+b1                     amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.7.4-1                         amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.7.5-1                         amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2304.0-2+b1                   amd64  fast json library for C
 ii   libffi8                      3.5.2-3+b1                      amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.16.0-2+b1                     amd64  library for generating and verifying FIDO 2.0 objects
@@ -172,13 +172,13 @@ ii   libsqlite3-0                 3.46.1-9+b1                     amd64  SQLite 
 ii   libssh2-1t64                 1.11.1-1+b1                     amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.1-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   16-20260315-1                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  260~rc4-1                       amd64  systemd utility library
+ii   libsystemd0                  260-1                           amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b5                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.6+20251231-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-2+b1                      amd64  universal charset detection library - shared library
-ii   libudev1                     260~rc4-1                       amd64  libudev shared library
+ii   libudev1                     260-1                           amd64  libudev shared library
 ii   libunistring5                1.4.2-1                         amd64  Unicode string library for C
 ii   libuuid1                     2.41.3-4                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36+b2                     amd64  Wietse Venema's TCP wrappers library
@@ -214,7 +214,7 @@ ii   sensible-utils               0.0.26                          all    Utiliti
 ii   sqv                          1.3.0-5                         amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-4                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  260~rc4-1                       amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  260-1                           amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.15-6                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.15-6                          amd64  System-V-like init
 ii   sysvinit-utils               3.15-6                          amd64  System-V-like utilities
