@@ -169,8 +169,8 @@ ii   libsepol2                    3.9-2                           amd64  SELinux
 ii   libslang2                    2.3.3-5+b3                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.41.3-4                        amd64  smart column output alignment library
 ii   libsqlite3-0                 3.46.1-9+b1                     amd64  SQLite 3 shared library
-ii   libssh2-1t64                 1.11.1-1+b1                     amd64  SSH2 client-side library
-ii   libssl3t64                   3.6.1-2                         amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssh2-1t64                 1.11.1-2                        amd64  SSH2 client-side library
+ii   libssl3t64                   3.6.1-3                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   16-20260315-1                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  260-1                           amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2                        amd64  Manage ASN.1 structures (runtime)
@@ -199,8 +199,8 @@ ii   net-tools                    2.10-2                          amd64  NET-3 n
 ii   openssh-client               1:10.2p1-5                      amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:10.2p1-5                      amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:10.2p1-5                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.6.1-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   openssl-provider-legacy      3.6.1-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                      3.6.1-3                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl-provider-legacy      3.6.1-3                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.23                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.19.3-1                      amd64  change and administer password and group data
 ii   perl                         5.40.1-7                        amd64  Larry Wall's Practical Extraction and Report Language
@@ -208,7 +208,7 @@ ii   perl-base                    5.40.1-7                        amd64  minimal
 ii   perl-modules-5.40            5.40.1-7                        all    Core Perl modules
 ii   procps                       2:4.0.4-9+b1                    amd64  /proc file system utilities
 ii   rsyslog                      8.2512.0-3                      amd64  reliable system and kernel logging daemon
-ii   runit-helper                 2.16.5                          all    dh-runit implementation detail
+ii   runit-helper                 2.16.6                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                          all    Utilities for sensible alternative selection
 ii   sqv                          1.3.0-5                         amd64  OpenPGP signature verification program from Sequoia
