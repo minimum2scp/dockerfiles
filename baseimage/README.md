@@ -219,13 +219,13 @@ ii   sysv-rc                      3.15-6                          all    System-
 ii   sysvinit-core                3.15-6                          amd64  System-V-like init
 ii   sysvinit-utils               3.15-6                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-4                     amd64  GNU version of the tar archiving utility
-ii   tree                         2.3.1-1                         amd64  displays an indented directory tree, in color
+ii   tree                         2.3.2-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2026a-1                         all    time zone and daylight-saving time data
 ii   ucf                          3.0053                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                          amd64  De-archiver for .zip files
 ii   util-linux                   2.41.3-4                        amd64  miscellaneous system utilities
-ii   vim-common                   2:9.2.0136-1                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.2.0136-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.2.0218-1                    all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.2.0218-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-2                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-3        amd64  compression library - runtime
 ii   zsh                          5.9-8+b22                       amd64  shell with lots of features
