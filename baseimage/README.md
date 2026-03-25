@@ -157,7 +157,7 @@ ii   libperl5.40                  5.40.1-7                        amd64  shared 
 ii   libpipeline1                 1.5.8-2                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2+b1                  amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-9+b1                    amd64  library for accessing process information from /proc
-ii   libpsl5t64                   0.21.2-1.1+b2                   amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5t64                   0.21.5-1                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-3+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-10                 amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-10                 amd64  Cyrus SASL - pluggable authentication modules (DB)
