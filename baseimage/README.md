@@ -207,7 +207,7 @@ ii   perl                         5.40.1-7                        amd64  Larry W
 ii   perl-base                    5.40.1-7                        amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-7                        all    Core Perl modules
 ii   procps                       2:4.0.4-9+b1                    amd64  /proc file system utilities
-ii   rsyslog                      8.2512.0-3                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2602.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.6                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                          all    Utilities for sensible alternative selection
