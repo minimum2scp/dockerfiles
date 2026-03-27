@@ -2106,7 +2106,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "172",
+    "Installed-Size": "169",
     "Origin": "",
     "Package": "zlib1g",
     "Pre-Depends": "",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:1.3.dfsg+really1.3.1-3",
+    "Version": "1:1.3.dfsg+really1.3.2-1",
     "binary:Package": "zlib1g:amd64",
     "binary:Summary": "compression library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2125,6 +2125,6 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zlib",
-    "source:Version": "1:1.3.dfsg+really1.3.1-3"
+    "source:Version": "1:1.3.dfsg+really1.3.2-1"
   }
 ]
