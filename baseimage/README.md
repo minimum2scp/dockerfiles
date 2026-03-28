@@ -101,10 +101,10 @@ ii   libblkid1                    2.41.3-4                        amd64  block d
 ii   libbrotli1                   1.2.0-3                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2+b1                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6+b1                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.42-13                         amd64  GNU C Library: Binaries
-ii   libc-gconv-modules-extra     2.42-13                         amd64  GNU C Library: Non-essential gconv modules
-ii   libc-l10n                    2.42-13                         all    GNU C Library: localization files
-ii   libc6                        2.42-13                         amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.42-14                         amd64  GNU C Library: Binaries
+ii   libc-gconv-modules-extra     2.42-14                         amd64  GNU C Library: Non-essential gconv modules
+ii   libc-l10n                    2.42-14                         all    GNU C Library: localization files
+ii   libc6                        2.42-14                         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.9.1-1                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.75-10+b9                    amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.1                      amd64  library for parsing and generating CBOR (RFC 7049)
@@ -119,7 +119,7 @@ ii   liberror-perl                0.17030-1                       all    Perl mo
 ii   libestr0                     0.1.11-2+b1                     amd64  Helper functions for handling strings (lib)
 ii   libexpat1                    2.7.5-1                         amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2304.0-2+b1                   amd64  fast json library for C
-ii   libffi8                      3.5.2-3+b1                      amd64  Foreign Function Interface library runtime
+ii   libffi8                      3.5.2-4                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.16.0-2+b1                     amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                    16-20260322-1                   amd64  GCC support library
 ii   libgdbm-compat4t64           1.26-1+b1                       amd64  GNU dbm database routines (legacy support runtime version) 
@@ -186,7 +186,7 @@ ii   libwtmpdb0                   0.75.0-5                        amd64  wtmp da
 ii   libxxhash0                   0.8.3-2+b1                      amd64  shared library for xxhash
 ii   libzstd1                     1.5.7+dfsg-3+b1                 amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.42-13                         all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.42-14                         all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.41.3-4       amd64  system login tools
 ii   login.defs                   1:4.19.3-1                      all    system user management configuration
 ii   lv                           4.51-10.1                       amd64  Powerful Multilingual File Viewer
@@ -196,9 +196,9 @@ ii   mount                        2.41.3-4                        amd64  tools f
 ii   ncurses-base                 6.6+20251231-1                  all    basic terminal type definitions
 ii   ncurses-bin                  6.6+20251231-1                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                          amd64  NET-3 networking toolkit
-ii   openssh-client               1:10.2p1-5                      amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:10.2p1-5                      amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.2p1-5                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:10.2p1-6                      amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:10.2p1-6                      amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.2p1-6                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.6.1-3                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.6.1-3                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.23                            all    Orphaned System-V-like init scripts
