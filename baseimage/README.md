@@ -60,7 +60,7 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                      3.154                           all    add and remove users and groups
+ii   adduser                      3.155                           all    add and remove users and groups
 ii   apt                          3.1.16                          amd64  commandline package manager
 ii   base-files                   14                              amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.8                           amd64  Debian base system master password and group files
@@ -213,7 +213,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.26                          all    Utilities for sensible alternative selection
 ii   sqv                          1.3.0-5                         amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                          amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.17p2-4                      amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.17p2-5                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  260.1-1                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.15-6                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.15-6                          amd64  System-V-like init
