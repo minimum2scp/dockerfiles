@@ -105,7 +105,7 @@ ii   libc-bin                     2.42-14                         amd64  GNU C L
 ii   libc-gconv-modules-extra     2.42-14                         amd64  GNU C Library: Non-essential gconv modules
 ii   libc-l10n                    2.42-14                         all    GNU C Library: localization files
 ii   libc6                        2.42-14                         amd64  GNU C Library: Shared libraries
-ii   libcap-ng0                   0.9.1-1                         amd64  alternate POSIX capabilities library
+ii   libcap-ng0                   0.9.2-1                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.75-10+b9                    amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.1                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1                        amd64  common error description library
@@ -142,7 +142,7 @@ ii   libmount1                    2.41.3-4                        amd64  device 
 ii   libncursesw6                 6.6+20251231-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10.2-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.25-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14                1.68.0-2                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14                1.68.1-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnghttp3-9                 1.15.0-1                        amd64  HTTP/3 mapping over QUIC and QPACK (library)
 ii   libngtcp2-16                 1.21.0-1                        amd64  QUIC protocol library
 ii   libngtcp2-crypto-gnutls8     1.21.0-1                        amd64  crypto helper library for with GnuTLS backend
