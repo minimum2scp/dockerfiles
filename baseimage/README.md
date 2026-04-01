@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.41.3-4                      amd64  basic u
 ii   bzip2                        1.0.8-6+b1                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20260223                        all    Common CA certificates
 ii   coreutils                    9.10-1                          amd64  GNU core utilities
-ii   cron                         3.0pl1-206                      amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-206                      all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-207                      amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-207                      all    process scheduling daemon's configuration files
 ii   curl                         8.19.0-3                        amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                       amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                          all    Debian configuration management system
@@ -89,7 +89,7 @@ ii   groff-base                   1.23.0-10                       amd64  GNU tro
 ii   gzip                         1.13-1                          amd64  GNU compression utilities
 ii   hostname                     3.25                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.69                            all    helper tools for all init systems
-ii   initscripts                  3.15-6                          all    scripts for initializing and shutting down the system
+ii   initscripts                  3.18-1                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-3                         amd64  access control list - shared library
 ii   libapparmor1                 4.1.7-1                         amd64  changehat AppArmor library
@@ -215,9 +215,9 @@ ii   sqv                          1.3.0-5                         amd64  OpenPGP
 ii   startpar                     0.67-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-5                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  260.1-1                         amd64  standalone sysusers binary for use in non-systemd systems
-ii   sysv-rc                      3.15-6                          all    System-V-like runlevel change mechanism
-ii   sysvinit-core                3.15-6                          amd64  System-V-like init
-ii   sysvinit-utils               3.15-6                          amd64  System-V-like utilities
+ii   sysv-rc                      3.18-1                          all    System-V-like runlevel change mechanism
+ii   sysvinit-core                3.18-1                          amd64  System-V-like init
+ii   sysvinit-utils               3.18-1                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-4                     amd64  GNU version of the tar archiving utility
 ii   tree                         2.3.2-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2026a-1                         all    time zone and daylight-saving time data

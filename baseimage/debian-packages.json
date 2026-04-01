@@ -286,10 +286,10 @@
     "Depends": "libc6 (>= 2.38), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), sensible-utils, libpam-runtime",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "250",
+    "Installed-Size": "247",
     "Origin": "",
     "Package": "cron",
-    "Pre-Depends": "init-system-helpers (>= 1.54~), cron-daemon-common",
+    "Pre-Depends": "cron-daemon-common",
     "Priority": "important",
     "Provides": "cron-daemon",
     "Recommends": "default-mta | mail-transport-agent",
@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron, logrotate, checksecurity, supercat, bat",
-    "Version": "3.0pl1-206",
+    "Version": "3.0pl1-207",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-206"
+    "source:Version": "3.0pl1-207"
   },
   {
     "Architecture": "all",
@@ -314,7 +314,7 @@
     "Depends": "systemd | systemd-standalone-sysusers | systemd-sysusers, adduser",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "57",
+    "Installed-Size": "54",
     "Origin": "",
     "Package": "cron-daemon-common",
     "Pre-Depends": "",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-206",
+    "Version": "3.0pl1-207",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-206"
+    "source:Version": "3.0pl1-207"
   },
   {
     "Architecture": "amd64",
@@ -818,7 +818,7 @@
     "Depends": "sysvinit-utils (>= 3.05-1), sysv-rc | file-rc | openrc",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "203",
+    "Installed-Size": "197",
     "Origin": "",
     "Package": "initscripts",
     "Pre-Depends": "",
@@ -829,7 +829,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.15-6",
+    "Version": "3.18-1",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.15-6"
+    "source:Version": "3.18-1"
   },
   {
     "Architecture": "amd64",
@@ -4346,7 +4346,7 @@
     "Depends": "insserv, startpar (>= 0.62-1~), sysvinit-utils (>= 3.05-1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "91",
+    "Installed-Size": "85",
     "Origin": "",
     "Package": "sysv-rc",
     "Pre-Depends": "",
@@ -4357,7 +4357,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.15-6",
+    "Version": "3.18-1",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4365,7 +4365,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.15-6"
+    "source:Version": "3.18-1"
   },
   {
     "Architecture": "amd64",
@@ -4374,7 +4374,7 @@
     "Depends": "initscripts, sysv-rc | file-rc | openrc, sysvinit-utils (>= 2.86.ds1-66), mount, login, libc6 (>= 2.38), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "369",
+    "Installed-Size": "365",
     "Origin": "",
     "Package": "sysvinit-core",
     "Pre-Depends": "",
@@ -4385,7 +4385,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "3.15-6",
+    "Version": "3.18-1",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init",
     "db:Status-Abbrev": "ii ",
@@ -4393,7 +4393,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.15-6"
+    "source:Version": "3.18-1"
   },
   {
     "Architecture": "amd64",
@@ -4402,7 +4402,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "106",
+    "Installed-Size": "100",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -4413,7 +4413,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.15-6",
+    "Version": "3.18-1",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4421,7 +4421,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.15-6"
+    "source:Version": "3.18-1"
   },
   {
     "Architecture": "amd64",
