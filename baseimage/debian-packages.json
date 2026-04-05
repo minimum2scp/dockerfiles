@@ -2775,21 +2775,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg1-10), libc6 (>= 2.38), libssl3t64 (>= 3.0.0)",
+    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg1-11), libc6 (>= 2.38), libssl3t64 (>= 3.0.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "155",
+    "Installed-Size": "153",
     "Origin": "",
     "Package": "libsasl2-2",
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg1-10)",
+    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg1-11)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg1-10",
+    "Version": "2.1.28+dfsg1-11",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -2797,7 +2797,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg1-10"
+    "source:Version": "2.1.28+dfsg1-11"
   },
   {
     "Architecture": "amd64",
@@ -2806,7 +2806,7 @@
     "Depends": "libc6 (>= 2.14), libdb5.3t64",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "69",
+    "Installed-Size": "67",
     "Origin": "",
     "Package": "libsasl2-modules-db",
     "Pre-Depends": "",
@@ -2817,7 +2817,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg1-10",
+    "Version": "2.1.28+dfsg1-11",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -2825,7 +2825,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg1-10"
+    "source:Version": "2.1.28+dfsg1-11"
   },
   {
     "Architecture": "amd64",
@@ -2862,7 +2862,7 @@
     "Depends": "libc6 (>= 2.38), libpcre2-8-0 (>= 10.22)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "222",
+    "Installed-Size": "225",
     "Origin": "",
     "Package": "libselinux1",
     "Pre-Depends": "",
@@ -2873,7 +2873,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.9-4+b1",
+    "Version": "3.10-1",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -2881,7 +2881,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libselinux",
-    "source:Version": "3.9-4"
+    "source:Version": "3.10-1"
   },
   {
     "Architecture": "all",
@@ -2890,7 +2890,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "21",
+    "Installed-Size": "20",
     "Origin": "",
     "Package": "libsemanage-common",
     "Pre-Depends": "",
@@ -2901,7 +2901,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.9-1",
+    "Version": "3.10-1",
     "binary:Package": "libsemanage-common",
     "binary:Summary": "Common files for SELinux policy management libraries",
     "db:Status-Abbrev": "ii ",
@@ -2909,16 +2909,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "3.9-1"
+    "source:Version": "3.10-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libsemanage-common (>= 3.9-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.38), libselinux1 (>= 3.1~), libsepol2 (>= 3.9)",
+    "Depends": "libsemanage-common (>= 3.10-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.38), libselinux1 (>= 3.10), libsepol2 (>= 3.10)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "318",
+    "Installed-Size": "300",
     "Origin": "",
     "Package": "libsemanage2",
     "Pre-Depends": "",
@@ -2929,7 +2929,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.9-1+b1",
+    "Version": "3.10-1",
     "binary:Package": "libsemanage2:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",
@@ -2937,7 +2937,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "3.9-1"
+    "source:Version": "3.10-1"
   },
   {
     "Architecture": "amd64",
@@ -2946,7 +2946,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "843",
+    "Installed-Size": "823",
     "Origin": "",
     "Package": "libsepol2",
     "Pre-Depends": "",
@@ -2957,7 +2957,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.9-2",
+    "Version": "3.10-1",
     "binary:Package": "libsepol2:amd64",
     "binary:Summary": "SELinux library for manipulating binary security policies",
     "db:Status-Abbrev": "ii ",
@@ -2965,7 +2965,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsepol",
-    "source:Version": "3.9-2"
+    "source:Version": "3.10-1"
   },
   {
     "Architecture": "amd64",

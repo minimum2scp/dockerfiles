@@ -159,13 +159,13 @@ ii   libpopt0                     1.19+dfsg-2+b1                  amd64  lib for
 ii   libproc2-0                   2:4.0.4-9+b1                    amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.5-1                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-3+b1  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2                   2.1.28+dfsg1-10                 amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db          2.1.28+dfsg1-10                 amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2                   2.1.28+dfsg1-11                 amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db          2.1.28+dfsg1-11                 amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.6.0-2+b1                      amd64  high level interface to Linux seccomp filter
-ii   libselinux1                  3.9-4+b1                        amd64  SELinux runtime shared libraries
-ii   libsemanage-common           3.9-1                           all    Common files for SELinux policy management libraries
-ii   libsemanage2                 3.9-1+b1                        amd64  SELinux policy management library
-ii   libsepol2                    3.9-2                           amd64  SELinux library for manipulating binary security policies
+ii   libselinux1                  3.10-1                          amd64  SELinux runtime shared libraries
+ii   libsemanage-common           3.10-1                          all    Common files for SELinux policy management libraries
+ii   libsemanage2                 3.10-1                          amd64  SELinux policy management library
+ii   libsepol2                    3.10-1                          amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-6                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.42-1                          amd64  smart column output alignment library
 ii   libsqlite3-0                 3.46.1-9+b1                     amd64  SQLite 3 shared library
