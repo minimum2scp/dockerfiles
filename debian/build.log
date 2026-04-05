@@ -11,7 +11,6 @@ I: Validating apt 3.1.16
 I: Validating base-files 14
 I: Validating base-passwd 3.6.8
 I: Validating bash 5.3-2
-I: Retrieving bsdutils 1:2.42-1
 I: Validating bsdutils 1:2.42-1
 I: Validating coreutils 9.10-1
 I: Validating dash 0.5.12-12
@@ -31,7 +30,6 @@ I: Validating libapt-pkg7.0 3.1.16
 I: Validating libattr1 1:2.5.2-4
 I: Validating libaudit-common 1:4.1.2-1
 I: Validating libaudit1 1:4.1.2-1+b1
-I: Retrieving libblkid1 2.42-1
 I: Validating libblkid1 2.42-1
 I: Validating libbsd0 0.12.2-2+b1
 I: Validating libbz2-1.0 1.0.8-6+b1
@@ -48,7 +46,6 @@ I: Validating libhogweed6t64 3.10.2-1
 I: Validating liblz4-1 1.10.0-8
 I: Validating liblzma5 5.8.2-2
 I: Validating libmd0 1.1.0-2+b2
-I: Retrieving libmount1 2.42-1
 I: Validating libmount1 2.42-1
 I: Validating libnettle8t64 3.10.2-1
 I: Validating libpam-modules 1.7.0-5+b1
@@ -57,41 +54,35 @@ I: Validating libpam-runtime 1.7.0-5
 I: Validating libpam0g 1.7.0-5+b1
 I: Validating libpcre2-8-0 10.46-1+b1
 I: Validating libseccomp2 2.6.0-2+b1
-I: Validating libselinux1 3.9-4+b1
+I: Retrieving libselinux1 3.10-1
+I: Validating libselinux1 3.10-1
 I: Validating libsemanage-common 3.9-1
 I: Validating libsemanage2 3.9-1+b1
-I: Validating libsepol2 3.9-2
-I: Retrieving libsmartcols1 2.42-1
+I: Retrieving libsepol2 3.10-1
+I: Validating libsepol2 3.10-1
 I: Validating libsmartcols1 2.42-1
 I: Validating libssl3t64 3.6.1-3
 I: Validating libstdc++6 16-20260322-1
 I: Validating libsystemd0 260.1-1
 I: Validating libtinfo6 6.6+20251231-1
 I: Validating libudev1 260.1-1
-I: Retrieving libuuid1 2.42-1
 I: Validating libuuid1 2.42-1
 I: Validating libxxhash0 0.8.3-2+b1
 I: Validating libzstd1 1.5.7+dfsg-3+b1
-I: Retrieving login 1:4.16.0-2+really2.42-1
 I: Validating login 1:4.16.0-2+really2.42-1
-I: Retrieving login.defs 1:4.19.3-2
 I: Validating login.defs 1:4.19.3-2
 I: Validating mawk 1.3.4.20260302-1
-I: Retrieving mount 2.42-1
 I: Validating mount 2.42-1
 I: Validating ncurses-base 6.6+20251231-1
 I: Validating ncurses-bin 6.6+20251231-1
 I: Validating openssl-provider-legacy 3.6.1-3
-I: Retrieving passwd 1:4.19.3-2
 I: Validating passwd 1:4.19.3-2
 I: Validating perl-base 5.40.1-7
 I: Validating sed 4.9-2
 I: Validating sqv 1.3.0-5
 I: Validating sysvinit-utils 3.18-1
 I: Validating tar 1.35+dfsg-4
-I: Retrieving tzdata 2026a-3
 I: Validating tzdata 2026a-3
-I: Retrieving util-linux 2.42-1
 I: Validating util-linux 2.42-1
 I: Validating zlib1g 1:1.3.dfsg+really1.3.2-3
 I: Chosen extractor for .deb packages: dpkg-deb
@@ -330,9 +321,28 @@ I: Configuring libc-bin...
 I: Unpacking the base system...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Hit:1 http://deb.debian.org/debian sid InRelease
+Get:1 http://deb.debian.org/debian sid InRelease [187 kB]
+Get:2 http://deb.debian.org/debian sid/main amd64 Packages.diff/Index [63.6 kB]
+Get:3 http://deb.debian.org/debian sid/main amd64 Packages T-2026-04-05-1400.15-F-2026-04-05-1400.15.pdiff [23.3 kB]
+Get:3 http://deb.debian.org/debian sid/main amd64 Packages T-2026-04-05-1400.15-F-2026-04-05-1400.15.pdiff [23.3 kB]
+Fetched 274 kB in 2s (138 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+The following packages will be upgraded:
+  libsemanage-common libsemanage2
+2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 99.2 kB of archives.
+After this operation, 19.5 kB disk space will be freed.
+Get:1 http://deb.debian.org/debian sid/main amd64 libsemanage-common all 3.10-1 [6776 B]
+Get:2 http://deb.debian.org/debian sid/main amd64 libsemanage2 amd64 3.10-1 [92.4 kB]
+Fetched 99.2 kB in 1s (163 kB/s)
+(Reading database ... 4899 files and directories currently installed.)
+Preparing to unpack .../libsemanage-common_3.10-1_all.deb ...
+Unpacking libsemanage-common (3.10-1) over (3.9-1) ...
+Preparing to unpack .../libsemanage2_3.10-1_amd64.deb ...
+Unpacking libsemanage2:amd64 (3.10-1) over (3.9-1+b1) ...
+Setting up libsemanage-common (3.10-1) ...
+Setting up libsemanage2:amd64 (3.10-1) ...
+Processing triggers for libc-bin (2.42-14) ...
