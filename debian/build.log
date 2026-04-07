@@ -7,7 +7,8 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
-I: Validating apt 3.1.16
+I: Retrieving apt 3.2.0
+I: Validating apt 3.2.0
 I: Validating base-files 14
 I: Validating base-passwd 3.6.8
 I: Validating bash 5.3-2
@@ -26,7 +27,8 @@ I: Validating gzip 1.13-1
 I: Validating hostname 3.25
 I: Validating init-system-helpers 1.69
 I: Validating libacl1 2.3.2-3
-I: Validating libapt-pkg7.0 3.1.16
+I: Retrieving libapt-pkg7.0 3.2.0
+I: Validating libapt-pkg7.0 3.2.0
 I: Validating libattr1 1:2.5.2-4
 I: Validating libaudit-common 1:4.1.2-1
 I: Validating libaudit1 1:4.1.2-1+b1
@@ -44,7 +46,8 @@ I: Validating libgcc-s1 16-20260322-1
 I: Validating libgmp10 2:6.3.0+dfsg-5+b1
 I: Validating libhogweed6t64 3.10.2-1
 I: Validating liblz4-1 1.10.0-8
-I: Validating liblzma5 5.8.2-2
+I: Retrieving liblzma5 5.8.3-1
+I: Validating liblzma5 5.8.3-1
 I: Validating libmd0 1.1.0-2+b2
 I: Validating libmount1 2.42-1
 I: Validating libnettle8t64 3.10.2-1
@@ -54,11 +57,11 @@ I: Validating libpam-runtime 1.7.0-5
 I: Validating libpam0g 1.7.0-5+b1
 I: Validating libpcre2-8-0 10.46-1+b1
 I: Validating libseccomp2 2.6.0-2+b1
-I: Retrieving libselinux1 3.10-1
 I: Validating libselinux1 3.10-1
-I: Validating libsemanage-common 3.9-1
-I: Validating libsemanage2 3.9-1+b1
-I: Retrieving libsepol2 3.10-1
+I: Retrieving libsemanage-common 3.10-1
+I: Validating libsemanage-common 3.10-1
+I: Retrieving libsemanage2 3.10-1
+I: Validating libsemanage2 3.10-1
 I: Validating libsepol2 3.10-1
 I: Validating libsmartcols1 2.42-1
 I: Validating libssl3t64 3.6.1-3
@@ -321,28 +324,9 @@ I: Configuring libc-bin...
 I: Unpacking the base system...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://deb.debian.org/debian sid InRelease [187 kB]
-Get:2 http://deb.debian.org/debian sid/main amd64 Packages.diff/Index [63.6 kB]
-Get:3 http://deb.debian.org/debian sid/main amd64 Packages T-2026-04-05-1400.15-F-2026-04-05-1400.15.pdiff [23.3 kB]
-Get:3 http://deb.debian.org/debian sid/main amd64 Packages T-2026-04-05-1400.15-F-2026-04-05-1400.15.pdiff [23.3 kB]
-Fetched 274 kB in 2s (138 kB/s)
+Hit:1 http://deb.debian.org/debian sid InRelease
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-The following packages will be upgraded:
-  libsemanage-common libsemanage2
-2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 99.2 kB of archives.
-After this operation, 19.5 kB disk space will be freed.
-Get:1 http://deb.debian.org/debian sid/main amd64 libsemanage-common all 3.10-1 [6776 B]
-Get:2 http://deb.debian.org/debian sid/main amd64 libsemanage2 amd64 3.10-1 [92.4 kB]
-Fetched 99.2 kB in 1s (163 kB/s)
-(Reading database ... 4899 files and directories currently installed.)
-Preparing to unpack .../libsemanage-common_3.10-1_all.deb ...
-Unpacking libsemanage-common (3.10-1) over (3.9-1) ...
-Preparing to unpack .../libsemanage2_3.10-1_amd64.deb ...
-Unpacking libsemanage2:amd64 (3.10-1) over (3.9-1+b1) ...
-Setting up libsemanage-common (3.10-1) ...
-Setting up libsemanage2:amd64 (3.10-1) ...
-Processing triggers for libc-bin (2.42-14) ...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.

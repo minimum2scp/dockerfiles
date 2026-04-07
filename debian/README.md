@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   apt                       3.1.16                    amd64  commandline package manager
+ii   apt                       3.2.0                     amd64  commandline package manager
 ii   base-files                14                        amd64  Debian base system miscellaneous files
 ii   base-passwd               3.6.8                     amd64  Debian base system master password and group files
 ii   bash                      5.3-2                     amd64  GNU Bourne Again SHell
@@ -37,7 +37,7 @@ ii   gzip                      1.13-1                    amd64  GNU compression 
 ii   hostname                  3.25                      amd64  utility to set/show the host name or domain name
 ii   init-system-helpers       1.69                      all    helper tools for all init systems
 ii   libacl1                   2.3.2-3                   amd64  access control list - shared library
-ii   libapt-pkg7.0             3.1.16                    amd64  package management runtime library
+ii   libapt-pkg7.0             3.2.0                     amd64  package management runtime library
 ii   libattr1                  1:2.5.2-4                 amd64  extended attribute handling - shared library
 ii   libaudit-common           1:4.1.2-1                 all    Dynamic library for security auditing - common files
 ii   libaudit1                 1:4.1.2-1+b1              amd64  Dynamic library for security auditing
@@ -55,7 +55,7 @@ ii   libgcc-s1                 16-20260322-1             amd64  GCC support libr
 ii   libgmp10                  2:6.3.0+dfsg-5+b1         amd64  Multiprecision arithmetic library
 ii   libhogweed6t64            3.10.2-1                  amd64  low level cryptographic library (public-key cryptos)
 ii   liblz4-1                  1.10.0-8                  amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                  5.8.2-2                   amd64  XZ-format compression library
+ii   liblzma5                  5.8.3-1                   amd64  XZ-format compression library
 ii   libmd0                    1.1.0-2+b2                amd64  message digest functions from BSD systems - shared library
 ii   libmount1                 2.42-1                    amd64  device mounting library
 ii   libnettle8t64             3.10.2-1                  amd64  low level cryptographic library (symmetric and one-way cryptos)
