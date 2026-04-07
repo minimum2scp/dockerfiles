@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.155                           all    add and remove users and groups
-ii   apt                          3.1.16                          amd64  commandline package manager
+ii   apt                          3.2.0                           amd64  commandline package manager
 ii   base-files                   14                              amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.8                           amd64  Debian base system master password and group files
 ii   bash                         5.3-2                           amd64  GNU Bourne Again SHell
@@ -93,7 +93,7 @@ ii   initscripts                  3.18-1                          all    scripts
 ii   insserv                      1.27.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-3                         amd64  access control list - shared library
 ii   libapparmor1                 4.1.7-1                         amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.1.16                          amd64  package management runtime library
+ii   libapt-pkg7.0                3.2.0                           amd64  package management runtime library
 ii   libattr1                     1:2.5.2-4                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.1.2-1+b1                    amd64  Dynamic library for security auditing
@@ -106,7 +106,7 @@ ii   libc-gconv-modules-extra     2.42-14                         amd64  GNU C L
 ii   libc-l10n                    2.42-14                         all    GNU C Library: localization files
 ii   libc6                        2.42-14                         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.9.2-1                         amd64  alternate POSIX capabilities library
-ii   libcap2                      1:2.77-1                        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                      1:2.78-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.1                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1                        amd64  common error description library
 ii   libcrypt1                    1:4.5.1-1                       amd64  libcrypt shared library
@@ -136,7 +136,7 @@ ii   libkrb5support0              1.22.1-2                        amd64  MIT Ker
 ii   libldap2                     2.6.10+dfsg-1+b1                amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.9-1                         amd64  log normalizing library
 ii   liblz4-1                     1.10.0-8                        amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                     5.8.2-2                         amd64  XZ-format compression library
+ii   liblzma5                     5.8.3-1                         amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b2                      amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.42-1                          amd64  device mounting library
 ii   libncursesw6                 6.6+20251231-1                  amd64  shared libraries for terminal handling (wide character support)
@@ -224,8 +224,8 @@ ii   tzdata                       2026a-3                         all    time zo
 ii   ucf                          3.0053                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                          amd64  De-archiver for .zip files
 ii   util-linux                   2.42-1                          amd64  miscellaneous system utilities
-ii   vim-common                   2:9.2.0218-1                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.2.0218-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.2.0315-1                    all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.2.0315-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-2                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.2-3        amd64  compression library - runtime
 ii   zsh                          5.9-8+b22                       amd64  shell with lots of features
