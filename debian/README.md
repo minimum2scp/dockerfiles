@@ -48,17 +48,17 @@ ii   libc-bin                  2.42-14                   amd64  GNU C Library: B
 ii   libc-gconv-modules-extra  2.42-14                   amd64  GNU C Library: Non-essential gconv modules
 ii   libc6                     2.42-14                   amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                0.9.2-1                   amd64  alternate POSIX capabilities library
-ii   libcrypt1                 1:4.5.1-1                 amd64  libcrypt shared library
-ii   libdb5.3t64               5.3.28+dfsg2-11           amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libcrypt1                 1:4.5.1-1+b1              amd64  libcrypt shared library
+ii   libdb5.3t64               5.3.28+dfsg2-11+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0         0.282+b2                  amd64  Debian Configuration Management System (C-implementation library)
 ii   libgcc-s1                 16-20260322-1             amd64  GCC support library
 ii   libgmp10                  2:6.3.0+dfsg-5+b1         amd64  Multiprecision arithmetic library
-ii   libhogweed6t64            3.10.2-1                  amd64  low level cryptographic library (public-key cryptos)
-ii   liblz4-1                  1.10.0-8                  amd64  Fast LZ compression algorithm library - runtime
+ii   libhogweed6t64            3.10.2-1+b1               amd64  low level cryptographic library (public-key cryptos)
+ii   liblz4-1                  1.10.0-9                  amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                  5.8.3-1                   amd64  XZ-format compression library
 ii   libmd0                    1.1.0-2+b2                amd64  message digest functions from BSD systems - shared library
 ii   libmount1                 2.42-2                    amd64  device mounting library
-ii   libnettle8t64             3.10.2-1                  amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle8t64             3.10.2-1+b1               amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libpam-modules            1.7.0-5+b1                amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin        1.7.0-5+b1                amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime            1.7.0-5                   all    Runtime support for the PAM library
@@ -86,7 +86,7 @@ ii   ncurses-base              6.6+20251231-1            all    basic terminal t
 ii   ncurses-bin               6.6+20251231-1            amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy   3.6.1-3                   amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                    1:4.19.3-2                amd64  change and administer password and group data
-ii   perl-base                 5.40.1-7                  amd64  minimal Perl system
+ii   perl-base                 5.40.1-7+b1               amd64  minimal Perl system
 ii   sed                       4.9-2                     amd64  GNU stream editor for filtering/transforming text
 ii   sqv                       1.3.0-5                   amd64  OpenPGP signature verification program from Sequoia
 ii   sysvinit-utils            3.18-1                    amd64  System-V-like utilities
