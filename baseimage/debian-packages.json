@@ -3814,7 +3814,7 @@
     "Depends": "systemd | systemd-standalone-sysusers | systemd-sysusers, libc6 (>= 2.42), libedit2 (>= 2.11-20080614-0), libfido2-1 (>= 1.8.0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "5106",
+    "Installed-Size": "4210",
     "Origin": "",
     "Package": "openssh-client",
     "Pre-Depends": "",
@@ -3825,7 +3825,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "keychain, libpam-ssh, monkeysphere, ssh-askpass",
-    "Version": "1:10.2p1-6",
+    "Version": "1:10.3p1-1",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3833,16 +3833,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:10.2p1-6"
+    "source:Version": "1:10.3p1-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "runit (<< 2.1.2-51~)",
-    "Depends": "libpam-modules, libpam-runtime, openssh-client (= 1:10.2p1-6), openssh-sftp-server, procps, ucf, debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.14.0~), systemd | systemd-standalone-sysusers | systemd-sysusers, libaudit1 (>= 1:2.2.1), libc6 (>= 2.42), libcom-err2 (>= 1.43.9), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0), libwrap0 (>= 7.6-4~), libwtmpdb0 (>= 0.13.0), zlib1g (>= 1:1.1.4)",
+    "Depends": "libpam-modules, libpam-runtime, openssh-client (= 1:10.3p1-1), openssh-sftp-server, procps, ucf, debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.14.0~), systemd | systemd-standalone-sysusers | systemd-sysusers, libaudit1 (>= 1:2.2.1), libc6 (>= 2.42), libcom-err2 (>= 1.43.9), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0), libwrap0 (>= 7.6-4~), libwtmpdb0 (>= 0.13.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3502",
+    "Installed-Size": "3359",
     "Origin": "",
     "Package": "openssh-server",
     "Pre-Depends": "",
@@ -3853,7 +3853,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "molly-guard, monkeysphere, ssh-askpass, ufw",
-    "Version": "1:10.2p1-6",
+    "Version": "1:10.3p1-1",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3861,13 +3861,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:10.2p1-6"
+    "source:Version": "1:10.3p1-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "openssh-client (= 1:10.2p1-6), libc6 (>= 2.38)",
+    "Depends": "openssh-client (= 1:10.3p1-1), libc6 (>= 2.38)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
     "Installed-Size": "177",
@@ -3881,7 +3881,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:10.2p1-6",
+    "Version": "1:10.3p1-1",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3889,7 +3889,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:10.2p1-6"
+    "source:Version": "1:10.3p1-1"
   },
   {
     "Architecture": "amd64",
