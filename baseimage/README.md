@@ -72,7 +72,7 @@ ii   ca-certificates              20260223                  all    Common CA cer
 ii   coreutils                    9.10-1                    amd64  GNU core utilities
 ii   cron                         3.0pl1-207                amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-207                all    process scheduling daemon's configuration files
-ii   curl                         8.19.0-3                  amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.20.0~rc2-1              amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                 amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                    all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                    all    OpenPGP archive certificates of the Debian archive
@@ -110,8 +110,8 @@ ii   libcap2                      1:2.78-1                  amd64  POSIX 1003.1e
 ii   libcbor0.10                  0.10.2-2.1                amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1                  amd64  common error description library
 ii   libcrypt1                    1:4.5.1-1+b1              amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.19.0-3                  amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.19.0-3                  amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3t64-gnutls           8.20.0~rc2-1              amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.20.0~rc2-1              amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.282+b2                  amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20251016-1            amd64  BSD editline and history libraries
@@ -158,7 +158,6 @@ ii   libpipeline1                 1.5.8-2+b1                amd64  Unix process 
 ii   libpopt0                     1.19+dfsg-2+b1            amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-9+b1              amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.5-1                  amd64  Library for Public Suffix List (shared libraries)
-ii   librtmp1                     2.6-1                     amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-11           amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-11           amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.6.0-2+b1                amd64  high level interface to Linux seccomp filter
