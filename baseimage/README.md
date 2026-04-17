@@ -120,7 +120,7 @@ ii   libestr0                     0.1.11-2+b1               amd64  Helper functi
 ii   libexpat1                    2.7.5-1                   amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2304.0-2+b1             amd64  fast json library for C
 ii   libffi8                      3.5.2-4                   amd64  Foreign Function Interface library runtime
-ii   libfido2-1                   1.16.0-2+b1               amd64  library for generating and verifying FIDO 2.0 objects
+ii   libfido2-1                   1.17.0-1                  amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                    16-20260322-1             amd64  GCC support library
 ii   libgdbm-compat4t64           1.26-1+b1                 amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.26-1+b1                 amd64  GNU dbm database routines (runtime version) 
@@ -210,7 +210,7 @@ ii   rsyslog                      8.2602.0-1                amd64  reliable syst
 ii   runit-helper                 2.16.6                    all    dh-runit implementation detail
 ii   sed                          4.9-2                     amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                    all    Utilities for sensible alternative selection
-ii   sqv                          1.3.0-5                   amd64  OpenPGP signature verification program from Sequoia
+ii   sqv                          1.3.0-5+b1                amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                    amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-5                amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  260.1-1                   amd64  standalone sysusers binary for use in non-systemd systems
@@ -223,8 +223,8 @@ ii   tzdata                       2026a-3                   all    time zone and
 ii   ucf                          3.0053                    all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                    amd64  De-archiver for .zip files
 ii   util-linux                   2.42-3                    amd64  miscellaneous system utilities
-ii   vim-common                   2:9.2.0338-1              all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.2.0338-1              amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.2.0355-1              all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.2.0355-1              amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-2                 amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.2-3  amd64  compression library - runtime
 ii   zsh                          5.9-8+b22                 amd64  shell with lots of features
