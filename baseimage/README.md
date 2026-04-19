@@ -144,9 +144,9 @@ ii   libnettle8t64                3.10.2-1+b1               amd64  low level cry
 ii   libnewt0.52                  0.52.25-2                 amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.68.1-1                  amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnghttp3-9                 1.15.0-1                  amd64  HTTP/3 mapping over QUIC and QPACK (library)
-ii   libngtcp2-16                 1.21.0-1                  amd64  QUIC protocol library
-ii   libngtcp2-crypto-gnutls8     1.21.0-1                  amd64  crypto helper library for with GnuTLS backend
-ii   libngtcp2-crypto-ossl0       1.21.0-1                  amd64  crypto helper library for with OpenSSL backend
+ii   libngtcp2-16                 1.22.1-1                  amd64  QUIC protocol library
+ii   libngtcp2-crypto-gnutls8     1.22.1-1                  amd64  crypto helper library for with GnuTLS backend
+ii   libngtcp2-crypto-ossl0       1.22.1-1                  amd64  crypto helper library for with OpenSSL backend
 ii   libp11-kit0                  0.26.2-2                  amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.7.0-5+b1                amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.7.0-5+b1                amd64  Pluggable Authentication Modules for PAM - helper binaries

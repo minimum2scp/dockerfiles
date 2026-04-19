@@ -2358,7 +2358,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "355",
+    "Installed-Size": "353",
     "Origin": "",
     "Package": "libngtcp2-16",
     "Pre-Depends": "",
@@ -2369,7 +2369,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.21.0-1",
+    "Version": "1.22.1-1",
     "binary:Package": "libngtcp2-16:amd64",
     "binary:Summary": "QUIC protocol library",
     "db:Status-Abbrev": "ii ",
@@ -2377,7 +2377,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ngtcp2",
-    "source:Version": "1.21.0-1"
+    "source:Version": "1.22.1-1"
   },
   {
     "Architecture": "amd64",
@@ -2386,7 +2386,7 @@
     "Depends": "libc6 (>= 2.14), libgnutls30t64 (>= 3.8.2), libngtcp2-16 (>= 1.1.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "76",
+    "Installed-Size": "74",
     "Origin": "",
     "Package": "libngtcp2-crypto-gnutls8",
     "Pre-Depends": "",
@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.21.0-1",
+    "Version": "1.22.1-1",
     "binary:Package": "libngtcp2-crypto-gnutls8:amd64",
     "binary:Summary": "crypto helper library for with GnuTLS backend",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ngtcp2",
-    "source:Version": "1.21.0-1"
+    "source:Version": "1.22.1-1"
   },
   {
     "Architecture": "amd64",
@@ -2414,7 +2414,7 @@
     "Depends": "libc6 (>= 2.14), libngtcp2-16 (>= 1.1.0), libssl3t64 (>= 3.5.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "84",
+    "Installed-Size": "82",
     "Origin": "",
     "Package": "libngtcp2-crypto-ossl0",
     "Pre-Depends": "",
@@ -2425,7 +2425,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.21.0-1",
+    "Version": "1.22.1-1",
     "binary:Package": "libngtcp2-crypto-ossl0:amd64",
     "binary:Summary": "crypto helper library for with OpenSSL backend",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ngtcp2",
-    "source:Version": "1.21.0-1"
+    "source:Version": "1.22.1-1"
   },
   {
     "Architecture": "amd64",
