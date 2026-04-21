@@ -1025,7 +1025,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.10.0-9",
+    "Version": "1.10.0-10",
     "binary:Package": "liblz4-1:amd64",
     "binary:Summary": "Fast LZ compression algorithm library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lz4",
-    "source:Version": "1.10.0-9"
+    "source:Version": "1.10.0-10"
   },
   {
     "Architecture": "amd64",
@@ -1941,7 +1941,7 @@
     "Installed-Size": "987",
     "Origin": "",
     "Package": "sed",
-    "Pre-Depends": "libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~)",
+    "Pre-Depends": "libacl1 (>= 2.2.23), libc6 (>= 2.38), libselinux1 (>= 3.1~)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -1949,7 +1949,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.9-2",
+    "Version": "4.9-3",
     "binary:Package": "sed",
     "binary:Summary": "GNU stream editor for filtering/transforming text",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sed",
-    "source:Version": "4.9-2"
+    "source:Version": "4.9-3"
   },
   {
     "Architecture": "amd64",

@@ -54,7 +54,7 @@ ii   libdebconfclient0         0.282+b2                  amd64  Debian Configura
 ii   libgcc-s1                 16-20260322-1             amd64  GCC support library
 ii   libgmp10                  2:6.3.0+dfsg-5+b1         amd64  Multiprecision arithmetic library
 ii   libhogweed6t64            3.10.2-1+b1               amd64  low level cryptographic library (public-key cryptos)
-ii   liblz4-1                  1.10.0-9                  amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                  1.10.0-10                 amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                  5.8.3-1                   amd64  XZ-format compression library
 ii   libmd0                    1.1.0-2+b2                amd64  message digest functions from BSD systems - shared library
 ii   libmount1                 2.42-4                    amd64  device mounting library
@@ -87,7 +87,7 @@ ii   ncurses-bin               6.6+20251231-1            amd64  terminal-related
 ii   openssl-provider-legacy   3.6.2-1                   amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                    1:4.19.3-2                amd64  change and administer password and group data
 ii   perl-base                 5.40.1-7+b1               amd64  minimal Perl system
-ii   sed                       4.9-2                     amd64  GNU stream editor for filtering/transforming text
+ii   sed                       4.9-3                     amd64  GNU stream editor for filtering/transforming text
 ii   sqv                       1.3.0-5+b1                amd64  OpenPGP signature verification program from Sequoia
 ii   sysvinit-utils            3.18-1                    amd64  System-V-like utilities
 ii   tar                       1.35+dfsg-4               amd64  GNU version of the tar archiving utility
