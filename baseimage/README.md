@@ -92,7 +92,7 @@ ii   init-system-helpers          1.69                      all    helper tools 
 ii   initscripts                  3.18-1                    all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                  amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-3                   amd64  access control list - shared library
-ii   libapparmor1                 4.1.7-1                   amd64  changehat AppArmor library
+ii   libapparmor1                 4.1.7-2                   amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.2.0                     amd64  package management runtime library
 ii   libattr1                     1:2.5.2-4                 amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                 all    Dynamic library for security auditing - common files
@@ -114,7 +114,7 @@ ii   libcurl3t64-gnutls           8.20.0~rc2-1              amd64  easy-to-use c
 ii   libcurl4t64                  8.20.0~rc2-1              amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.282+b2                  amd64  Debian Configuration Management System (C-implementation library)
-ii   libedit2                     3.1-20251016-1            amd64  BSD editline and history libraries
+ii   libedit2                     3.1-20251016-1+b1         amd64  BSD editline and history libraries
 ii   liberror-perl                0.17030-1                 all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-2+b1               amd64  Helper functions for handling strings (lib)
 ii   libexpat1                    2.7.5-1                   amd64  XML parsing C library - runtime library
@@ -135,7 +135,7 @@ ii   libkrb5-3                    1.22.1-2+b1               amd64  MIT Kerberos 
 ii   libkrb5support0              1.22.1-2+b1               amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap2                     2.6.10+dfsg-1+b1          amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.9-1                   amd64  log normalizing library
-ii   liblz4-1                     1.10.0-9                  amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                     1.10.0-10                 amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.8.3-1                   amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b2                amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.42-4                    amd64  device mounting library
@@ -156,7 +156,7 @@ ii   libpcre2-8-0                 10.46-1+b1                amd64  New Perl Comp
 ii   libperl5.40                  5.40.1-7+b1               amd64  shared Perl library
 ii   libpipeline1                 1.5.8-2+b1                amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2+b1            amd64  lib for parsing cmdline parameters
-ii   libproc2-0                   2:4.0.4-9+b1              amd64  library for accessing process information from /proc
+ii   libproc2-0                   2:4.0.4-9+b2              amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.5-1                  amd64  Library for Public Suffix List (shared libraries)
 ii   libsasl2-2                   2.1.28+dfsg1-11           amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-11           amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -205,10 +205,10 @@ ii   passwd                       1:4.19.3-2                amd64  change and ad
 ii   perl                         5.40.1-7+b1               amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.1-7+b1               amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-7                  all    Core Perl modules
-ii   procps                       2:4.0.4-9+b1              amd64  /proc file system utilities
+ii   procps                       2:4.0.4-9+b2              amd64  /proc file system utilities
 ii   rsyslog                      8.2602.0-1                amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.6                    all    dh-runit implementation detail
-ii   sed                          4.9-2                     amd64  GNU stream editor for filtering/transforming text
+ii   sed                          4.9-3                     amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                    all    Utilities for sensible alternative selection
 ii   sqv                          1.3.0-5+b1                amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                    amd64  run processes in parallel and multiplex their output
