@@ -2638,7 +2638,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "173",
+    "Installed-Size": "172",
     "Origin": "",
     "Package": "libpipeline1",
     "Pre-Depends": "",
@@ -2649,7 +2649,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.8-2+b1",
+    "Version": "1.5.8-3",
     "binary:Package": "libpipeline1:amd64",
     "binary:Summary": "Unix process pipeline manipulation library",
     "db:Status-Abbrev": "ii ",
@@ -2657,7 +2657,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libpipeline",
-    "source:Version": "1.5.8-2"
+    "source:Version": "1.5.8-3"
   },
   {
     "Architecture": "amd64",
