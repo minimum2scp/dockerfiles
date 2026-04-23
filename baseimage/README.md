@@ -85,7 +85,7 @@ ii   gcc-16-base                  16-20260322-1             amd64  GCC, the GNU 
 ii   git                          1:2.53.0-1                amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.53.0-1                all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.12-1                    amd64  GNU grep, egrep and fgrep
-ii   groff-base                   1.23.0-10                 amd64  GNU troff text-formatting system (base system components)
+ii   groff-base                   1.24.1-1                  amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.13-1                    amd64  GNU compression utilities
 ii   hostname                     3.25                      amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.69                      all    helper tools for all init systems
@@ -142,7 +142,7 @@ ii   libmount1                    2.42-4                    amd64  device mounti
 ii   libncursesw6                 6.6+20251231-1            amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10.2-1+b1               amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.25-2                 amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14                1.68.1-1                  amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14                1.69.0-1                  amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnghttp3-9                 1.15.0-1                  amd64  HTTP/3 mapping over QUIC and QPACK (library)
 ii   libngtcp2-16                 1.22.1-1                  amd64  QUIC protocol library
 ii   libngtcp2-crypto-gnutls8     1.22.1-1                  amd64  crypto helper library for with GnuTLS backend
@@ -206,7 +206,7 @@ ii   perl                         5.40.1-7+b1               amd64  Larry Wall's 
 ii   perl-base                    5.40.1-7+b1               amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-7                  all    Core Perl modules
 ii   procps                       2:4.0.4-9+b2              amd64  /proc file system utilities
-ii   rsyslog                      8.2602.0-1                amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2604.0-1                amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.6                    all    dh-runit implementation detail
 ii   sed                          4.9-3                     amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                    all    Utilities for sensible alternative selection

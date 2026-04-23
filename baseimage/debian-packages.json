@@ -703,10 +703,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.38), libgcc-s1 (>= 4.0), libstdc++6 (>= 4.1.1), libuchardet0 (>= 0.0.1)",
+    "Depends": "libc6 (>= 2.38), libgcc-s1 (>= 4.0), libstdc++6 (>= 11), libuchardet0 (>= 0.0.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4176",
+    "Installed-Size": "4576",
     "Origin": "",
     "Package": "groff-base",
     "Pre-Depends": "",
@@ -717,7 +717,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "groff",
-    "Version": "1.23.0-10",
+    "Version": "1.24.1-1",
     "binary:Package": "groff-base",
     "binary:Summary": "GNU troff text-formatting system (base system components)",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "groff",
-    "source:Version": "1.23.0-10"
+    "source:Version": "1.24.1-1"
   },
   {
     "Architecture": "amd64",
@@ -2302,7 +2302,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "216",
+    "Installed-Size": "235",
     "Origin": "",
     "Package": "libnghttp2-14",
     "Pre-Depends": "",
@@ -2313,7 +2313,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.68.1-1",
+    "Version": "1.69.0-1",
     "binary:Package": "libnghttp2-14:amd64",
     "binary:Summary": "library implementing HTTP/2 protocol (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -2321,7 +2321,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nghttp2",
-    "source:Version": "1.68.1-1"
+    "source:Version": "1.69.0-1"
   },
   {
     "Architecture": "amd64",
@@ -4094,7 +4094,7 @@
     "Depends": "libc6 (>= 2.38), libestr0 (>= 0.1.9), libfastjson4 (>= 0.99.8), liblognorm5 (>= 2.0.3), libsystemd0 (>= 256~rc1), libuuid1 (>= 2.16), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2143",
+    "Installed-Size": "2195",
     "Origin": "",
     "Package": "rsyslog",
     "Pre-Depends": "",
@@ -4105,7 +4105,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-doc, rsyslog-mysql, rsyslog-pgsql, rsyslog-mongodb, rsyslog-elasticsearch, rsyslog-kafka, rsyslog-hiredis, rsyslog-snmp, rsyslog-kubernetes, rsyslog-docker, rsyslog-clickhouse, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.2602.0-1",
+    "Version": "8.2604.0-1",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4113,7 +4113,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.2602.0-1"
+    "source:Version": "8.2604.0-1"
   },
   {
     "Architecture": "all",
