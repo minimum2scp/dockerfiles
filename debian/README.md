@@ -63,7 +63,7 @@ ii   libpam-modules            1.7.0-5+b1                amd64  Pluggable Authen
 ii   libpam-modules-bin        1.7.0-5+b1                amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime            1.7.0-5                   all    Runtime support for the PAM library
 ii   libpam0g                  1.7.0-5+b1                amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0              10.46-1+b1                amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0              10.46-1+b2                amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2               2.6.0-2+b1                amd64  high level interface to Linux seccomp filter
 ii   libselinux1               3.10-1                    amd64  SELinux runtime shared libraries
 ii   libsemanage-common        3.10-1                    all    Common files for SELinux policy management libraries
@@ -73,7 +73,7 @@ ii   libsmartcols1             2.42-5                    amd64  smart column out
 ii   libssl3t64                3.6.2-1                   amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                16-20260425-1             amd64  GNU Standard C++ Library v3
 ii   libsystemd0               260.1-1                   amd64  systemd utility library
-ii   libtinfo6                 6.6+20251231-1            amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6                 6.6+20251231-1+b1         amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                  260.1-1                   amd64  libudev shared library
 ii   libuuid1                  2.42-5                    amd64  Universally Unique ID library
 ii   libxxhash0                0.8.3-2+b1                amd64  shared library for xxhash
@@ -83,7 +83,7 @@ ii   login.defs                1:4.19.3-2                all    system user mana
 ii   mawk                      1.3.4.20260302-1          amd64  Pattern scanning and text processing language
 ii   mount                     2.42-5                    amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base              6.6+20251231-1            all    basic terminal type definitions
-ii   ncurses-bin               6.6+20251231-1            amd64  terminal-related programs and man pages
+ii   ncurses-bin               6.6+20251231-1+b1         amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy   3.6.2-1                   amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                    1:4.19.3-2                amd64  change and administer password and group data
 ii   perl-base                 5.40.1-7+b1               amd64  minimal Perl system
