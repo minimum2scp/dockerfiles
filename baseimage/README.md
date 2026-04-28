@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.42-5                  amd64  basic utiliti
 ii   bzip2                        1.0.8-6+b2                amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20260223                  all    Common CA certificates
 ii   coreutils                    9.10-1                    amd64  GNU core utilities
-ii   cron                         3.0pl1-208                amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-208                all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-209                amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-209                all    process scheduling daemon's configuration files
 ii   curl                         8.20.0~rc3-1              amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                 amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                    all    Debian configuration management system
@@ -139,7 +139,7 @@ ii   liblz4-1                     1.10.0-10                 amd64  Fast LZ compr
 ii   liblzma5                     5.8.3-1                   amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b2                amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.42-5                    amd64  device mounting library
-ii   libncursesw6                 6.6+20251231-1            amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw6                 6.6+20251231-1+b1         amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10.2-1+b1               amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.25-2                 amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.69.0-1                  amd64  library implementing HTTP/2 protocol (shared library)
@@ -152,7 +152,7 @@ ii   libpam-modules               1.7.0-5+b1                amd64  Pluggable Aut
 ii   libpam-modules-bin           1.7.0-5+b1                amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.7.0-5                   all    Runtime support for the PAM library
 ii   libpam0g                     1.7.0-5+b1                amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0                 10.46-1+b1                amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0                 10.46-1+b2                amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.40                  5.40.1-7+b1               amd64  shared Perl library
 ii   libpipeline1                 1.5.8-3                   amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2+b1            amd64  lib for parsing cmdline parameters
@@ -175,7 +175,7 @@ ii   libsystemd0                  260.1-1                   amd64  systemd utili
 ii   libtasn1-6                   4.21.0-2+b1               amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b5                amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                   all    internationalized substitute of Text::Wrap
-ii   libtinfo6                    6.6+20251231-1            amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6                    6.6+20251231-1+b1         amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-2+b1                amd64  universal charset detection library - shared library
 ii   libudev1                     260.1-1                   amd64  libudev shared library
 ii   libunistring5                1.4.2-1                   amd64  Unicode string library for C
@@ -193,7 +193,7 @@ ii   man-db                       2.13.1-1                  amd64  tools for rea
 ii   mawk                         1.3.4.20260302-1          amd64  Pattern scanning and text processing language
 ii   mount                        2.42-5                    amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.6+20251231-1            all    basic terminal type definitions
-ii   ncurses-bin                  6.6+20251231-1            amd64  terminal-related programs and man pages
+ii   ncurses-bin                  6.6+20251231-1+b1         amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                    amd64  NET-3 networking toolkit
 ii   openssh-client               1:10.3p1-1                amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:10.3p1-1                amd64  secure shell (SSH) server, for secure access from remote machines
@@ -224,7 +224,7 @@ ii   ucf                          3.0053                    all    Update Config
 ii   unzip                        6.0-29                    amd64  De-archiver for .zip files
 ii   util-linux                   2.42-5                    amd64  miscellaneous system utilities
 ii   vim-common                   2:9.2.0355-1              all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.2.0355-1              amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                     2:9.2.0355-1+b1           amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-2                 amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.2-3  amd64  compression library - runtime
 ii   zsh                          5.9-8+b22                 amd64  shell with lots of features
