@@ -30,7 +30,7 @@ ii   debian-archive-keyring    2025.1                    all    OpenPGP archive 
 ii   debianutils               5.23.2                    amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                 1:3.12-1                  amd64  File comparison utilities
 ii   dpkg                      1.23.7                    amd64  Debian package management system
-ii   findutils                 4.10.0-3                  amd64  utilities for finding files--find, xargs
+ii   findutils                 4.10.0-4                  amd64  utilities for finding files--find, xargs
 ii   gcc-16-base               16-20260425-1             amd64  GCC, the GNU Compiler Collection (base package)
 ii   grep                      3.12-1                    amd64  GNU grep, egrep and fgrep
 ii   gzip                      1.13-1                    amd64  GNU compression utilities
@@ -59,10 +59,10 @@ ii   liblzma5                  5.8.3-1                   amd64  XZ-format compre
 ii   libmd0                    1.1.0-2+b2                amd64  message digest functions from BSD systems - shared library
 ii   libmount1                 2.42-5                    amd64  device mounting library
 ii   libnettle8t64             3.10.2-1+b1               amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libpam-modules            1.7.0-5+b1                amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin        1.7.0-5+b1                amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-modules            1.7.0-5+b2                amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin        1.7.0-5+b2                amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime            1.7.0-5                   all    Runtime support for the PAM library
-ii   libpam0g                  1.7.0-5+b1                amd64  Pluggable Authentication Modules library
+ii   libpam0g                  1.7.0-5+b2                amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0              10.46-1+b2                amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2               2.6.0-2+b1                amd64  high level interface to Linux seccomp filter
 ii   libselinux1               3.10-1                    amd64  SELinux runtime shared libraries
@@ -76,7 +76,7 @@ ii   libsystemd0               260.1-1                   amd64  systemd utility 
 ii   libtinfo6                 6.6+20251231-1+b1         amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                  260.1-1                   amd64  libudev shared library
 ii   libuuid1                  2.42-5                    amd64  Universally Unique ID library
-ii   libxxhash0                0.8.3-2+b1                amd64  shared library for xxhash
+ii   libxxhash0                0.8.3-2+b2                amd64  shared library for xxhash
 ii   libzstd1                  1.5.7+dfsg-3+b2           amd64  fast lossless compression algorithm
 ii   login                     1:4.16.0-2+really2.42-5   amd64  system login tools
 ii   login.defs                1:4.19.3-2                all    system user management configuration
