@@ -72,7 +72,7 @@ ii   ca-certificates              20260223                  all    Common CA cer
 ii   coreutils                    9.10-1                    amd64  GNU core utilities
 ii   cron                         3.0pl1-209                amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-209                all    process scheduling daemon's configuration files
-ii   curl                         8.20.0~rc3-1              amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.20.0-1                  amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                 amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                    all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                    all    OpenPGP archive certificates of the Debian archive
@@ -80,7 +80,7 @@ ii   debianutils                  5.23.2                    amd64  Miscellaneous
 ii   diffutils                    1:3.12-1                  amd64  File comparison utilities
 ii   dpkg                         1.23.7                    amd64  Debian package management system
 ii   etckeeper                    1.18.23-2                 all    store /etc in git, mercurial, brz or darcs
-ii   findutils                    4.10.0-3                  amd64  utilities for finding files--find, xargs
+ii   findutils                    4.10.0-4                  amd64  utilities for finding files--find, xargs
 ii   gcc-16-base                  16-20260425-1             amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.53.0-1                amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.53.0-1                all    fast, scalable, distributed revision control system (manual pages)
@@ -110,8 +110,8 @@ ii   libcap2                      1:2.78-1                  amd64  POSIX 1003.1e
 ii   libcbor0.10                  0.10.2-2.1+b1             amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1                  amd64  common error description library
 ii   libcrypt1                    1:4.5.1-1+b1              amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.20.0~rc3-1              amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.20.0~rc3-1              amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3t64-gnutls           8.20.0-1                  amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.20.0-1                  amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.282+b3                  amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20251016-1+b1         amd64  BSD editline and history libraries
@@ -133,7 +133,7 @@ ii   libk5crypto3                 1.22.1-2+b1               amd64  MIT Kerberos 
 ii   libkeyutils1                 1.6.3-6+b2                amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.22.1-2+b1               amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.22.1-2+b1               amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap2                     2.6.10+dfsg-1+b1          amd64  OpenLDAP libraries
+ii   libldap2                     2.6.10+dfsg-1+b2          amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.9-1+b1                amd64  log normalizing library
 ii   liblz4-1                     1.10.0-10                 amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.8.3-1                   amd64  XZ-format compression library
@@ -148,14 +148,14 @@ ii   libngtcp2-16                 1.22.1-1                  amd64  QUIC protocol
 ii   libngtcp2-crypto-gnutls8     1.22.1-1                  amd64  crypto helper library for with GnuTLS backend
 ii   libngtcp2-crypto-ossl0       1.22.1-1                  amd64  crypto helper library for with OpenSSL backend
 ii   libp11-kit0                  0.26.2-2                  amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules               1.7.0-5+b1                amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin           1.7.0-5+b1                amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-modules               1.7.0-5+b2                amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin           1.7.0-5+b2                amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.7.0-5                   all    Runtime support for the PAM library
-ii   libpam0g                     1.7.0-5+b1                amd64  Pluggable Authentication Modules library
+ii   libpam0g                     1.7.0-5+b2                amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.46-1+b2                amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.40                  5.40.1-7+b1               amd64  shared Perl library
 ii   libpipeline1                 1.5.8-3                   amd64  Unix process pipeline manipulation library
-ii   libpopt0                     1.19+dfsg-2+b1            amd64  lib for parsing cmdline parameters
+ii   libpopt0                     1.19+dfsg-2+b2            amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-9+b2              amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.5-1                  amd64  Library for Public Suffix List (shared libraries)
 ii   libsasl2-2                   2.1.28+dfsg1-11           amd64  Cyrus SASL - authentication abstraction library
@@ -176,13 +176,13 @@ ii   libtasn1-6                   4.21.0-2+b1               amd64  Manage ASN.1 
 ii   libtext-charwidth-perl       0.04-11+b5                amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                   all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.6+20251231-1+b1         amd64  shared low-level terminfo library for terminal handling
-ii   libuchardet0                 0.0.8-2+b1                amd64  universal charset detection library - shared library
+ii   libuchardet0                 0.0.8-2+b2                amd64  universal charset detection library - shared library
 ii   libudev1                     260.1-1                   amd64  libudev shared library
 ii   libunistring5                1.4.2-1                   amd64  Unicode string library for C
 ii   libuuid1                     2.42-5                    amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-37                  amd64  Wietse Venema's TCP wrappers library
-ii   libwtmpdb0                   0.75.0-5                  amd64  wtmp database shared library
-ii   libxxhash0                   0.8.3-2+b1                amd64  shared library for xxhash
+ii   libwtmpdb0                   0.75.0-5+b1               amd64  wtmp database shared library
+ii   libxxhash0                   0.8.3-2+b2                amd64  shared library for xxhash
 ii   libzstd1                     1.5.7+dfsg-3+b2           amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                  all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.42-15                   all    GNU C Library: National Language (locale) data [support]
