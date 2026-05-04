@@ -64,7 +64,7 @@ ii   adduser                      3.155                     all    add and remov
 ii   apt                          3.3.0                     amd64  commandline package manager
 ii   base-files                   14                        amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.8                     amd64  Debian base system master password and group files
-ii   bash                         5.3-2                     amd64  GNU Bourne Again SHell
+ii   bash                         5.3-3                     amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.42-5                    amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.42-5                  amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6+b2                amd64  high-quality block-sorting file compressor - utilities
@@ -195,9 +195,9 @@ ii   mount                        2.42-5                    amd64  tools for mou
 ii   ncurses-base                 6.6+20251231-1            all    basic terminal type definitions
 ii   ncurses-bin                  6.6+20251231-1+b1         amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                    amd64  NET-3 networking toolkit
-ii   openssh-client               1:10.3p1-1                amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:10.3p1-1                amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.3p1-1                amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:10.3p1-2                amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:10.3p1-2                amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.3p1-2                amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.6.2-1                   amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.6.2-1                   amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.23                      all    Orphaned System-V-like init scripts
