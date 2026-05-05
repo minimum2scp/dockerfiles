@@ -2358,7 +2358,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "327",
+    "Installed-Size": "335",
     "Origin": "",
     "Package": "libngtcp2-16",
     "Pre-Depends": "",
@@ -2369,7 +2369,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.11.0-1",
+    "Version": "1.11.0-1+deb13u1",
     "binary:Package": "libngtcp2-16:amd64",
     "binary:Summary": "implementation of QUIC protocol (library)",
     "db:Status-Abbrev": "ii ",
@@ -2377,7 +2377,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ngtcp2",
-    "source:Version": "1.11.0-1"
+    "source:Version": "1.11.0-1+deb13u1"
   },
   {
     "Architecture": "amd64",
@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.11.0-1",
+    "Version": "1.11.0-1+deb13u1",
     "binary:Package": "libngtcp2-crypto-gnutls8:amd64",
     "binary:Summary": "implementation of QUIC protocol (library)",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ngtcp2",
-    "source:Version": "1.11.0-1"
+    "source:Version": "1.11.0-1+deb13u1"
   },
   {
     "Architecture": "amd64",
