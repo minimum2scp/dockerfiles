@@ -117,7 +117,7 @@ ii   libdebconfclient0            0.282+b3                  amd64  Debian Config
 ii   libedit2                     3.1-20251016-1+b1         amd64  BSD editline and history libraries
 ii   liberror-perl                0.17030-1                 all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-2+b2               amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.8.0-1                   amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.8.0-2                   amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2304.0-2+b2             amd64  fast json library for C
 ii   libffi8                      3.5.2-4                   amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.17.0-1                  amd64  library for generating and verifying FIDO 2.0 objects
@@ -137,7 +137,7 @@ ii   libldap2                     2.6.10+dfsg-1+b2          amd64  OpenLDAP libr
 ii   liblognorm5                  2.0.9-1+b1                amd64  log normalizing library
 ii   liblz4-1                     1.10.0-10                 amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.8.3-1                   amd64  XZ-format compression library
-ii   libmd0                       1.1.0-2+b2                amd64  message digest functions from BSD systems - shared library
+ii   libmd0                       1.2.0-1                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.42-6                    amd64  device mounting library
 ii   libncursesw6                 6.6+20251231-1+b1         amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10.2-1+b1               amd64  low level cryptographic library (symmetric and one-way cryptos)

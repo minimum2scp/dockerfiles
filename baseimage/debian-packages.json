@@ -1613,7 +1613,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.8.0-1",
+    "Version": "2.8.0-2",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.8.0-1"
+    "source:Version": "2.8.0-2"
   },
   {
     "Architecture": "amd64",
@@ -2162,7 +2162,7 @@
     "Depends": "libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "90",
+    "Installed-Size": "110",
     "Origin": "",
     "Package": "libmd0",
     "Pre-Depends": "",
@@ -2173,7 +2173,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.0-2+b2",
+    "Version": "1.2.0-1",
     "binary:Package": "libmd0:amd64",
     "binary:Summary": "message digest functions from BSD systems - shared library",
     "db:Status-Abbrev": "ii ",
@@ -2181,7 +2181,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libmd",
-    "source:Version": "1.1.0-2"
+    "source:Version": "1.2.0-1"
   },
   {
     "Architecture": "amd64",
