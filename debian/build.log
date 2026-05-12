@@ -8,7 +8,8 @@ I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
 I: Validating apt 3.3.0
-I: Validating base-files 14
+I: Retrieving base-files 14.0
+I: Validating base-files 14.0
 I: Validating base-passwd 3.6.8
 I: Validating bash 5.3-3
 I: Validating bsdutils 1:2.42-6
@@ -45,7 +46,6 @@ I: Validating libgmp10 2:6.3.0+dfsg-5+b2
 I: Validating libhogweed6t64 3.10.2-1+b1
 I: Validating liblz4-1 1.10.0-10
 I: Validating liblzma5 5.8.3-1
-I: Retrieving libmd0 1.2.0-1
 I: Validating libmd0 1.2.0-1
 I: Validating libmount1 2.42-6
 I: Validating libnettle8t64 3.10.2-1+b1
