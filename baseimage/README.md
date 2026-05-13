@@ -126,13 +126,13 @@ ii   libgdbm-compat4t64           1.26-1+b2                 amd64  GNU dbm datab
 ii   libgdbm6t64                  1.26-1+b2                 amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-5+b2         amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.13-1                  amd64  GNU TLS library - main runtime library
-ii   libgssapi-krb5-2             1.22.1-2+b1               amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2             1.22.1-2.1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10.2-1+b1               amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0                    2.3.8-4+b2                amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3                 1.22.1-2+b1               amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libidn2-0                    2.3.8-5                   amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libk5crypto3                 1.22.1-2.1                amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-6+b2                amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3                    1.22.1-2+b1               amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0              1.22.1-2+b1               amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3                    1.22.1-2.1                amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0              1.22.1-2.1                amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap2                     2.6.10+dfsg-1+b2          amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.9-1+b1                amd64  log normalizing library
 ii   liblz4-1                     1.10.0-10                 amd64  Fast LZ compression algorithm library - runtime
