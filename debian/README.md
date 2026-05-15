@@ -50,7 +50,7 @@ ii   libc6                     2.42-16                   amd64  GNU C Library: S
 ii   libcap-ng0                0.9.3-1                   amd64  alternate POSIX capabilities library
 ii   libcrypt1                 1:4.5.1-1+b1              amd64  libcrypt shared library
 ii   libdb5.3t64               5.3.28+dfsg2-11+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0         0.282+b3                  amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0         0.283                     amd64  Debian Configuration Management System (C-implementation library)
 ii   libgcc-s1                 16.1.0-1                  amd64  GCC support library
 ii   libgmp10                  2:6.3.0+dfsg-5+b2         amd64  Multiprecision arithmetic library
 ii   libhogweed6t64            3.10.2-1+b1               amd64  low level cryptographic library (public-key cryptos)
