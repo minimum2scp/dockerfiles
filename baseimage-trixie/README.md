@@ -125,13 +125,13 @@ ii   libgdbm-compat4t64           1.24-2                          amd64  GNU dbm
 ii   libgdbm6t64                  1.24-2                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-3                  amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.9-3+deb13u4                 amd64  GNU TLS library - main runtime library
-ii   libgssapi-krb5-2             1.21.3-5                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2             1.21.3-5+deb13u1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10.1-1                        amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.8-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3                 1.21.3-5                        amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3                 1.21.3-5+deb13u1                amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-6                         amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3                    1.21.3-5                        amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0              1.21.3-5                        amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3                    1.21.3-5+deb13u1                amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0              1.21.3-5+deb13u1                amd64  MIT Kerberos runtime libraries - Support library
 ii   liblastlog2-2                2.41-5                          amd64  lastlog2 database shared library
 ii   libldap2                     2.6.10+dfsg-1                   amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-5                         amd64  log normalizing library
