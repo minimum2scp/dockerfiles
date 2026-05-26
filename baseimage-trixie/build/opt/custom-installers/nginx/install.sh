@@ -4,7 +4,7 @@ set -e
 set -x
 
 apt-get update
-apt-get install -y --no-install-recommends -t trixie nginx
+apt-get install -y --no-install-recommends -t trixie-security nginx
 if invoke-rc.d --quiet nginx status >/dev/null; then
   :
 else

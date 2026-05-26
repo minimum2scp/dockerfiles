@@ -3,7 +3,7 @@
 set -e
 set -x
 
-apt-get install -y --no-install-recommends -t bookworm nginx
+apt-get install -y --no-install-recommends -t bookworm-security nginx
 if invoke-rc.d --quiet nginx status >/dev/null; then
   :
 else
