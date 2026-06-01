@@ -60,9 +60,9 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                      3.155                     all    add and remove users and groups
+ii   adduser                      3.156                     all    add and remove users and groups
 ii   apt                          3.3.1                     amd64  commandline package manager
-ii   base-files                   14.1                      amd64  Debian base system miscellaneous files
+ii   base-files                   14.2                      amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.8                     amd64  Debian base system master password and group files
 ii   bash                         5.3-3                     amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.42-6                    amd64  extra utilities from 4.4BSD-Lite
@@ -72,7 +72,7 @@ ii   ca-certificates              20260223                  all    Common CA cer
 ii   coreutils                    9.10-1                    amd64  GNU core utilities
 ii   cron                         3.0pl1-209                amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-209                all    process scheduling daemon's configuration files
-ii   curl                         8.20.0-2                  amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.20.0-4                  amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                 amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                    all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                    all    OpenPGP archive certificates of the Debian archive
@@ -92,7 +92,7 @@ ii   init-system-helpers          1.69                      all    helper tools 
 ii   initscripts                  3.18-1                    all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                  amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-3                   amd64  access control list - shared library
-ii   libapparmor1                 4.1.7-2                   amd64  changehat AppArmor library
+ii   libapparmor1                 4.1.7-3                   amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.3.1                     amd64  package management runtime library
 ii   libattr1                     1:2.5.2-4                 amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                 all    Dynamic library for security auditing - common files
@@ -110,8 +110,9 @@ ii   libcap2                      1:2.78-1                  amd64  POSIX 1003.1e
 ii   libcbor0.10                  0.10.2-2.1+b1             amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1                  amd64  common error description library
 ii   libcrypt1                    1:4.5.1-1+b1              amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.20.0-2                  amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.20.0-2                  amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3t64-gnutls           8.20.0-4                  all    transitional package for libcurl4-gnutls
+ii   libcurl4-gnutls              8.20.0-4                  amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.20.0-4                  amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.283                     amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20260512-1            amd64  BSD editline and history libraries
@@ -195,9 +196,9 @@ ii   mount                        2.42-6                    amd64  tools for mou
 ii   ncurses-base                 6.6+20251231-1            all    basic terminal type definitions
 ii   ncurses-bin                  6.6+20251231-1+b1         amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                    amd64  NET-3 networking toolkit
-ii   openssh-client               1:10.3p1-3                amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:10.3p1-3                amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.3p1-3                amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:10.3p1-4                amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:10.3p1-4                amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.3p1-4                amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.6.2-1                   amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.6.2-1                   amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.23                      all    Orphaned System-V-like init scripts
@@ -212,7 +213,7 @@ ii   sed                          4.9-3                     amd64  GNU stream ed
 ii   sensible-utils               0.0.26                    all    Utilities for sensible alternative selection
 ii   sqv                          1.3.0-5+b2                amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                    amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.17p2-5                amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.17p2-6                amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  261~rc2-1                 amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.18-1                    all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.18-1                    amd64  System-V-like init
