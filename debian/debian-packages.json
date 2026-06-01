@@ -34,7 +34,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "500",
+    "Installed-Size": "501",
     "Origin": "",
     "Package": "base-files",
     "Pre-Depends": "awk",
@@ -45,7 +45,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "14.1",
+    "Version": "14.2",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "14.1"
+    "source:Version": "14.2"
   },
   {
     "Architecture": "amd64",
