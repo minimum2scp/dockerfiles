@@ -230,7 +230,7 @@
     "Depends": "openssl (>= 1.1.1), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "openssl",
     "Essential": "no",
-    "Installed-Size": "379",
+    "Installed-Size": "313",
     "Origin": "",
     "Package": "ca-certificates",
     "Pre-Depends": "",
@@ -241,7 +241,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "20260223",
+    "Version": "20260601",
     "binary:Package": "ca-certificates",
     "binary:Summary": "Common CA certificates",
     "db:Status-Abbrev": "ii ",
@@ -249,7 +249,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ca-certificates",
-    "source:Version": "20260223"
+    "source:Version": "20260601"
   },
   {
     "Architecture": "amd64",
@@ -339,7 +339,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libcurl4t64 (= 8.20.0-4), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)",
+    "Depends": "libcurl4t64 (= 8.20.0-5), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "507",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.20.0-4",
+    "Version": "8.20.0-5",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.20.0-4"
+    "source:Version": "8.20.0-5"
   },
   {
     "Architecture": "amd64",
@@ -1400,10 +1400,10 @@
     "source:Version": "1:4.5.1-1"
   },
   {
-    "Architecture": "all",
+    "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libcurl4-gnutls (>= 8.20.0-4)",
+    "Depends": "libcurl4-gnutls (>= 8.20.0-5)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "36",
@@ -1417,15 +1417,15 @@
     "Section": "oldlibs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.20.0-4",
-    "binary:Package": "libcurl3t64-gnutls",
+    "Version": "8.20.0-5",
+    "binary:Package": "libcurl3t64-gnutls:amd64",
     "binary:Summary": "transitional package for libcurl4-gnutls",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.20.0-4"
+    "source:Version": "8.20.0-5"
   },
   {
     "Architecture": "amd64",
@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.20.0-4",
+    "Version": "8.20.0-5",
     "binary:Package": "libcurl4-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1453,12 +1453,12 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.20.0-4"
+    "source:Version": "8.20.0-5"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "libcurl3",
-    "Breaks": "libcurl4 (<< 8.20.0-4)",
+    "Breaks": "libcurl4 (<< 8.20.0-5)",
     "Depends": "libnghttp3-9 (>= 1.11.0~), libngtcp2-16 (>= 1.20.0), libbrotli1 (>= 0.6.0), libc6 (>= 2.34), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnghttp2-14 (>= 1.50.0), libngtcp2-crypto-ossl0 (>= 1.22.0), libpsl5t64 (>= 0.16.0), libssh2-1t64 (>= 1.11.1), libssl3t64 (>= 3.2.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
     "Enhances": "",
     "Essential": "no",
@@ -1467,13 +1467,13 @@
     "Package": "libcurl4t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcurl4 (= 8.20.0-4)",
+    "Provides": "libcurl4 (= 8.20.0-5)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.20.0-4",
+    "Version": "8.20.0-5",
     "binary:Package": "libcurl4t64:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.20.0-4"
+    "source:Version": "8.20.0-5"
   },
   {
     "Architecture": "amd64",
@@ -3422,7 +3422,7 @@
     "Depends": "libc6 (>= 2.38), libsqlite3-0 (>= 3.7.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "51",
+    "Installed-Size": "50",
     "Origin": "",
     "Package": "libwtmpdb0",
     "Pre-Depends": "",
@@ -3433,15 +3433,15 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.75.0-5+b1",
-    "binary:Package": "libwtmpdb0:amd64",
+    "Version": "0.75.0-6",
+    "binary:Package": "libwtmpdb0",
     "binary:Summary": "wtmp database shared library",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "wtmpdb",
-    "source:Version": "0.75.0-5"
+    "source:Version": "0.75.0-6"
   },
   {
     "Architecture": "amd64",
