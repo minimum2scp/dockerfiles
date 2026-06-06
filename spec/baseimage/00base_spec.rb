@@ -307,7 +307,10 @@ describe 'minimum2scp/baseimage' do
     end
 
     describe command('docker --version') do
+      let(:path){ '/usr/local/bin' }
       its(:stdout){ should start_with('Docker version 28.5.1, ') }
+      its(:stderr){ should eq '' }
+      its(:exit_status){ should eq 0 }
     end
   end
 
