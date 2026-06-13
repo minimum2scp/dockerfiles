@@ -148,7 +148,7 @@ ii   libnghttp3-9                 1.15.0-1                   amd64  HTTP/3 mappi
 ii   libngtcp2-16                 1.22.1-1                   amd64  QUIC protocol library
 ii   libngtcp2-crypto-gnutls8     1.22.1-1                   amd64  crypto helper library for with GnuTLS backend
 ii   libngtcp2-crypto-ossl0       1.22.1-1                   amd64  crypto helper library for with OpenSSL backend
-ii   libp11-kit0                  0.26.2-2                   amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0                  0.26.2-3                   amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.7.0-5+b2                 amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.7.0-5+b2                 amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.7.0-5                    all    Runtime support for the PAM library
