@@ -72,7 +72,7 @@ ii   ca-certificates              20260601                   all    Common CA ce
 ii   coreutils                    9.10-1                     amd64  GNU core utilities
 ii   cron                         3.0pl1-209                 amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-209                 all    process scheduling daemon's configuration files
-ii   curl                         8.20.0-5                   amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.21.0~rc2-1               amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                  amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                     all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                     all    OpenPGP archive certificates of the Debian archive
@@ -81,7 +81,7 @@ ii   diffutils                    1:3.12-1                   amd64  File compari
 ii   dpkg                         1.23.7                     amd64  Debian package management system
 ii   etckeeper                    1.18.23-2                  all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-4                   amd64  utilities for finding files--find, xargs
-ii   gcc-16-base                  16.1.0-1                   amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-16-base                  16.1.0-2                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.53.0-1                 amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.53.0-1                 all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.12-1                     amd64  GNU grep, egrep and fgrep
@@ -110,9 +110,9 @@ ii   libcap2                      1:2.78-1                   amd64  POSIX 1003.1
 ii   libcbor0.10                  0.10.2-2.1+b1              amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1                   amd64  common error description library
 ii   libcrypt1                    1:4.5.1-1+b1               amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.20.0-5                   amd64  transitional package for libcurl4-gnutls
-ii   libcurl4-gnutls              8.20.0-5                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.20.0-5                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3t64-gnutls           8.21.0~rc2-1               amd64  transitional package for libcurl4-gnutls
+ii   libcurl4-gnutls              8.21.0~rc2-1               amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.21.0~rc2-1               amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11+b1         amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.283                      amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20260512-1             amd64  BSD editline and history libraries
@@ -122,7 +122,7 @@ ii   libexpat1                    2.8.1-1                    amd64  XML parsing 
 ii   libfastjson4                 1.2304.0-2+b2              amd64  fast json library for C
 ii   libffi8                      3.5.2-4                    amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.17.0-1                   amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    16.1.0-1                   amd64  GCC support library
+ii   libgcc-s1                    16.1.0-2                   amd64  GCC support library
 ii   libgdbm-compat4t64           1.26-1+b2                  amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.26-1+b2                  amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-5+b2          amd64  Multiprecision arithmetic library
@@ -170,8 +170,8 @@ ii   libslang2                    2.3.3-6                    amd64  S-Lang progr
 ii   libsmartcols1                2.42.1-3                   amd64  smart column output alignment library
 ii   libsqlite3-0                 3.46.1-9+b1                amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-3                   amd64  SSH2 client-side library
-ii   libssl3t64                   3.6.2-1                    amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   16.1.0-1                   amd64  GNU Standard C++ Library v3
+ii   libssl3t64                   3.6.3-1                    amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libstdc++6                   16.1.0-2                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  261~rc3-1                  amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2+b1                amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-12                    amd64  get display widths of characters on the terminal
@@ -199,8 +199,8 @@ ii   net-tools                    2.10-2                     amd64  NET-3 networ
 ii   openssh-client               1:10.3p1-4                 amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:10.3p1-4                 amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:10.3p1-4                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.6.2-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   openssl-provider-legacy      3.6.2-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                      3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl-provider-legacy      3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.23                       all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.19.3-2                 amd64  change and administer password and group data
 ii   perl                         5.40.1-8                   amd64  Larry Wall's Practical Extraction and Report Language
