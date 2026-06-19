@@ -72,7 +72,7 @@ ii   ca-certificates              20260601                   all    Common CA ce
 ii   coreutils                    9.10-1                     amd64  GNU core utilities
 ii   cron                         3.0pl1-209                 amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-209                 all    process scheduling daemon's configuration files
-ii   curl                         8.21.0~rc2-1               amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.21.0~rc3-1               amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                  amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                     all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                     all    OpenPGP archive certificates of the Debian archive
@@ -101,18 +101,18 @@ ii   libblkid1                    2.42.2-1                   amd64  block device
 ii   libbrotli1                   1.2.0-3                    amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-3                   amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6+b2                 amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.42-16                    amd64  GNU C Library: Binaries
-ii   libc-gconv-modules-extra     2.42-16                    amd64  GNU C Library: Non-essential gconv modules
-ii   libc-l10n                    2.42-16                    all    GNU C Library: localization files
-ii   libc6                        2.42-16                    amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.42-17                    amd64  GNU C Library: Binaries
+ii   libc-gconv-modules-extra     2.42-17                    amd64  GNU C Library: Non-essential gconv modules
+ii   libc-l10n                    2.42-17                    all    GNU C Library: localization files
+ii   libc6                        2.42-17                    amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.9.3-1                    amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.78-1                   amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.1+b1              amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1                   amd64  common error description library
 ii   libcrypt1                    1:4.5.1-1+b1               amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.21.0~rc2-1               amd64  transitional package for libcurl4-gnutls
-ii   libcurl4-gnutls              8.21.0~rc2-1               amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.21.0~rc2-1               amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3t64-gnutls           8.21.0~rc3-1               amd64  transitional package for libcurl4-gnutls
+ii   libcurl4-gnutls              8.21.0~rc3-1               amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.21.0~rc3-1               amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11+b1         amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.283                      amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20260512-1             amd64  BSD editline and history libraries
@@ -186,7 +186,7 @@ ii   libwtmpdb0                   0.75.0-6                   amd64  wtmp databas
 ii   libxxhash0                   0.8.3-2+b2                 amd64  shared library for xxhash
 ii   libzstd1                     1.5.7+dfsg-3+b2            amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                   all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.42-16                    all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.42-17                    all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.42.2-1  amd64  system login tools
 ii   login.defs                   1:4.19.3-2                 all    system user management configuration
 ii   lv                           4.51-10.1                  amd64  Powerful Multilingual File Viewer

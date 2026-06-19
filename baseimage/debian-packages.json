@@ -339,7 +339,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libcurl4t64 (= 8.21.0~rc2-1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)",
+    "Depends": "libcurl4t64 (= 8.21.0~rc3-1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "512",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.21.0~rc2-1",
+    "Version": "8.21.0~rc3-1",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.21.0~rc2-1"
+    "source:Version": "8.21.0~rc3-1"
   },
   {
     "Architecture": "amd64",
@@ -1154,7 +1154,7 @@
     "Depends": "libc6 (>> 2.42), libc6 (<< 2.43)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2119",
+    "Installed-Size": "2115",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.42-16",
+    "Version": "2.42-17",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-16"
+    "source:Version": "2.42-17"
   },
   {
     "Architecture": "amd64",
@@ -1193,7 +1193,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.42-16",
+    "Version": "2.42-17",
     "binary:Package": "libc-gconv-modules-extra:amd64",
     "binary:Summary": "GNU C Library: Non-essential gconv modules",
     "db:Status-Abbrev": "ii ",
@@ -1201,7 +1201,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-16"
+    "source:Version": "2.42-17"
   },
   {
     "Architecture": "all",
@@ -1221,7 +1221,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.42-16",
+    "Version": "2.42-17",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1229,16 +1229,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-16"
+    "source:Version": "2.42-17"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "base-files (<< 13.3~), dhcpcd (<< 1:10.1.0-7~), libamdhip64-5 (<< 5.7.1-5+b1), libhiprtc-builtins5 (<< 5.7.1-5+b1), librccl1 (<< 5.4.3-3+b1), libswupdate0.1 (<< 2024.12.1+dfsg-1+b3), locales (<< 2.42), locales-all (<< 2.42), lua-swupdate (<< 2024.12.1+dfsg-1+b3), nscd (<< 2.42), pd-scaf (<< 1:0.14.1+darcs20180201-6+b4), postgresql-15-pllua (<< 1:2.0.12-4), postgresql-17-pllua (<< 1:2.0.12-3+b2), python3-mrgingham (<< 1.25-1), python3-onnxruntime (<< 1.20.1+dfsg-2~), sysvinit (<< 3.09-2~), sysvinit-core (<< 3.09-2~), uwsgi-plugin-pypy3 (<< 0.0.2+b1)",
-    "Depends": "libgcc-s1, libc-gconv-modules-extra (= 2.42-16)",
+    "Depends": "libgcc-s1, libc-gconv-modules-extra (= 2.42-17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "5363",
+    "Installed-Size": "5355",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -1248,8 +1248,8 @@
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
-    "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.42-16",
+    "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis",
+    "Version": "2.42-17",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-16"
+    "source:Version": "2.42-17"
   },
   {
     "Architecture": "amd64",
@@ -1403,7 +1403,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libcurl4-gnutls (>= 8.21.0~rc2-1)",
+    "Depends": "libcurl4-gnutls (>= 8.21.0~rc3-1)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "36",
@@ -1417,7 +1417,7 @@
     "Section": "oldlibs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.21.0~rc2-1",
+    "Version": "8.21.0~rc3-1",
     "binary:Package": "libcurl3t64-gnutls:amd64",
     "binary:Summary": "transitional package for libcurl4-gnutls",
     "db:Status-Abbrev": "ii ",
@@ -1425,7 +1425,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.21.0~rc2-1"
+    "source:Version": "8.21.0~rc3-1"
   },
   {
     "Architecture": "amd64",
@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.21.0~rc2-1",
+    "Version": "8.21.0~rc3-1",
     "binary:Package": "libcurl4-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1453,12 +1453,12 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.21.0~rc2-1"
+    "source:Version": "8.21.0~rc3-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "libcurl3",
-    "Breaks": "libcurl4 (<< 8.21.0~rc2-1)",
+    "Breaks": "libcurl4 (<< 8.21.0~rc3-1)",
     "Depends": "libnghttp3-9 (>= 1.11.0~), libngtcp2-16 (>= 1.20.0), libbrotli1 (>= 0.6.0), libc6 (>= 2.34), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnghttp2-14 (>= 1.50.0), libngtcp2-crypto-ossl0 (>= 1.22.0), libpsl5t64 (>= 0.16.0), libssh2-1t64 (>= 1.11.1), libssl3t64 (>= 3.2.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
     "Enhances": "",
     "Essential": "no",
@@ -1467,13 +1467,13 @@
     "Package": "libcurl4t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcurl4 (= 8.21.0~rc2-1)",
+    "Provides": "libcurl4 (= 8.21.0~rc3-1)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.21.0~rc2-1",
+    "Version": "8.21.0~rc3-1",
     "binary:Package": "libcurl4t64:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.21.0~rc2-1"
+    "source:Version": "8.21.0~rc3-1"
   },
   {
     "Architecture": "amd64",
@@ -3545,7 +3545,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.42-16",
+    "Version": "2.42-17",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.42-16"
+    "source:Version": "2.42-17"
   },
   {
     "Architecture": "amd64",
