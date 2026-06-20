@@ -33,11 +33,8 @@ I: Validating libaudit1 1:4.1.2-1+b1
 I: Validating libblkid1 2.42.2-1
 I: Validating libbsd0 0.12.2-3
 I: Validating libbz2-1.0 1.0.8-6+b2
-I: Retrieving libc-bin 2.42-17
 I: Validating libc-bin 2.42-17
-I: Retrieving libc-gconv-modules-extra 2.42-17
 I: Validating libc-gconv-modules-extra 2.42-17
-I: Retrieving libc6 2.42-17
 I: Validating libc6 2.42-17
 I: Validating libcap-ng0 0.9.3-1
 I: Validating libcrypt1 1:4.5.1-1+b1
@@ -64,9 +61,11 @@ I: Validating libsepol2 3.10-1
 I: Validating libsmartcols1 2.42.2-1
 I: Validating libssl3t64 3.6.3-1
 I: Validating libstdc++6 16.1.0-2
-I: Validating libsystemd0 261~rc4-1
+I: Retrieving libsystemd0 261-1
+I: Validating libsystemd0 261-1
 I: Validating libtinfo6 6.6+20251231-1+b1
-I: Validating libudev1 261~rc4-1
+I: Retrieving libudev1 261-1
+I: Validating libudev1 261-1
 I: Validating libuuid1 2.42.2-1
 I: Validating libxxhash0 0.8.3-2+b2
 I: Validating libzstd1 1.5.7+dfsg-3+b2
