@@ -127,13 +127,13 @@ ii   libgdbm-compat4t64           1.26-1+b2                  amd64  GNU dbm data
 ii   libgdbm6t64                  1.26-1+b2                  amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-5+b2          amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.13-1                   amd64  GNU TLS library - main runtime library
-ii   libgssapi-krb5-2             1.22.1-2.1                 amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2             1.22.1-3                   amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10.2-1+b1                amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.8-5                    amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3                 1.22.1-2.1                 amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3                 1.22.1-3                   amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-6+b2                 amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3                    1.22.1-2.1                 amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0              1.22.1-2.1                 amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3                    1.22.1-3                   amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0              1.22.1-3                   amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap2                     2.6.10+dfsg-1+b2           amd64  OpenLDAP libraries
 ii   liblognorm5                  2.1.0-1                    amd64  log normalizing library
 ii   liblz4-1                     1.10.0-10                  amd64  Fast LZ compression algorithm library - runtime
@@ -172,13 +172,13 @@ ii   libsqlite3-0                 3.53.2-1                   amd64  SQLite 3 sha
 ii   libssh2-1t64                 1.11.1-3                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.3-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   16.1.0-2                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  261~rc4-1                  amd64  systemd utility library
+ii   libsystemd0                  261-1                      amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2+b1                amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-12                    amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-11                    all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.6+20251231-1+b1          amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-2+b2                 amd64  universal charset detection library - shared library
-ii   libudev1                     261~rc4-1                  amd64  libudev shared library
+ii   libudev1                     261-1                      amd64  libudev shared library
 ii   libunistring5                1.4.2-1                    amd64  Unicode string library for C
 ii   libuuid1                     2.42.2-1                   amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-37                   amd64  Wietse Venema's TCP wrappers library
@@ -214,8 +214,8 @@ ii   sensible-utils               0.0.26                     all    Utilities fo
 ii   sqv                          1.3.0-5+b2                 amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                     amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-7                 amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  261~rc4-1                  amd64  standalone sysusers binary for use in non-systemd systems
-ii   systemd-standalone-tmpfiles  261~rc4-1                  amd64  standalone tmpfiles binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  261-1                      amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-tmpfiles  261-1                      amd64  standalone tmpfiles binary for use in non-systemd systems
 ii   sysv-rc                      3.18-1                     all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.18-1                     amd64  System-V-like init
 ii   sysvinit-utils               3.18-1                     amd64  System-V-like utilities
