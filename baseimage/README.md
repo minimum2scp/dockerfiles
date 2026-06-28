@@ -168,17 +168,17 @@ ii   libsemanage2                 3.10-1                     amd64  SELinux poli
 ii   libsepol2                    3.10-1                     amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-6                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.42.2-1                   amd64  smart column output alignment library
-ii   libsqlite3-0                 3.53.2-1                   amd64  SQLite 3 shared library
+ii   libsqlite3-0                 3.53.3-1                   amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-4                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.3-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   16.1.0-2                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  261-1                      amd64  systemd utility library
+ii   libsystemd0                  261.1-2                    amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2+b1                amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-12                    amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-11                    all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.6+20251231-1+b1          amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-2+b2                 amd64  universal charset detection library - shared library
-ii   libudev1                     261-1                      amd64  libudev shared library
+ii   libudev1                     261.1-2                    amd64  libudev shared library
 ii   libunistring5                1.4.2-1                    amd64  Unicode string library for C
 ii   libuuid1                     2.42.2-1                   amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-37                   amd64  Wietse Venema's TCP wrappers library
@@ -196,9 +196,9 @@ ii   mount                        2.42.2-1                   amd64  tools for mo
 ii   ncurses-base                 6.6+20251231-1             all    basic terminal type definitions
 ii   ncurses-bin                  6.6+20251231-1+b1          amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                     amd64  NET-3 networking toolkit
-ii   openssh-client               1:10.3p1-4                 amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:10.3p1-4                 amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.3p1-4                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:10.3p1-5                 amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:10.3p1-5                 amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.3p1-5                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.23                       all    Orphaned System-V-like init scripts
@@ -214,8 +214,8 @@ ii   sensible-utils               0.0.26                     all    Utilities fo
 ii   sqv                          1.3.0-5+b2                 amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                     amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-7                 amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  261-1                      amd64  standalone sysusers binary for use in non-systemd systems
-ii   systemd-standalone-tmpfiles  261-1                      amd64  standalone tmpfiles binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  261.1-2                    amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-tmpfiles  261.1-2                    amd64  standalone tmpfiles binary for use in non-systemd systems
 ii   sysv-rc                      3.18-1                     all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.18-1                     amd64  System-V-like init
 ii   sysvinit-utils               3.18-1                     amd64  System-V-like utilities
@@ -226,7 +226,7 @@ ii   ucf                          3.0056                     all    Update Confi
 ii   unzip                        6.0-29                     amd64  De-archiver for .zip files
 ii   util-linux                   2.42.2-1                   amd64  miscellaneous system utilities
 ii   vim-common                   2:9.2.0524-1               all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.2.0524-1               amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                     2:9.2.0524-1+b1            amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-2                  amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.2-3   amd64  compression library - runtime
 ii   zsh                          5.9-8+b40                  amd64  shell with lots of features
