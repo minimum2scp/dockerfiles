@@ -72,7 +72,7 @@ ii   ca-certificates              20260601                   all    Common CA ce
 ii   coreutils                    9.10-1                     amd64  GNU core utilities
 ii   cron                         3.0pl1-209                 amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-209                 all    process scheduling daemon's configuration files
-ii   curl                         8.21.0-1                   amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.21.0-2                   amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                  amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                     all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                     all    OpenPGP archive certificates of the Debian archive
@@ -110,9 +110,9 @@ ii   libcap2                      1:2.78-1                   amd64  POSIX 1003.1
 ii   libcbor0.10                  0.10.2-2.1+b1              amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1                   amd64  common error description library
 ii   libcrypt1                    1:4.5.1-1+b1               amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.21.0-1                   amd64  transitional package for libcurl4-gnutls
-ii   libcurl4-gnutls              8.21.0-1                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.21.0-1                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3t64-gnutls           8.21.0-2                   amd64  transitional package for libcurl4-gnutls
+ii   libcurl4-gnutls              8.21.0-2                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.21.0-2                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11+b1         amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.283                      amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20260512-1             amd64  BSD editline and history libraries
@@ -211,7 +211,7 @@ ii   rsyslog                      8.2604.0-4                 amd64  reliable sys
 ii   runit-helper                 2.16.6                     all    dh-runit implementation detail
 ii   sed                          4.9-3                      amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                     all    Utilities for sensible alternative selection
-ii   sqv                          1.3.0-5+b2                 amd64  OpenPGP signature verification program from Sequoia
+ii   sqv                          1.4.0-1                    amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                     amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-7                 amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  261.1-2                    amd64  standalone sysusers binary for use in non-systemd systems
