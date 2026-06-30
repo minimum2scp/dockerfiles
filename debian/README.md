@@ -36,9 +36,9 @@ ii   grep                      3.12-1                     amd64  GNU grep, egrep
 ii   gzip                      1.13-1                     amd64  GNU compression utilities
 ii   hostname                  3.25                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers       1.69                       all    helper tools for all init systems
-ii   libacl1                   2.3.2-3                    amd64  access control list - shared library
+ii   libacl1                   2.4.0-1                    amd64  access control list - shared library
 ii   libapt-pkg7.0             3.3.1                      amd64  package management runtime library
-ii   libattr1                  1:2.5.2-4                  amd64  extended attribute handling - shared library
+ii   libattr1                  1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
 ii   libaudit-common           1:4.1.2-1                  all    Dynamic library for security auditing - common files
 ii   libaudit1                 1:4.1.2-1+b1               amd64  Dynamic library for security auditing
 ii   libblkid1                 2.42.2-1                   amd64  block device ID library
@@ -47,7 +47,7 @@ ii   libbz2-1.0                1.0.8-6+b2                 amd64  high-quality bl
 ii   libc-bin                  2.42-17                    amd64  GNU C Library: Binaries
 ii   libc-gconv-modules-extra  2.42-17                    amd64  GNU C Library: Non-essential gconv modules
 ii   libc6                     2.42-17                    amd64  GNU C Library: Shared libraries
-ii   libcap-ng0                0.9.3-1                    amd64  alternate POSIX capabilities library
+ii   libcap-ng0                0.9.3-1+b1                 amd64  alternate POSIX capabilities library
 ii   libcrypt1                 1:4.5.1-1+b1               amd64  libcrypt shared library
 ii   libdb5.3t64               5.3.28+dfsg2-11+b1         amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0         0.283                      amd64  Debian Configuration Management System (C-implementation library)

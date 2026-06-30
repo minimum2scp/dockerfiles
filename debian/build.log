@@ -25,9 +25,11 @@ I: Validating grep 3.12-1
 I: Validating gzip 1.13-1
 I: Validating hostname 3.25
 I: Validating init-system-helpers 1.69
-I: Validating libacl1 2.3.2-3
+I: Retrieving libacl1 2.4.0-1
+I: Validating libacl1 2.4.0-1
 I: Validating libapt-pkg7.0 3.3.1
-I: Validating libattr1 1:2.5.2-4
+I: Retrieving libattr1 1:2.6.0-1
+I: Validating libattr1 1:2.6.0-1
 I: Validating libaudit-common 1:4.1.2-1
 I: Validating libaudit1 1:4.1.2-1+b1
 I: Validating libblkid1 2.42.2-1
@@ -36,7 +38,8 @@ I: Validating libbz2-1.0 1.0.8-6+b2
 I: Validating libc-bin 2.42-17
 I: Validating libc-gconv-modules-extra 2.42-17
 I: Validating libc6 2.42-17
-I: Validating libcap-ng0 0.9.3-1
+I: Retrieving libcap-ng0 0.9.3-1+b1
+I: Validating libcap-ng0 0.9.3-1+b1
 I: Validating libcrypt1 1:4.5.1-1+b1
 I: Validating libdb5.3t64 5.3.28+dfsg2-11+b1
 I: Validating libdebconfclient0 0.283
@@ -77,7 +80,6 @@ I: Validating openssl-provider-legacy 3.6.3-1
 I: Validating passwd 1:4.19.3-2
 I: Validating perl-base 5.40.1-8
 I: Validating sed 4.9-3
-I: Retrieving sqv 1.4.0-1
 I: Validating sqv 1.4.0-1
 I: Validating sysvinit-utils 3.18-1
 I: Validating tar 1.35+dfsg-4
