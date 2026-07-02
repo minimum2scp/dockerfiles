@@ -23,7 +23,7 @@ jobs:
       - run: bundle exec rspec spec/debian/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
-      - uses: ruby/action-slack@v3.2.2
+      - uses: ruby/action-slack@v4.0.0
         with:
           payload: |
             {
@@ -66,7 +66,7 @@ jobs:
       - run: bundle exec rspec spec/baseimage/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
-      - uses: ruby/action-slack@v3.2.2
+      - uses: ruby/action-slack@v4.0.0
         with:
           payload: |
             {
@@ -108,7 +108,7 @@ jobs:
       - run: bundle exec rspec spec/debian-trixie/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
-      - uses: ruby/action-slack@v3.2.2
+      - uses: ruby/action-slack@v4.0.0
         with:
           payload: |
             {
@@ -151,7 +151,7 @@ jobs:
       - run: bundle exec rspec spec/baseimage-trixie/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
-      - uses: ruby/action-slack@v3.2.2
+      - uses: ruby/action-slack@v4.0.0
         with:
           payload: |
             {
@@ -193,7 +193,7 @@ jobs:
       - run: bundle exec rspec spec/debian-bookworm/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
-      - uses: ruby/action-slack@v3.2.2
+      - uses: ruby/action-slack@v4.0.0
         with:
           payload: |
             {
@@ -236,7 +236,7 @@ jobs:
       - run: bundle exec rspec spec/baseimage-bookworm/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
-      - uses: ruby/action-slack@v3.2.2
+      - uses: ruby/action-slack@v4.0.0
         with:
           payload: |
             {
