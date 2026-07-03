@@ -73,7 +73,7 @@ ii   libsmartcols1             2.42.2-1                   amd64  smart column ou
 ii   libssl3t64                3.6.3-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                16.1.0-2                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0               261.1-2                    amd64  systemd utility library
-ii   libtinfo6                 6.6+20251231-1+b1          amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6                 6.6+20260608-2             amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                  261.1-2                    amd64  libudev shared library
 ii   libuuid1                  2.42.2-1                   amd64  Universally Unique ID library
 ii   libxxhash0                0.8.3-2+b2                 amd64  shared library for xxhash
@@ -82,8 +82,8 @@ ii   login                     1:4.16.0-2+really2.42.2-1  amd64  system login to
 ii   login.defs                1:4.19.3-2                 all    system user management configuration
 ii   mawk                      1.3.4.20260302-1           amd64  Pattern scanning and text processing language
 ii   mount                     2.42.2-1                   amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base              6.6+20251231-1             all    basic terminal type definitions
-ii   ncurses-bin               6.6+20251231-1+b1          amd64  terminal-related programs and man pages
+ii   ncurses-base              6.6+20260608-2             all    basic terminal type definitions
+ii   ncurses-bin               6.6+20260608-2             amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy   3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                    1:4.19.3-2                 amd64  change and administer password and group data
 ii   perl-base                 5.40.1-8                   amd64  minimal Perl system
