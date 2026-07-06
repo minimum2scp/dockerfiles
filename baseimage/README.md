@@ -148,10 +148,10 @@ ii   libngtcp2-16                 1.22.1-1                   amd64  QUIC protoco
 ii   libngtcp2-crypto-gnutls8     1.22.1-1                   amd64  crypto helper library for with GnuTLS backend
 ii   libngtcp2-crypto-ossl0       1.22.1-1                   amd64  crypto helper library for with OpenSSL backend
 ii   libp11-kit0                  0.26.2-3                   amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules               1.7.0-6                    amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin           1.7.0-6                    amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime               1.7.0-6                    all    Runtime support for the PAM library
-ii   libpam0g                     1.7.0-6                    amd64  Pluggable Authentication Modules library
+ii   libpam-modules               1.7.0-7                    amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin           1.7.0-7                    amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime               1.7.0-7                    all    Runtime support for the PAM library
+ii   libpam0g                     1.7.0-7                    amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.46-1+b2                 amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.40                  5.40.1-8                   amd64  shared Perl library
 ii   libpipeline1                 1.5.8-3                    amd64  Unix process pipeline manipulation library
@@ -164,7 +164,7 @@ ii   libseccomp2                  2.6.0-2+b1                 amd64  high level i
 ii   libselinux1                  3.10-1                     amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.10-1                     all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.10-1                     amd64  SELinux policy management library
-ii   libsepol2                    3.10-1                     amd64  SELinux library for manipulating binary security policies
+ii   libsepol2                    3.11-1                     amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-6                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.42.2-1                   amd64  smart column output alignment library
 ii   libsqlite3-0                 3.53.3-1                   amd64  SQLite 3 shared library
@@ -195,9 +195,9 @@ ii   mount                        2.42.2-1                   amd64  tools for mo
 ii   ncurses-base                 6.6+20260608-2             all    basic terminal type definitions
 ii   ncurses-bin                  6.6+20260608-2             amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                     amd64  NET-3 networking toolkit
-ii   openssh-common               1:10.3p1-8                 amd64  common files for OpenSSH
-ii   openssh-server               1:10.3p1-8                 amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.3p1-8                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-common               1:10.3p1-9                 amd64  common files for OpenSSH
+ii   openssh-server               1:10.3p1-9                 amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.3p1-9                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.23                       all    Orphaned System-V-like init scripts
