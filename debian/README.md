@@ -59,10 +59,10 @@ ii   liblzma5                  5.8.3-1                    amd64  XZ-format compr
 ii   libmd0                    1.2.0-2                    amd64  message digest functions from BSD systems - shared library
 ii   libmount1                 2.42.2-1                   amd64  device mounting library
 ii   libnettle8t64             3.10.2-1+b1                amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libpam-modules            1.7.0-6                    amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin        1.7.0-6                    amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime            1.7.0-6                    all    Runtime support for the PAM library
-ii   libpam0g                  1.7.0-6                    amd64  Pluggable Authentication Modules library
+ii   libpam-modules            1.7.0-7                    amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin        1.7.0-7                    amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime            1.7.0-7                    all    Runtime support for the PAM library
+ii   libpam0g                  1.7.0-7                    amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0              10.46-1+b2                 amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2               2.6.0-2+b1                 amd64  high level interface to Linux seccomp filter
 ii   libselinux1               3.10-1                     amd64  SELinux runtime shared libraries
