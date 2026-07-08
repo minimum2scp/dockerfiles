@@ -207,7 +207,7 @@ ii   perl-base                    5.40.1-8                   amd64  minimal Perl
 ii   perl-modules-5.40            5.40.1-8                   all    Core Perl modules
 ii   procps                       2:4.0.6-2                  amd64  /proc file system utilities
 ii   rsyslog                      8.2604.0-4                 amd64  reliable system and kernel logging daemon
-ii   runit-helper                 2.16.6                     all    dh-runit implementation detail
+ii   runit-helper                 2.16.7                     all    dh-runit implementation detail
 ii   sed                          4.9-3                      amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                     all    Utilities for sensible alternative selection
 ii   sqv                          1.4.0-1                    amd64  OpenPGP signature verification program from Sequoia
@@ -224,8 +224,8 @@ ii   tzdata                       2026b-1                    all    time zone an
 ii   ucf                          3.0056                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                     amd64  De-archiver for .zip files
 ii   util-linux                   2.42.2-1                   amd64  miscellaneous system utilities
-ii   vim-common                   2:9.2.0524-1               all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.2.0524-1+b1            amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.2.0782-1               all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.2.0782-1               amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-2                  amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.2-3   amd64  compression library - runtime
 ii   zsh                          5.9-8+b40                  amd64  shell with lots of features
