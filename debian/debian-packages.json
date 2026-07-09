@@ -1157,7 +1157,7 @@
     "Installed-Size": "892",
     "Origin": "",
     "Package": "libpam-modules",
-    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libcrypt1 (>= 1:4.3.0), libdb5.3t64, libpam0g (>= 1.4.1), libselinux1 (>= 3.1~), libsystemd0 (>= 254), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.7.0-7)",
+    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libcrypt1 (>= 1:4.3.0), libdb5.3t64, libpam0g (>= 1.4.1), libselinux1 (>= 3.1~), libsystemd0 (>= 254), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.7.0-8)",
     "Priority": "required",
     "Provides": "libpam-mkhomedir, libpam-motd, libpam-umask",
     "Recommends": "",
@@ -1165,7 +1165,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.7.0-7",
+    "Version": "1.7.0-8",
     "binary:Package": "libpam-modules:amd64",
     "binary:Summary": "Pluggable Authentication Modules for PAM",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.7.0-7"
+    "source:Version": "1.7.0-8"
   },
   {
     "Architecture": "amd64",
@@ -1193,7 +1193,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.7.0-7",
+    "Version": "1.7.0-8",
     "binary:Package": "libpam-modules-bin",
     "binary:Summary": "Pluggable Authentication Modules for PAM - helper binaries",
     "db:Status-Abbrev": "ii ",
@@ -1201,7 +1201,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.7.0-7"
+    "source:Version": "1.7.0-8"
   },
   {
     "Architecture": "all",
@@ -1221,7 +1221,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.7.0-7",
+    "Version": "1.7.0-8",
     "binary:Package": "libpam-runtime",
     "binary:Summary": "Runtime support for the PAM library",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.7.0-7"
+    "source:Version": "1.7.0-8"
   },
   {
     "Architecture": "amd64",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libpam-doc",
-    "Version": "1.7.0-7",
+    "Version": "1.7.0-8",
     "binary:Package": "libpam0g:amd64",
     "binary:Summary": "Pluggable Authentication Modules library",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.7.0-7"
+    "source:Version": "1.7.0-8"
   },
   {
     "Architecture": "amd64",
