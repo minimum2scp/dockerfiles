@@ -2473,7 +2473,7 @@
     "Installed-Size": "892",
     "Origin": "",
     "Package": "libpam-modules",
-    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libcrypt1 (>= 1:4.3.0), libdb5.3t64, libpam0g (>= 1.4.1), libselinux1 (>= 3.1~), libsystemd0 (>= 254), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.7.0-7)",
+    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libcrypt1 (>= 1:4.3.0), libdb5.3t64, libpam0g (>= 1.4.1), libselinux1 (>= 3.1~), libsystemd0 (>= 254), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.7.0-8)",
     "Priority": "required",
     "Provides": "libpam-mkhomedir, libpam-motd, libpam-umask",
     "Recommends": "",
@@ -2481,7 +2481,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.7.0-7",
+    "Version": "1.7.0-8",
     "binary:Package": "libpam-modules:amd64",
     "binary:Summary": "Pluggable Authentication Modules for PAM",
     "db:Status-Abbrev": "ii ",
@@ -2489,7 +2489,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.7.0-7"
+    "source:Version": "1.7.0-8"
   },
   {
     "Architecture": "amd64",
@@ -2509,7 +2509,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.7.0-7",
+    "Version": "1.7.0-8",
     "binary:Package": "libpam-modules-bin",
     "binary:Summary": "Pluggable Authentication Modules for PAM - helper binaries",
     "db:Status-Abbrev": "ii ",
@@ -2517,7 +2517,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.7.0-7"
+    "source:Version": "1.7.0-8"
   },
   {
     "Architecture": "all",
@@ -2537,7 +2537,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.7.0-7",
+    "Version": "1.7.0-8",
     "binary:Package": "libpam-runtime",
     "binary:Summary": "Runtime support for the PAM library",
     "db:Status-Abbrev": "ii ",
@@ -2545,7 +2545,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.7.0-7"
+    "source:Version": "1.7.0-8"
   },
   {
     "Architecture": "amd64",
@@ -2565,7 +2565,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libpam-doc",
-    "Version": "1.7.0-7",
+    "Version": "1.7.0-8",
     "binary:Package": "libpam0g:amd64",
     "binary:Summary": "Pluggable Authentication Modules library",
     "db:Status-Abbrev": "ii ",
@@ -2573,7 +2573,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.7.0-7"
+    "source:Version": "1.7.0-8"
   },
   {
     "Architecture": "amd64",
@@ -3447,6 +3447,34 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
+    "Depends": "libc6 (>= 2.14)",
+    "Enhances": "",
+    "Essential": "no",
+    "Installed-Size": "156",
+    "Origin": "",
+    "Package": "libyaml-0-2",
+    "Pre-Depends": "",
+    "Priority": "optional",
+    "Provides": "",
+    "Recommends": "",
+    "Replace": "",
+    "Section": "libs",
+    "Status": "install ok installed",
+    "Suggests": "",
+    "Version": "0.2.5-2+b1",
+    "binary:Package": "libyaml-0-2:amd64",
+    "binary:Summary": "Fast YAML 1.1 parser and emitter library",
+    "db:Status-Abbrev": "ii ",
+    "db:Status-Want": "install",
+    "db:Status-Status": "installed",
+    "db:Status-Eflag": "ok",
+    "source:Package": "libyaml",
+    "source:Version": "0.2.5-2"
+  },
+  {
+    "Architecture": "amd64",
+    "Conflicts": "",
+    "Breaks": "",
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
@@ -4091,10 +4119,10 @@
     "Architecture": "amd64",
     "Conflicts": "linux-kernel-log-daemon, system-log-daemon",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.38), libestr0 (>= 0.1.9), libfastjson4 (>= 0.99.8), liblognorm5 (>= 2.0.3), libsystemd0 (>= 256~rc1), libuuid1 (>= 2.16), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.38), libestr0 (>= 0.1.9), libfastjson4 (>= 0.99.8), liblognorm5 (>= 2.0.3), libsystemd0 (>= 256~rc1), libuuid1 (>= 2.16), libyaml-0-2, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2203",
+    "Installed-Size": "2271",
     "Origin": "",
     "Package": "rsyslog",
     "Pre-Depends": "",
@@ -4105,7 +4133,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-doc, rsyslog-mysql, rsyslog-pgsql, rsyslog-mongodb, rsyslog-elasticsearch, rsyslog-kafka, rsyslog-hiredis, rsyslog-snmp, rsyslog-kubernetes, rsyslog-docker, rsyslog-clickhouse, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.2604.0-4",
+    "Version": "8.2606.0-4",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4113,7 +4141,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.2604.0-4"
+    "source:Version": "8.2606.0-4"
   },
   {
     "Architecture": "all",

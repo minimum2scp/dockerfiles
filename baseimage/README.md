@@ -148,10 +148,10 @@ ii   libngtcp2-16                 1.22.1-1                   amd64  QUIC protoco
 ii   libngtcp2-crypto-gnutls8     1.22.1-1                   amd64  crypto helper library for with GnuTLS backend
 ii   libngtcp2-crypto-ossl0       1.22.1-1                   amd64  crypto helper library for with OpenSSL backend
 ii   libp11-kit0                  0.26.2-3                   amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules               1.7.0-7                    amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin           1.7.0-7                    amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime               1.7.0-7                    all    Runtime support for the PAM library
-ii   libpam0g                     1.7.0-7                    amd64  Pluggable Authentication Modules library
+ii   libpam-modules               1.7.0-8                    amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin           1.7.0-8                    amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime               1.7.0-8                    all    Runtime support for the PAM library
+ii   libpam0g                     1.7.0-8                    amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.46-1+b2                 amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.40                  5.40.1-8                   amd64  shared Perl library
 ii   libpipeline1                 1.5.8-3                    amd64  Unix process pipeline manipulation library
@@ -183,6 +183,7 @@ ii   libuuid1                     2.42.2-1                   amd64  Universally 
 ii   libwrap0                     7.6.q-37                   amd64  Wietse Venema's TCP wrappers library
 ii   libwtmpdb0                   0.75.0-6                   amd64  wtmp database shared library
 ii   libxxhash0                   0.8.3-2+b2                 amd64  shared library for xxhash
+ii   libyaml-0-2                  0.2.5-2+b1                 amd64  Fast YAML 1.1 parser and emitter library
 ii   libzstd1                     1.5.7+dfsg-3+b2            amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                   all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.42-17                    all    GNU C Library: National Language (locale) data [support]
@@ -206,7 +207,7 @@ ii   perl                         5.40.1-8                   amd64  Larry Wall's
 ii   perl-base                    5.40.1-8                   amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-8                   all    Core Perl modules
 ii   procps                       2:4.0.6-2                  amd64  /proc file system utilities
-ii   rsyslog                      8.2604.0-4                 amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2606.0-4                 amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.7                     all    dh-runit implementation detail
 ii   sed                          4.9-3                      amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                     all    Utilities for sensible alternative selection
