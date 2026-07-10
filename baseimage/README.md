@@ -134,7 +134,7 @@ ii   libkeyutils1                 1.6.3-6+b2                 amd64  Linux Key Ma
 ii   libkrb5-3                    1.22.1-3                   amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.22.1-3                   amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap2                     2.6.13+dfsg-1              amd64  OpenLDAP libraries
-ii   liblognorm5                  2.1.0-1                    amd64  log normalizing library
+ii   liblognorm5                  2.1.0+really-1             amd64  log normalizing library
 ii   liblz4-1                     1.10.0-10                  amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.8.3-1                    amd64  XZ-format compression library
 ii   libmd0                       1.2.0-2                    amd64  message digest functions from BSD systems - shared library
@@ -160,8 +160,8 @@ ii   libproc2-1                   2:4.0.6-2                  amd64  library for 
 ii   libpsl5t64                   0.22.0-1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libsasl2-2                   2.1.28+dfsg1-11            amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-11            amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2                  2.6.0-2+b1                 amd64  high level interface to Linux seccomp filter
-ii   libselinux1                  3.10-1                     amd64  SELinux runtime shared libraries
+ii   libseccomp2                  2.6.1-1                    amd64  high level interface to Linux seccomp filter
+ii   libselinux1                  3.11-1                     amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.10-1                     all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.10-1                     amd64  SELinux policy management library
 ii   libsepol2                    3.11-1                     amd64  SELinux library for manipulating binary security policies
@@ -171,11 +171,20 @@ ii   libsqlite3-0                 3.53.3-1                   amd64  SQLite 3 sha
 ii   libssh2-1t64                 1.11.1-4                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.3-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   16.1.0-2                   amd64  GNU Standard C++ Library v3
+ii   libsystemd-shared            261.1-2                    amd64  systemd shared private library
 ii   libsystemd0                  261.1-2                    amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2+b1                amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-12                    amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-11                    all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.6+20260608-2             amd64  shared low-level terminfo library for terminal handling
+ii   libtss2-esys-3.0.2-0t64      4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
+ii   libtss2-mu-4.0.1-0t64        4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
+ii   libtss2-rc0t64               4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
+ii   libtss2-sys1t64              4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
+ii   libtss2-tcti-cmd0t64         4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
+ii   libtss2-tcti-device0t64      4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
+ii   libtss2-tcti-mssim0t64       4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
+ii   libtss2-tcti-swtpm0t64       4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
 ii   libuchardet0                 0.0.8-2+b2                 amd64  universal charset detection library - shared library
 ii   libudev1                     261.1-2                    amd64  libudev shared library
 ii   libunistring5                1.4.2-1                    amd64  Unicode string library for C
@@ -216,10 +225,12 @@ ii   startpar                     0.67-1                     amd64  run processe
 ii   sudo                         1.9.17p2-7                 amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  261.1-2                    amd64  standalone sysusers binary for use in non-systemd systems
 ii   systemd-standalone-tmpfiles  261.1-2                    amd64  standalone tmpfiles binary for use in non-systemd systems
+ii   systemd-tpm                  261.1-2                    amd64  Provides tpm2 utilities and units
 ii   sysv-rc                      3.18-1                     all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.18-1                     amd64  System-V-like init
 ii   sysvinit-utils               3.18-1                     amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-4                amd64  GNU version of the tar archiving utility
+ii   tpm-udev                     4.1.3-6                    all    TPM2 Software stack library - udev rules for TPM modules
 ii   tree                         2.3.2-1                    amd64  displays an indented directory tree, in color
 ii   tzdata                       2026b-1                    all    time zone and daylight-saving time data
 ii   ucf                          3.0056                     all    Update Configuration File(s): preserve user changes to config files
