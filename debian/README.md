@@ -64,16 +64,25 @@ ii   libpam-modules-bin        1.7.0-8                    amd64  Pluggable Authe
 ii   libpam-runtime            1.7.0-8                    all    Runtime support for the PAM library
 ii   libpam0g                  1.7.0-8                    amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0              10.46-1+b2                 amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libseccomp2               2.6.0-2+b1                 amd64  high level interface to Linux seccomp filter
-ii   libselinux1               3.10-1                     amd64  SELinux runtime shared libraries
+ii   libseccomp2               2.6.1-1                    amd64  high level interface to Linux seccomp filter
+ii   libselinux1               3.11-1                     amd64  SELinux runtime shared libraries
 ii   libsemanage-common        3.10-1                     all    Common files for SELinux policy management libraries
 ii   libsemanage2              3.10-1                     amd64  SELinux policy management library
 ii   libsepol2                 3.11-1                     amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1             2.42.2-1                   amd64  smart column output alignment library
 ii   libssl3t64                3.6.3-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                16.1.0-2                   amd64  GNU Standard C++ Library v3
+ii   libsystemd-shared         261.1-2                    amd64  systemd shared private library
 ii   libsystemd0               261.1-2                    amd64  systemd utility library
 ii   libtinfo6                 6.6+20260608-2             amd64  shared low-level terminfo library for terminal handling
+ii   libtss2-esys-3.0.2-0t64   4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
+ii   libtss2-mu-4.0.1-0t64     4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
+ii   libtss2-rc0t64            4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
+ii   libtss2-sys1t64           4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
+ii   libtss2-tcti-cmd0t64      4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
+ii   libtss2-tcti-device0t64   4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
+ii   libtss2-tcti-mssim0t64    4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
+ii   libtss2-tcti-swtpm0t64    4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
 ii   libudev1                  261.1-2                    amd64  libudev shared library
 ii   libuuid1                  2.42.2-1                   amd64  Universally Unique ID library
 ii   libxxhash0                0.8.3-2+b2                 amd64  shared library for xxhash
@@ -89,8 +98,11 @@ ii   passwd                    1:4.19.3-2                 amd64  change and admi
 ii   perl-base                 5.40.1-8                   amd64  minimal Perl system
 ii   sed                       4.9-3                      amd64  GNU stream editor for filtering/transforming text
 ii   sqv                       1.4.0-1                    amd64  OpenPGP signature verification program from Sequoia
+ii   systemd                   261.1-2                    amd64  system and service manager
+ii   systemd-tpm               261.1-2                    amd64  Provides tpm2 utilities and units
 ii   sysvinit-utils            3.18-1                     amd64  System-V-like utilities
 ii   tar                       1.35+dfsg-4                amd64  GNU version of the tar archiving utility
+ii   tpm-udev                  4.1.3-6                    all    TPM2 Software stack library - udev rules for TPM modules
 ii   tzdata                    2026b-1                    all    time zone and daylight-saving time data
 ii   util-linux                2.42.2-1                   amd64  miscellaneous system utilities
 ii   zlib1g                    1:1.3.dfsg+really1.3.2-3   amd64  compression library - runtime
