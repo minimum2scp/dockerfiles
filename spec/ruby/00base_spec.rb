@@ -86,8 +86,16 @@ describe 'minimum2scp/ruby' do
       it { should be_directory }
     end
 
+    describe package('ruby-rubygems') do
+      it { should be_installed.with_version('4.0.15-2') }
+    end
+
+    describe package('ruby-bundler') do
+      it { should be_installed.with_version('4.0.15-2') }
+    end
+
     describe package('bundler') do
-      it { should be_installed.with_version('2.6.7-2') }
+      it { should be_installed.with_version('4.0.15-2') }
     end
   end
 end
