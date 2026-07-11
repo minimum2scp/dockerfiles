@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   apt                      3.0.3                        amd64  commandline package manager
-ii   base-files               13.8+deb13u5                 amd64  Debian base system miscellaneous files
+ii   base-files               13.8+deb13u6                 amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.7                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-2+b9                  amd64  GNU Bourne Again SHell
 ii   bsdutils                 1:2.41-5                     amd64  basic utilities from 4.4BSD-Lite
@@ -56,7 +56,7 @@ ii   libgmp10                 2:6.3.0+dfsg-3               amd64  Multiprecision
 ii   libhogweed6t64           3.10.1-1                     amd64  low level cryptographic library (public-key cryptos)
 ii   liblastlog2-2            2.41-5                       amd64  lastlog2 database shared library
 ii   liblz4-1                 1.10.0-4                     amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                 5.8.1-1                      amd64  XZ-format compression library
+ii   liblzma5                 5.8.1-1+deb13u1              amd64  XZ-format compression library
 ii   libmd0                   1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.41-5                       amd64  device mounting library
 ii   libnettle8t64            3.10.1-1                     amd64  low level cryptographic library (symmetric and one-way cryptos)
@@ -72,7 +72,7 @@ ii   libsemanage2             3.8.1-1                      amd64  SELinux policy
 ii   libsepol2                3.8.1-1                      amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1            2.41-5                       amd64  smart column output alignment library
 ii   libsqlite3-0             3.46.1-7+deb13u1             amd64  SQLite 3 shared library
-ii   libssl3t64               3.5.6-1~deb13u1              amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3t64               3.5.6-1~deb13u2              amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-19                    amd64  GNU Standard C++ Library v3
 ii   libsystemd0              257.13-1~deb13u1             amd64  systemd utility library
 ii   libtinfo6                6.5+20250216-2               amd64  shared low-level terminfo library for terminal handling
@@ -86,7 +86,7 @@ ii   mawk                     1.3.4.20250131-1             amd64  Pattern scanni
 ii   mount                    2.41-5                       amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.5+20250216-2               all    basic terminal type definitions
 ii   ncurses-bin              6.5+20250216-2               amd64  terminal-related programs and man pages
-ii   openssl-provider-legacy  3.5.6-1~deb13u1              amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl-provider-legacy  3.5.6-1~deb13u2              amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                   1:4.17.4-2                   amd64  change and administer password and group data
 ii   perl-base                5.40.1-6                     amd64  minimal Perl system
 ii   sed                      4.9-2+deb13u1                amd64  GNU stream editor for filtering/transforming text
