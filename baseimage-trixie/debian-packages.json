@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "13.8+deb13u5",
+    "Version": "13.8+deb13u6",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "13.8+deb13u5"
+    "source:Version": "13.8+deb13u6"
   },
   {
     "Architecture": "amd64",
@@ -339,7 +339,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libcurl4t64 (= 8.14.1-2+deb13u3), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.34), libcurl4t64 (= 8.14.1-2+deb13u4), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "495",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.14.1-2+deb13u3",
+    "Version": "8.14.1-2+deb13u4",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.14.1-2+deb13u3"
+    "source:Version": "8.14.1-2+deb13u4"
   },
   {
     "Architecture": "amd64",
@@ -1374,22 +1374,22 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libcurl3-gnutls (<< 8.14.1-2+deb13u3)",
+    "Breaks": "libcurl3-gnutls (<< 8.14.1-2+deb13u4)",
     "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgnutls30t64 (>= 3.8.6), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnettle8t64, libnghttp2-14 (>= 1.50.0), libnghttp3-9 (>= 0.15.0), libngtcp2-16 (>= 1.1.0), libngtcp2-crypto-gnutls8 (>= 1.1.0), libpsl5t64 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1t64 (>= 1.11.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "993",
+    "Installed-Size": "997",
     "Origin": "",
     "Package": "libcurl3t64-gnutls",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcurl3-gnutls (= 8.14.1-2+deb13u3)",
+    "Provides": "libcurl3-gnutls (= 8.14.1-2+deb13u4)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.14.1-2+deb13u3",
+    "Version": "8.14.1-2+deb13u4",
     "binary:Package": "libcurl3t64-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1397,12 +1397,12 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.14.1-2+deb13u3"
+    "source:Version": "8.14.1-2+deb13u4"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "libcurl3",
-    "Breaks": "libcurl4 (<< 8.14.1-2+deb13u3)",
+    "Breaks": "libcurl4 (<< 8.14.1-2+deb13u4)",
     "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnghttp2-14 (>= 1.50.0), libnghttp3-9 (>= 0.15.0), libpsl5t64 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1t64 (>= 1.11.1), libssl3t64 (>= 3.3.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
     "Enhances": "",
     "Essential": "no",
@@ -1411,13 +1411,13 @@
     "Package": "libcurl4t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcurl4 (= 8.14.1-2+deb13u3)",
+    "Provides": "libcurl4 (= 8.14.1-2+deb13u4)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.14.1-2+deb13u3",
+    "Version": "8.14.1-2+deb13u4",
     "binary:Package": "libcurl4t64:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1425,7 +1425,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.14.1-2+deb13u3"
+    "source:Version": "8.14.1-2+deb13u4"
   },
   {
     "Architecture": "amd64",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.8.1-1",
+    "Version": "5.8.1-1+deb13u1",
     "binary:Package": "liblzma5:amd64",
     "binary:Summary": "XZ-format compression library",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xz-utils",
-    "source:Version": "5.8.1-1"
+    "source:Version": "5.8.1-1+deb13u1"
   },
   {
     "Architecture": "amd64",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.20.0-2",
+    "Version": "4.20.0-2+deb13u1",
     "binary:Package": "libtasn1-6:amd64",
     "binary:Summary": "Manage ASN.1 structures (runtime)",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libtasn1-6",
-    "source:Version": "4.20.0-2"
+    "source:Version": "4.20.0-2+deb13u1"
   },
   {
     "Architecture": "amd64",
