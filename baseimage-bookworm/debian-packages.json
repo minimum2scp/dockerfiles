@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.4+deb12u14",
+    "Version": "12.4+deb12u15",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "12.4+deb12u14"
+    "source:Version": "12.4+deb12u15"
   },
   {
     "Architecture": "amd64",
@@ -339,7 +339,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libcurl4 (= 7.88.1-10+deb12u14), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.34), libcurl4 (= 7.88.1-10+deb12u15), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "489",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.88.1-10+deb12u14",
+    "Version": "7.88.1-10+deb12u15",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.88.1-10+deb12u14"
+    "source:Version": "7.88.1-10+deb12u15"
   },
   {
     "Architecture": "amd64",
@@ -1417,7 +1417,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.88.1-10+deb12u14",
+    "Version": "7.88.1-10+deb12u15",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1425,7 +1425,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.88.1-10+deb12u14"
+    "source:Version": "7.88.1-10+deb12u15"
   },
   {
     "Architecture": "amd64",
@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.88.1-10+deb12u14",
+    "Version": "7.88.1-10+deb12u15",
     "binary:Package": "libcurl4:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.88.1-10+deb12u14"
+    "source:Version": "7.88.1-10+deb12u15"
   },
   {
     "Architecture": "amd64",
@@ -2229,7 +2229,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.4.1-1",
+    "Version": "5.4.1-1+deb12u1",
     "binary:Package": "liblzma5:amd64",
     "binary:Summary": "XZ-format compression library",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xz-utils",
-    "source:Version": "5.4.1-1"
+    "source:Version": "5.4.1-1+deb12u1"
   },
   {
     "Architecture": "amd64",
