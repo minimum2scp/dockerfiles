@@ -22,7 +22,7 @@ ii   apt                       3.3.1                      amd64  commandline pac
 ii   base-files                14.2                       amd64  Debian base system miscellaneous files
 ii   base-passwd               3.6.8                      amd64  Debian base system master password and group files
 ii   bash                      5.3-3                      amd64  GNU Bourne Again SHell
-ii   bsdutils                  1:2.42.2-1                 amd64  basic utilities from 4.4BSD-Lite
+ii   bsdutils                  1:2.42.2-2                 amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                 9.10-1                     amd64  GNU core utilities
 ii   dash                      0.5.12-12                  amd64  POSIX-compliant shell
 ii   debconf                   1.5.92                     all    Debian configuration management system
@@ -41,7 +41,7 @@ ii   libapt-pkg7.0             3.3.1                      amd64  package managem
 ii   libattr1                  1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
 ii   libaudit-common           1:4.1.2-1                  all    Dynamic library for security auditing - common files
 ii   libaudit1                 1:4.1.2-1+b1               amd64  Dynamic library for security auditing
-ii   libblkid1                 2.42.2-1                   amd64  block device ID library
+ii   libblkid1                 2.42.2-2                   amd64  block device ID library
 ii   libbsd0                   0.12.2-3                   amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                1.0.8-6+b2                 amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                  2.42-17                    amd64  GNU C Library: Binaries
@@ -57,7 +57,7 @@ ii   libhogweed6t64            3.10.2-1+b1                amd64  low level crypt
 ii   liblz4-1                  1.10.0-10                  amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                  5.8.3-1                    amd64  XZ-format compression library
 ii   libmd0                    1.2.0-2                    amd64  message digest functions from BSD systems - shared library
-ii   libmount1                 2.42.2-1                   amd64  device mounting library
+ii   libmount1                 2.42.2-2                   amd64  device mounting library
 ii   libnettle8t64             3.10.2-1+b1                amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libpam-modules            1.7.0-8                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin        1.7.0-8                    amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -65,32 +65,23 @@ ii   libpam-runtime            1.7.0-8                    all    Runtime support
 ii   libpam0g                  1.7.0-8                    amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0              10.46-1+b2                 amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2               2.6.1-1                    amd64  high level interface to Linux seccomp filter
-ii   libselinux1               3.11-1                     amd64  SELinux runtime shared libraries
-ii   libsemanage-common        3.10-1                     all    Common files for SELinux policy management libraries
-ii   libsemanage2              3.10-1                     amd64  SELinux policy management library
+ii   libselinux1               3.11-2                     amd64  SELinux runtime shared libraries
+ii   libsemanage-common        3.11-1                     all    Common files for SELinux policy management libraries
+ii   libsemanage2              3.11-1                     amd64  SELinux policy management library
 ii   libsepol2                 3.11-1                     amd64  SELinux library for manipulating binary security policies
-ii   libsmartcols1             2.42.2-1                   amd64  smart column output alignment library
+ii   libsmartcols1             2.42.2-2                   amd64  smart column output alignment library
 ii   libssl3t64                3.6.3-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                16.1.0-2                   amd64  GNU Standard C++ Library v3
-ii   libsystemd-shared         261.1-2                    amd64  systemd shared private library
-ii   libsystemd0               261.1-2                    amd64  systemd utility library
+ii   libsystemd0               261.1-3                    amd64  systemd utility library
 ii   libtinfo6                 6.6+20260608-2             amd64  shared low-level terminfo library for terminal handling
-ii   libtss2-esys-3.0.2-0t64   4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
-ii   libtss2-mu-4.0.1-0t64     4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
-ii   libtss2-rc0t64            4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
-ii   libtss2-sys1t64           4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
-ii   libtss2-tcti-cmd0t64      4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
-ii   libtss2-tcti-device0t64   4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
-ii   libtss2-tcti-mssim0t64    4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
-ii   libtss2-tcti-swtpm0t64    4.1.3-6                    amd64  TPM2 Software stack library - TSS and TCTI libraries
-ii   libudev1                  261.1-2                    amd64  libudev shared library
-ii   libuuid1                  2.42.2-1                   amd64  Universally Unique ID library
+ii   libudev1                  261.1-3                    amd64  libudev shared library
+ii   libuuid1                  2.42.2-2                   amd64  Universally Unique ID library
 ii   libxxhash0                0.8.3-2+b2                 amd64  shared library for xxhash
 ii   libzstd1                  1.5.7+dfsg-3+b2            amd64  fast lossless compression algorithm
-ii   login                     1:4.16.0-2+really2.42.2-1  amd64  system login tools
+ii   login                     1:4.16.0-2+really2.42.2-2  amd64  system login tools
 ii   login.defs                1:4.19.3-2                 all    system user management configuration
 ii   mawk                      1.3.4.20260302-1           amd64  Pattern scanning and text processing language
-ii   mount                     2.42.2-1                   amd64  tools for mounting and manipulating filesystems
+ii   mount                     2.42.2-2                   amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base              6.6+20260608-2             all    basic terminal type definitions
 ii   ncurses-bin               6.6+20260608-2             amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy   3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
@@ -98,12 +89,9 @@ ii   passwd                    1:4.19.3-2                 amd64  change and admi
 ii   perl-base                 5.40.1-8                   amd64  minimal Perl system
 ii   sed                       4.9-3                      amd64  GNU stream editor for filtering/transforming text
 ii   sqv                       1.4.0-1                    amd64  OpenPGP signature verification program from Sequoia
-ii   systemd                   261.1-2                    amd64  system and service manager
-ii   systemd-tpm               261.1-2                    amd64  Provides tpm2 utilities and units
 ii   sysvinit-utils            3.18-1                     amd64  System-V-like utilities
 ii   tar                       1.35+dfsg-4                amd64  GNU version of the tar archiving utility
-ii   tpm-udev                  4.1.3-6                    all    TPM2 Software stack library - udev rules for TPM modules
 ii   tzdata                    2026b-1                    all    time zone and daylight-saving time data
-ii   util-linux                2.42.2-1                   amd64  miscellaneous system utilities
+ii   util-linux                2.42.2-2                   amd64  miscellaneous system utilities
 ii   zlib1g                    1:1.3.dfsg+really1.3.2-3   amd64  compression library - runtime
 ```
