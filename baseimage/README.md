@@ -119,7 +119,7 @@ ii   liberror-perl                0.17030-1                  all    Perl module 
 ii   libestr0                     0.1.11-2+b2                amd64  Helper functions for handling strings (lib)
 ii   libexpat1                    2.8.2-1                    amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2304.0-2+b2              amd64  fast json library for C
-ii   libffi8                      3.7.1-1                    amd64  Foreign Function Interface library runtime
+ii   libffi8                      3.7.1-2                    amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.17.0-1                   amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                    16.1.0-2                   amd64  GCC support library
 ii   libgdbm-compat4t64           1.26-1+b2                  amd64  GNU dbm database routines (legacy support runtime version) 
@@ -157,7 +157,7 @@ ii   libperl5.40                  5.40.1-8                   amd64  shared Perl 
 ii   libpipeline1                 1.5.8-3                    amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2+b2             amd64  lib for parsing cmdline parameters
 ii   libproc2-1                   2:4.0.6-2                  amd64  library for accessing process information from /proc
-ii   libpsl5t64                   0.22.0-1                   amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5t64                   0.23.0-1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libsasl2-2                   2.1.28+dfsg1-11            amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-11            amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.6.1-1                    amd64  high level interface to Linux seccomp filter
@@ -221,7 +221,7 @@ ii   sysvinit-core                3.18-1                     amd64  System-V-lik
 ii   sysvinit-utils               3.18-1                     amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-4                amd64  GNU version of the tar archiving utility
 ii   tree                         2.3.2-1                    amd64  displays an indented directory tree, in color
-ii   tzdata                       2026b-1                    all    time zone and daylight-saving time data
+ii   tzdata                       2026c-1                    all    time zone and daylight-saving time data
 ii   ucf                          3.0056                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                     amd64  De-archiver for .zip files
 ii   util-linux                   2.42.2-2                   amd64  miscellaneous system utilities
