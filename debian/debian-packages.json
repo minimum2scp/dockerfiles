@@ -2050,7 +2050,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1356",
+    "Installed-Size": "1352",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -2061,7 +2061,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2026b-1",
+    "Version": "2026c-1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2026b-1"
+    "source:Version": "2026c-1"
   },
   {
     "Architecture": "amd64",
