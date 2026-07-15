@@ -49,7 +49,7 @@ GEM
       rspec-its
       specinfra (~> 2.72)
     sfl (2.3)
-    specinfra (2.95.0)
+    specinfra (2.95.1)
       base64
       net-scp
       net-ssh (>= 2.7)
@@ -94,7 +94,7 @@ CHECKSUMS
   rspec-support (3.13.7) sha256=0640e5570872aafefd79867901deeeeb40b0c9875a36b983d85f54fb7381c47c
   serverspec (2.43.0) sha256=0207ed5f4066a63767ea7332211e6aaf793c047bb33ad1f7946aa5983d4b8e77
   sfl (2.3) sha256=99739e51c33062e3964e1802a700ee9cd8d0f9c389b2a07f8a5fdf84e186a4e2
-  specinfra (2.95.0) sha256=7ab3c596df6c4ef69e6875f3fb38462aeb22d4731f2dcede167d2cc16288f90b
+  specinfra (2.95.1) sha256=26efb27803834bf0e4c4d434e3a671d9243e0d5a9c18dd5e84106bdae181419d
   yard (0.9.45) sha256=52e211493f7cb8a3ebf7e104a25a1e73937a3103092545d34cb88fafebb3dc51
 
 BUNDLED WITH
