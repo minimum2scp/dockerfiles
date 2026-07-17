@@ -2341,7 +2341,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.15.0-1",
+    "Version": "1.17.0-1",
     "binary:Package": "libnghttp3-9:amd64",
     "binary:Summary": "HTTP/3 mapping over QUIC and QPACK (library)",
     "db:Status-Abbrev": "ii ",
@@ -2349,7 +2349,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nghttp3",
-    "source:Version": "1.15.0-1"
+    "source:Version": "1.17.0-1"
   },
   {
     "Architecture": "amd64",
@@ -2358,7 +2358,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "353",
+    "Installed-Size": "389",
     "Origin": "",
     "Package": "libngtcp2-16",
     "Pre-Depends": "",
@@ -2369,7 +2369,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.22.1-1",
+    "Version": "1.24.0-1",
     "binary:Package": "libngtcp2-16:amd64",
     "binary:Summary": "QUIC protocol library",
     "db:Status-Abbrev": "ii ",
@@ -2377,16 +2377,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ngtcp2",
-    "source:Version": "1.22.1-1"
+    "source:Version": "1.24.0-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgnutls30t64 (>= 3.8.2), libngtcp2-16 (>= 1.1.0)",
+    "Depends": "libc6 (>= 2.14), libgnutls30t64 (>= 3.8.2), libngtcp2-16 (>= 1.24.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "74",
+    "Installed-Size": "76",
     "Origin": "",
     "Package": "libngtcp2-crypto-gnutls8",
     "Pre-Depends": "",
@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.22.1-1",
+    "Version": "1.24.0-1",
     "binary:Package": "libngtcp2-crypto-gnutls8:amd64",
     "binary:Summary": "crypto helper library for with GnuTLS backend",
     "db:Status-Abbrev": "ii ",
@@ -2405,16 +2405,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ngtcp2",
-    "source:Version": "1.22.1-1"
+    "source:Version": "1.24.0-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libngtcp2-16 (>= 1.1.0), libssl3t64 (>= 3.5.1)",
+    "Depends": "libc6 (>= 2.14), libngtcp2-16 (>= 1.24.0), libssl3t64 (>= 3.5.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "82",
+    "Installed-Size": "84",
     "Origin": "",
     "Package": "libngtcp2-crypto-ossl0",
     "Pre-Depends": "",
@@ -2425,7 +2425,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.22.1-1",
+    "Version": "1.24.0-1",
     "binary:Package": "libngtcp2-crypto-ossl0:amd64",
     "binary:Summary": "crypto helper library for with OpenSSL backend",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ngtcp2",
-    "source:Version": "1.22.1-1"
+    "source:Version": "1.24.0-1"
   },
   {
     "Architecture": "amd64",
