@@ -22,32 +22,6 @@ jobs:
       - run: docker pull minimum2scp/debian:latest
       - run: bundle exec rspec spec/debian/01apt_spec.rb -e 'apt list --upgradable'
 
-      # notify to slack
-      - uses: ruby/action-slack@v3.2.2
-        with:
-          payload: |
-            {
-              "username": "GitHub Actions",
-              "icon_emoji": ":octocat:",
-              "channel": "#gh",
-              "attachments": [{
-                "color": "danger",
-                "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
-                "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
-                "footer_icon": "https://github.githubassets.com/favicon.ico",
-                "fields": [
-                  {
-                    "title": "image",
-                    "value": "minimum2scp/debian:latest",
-                    "short": false
-                  }
-                ]
-              }]
-            }
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: "failure()"
-
   baseimage:
     name: baseimage
     runs-on: ubuntu-latest
@@ -65,32 +39,6 @@ jobs:
       - run: docker pull minimum2scp/baseimage:latest
       - run: bundle exec rspec spec/baseimage/01apt_spec.rb -e 'apt list --upgradable'
 
-      # notify to slack
-      - uses: ruby/action-slack@v3.2.2
-        with:
-          payload: |
-            {
-              "username": "GitHub Actions",
-              "icon_emoji": ":octocat:",
-              "channel": "#gh",
-              "attachments": [{
-                "color": "danger",
-                "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
-                "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
-                "footer_icon": "https://github.githubassets.com/favicon.ico",
-                "fields": [
-                  {
-                    "title": "image",
-                    "value": "minimum2scp/baseimage:latest",
-                    "short": false
-                  }
-                ]
-              }]
-            }
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: "failure()"
-
   debian-trixie:
     name: debian-trixie
     runs-on: ubuntu-latest
@@ -106,32 +54,6 @@ jobs:
       # run test
       - run: docker pull minimum2scp/debian-trixie:latest
       - run: bundle exec rspec spec/debian-trixie/01apt_spec.rb -e 'apt list --upgradable'
-
-      # notify to slack
-      - uses: ruby/action-slack@v3.2.2
-        with:
-          payload: |
-            {
-              "username": "GitHub Actions",
-              "icon_emoji": ":octocat:",
-              "channel": "#gh",
-              "attachments": [{
-                "color": "danger",
-                "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
-                "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
-                "footer_icon": "https://github.githubassets.com/favicon.ico",
-                "fields": [
-                  {
-                    "title": "image",
-                    "value": "minimum2scp/debian-trixie:latest",
-                    "short": false
-                  }
-                ]
-              }]
-            }
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: "failure()"
 
   baseimage-trixie:
     name: baseimage-trixie
@@ -150,32 +72,6 @@ jobs:
       - run: docker pull minimum2scp/baseimage-trixie:latest
       - run: bundle exec rspec spec/baseimage-trixie/01apt_spec.rb -e 'apt list --upgradable'
 
-      # notify to slack
-      - uses: ruby/action-slack@v3.2.2
-        with:
-          payload: |
-            {
-              "username": "GitHub Actions",
-              "icon_emoji": ":octocat:",
-              "channel": "#gh",
-              "attachments": [{
-                "color": "danger",
-                "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
-                "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
-                "footer_icon": "https://github.githubassets.com/favicon.ico",
-                "fields": [
-                  {
-                    "title": "image",
-                    "value": "minimum2scp/baseimage-trixie:latest",
-                    "short": false
-                  }
-                ]
-              }]
-            }
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: "failure()"
-
   debian-bookworm:
     name: debian-bookworm
     runs-on: ubuntu-latest
@@ -191,32 +87,6 @@ jobs:
       # run test
       - run: docker pull minimum2scp/debian-bookworm:latest
       - run: bundle exec rspec spec/debian-bookworm/01apt_spec.rb -e 'apt list --upgradable'
-
-      # notify to slack
-      - uses: ruby/action-slack@v3.2.2
-        with:
-          payload: |
-            {
-              "username": "GitHub Actions",
-              "icon_emoji": ":octocat:",
-              "channel": "#gh",
-              "attachments": [{
-                "color": "danger",
-                "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
-                "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
-                "footer_icon": "https://github.githubassets.com/favicon.ico",
-                "fields": [
-                  {
-                    "title": "image",
-                    "value": "minimum2scp/debian-bookworm:latest",
-                    "short": false
-                  }
-                ]
-              }]
-            }
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: "failure()"
 
   baseimage-bookworm:
     name: baseimage-bookworm
@@ -234,30 +104,4 @@ jobs:
       # run test
       - run: docker pull minimum2scp/baseimage-bookworm:latest
       - run: bundle exec rspec spec/baseimage-bookworm/01apt_spec.rb -e 'apt list --upgradable'
-
-      # notify to slack
-      - uses: ruby/action-slack@v3.2.2
-        with:
-          payload: |
-            {
-              "username": "GitHub Actions",
-              "icon_emoji": ":octocat:",
-              "channel": "#gh",
-              "attachments": [{
-                "color": "danger",
-                "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
-                "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
-                "footer_icon": "https://github.githubassets.com/favicon.ico",
-                "fields": [
-                  {
-                    "title": "image",
-                    "value": "minimum2scp/baseimage-bookworm:latest",
-                    "short": false
-                  }
-                ]
-              }]
-            }
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: "failure()"
 
