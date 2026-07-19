@@ -4735,10 +4735,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "zsh-common (= 5.9-8), libc6 (>= 2.38), libcap2 (>= 1:2.10), libtinfo6 (>= 6), debianutils (>= 5.3-1~)",
+    "Depends": "zsh-common (= 5.9.2-1), libc6 (>= 2.38), libcap2 (>= 1:2.10), libtinfo6 (>= 6), debianutils (>= 5.3-1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2499",
+    "Installed-Size": "2518",
     "Origin": "",
     "Package": "zsh",
     "Pre-Depends": "",
@@ -4749,7 +4749,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.9-8+b40",
+    "Version": "5.9.2-1",
     "binary:Package": "zsh",
     "binary:Summary": "shell with lots of features",
     "db:Status-Abbrev": "ii ",
@@ -4757,7 +4757,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zsh",
-    "source:Version": "5.9-8"
+    "source:Version": "5.9.2-1"
   },
   {
     "Architecture": "all",
@@ -4766,7 +4766,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "16421",
+    "Installed-Size": "17261",
     "Origin": "",
     "Package": "zsh-common",
     "Pre-Depends": "",
@@ -4777,7 +4777,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.9-8",
+    "Version": "5.9.2-1",
     "binary:Package": "zsh-common",
     "binary:Summary": "architecture independent files for Zsh",
     "db:Status-Abbrev": "ii ",
@@ -4785,7 +4785,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zsh",
-    "source:Version": "5.9-8"
+    "source:Version": "5.9.2-1"
   },
   {
     "Architecture": "amd64",
