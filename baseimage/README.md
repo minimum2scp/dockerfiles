@@ -81,7 +81,7 @@ ii   diffutils                    1:3.12-1                   amd64  File compari
 ii   dpkg                         1.23.7                     amd64  Debian package management system
 ii   etckeeper                    1.18.23-2                  all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-4                   amd64  utilities for finding files--find, xargs
-ii   gcc-16-base                  16.1.0-2                   amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-16-base                  16.1.0-3                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.53.0-1                 amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.53.0-1                 all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.12-1                     amd64  GNU grep, egrep and fgrep
@@ -121,7 +121,7 @@ ii   libexpat1                    2.8.2-1                    amd64  XML parsing 
 ii   libfastjson4                 1.2304.0-2+b2              amd64  fast json library for C
 ii   libffi8                      3.7.1-2                    amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.17.0-1                   amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    16.1.0-2                   amd64  GCC support library
+ii   libgcc-s1                    16.1.0-3                   amd64  GCC support library
 ii   libgdbm-compat4t64           1.26-1+b2                  amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.26-1+b2                  amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-5+b2          amd64  Multiprecision arithmetic library
@@ -170,7 +170,7 @@ ii   libsmartcols1                2.42.2-2                   amd64  smart column
 ii   libsqlite3-0                 3.53.3-1                   amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-4                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.3-1                    amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   16.1.0-2                   amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   16.1.0-3                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  261.1-3                    amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2+b1                amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-12                    amd64  get display widths of characters on the terminal
@@ -196,9 +196,9 @@ ii   mount                        2.42.2-2                   amd64  tools for mo
 ii   ncurses-base                 6.6+20260608-2             all    basic terminal type definitions
 ii   ncurses-bin                  6.6+20260608-2             amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                     amd64  NET-3 networking toolkit
-ii   openssh-common               1:10.4p1-1                 amd64  common files for OpenSSH
-ii   openssh-server               1:10.4p1-1                 amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.4p1-1                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-common               1:10.4p1-2                 amd64  common files for OpenSSH
+ii   openssh-server               1:10.4p1-2                 amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.4p1-2                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.23                       all    Orphaned System-V-like init scripts
