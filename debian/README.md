@@ -72,9 +72,9 @@ ii   libsepol2                 3.11-1                     amd64  SELinux library
 ii   libsmartcols1             2.42.2-2                   amd64  smart column output alignment library
 ii   libssl3t64                3.6.3-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                16.1.0-3                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0               261.1-3                    amd64  systemd utility library
+ii   libsystemd0               261.2-1                    amd64  systemd utility library
 ii   libtinfo6                 6.6+20260608-2             amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                  261.1-3                    amd64  libudev shared library
+ii   libudev1                  261.2-1                    amd64  libudev shared library
 ii   libuuid1                  2.42.2-2                   amd64  Universally Unique ID library
 ii   libxxhash0                0.8.3-2+b2                 amd64  shared library for xxhash
 ii   libzstd1                  1.5.7+dfsg-3+b2            amd64  fast lossless compression algorithm
@@ -86,7 +86,7 @@ ii   ncurses-base              6.6+20260608-2             all    basic terminal 
 ii   ncurses-bin               6.6+20260608-2             amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy   3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                    1:4.19.3-2                 amd64  change and administer password and group data
-ii   perl-base                 5.40.1-8                   amd64  minimal Perl system
+ii   perl-base                 5.42.2-3                   amd64  minimal Perl system
 ii   sed                       4.9-3                      amd64  GNU stream editor for filtering/transforming text
 ii   sqv                       1.4.0-1                    amd64  OpenPGP signature verification program from Sequoia
 ii   sysvinit-utils            3.18-1                     amd64  System-V-like utilities
