@@ -156,7 +156,7 @@ ii   libpcre2-8-0                 10.46-1+b2                 amd64  New Perl Com
 ii   libperl5.42                  5.42.2-3                   amd64  shared Perl library
 ii   libpipeline1                 1.5.8-3                    amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2+b2             amd64  lib for parsing cmdline parameters
-ii   libproc2-1                   2:4.0.6-2                  amd64  library for accessing process information from /proc
+ii   libproc2-1                   2:4.0.6-3                  amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.23.0-1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libsasl2-2                   2.1.28+dfsg1-11            amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-11            amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -206,7 +206,7 @@ ii   passwd                       1:4.19.3-2                 amd64  change and a
 ii   perl                         5.42.2-3                   amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.42.2-3                   amd64  minimal Perl system
 ii   perl-modules-5.42            5.42.2-3                   all    Core Perl modules
-ii   procps                       2:4.0.6-2                  amd64  /proc file system utilities
+ii   procps                       2:4.0.6-3                  amd64  /proc file system utilities
 ii   rsyslog                      8.2606.0-4                 amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.7                     all    dh-runit implementation detail
 ii   sed                          4.9-3                      amd64  GNU stream editor for filtering/transforming text
@@ -225,8 +225,8 @@ ii   tzdata                       2026c-1                    all    time zone an
 ii   ucf                          3.0056                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                     amd64  De-archiver for .zip files
 ii   util-linux                   2.42.2-2                   amd64  miscellaneous system utilities
-ii   vim-common                   2:9.2.0782-1               all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.2.0782-1+b1            amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.2.0858-1               all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.2.0858-1               amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-2                  amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.2-3   amd64  compression library - runtime
 ii   zsh                          5.9.2-1                    amd64  shell with lots of features
