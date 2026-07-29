@@ -168,7 +168,7 @@ ii   libsepol2                    3.11-1                     amd64  SELinux libr
 ii   libslang2                    2.3.3-6                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.42.2-2                   amd64  smart column output alignment library
 ii   libsqlite3-0                 3.53.4-1                   amd64  SQLite 3 shared library
-ii   libssh2-1t64                 1.11.1-4                   amd64  SSH2 client-side library
+ii   libssh2-1t64                 1.11.1-5                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.3-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   16.1.0-3                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  261.2-1                    amd64  systemd utility library
@@ -196,9 +196,9 @@ ii   mount                        2.42.2-2                   amd64  tools for mo
 ii   ncurses-base                 6.6+20260608-2             all    basic terminal type definitions
 ii   ncurses-bin                  6.6+20260608-2             amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                     amd64  NET-3 networking toolkit
-ii   openssh-common               1:10.4p1-2                 amd64  common files for OpenSSH
-ii   openssh-server               1:10.4p1-2                 amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.4p1-2                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-common               1:10.4p1-3                 amd64  common files for OpenSSH
+ii   openssh-server               1:10.4p1-3                 amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.4p1-3                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.23                       all    Orphaned System-V-like init scripts
