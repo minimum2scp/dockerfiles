@@ -2718,22 +2718,22 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libpsl5 (<< 0.23.0-1)",
+    "Breaks": "libpsl5 (<< 0.23.1-1)",
     "Depends": "libidn2-0 (>= 0.16), libc6 (>= 2.38), libunistring5 (>= 1.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "103",
+    "Installed-Size": "104",
     "Origin": "",
     "Package": "libpsl5t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libpsl5 (= 0.23.0-1)",
+    "Provides": "libpsl5 (= 0.23.1-1)",
     "Recommends": "publicsuffix (>= 20150507)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.23.0-1",
+    "Version": "0.23.1-1",
     "binary:Package": "libpsl5t64:amd64",
     "binary:Summary": "Library for Public Suffix List (shared libraries)",
     "db:Status-Abbrev": "ii ",
@@ -2741,7 +2741,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libpsl",
-    "source:Version": "0.23.0-1"
+    "source:Version": "0.23.1-1"
   },
   {
     "Architecture": "amd64",
@@ -3002,7 +3002,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1923",
+    "Installed-Size": "1927",
     "Origin": "",
     "Package": "libsqlite3-0",
     "Pre-Depends": "",
@@ -3013,7 +3013,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.53.4-1",
+    "Version": "3.53.4-2",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3021,7 +3021,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.53.4-1"
+    "source:Version": "3.53.4-2"
   },
   {
     "Architecture": "amd64",
@@ -3478,7 +3478,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "840",
+    "Installed-Size": "839",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -3489,7 +3489,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.7+dfsg-3+b2",
+    "Version": "1.5.7+dfsg-4",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -3497,7 +3497,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.7+dfsg-3"
+    "source:Version": "1.5.7+dfsg-4"
   },
   {
     "Architecture": "all",
@@ -4570,7 +4570,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "387",
+    "Installed-Size": "391",
     "Origin": "",
     "Package": "unzip",
     "Pre-Depends": "",
@@ -4581,7 +4581,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "zip",
-    "Version": "6.0-29",
+    "Version": "6.0-30",
     "binary:Package": "unzip",
     "binary:Summary": "De-archiver for .zip files",
     "db:Status-Abbrev": "ii ",
@@ -4589,7 +4589,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "unzip",
-    "source:Version": "6.0-29"
+    "source:Version": "6.0-30"
   },
   {
     "Architecture": "amd64",
@@ -4794,7 +4794,7 @@
     "Depends": "libc6 (>= 2.38), libgcc-s1 (>= 3.0), liblz4-1 (>= 1.8.0), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2309",
+    "Installed-Size": "2308",
     "Origin": "",
     "Package": "zstd",
     "Pre-Depends": "",
@@ -4805,7 +4805,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.7+dfsg-3+b2",
+    "Version": "1.5.7+dfsg-4",
     "binary:Package": "zstd",
     "binary:Summary": "fast lossless compression algorithm -- CLI tool",
     "db:Status-Abbrev": "ii ",
@@ -4813,6 +4813,6 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.7+dfsg-3"
+    "source:Version": "1.5.7+dfsg-4"
   }
 ]

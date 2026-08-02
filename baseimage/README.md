@@ -157,7 +157,7 @@ ii   libperl5.42                  5.42.2-3                   amd64  shared Perl 
 ii   libpipeline1                 1.5.8-3                    amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2+b2             amd64  lib for parsing cmdline parameters
 ii   libproc2-1                   2:4.0.6-3                  amd64  library for accessing process information from /proc
-ii   libpsl5t64                   0.23.0-1                   amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5t64                   0.23.1-1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libsasl2-2                   2.1.28+dfsg1-11            amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-11            amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.6.1-1                    amd64  high level interface to Linux seccomp filter
@@ -167,7 +167,7 @@ ii   libsemanage2                 3.11-1                     amd64  SELinux poli
 ii   libsepol2                    3.11-1                     amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-6                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.42.2-2                   amd64  smart column output alignment library
-ii   libsqlite3-0                 3.53.4-1                   amd64  SQLite 3 shared library
+ii   libsqlite3-0                 3.53.4-2                   amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-5                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.3-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   16.1.0-3                   amd64  GNU Standard C++ Library v3
@@ -184,7 +184,7 @@ ii   libwrap0                     7.6.q-37                   amd64  Wietse Venem
 ii   libwtmpdb0                   0.75.0-6                   amd64  wtmp database shared library
 ii   libxxhash0                   0.8.3-2+b2                 amd64  shared library for xxhash
 ii   libyaml-0-2                  0.2.5-2+b1                 amd64  Fast YAML 1.1 parser and emitter library
-ii   libzstd1                     1.5.7+dfsg-3+b2            amd64  fast lossless compression algorithm
+ii   libzstd1                     1.5.7+dfsg-4               amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                   all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.42-17                    all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.42.2-2  amd64  system login tools
@@ -223,7 +223,7 @@ ii   tar                          1.35+dfsg-4                amd64  GNU version 
 ii   tree                         2.3.2-1                    amd64  displays an indented directory tree, in color
 ii   tzdata                       2026c-1                    all    time zone and daylight-saving time data
 ii   ucf                          3.0056                     all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                        6.0-29                     amd64  De-archiver for .zip files
+ii   unzip                        6.0-30                     amd64  De-archiver for .zip files
 ii   util-linux                   2.42.2-2                   amd64  miscellaneous system utilities
 ii   vim-common                   2:9.2.0858-1               all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.2.0858-1               amd64  Vi IMproved - enhanced vi editor - compact version
@@ -231,5 +231,5 @@ ii   whiptail                     0.52.25-2                  amd64  Displays use
 ii   zlib1g                       1:1.3.dfsg+really1.3.2-3   amd64  compression library - runtime
 ii   zsh                          5.9.2-1                    amd64  shell with lots of features
 ii   zsh-common                   5.9.2-1                    all    architecture independent files for Zsh
-ii   zstd                         1.5.7+dfsg-3+b2            amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                         1.5.7+dfsg-4               amd64  fast lossless compression algorithm -- CLI tool
 ```
