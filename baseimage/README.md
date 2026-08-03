@@ -82,8 +82,8 @@ ii   dpkg                         1.23.7                     amd64  Debian packa
 ii   etckeeper                    1.18.23-2                  all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.11.0-2                   amd64  utilities for finding files--find, xargs
 ii   gcc-16-base                  16.1.0-3                   amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                          1:2.53.0-1                 amd64  fast, scalable, distributed revision control system
-ii   git-man                      1:2.53.0-1                 all    fast, scalable, distributed revision control system (manual pages)
+ii   git                          1:2.55.0-1                 amd64  fast, scalable, distributed revision control system
+ii   git-man                      1:2.55.0-1                 all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.12-1                     amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.24.1-1                   amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.13-1                     amd64  GNU compression utilities
@@ -110,7 +110,6 @@ ii   libcap2                      1:2.78-1                   amd64  POSIX 1003.1
 ii   libcbor0.10                  0.10.2-2.1+b1              amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1                   amd64  common error description library
 ii   libcrypt1                    1:4.5.1-1+b1               amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.21.0-2                   amd64  transitional package for libcurl4-gnutls
 ii   libcurl4-gnutls              8.21.0-2                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.21.0-2                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11+b1         amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -142,7 +141,7 @@ ii   libmount1                    2.42.2-2                   amd64  device mount
 ii   libncursesw6                 6.6+20260608-2             amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10.2-1+b1                amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.25-2                  amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14                1.69.0-1                   amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14                1.70.0-1                   amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnghttp3-9                 1.17.0-1                   amd64  HTTP/3 mapping over QUIC and QPACK (library)
 ii   libngtcp2-16                 1.24.0-1                   amd64  QUIC protocol library
 ii   libngtcp2-crypto-gnutls8     1.24.0-1                   amd64  crypto helper library for with GnuTLS backend
