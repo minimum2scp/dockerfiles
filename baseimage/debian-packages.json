@@ -1322,7 +1322,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "98",
+    "Installed-Size": "94",
     "Origin": "",
     "Package": "libcbor0.10",
     "Pre-Depends": "",
@@ -1333,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.10.2-2.1+b1",
+    "Version": "0.10.2-2.2",
     "binary:Package": "libcbor0.10:amd64",
     "binary:Summary": "library for parsing and generating CBOR (RFC 7049)",
     "db:Status-Abbrev": "ii ",
@@ -1341,7 +1341,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcbor",
-    "source:Version": "0.10.2-2.1"
+    "source:Version": "0.10.2-2.2"
   },
   {
     "Architecture": "amd64",
