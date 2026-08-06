@@ -87,15 +87,15 @@ describe 'minimum2scp/ruby' do
     end
 
     describe package('ruby-rubygems') do
-      it { should be_installed.with_version('4.0.15-2') }
+      it { should be_installed.with_version('4.0.18-1') }
     end
 
     describe package('ruby-bundler') do
-      it { should be_installed.with_version('4.0.15-2') }
+      it { should be_installed.with_version('4.0.18-1') }
     end
 
     describe package('bundler') do
-      it { should be_installed.with_version('4.0.15-2') }
+      it { should be_installed.with_version('4.0.18-1') }
     end
   end
 end
