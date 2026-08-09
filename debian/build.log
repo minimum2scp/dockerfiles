@@ -151,8 +151,8 @@ I: Retrieving sqv 1.4.0-1
 I: Validating sqv 1.4.0-1
 I: Retrieving sysvinit-utils 3.18-1
 I: Validating sysvinit-utils 3.18-1
-I: Retrieving tar 1.35+dfsg-4
-I: Validating tar 1.35+dfsg-4
+I: Retrieving tar 1.35+dfsg-5
+I: Validating tar 1.35+dfsg-5
 I: Retrieving tzdata 2026c-1
 I: Validating tzdata 2026c-1
 I: Retrieving util-linux 2.42.2-2
