@@ -218,7 +218,7 @@ ii   systemd-standalone-tmpfiles  261.2-1                    amd64  standalone t
 ii   sysv-rc                      3.18-1                     all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.18-1                     amd64  System-V-like init
 ii   sysvinit-utils               3.18-1                     amd64  System-V-like utilities
-ii   tar                          1.35+dfsg-4                amd64  GNU version of the tar archiving utility
+ii   tar                          1.35+dfsg-5                amd64  GNU version of the tar archiving utility
 ii   tree                         2.3.2-1                    amd64  displays an indented directory tree, in color
 ii   tzdata                       2026c-1                    all    time zone and daylight-saving time data
 ii   ucf                          3.0056                     all    Update Configuration File(s): preserve user changes to config files
