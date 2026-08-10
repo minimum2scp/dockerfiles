@@ -68,7 +68,7 @@ ii   bash                     5.2.15-2+b13                    amd64  GNU Bourne 
 ii   bsdextrautils            2.38.1-5+deb12u3                amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                 1:2.38.1-5+deb12u3              amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                    1.0.8-5+b1                      amd64  high-quality block-sorting file compressor - utilities
-ii   ca-certificates          20230311+deb12u1                all    Common CA certificates
+ii   ca-certificates          20250419~deb12u1                all    Common CA certificates
 ii   coreutils                9.1-1                           amd64  GNU core utilities
 ii   cron                     3.0pl1-162                      amd64  process scheduling daemon
 ii   cron-daemon-common       3.0pl1-162                      all    process scheduling daemon's configuration files
