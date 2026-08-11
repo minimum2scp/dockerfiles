@@ -81,7 +81,7 @@ ii   diffutils                    1:3.12-1                   amd64  File compari
 ii   dpkg                         1.23.7                     amd64  Debian package management system
 ii   etckeeper                    1.18.23-2                  all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.11.0-2                   amd64  utilities for finding files--find, xargs
-ii   gcc-16-base                  16.1.0-3                   amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-16-base                  16.2.0-1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.55.0-1                 amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.55.0-1                 all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.12-1                     amd64  GNU grep, egrep and fgrep
@@ -101,26 +101,26 @@ ii   libblkid1                    2.42.2-2                   amd64  block device
 ii   libbrotli1                   1.2.0-3                    amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-3                   amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6+b2                 amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.42-17                    amd64  GNU C Library: Binaries
-ii   libc-gconv-modules-extra     2.42-17                    amd64  GNU C Library: Non-essential gconv modules
-ii   libc-l10n                    2.42-17                    all    GNU C Library: localization files
-ii   libc6                        2.42-17                    amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.43-3                     amd64  GNU C Library: Binaries
+ii   libc-gconv-modules-extra     2.43-3                     amd64  GNU C Library: Non-essential gconv modules
+ii   libc-l10n                    2.43-3                     all    GNU C Library: localization files
+ii   libc6                        2.43-3                     amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.9.3-1+b1                 amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.78-1                   amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.2                 amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1                   amd64  common error description library
-ii   libcrypt1                    1:4.5.1-1+b1               amd64  libcrypt shared library
+ii   libcrypt1                    1:4.5.2+20251210-1         amd64  libcrypt shared library
 ii   libcurl4-gnutls              8.21.0-2                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.21.0-2                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11+b1         amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.283                      amd64  Debian Configuration Management System (C-implementation library)
 ii   liberror-perl                0.17030-1                  all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-2+b2                amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.8.2-1                    amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.8.3-1                    amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2304.0-3                 amd64  fast json library for C
 ii   libffi8                      3.7.1-2                    amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.17.0-2                   amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    16.1.0-3                   amd64  GCC support library
+ii   libgcc-s1                    16.2.0-1                   amd64  GCC support library
 ii   libgdbm-compat4t64           1.26-1+b2                  amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.26-1+b2                  amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-5+b2          amd64  Multiprecision arithmetic library
@@ -169,7 +169,7 @@ ii   libsmartcols1                2.42.2-2                   amd64  smart column
 ii   libsqlite3-0                 3.53.4-2                   amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-5                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.3-1                    amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   16.1.0-3                   amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   16.2.0-1                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  261.2-1                    amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2+b1                amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-12+b1                 amd64  get display widths of characters on the terminal
@@ -185,7 +185,7 @@ ii   libxxhash0                   0.8.3-2+b2                 amd64  shared libra
 ii   libyaml-0-2                  0.2.5-2+b1                 amd64  Fast YAML 1.1 parser and emitter library
 ii   libzstd1                     1.5.7+dfsg-4               amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                   all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.42-17                    all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.43-3                     all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.42.2-2  amd64  system login tools
 ii   login.defs                   1:4.19.3-2                 all    system user management configuration
 ii   lv                           4.51-10.1                  amd64  Powerful Multilingual File Viewer
@@ -222,7 +222,7 @@ ii   tar                          1.35+dfsg-5                amd64  GNU version 
 ii   tree                         2.3.2-1                    amd64  displays an indented directory tree, in color
 ii   tzdata                       2026c-1                    all    time zone and daylight-saving time data
 ii   ucf                          3.0056                     all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                        6.0-30                     amd64  De-archiver for .zip files
+ii   unzip                        6.0-31                     amd64  De-archiver for .zip files
 ii   util-linux                   2.42.2-2                   amd64  miscellaneous system utilities
 ii   vim-common                   2:9.2.0858-1               all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.2.0858-1               amd64  Vi IMproved - enhanced vi editor - compact version
