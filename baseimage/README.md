@@ -64,7 +64,7 @@ ii   adduser                      3.158                      all    add and remo
 ii   apt                          3.3.2                      amd64  commandline package manager
 ii   base-files                   14.2                       amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.8                      amd64  Debian base system master password and group files
-ii   bash                         5.3-3                      amd64  GNU Bourne Again SHell
+ii   bash                         5.3-3+b1                   amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.42.2-2                   amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.42.2-2                 amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6+b2                 amd64  high-quality block-sorting file compressor - utilities
@@ -88,7 +88,7 @@ ii   grep                         3.12-1                     amd64  GNU grep, eg
 ii   groff-base                   1.24.1-1                   amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.13-1                     amd64  GNU compression utilities
 ii   hostname                     3.25                       amd64  utility to set/show the host name or domain name
-ii   init-system-helpers          1.69                       all    helper tools for all init systems
+ii   init-system-helpers          1.69+nmu1                  all    helper tools for all init systems
 ii   initscripts                  3.18-1                     all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.4.0-1                    amd64  access control list - shared library
@@ -106,9 +106,9 @@ ii   libc-gconv-modules-extra     2.43-3                     amd64  GNU C Librar
 ii   libc-l10n                    2.43-3                     all    GNU C Library: localization files
 ii   libc6                        2.43-3                     amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.9.3-1+b1                 amd64  alternate POSIX capabilities library
-ii   libcap2                      1:2.78-1                   amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                      1:2.78-1+b1                amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.2                 amd64  library for parsing and generating CBOR (RFC 7049)
-ii   libcom-err2                  1.47.4-1                   amd64  common error description library
+ii   libcom-err2                  1.47.4-1+b1                amd64  common error description library
 ii   libcrypt1                    1:4.5.2+20251210-1         amd64  libcrypt shared library
 ii   libcurl4-gnutls              8.21.0-2                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.21.0-2                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -132,7 +132,7 @@ ii   libk5crypto3                 1.22.1-3                   amd64  MIT Kerberos
 ii   libkeyutils1                 1.6.3-6+b2                 amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.22.1-3                   amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.22.1-3                   amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap2                     2.6.13+dfsg-1+b1           amd64  OpenLDAP libraries
+ii   libldap2                     2.6.14+dfsg-1              amd64  OpenLDAP libraries
 ii   liblognorm5                  2.1.0+really-1             amd64  log normalizing library
 ii   liblz4-1                     1.10.0-10                  amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.8.3-1                    amd64  XZ-format compression library
@@ -155,8 +155,8 @@ ii   libpcre2-8-0                 10.46-1+b2                 amd64  New Perl Com
 ii   libperl5.42                  5.42.2-3                   amd64  shared Perl library
 ii   libpipeline1                 1.5.8-3                    amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2+b2             amd64  lib for parsing cmdline parameters
-ii   libproc2-1                   2:4.0.6-3                  amd64  library for accessing process information from /proc
-ii   libpsl5t64                   0.23.1-1                   amd64  Library for Public Suffix List (shared libraries)
+ii   libproc2-1                   2:4.0.7-1                  amd64  library for accessing process information from /proc
+ii   libpsl5t64                   0.23.2-1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libsasl2-2                   2.1.28+dfsg1-11            amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-11            amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.6.1-1                    amd64  high level interface to Linux seccomp filter
@@ -205,7 +205,7 @@ ii   passwd                       1:4.19.3-2                 amd64  change and a
 ii   perl                         5.42.2-3                   amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.42.2-3                   amd64  minimal Perl system
 ii   perl-modules-5.42            5.42.2-3                   all    Core Perl modules
-ii   procps                       2:4.0.6-3                  amd64  /proc file system utilities
+ii   procps                       2:4.0.7-1                  amd64  /proc file system utilities
 ii   rsyslog                      8.2606.0-4                 amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.7                     all    dh-runit implementation detail
 ii   sed                          4.9-3                      amd64  GNU stream editor for filtering/transforming text
@@ -228,7 +228,7 @@ ii   vim-common                   2:9.2.0858-1               all    Vi IMproved 
 ii   vim-tiny                     2:9.2.0858-1               amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-2                  amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.2-3   amd64  compression library - runtime
-ii   zsh                          5.9.2-1                    amd64  shell with lots of features
+ii   zsh                          5.9.2-1+b1                 amd64  shell with lots of features
 ii   zsh-common                   5.9.2-1                    all    architecture independent files for Zsh
 ii   zstd                         1.5.7+dfsg-4               amd64  fast lossless compression algorithm -- CLI tool
 ```
