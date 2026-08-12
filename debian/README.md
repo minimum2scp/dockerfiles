@@ -21,7 +21,7 @@ installed packages:
 ii   apt                       3.3.2                      amd64  commandline package manager
 ii   base-files                14.2                       amd64  Debian base system miscellaneous files
 ii   base-passwd               3.6.8                      amd64  Debian base system master password and group files
-ii   bash                      5.3-3                      amd64  GNU Bourne Again SHell
+ii   bash                      5.3-3+b1                   amd64  GNU Bourne Again SHell
 ii   bsdutils                  1:2.42.2-2                 amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                 9.10-1                     amd64  GNU core utilities
 ii   dash                      0.5.12-12                  amd64  POSIX-compliant shell
@@ -35,7 +35,7 @@ ii   gcc-16-base               16.2.0-1                   amd64  GCC, the GNU Co
 ii   grep                      3.12-1                     amd64  GNU grep, egrep and fgrep
 ii   gzip                      1.13-1                     amd64  GNU compression utilities
 ii   hostname                  3.25                       amd64  utility to set/show the host name or domain name
-ii   init-system-helpers       1.69                       all    helper tools for all init systems
+ii   init-system-helpers       1.69+nmu1                  all    helper tools for all init systems
 ii   libacl1                   2.4.0-1                    amd64  access control list - shared library
 ii   libapt-pkg7.0             3.3.2                      amd64  package management runtime library
 ii   libattr1                  1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
