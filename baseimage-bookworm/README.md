@@ -218,7 +218,7 @@ ii   tar                      1.34+dfsg-1.2+deb12u1           amd64  GNU version
 ii   tree                     2.1.0-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                   2026b-0+deb12u1                 all    time zone and daylight-saving time data
 ii   ucf                      3.0043+nmu1+deb12u1             all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                    6.0-28                          amd64  De-archiver for .zip files
+ii   unzip                    6.0-28+deb12u1                  amd64  De-archiver for .zip files
 ii   usr-is-merged            37~deb12u1                      all    Transitional package to assert a merged-/usr system
 ii   util-linux               2.38.1-5+deb12u3                amd64  miscellaneous system utilities
 ii   util-linux-extra         2.38.1-5+deb12u3                amd64  interactive login tools
