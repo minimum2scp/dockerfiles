@@ -37,8 +37,8 @@ I: Retrieving gcc-16-base 16.2.0-1
 I: Validating gcc-16-base 16.2.0-1
 I: Retrieving grep 3.12-1
 I: Validating grep 3.12-1
-I: Retrieving gzip 1.13-1
-I: Validating gzip 1.13-1
+I: Retrieving gzip 1.14-1
+I: Validating gzip 1.14-1
 I: Retrieving hostname 3.25
 I: Validating hostname 3.25
 I: Retrieving init-system-helpers 1.69+nmu1
@@ -143,8 +143,8 @@ I: Retrieving openssl-provider-legacy 3.6.3-1
 I: Validating openssl-provider-legacy 3.6.3-1
 I: Retrieving passwd 1:4.19.3-2
 I: Validating passwd 1:4.19.3-2
-I: Retrieving perl-base 5.42.2-3
-I: Validating perl-base 5.42.2-3
+I: Retrieving perl-base 5.42.3-1
+I: Validating perl-base 5.42.3-1
 I: Retrieving sed 4.9-3
 I: Validating sed 4.9-3
 I: Retrieving sqv 1.4.0-1

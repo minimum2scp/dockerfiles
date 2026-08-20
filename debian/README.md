@@ -33,7 +33,7 @@ ii   dpkg                      1.23.7                     amd64  Debian package 
 ii   findutils                 4.11.0-2                   amd64  utilities for finding files--find, xargs
 ii   gcc-16-base               16.2.0-1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   grep                      3.12-1                     amd64  GNU grep, egrep and fgrep
-ii   gzip                      1.13-1                     amd64  GNU compression utilities
+ii   gzip                      1.14-1                     amd64  GNU compression utilities
 ii   hostname                  3.25                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers       1.69+nmu1                  all    helper tools for all init systems
 ii   libacl1                   2.4.0-1                    amd64  access control list - shared library
@@ -86,7 +86,7 @@ ii   ncurses-base              6.6+20260608-2             all    basic terminal 
 ii   ncurses-bin               6.6+20260608-2             amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy   3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                    1:4.19.3-2                 amd64  change and administer password and group data
-ii   perl-base                 5.42.2-3                   amd64  minimal Perl system
+ii   perl-base                 5.42.3-1                   amd64  minimal Perl system
 ii   sed                       4.9-3                      amd64  GNU stream editor for filtering/transforming text
 ii   sqv                       1.4.0-1                    amd64  OpenPGP signature verification program from Sequoia
 ii   sysvinit-utils            3.18-1                     amd64  System-V-like utilities
