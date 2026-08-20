@@ -68,11 +68,11 @@ ii   bash                         5.3-3+b1                   amd64  GNU Bourne A
 ii   bsdextrautils                2.42.2-3                   amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.42.2-3                 amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6+b2                 amd64  high-quality block-sorting file compressor - utilities
-ii   ca-certificates              20260601                   all    Common CA certificates
+ii   ca-certificates              20260816                   all    Common CA certificates
 ii   coreutils                    9.10-1                     amd64  GNU core utilities
 ii   cron                         3.0pl1-209                 amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-209                 all    process scheduling daemon's configuration files
-ii   curl                         8.21.0-2                   amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.22.0~rc2-1               amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                  amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                     all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                     all    OpenPGP archive certificates of the Debian archive
@@ -86,13 +86,13 @@ ii   git                          1:2.55.0-1                 amd64  fast, scalab
 ii   git-man                      1:2.55.0-1                 all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.12-1                     amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.24.1-1                   amd64  GNU troff text-formatting system (base system components)
-ii   gzip                         1.13-1                     amd64  GNU compression utilities
+ii   gzip                         1.14-1                     amd64  GNU compression utilities
 ii   hostname                     3.25                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.69+nmu1                  all    helper tools for all init systems
 ii   initscripts                  3.18-1                     all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.4.0-1                    amd64  access control list - shared library
-ii   libapparmor1                 4.1.7-5                    amd64  changehat AppArmor library
+ii   libapparmor1                 4.1.8-1                    amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.3.3                      amd64  package management runtime library
 ii   libattr1                     1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
 ii   libaudit-common              1:4.1.2-1                  all    Dynamic library for security auditing - common files
@@ -110,8 +110,8 @@ ii   libcap2                      1:2.78-1+b1                amd64  POSIX 1003.1
 ii   libcbor0.10                  0.10.2-2.2                 amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1+b1                amd64  common error description library
 ii   libcrypt1                    1:4.5.2+20251210-1         amd64  libcrypt shared library
-ii   libcurl4-gnutls              8.21.0-2                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.21.0-2                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl4-gnutls              8.22.0~rc2-1               amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.22.0~rc2-1               amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11+b1         amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.283                      amd64  Debian Configuration Management System (C-implementation library)
 ii   liberror-perl                0.17030-1                  all    Perl module for error/exception handling in an OO-ish way
@@ -152,11 +152,11 @@ ii   libpam-modules-bin           1.7.0-8                    amd64  Pluggable Au
 ii   libpam-runtime               1.7.0-8                    all    Runtime support for the PAM library
 ii   libpam0g                     1.7.0-8                    amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.46-1+b2                 amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libperl5.42                  5.42.2-3                   amd64  shared Perl library
+ii   libperl5.42                  5.42.3-1                   amd64  shared Perl library
 ii   libpipeline1                 1.5.8-3                    amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2+b2             amd64  lib for parsing cmdline parameters
 ii   libproc2-1                   2:4.0.7-1                  amd64  library for accessing process information from /proc
-ii   libpsl5t64                   0.23.2-1                   amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5t64                   0.23.3-1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libsasl2-2                   2.1.28+dfsg1-11            amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-11            amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.6.1-1                    amd64  high level interface to Linux seccomp filter
@@ -167,7 +167,7 @@ ii   libsepol2                    3.11-1                     amd64  SELinux libr
 ii   libslang2                    2.3.3-6                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.42.2-3                   amd64  smart column output alignment library
 ii   libsqlite3-0                 3.53.4-2                   amd64  SQLite 3 shared library
-ii   libssh2-1t64                 1.11.1-5                   amd64  SSH2 client-side library
+ii   libssh2-1t64                 1.11.1-6                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.3-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   16.2.0-1                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  261.2-1                    amd64  systemd utility library
@@ -200,13 +200,13 @@ ii   openssh-server               1:10.4p1-4                 amd64  secure shell
 ii   openssh-sftp-server          1:10.4p1-4                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.6.3-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   orphan-sysvinit-scripts      0.23                       all    Orphaned System-V-like init scripts
+ii   orphan-sysvinit-scripts      0.24                       all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.19.3-2                 amd64  change and administer password and group data
-ii   perl                         5.42.2-3                   amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                    5.42.2-3                   amd64  minimal Perl system
-ii   perl-modules-5.42            5.42.2-3                   all    Core Perl modules
+ii   perl                         5.42.3-1                   amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                    5.42.3-1                   amd64  minimal Perl system
+ii   perl-modules-5.42            5.42.3-1                   all    Core Perl modules
 ii   procps                       2:4.0.7-1                  amd64  /proc file system utilities
-ii   rsyslog                      8.2606.0-4                 amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2608.0-1                 amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.7                     all    dh-runit implementation detail
 ii   sed                          4.9-3                      amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                     all    Utilities for sensible alternative selection
