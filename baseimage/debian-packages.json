@@ -3926,7 +3926,7 @@
     "Depends": "ucf",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "107",
+    "Installed-Size": "102",
     "Origin": "",
     "Package": "orphan-sysvinit-scripts",
     "Pre-Depends": "",
@@ -3937,7 +3937,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.24",
+    "Version": "0.26",
     "binary:Package": "orphan-sysvinit-scripts",
     "binary:Summary": "Orphaned System-V-like init scripts",
     "db:Status-Abbrev": "ii ",
@@ -3945,7 +3945,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "orphan-sysvinit-scripts",
-    "source:Version": "0.24"
+    "source:Version": "0.26"
   },
   {
     "Architecture": "amd64",
