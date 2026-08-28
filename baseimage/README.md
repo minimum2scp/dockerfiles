@@ -72,11 +72,11 @@ ii   ca-certificates              20260816                   all    Common CA ce
 ii   coreutils                    9.10-1                     amd64  GNU core utilities
 ii   cron                         3.0pl1-209                 amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-209                 all    process scheduling daemon's configuration files
-ii   curl                         8.22.0~rc2-2               amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.22.0~rc3-1               amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                  amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                     all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                     all    OpenPGP archive certificates of the Debian archive
-ii   debianutils                  5.23.2                     amd64  Miscellaneous utilities specific to Debian
+ii   debianutils                  5.24                       amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.12-1                   amd64  File comparison utilities
 ii   dpkg                         1.23.7                     amd64  Debian package management system
 ii   etckeeper                    1.18.23-2                  all    store /etc in git, mercurial, brz or darcs
@@ -105,13 +105,13 @@ ii   libc-bin                     2.43-4                     amd64  GNU C Librar
 ii   libc-gconv-modules-extra     2.43-4                     amd64  GNU C Library: Non-essential gconv modules
 ii   libc-l10n                    2.43-4                     all    GNU C Library: localization files
 ii   libc6                        2.43-4                     amd64  GNU C Library: Shared libraries
-ii   libcap-ng0                   0.9.3-1+b1                 amd64  alternate POSIX capabilities library
+ii   libcap-ng0                   0.9.5-1                    amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.78-1+b1                amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.2                 amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1+b1                amd64  common error description library
 ii   libcrypt1                    1:4.5.2+20251210-1         amd64  libcrypt shared library
-ii   libcurl4-gnutls              8.22.0~rc2-2               amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.22.0~rc2-2               amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl4-gnutls              8.22.0~rc3-1               amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.22.0~rc3-1               amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11+b1         amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.283                      amd64  Debian Configuration Management System (C-implementation library)
 ii   liberror-perl                0.17030-1                  all    Perl module for error/exception handling in an OO-ish way
@@ -206,7 +206,7 @@ ii   perl                         5.42.3-1                   amd64  Larry Wall's
 ii   perl-base                    5.42.3-1                   amd64  minimal Perl system
 ii   perl-modules-5.42            5.42.3-1                   all    Core Perl modules
 ii   procps                       2:4.0.7-1                  amd64  /proc file system utilities
-ii   rsyslog                      8.2608.0-1                 amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2608.0-3                 amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.7                     all    dh-runit implementation detail
 ii   sed                          4.9-3                      amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                     all    Utilities for sensible alternative selection

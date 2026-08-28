@@ -339,7 +339,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libcurl4t64 (= 8.22.0~rc2-2), libc6 (>= 2.43), zlib1g (>= 1:1.1.4)",
+    "Depends": "libcurl4t64 (= 8.22.0~rc3-1), libc6 (>= 2.43), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "519",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.22.0~rc2-2",
+    "Version": "8.22.0~rc3-1",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.22.0~rc2-2"
+    "source:Version": "8.22.0~rc3-1"
   },
   {
     "Architecture": "amd64",
@@ -454,7 +454,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "225",
+    "Installed-Size": "228",
     "Origin": "",
     "Package": "debianutils",
     "Pre-Depends": "libc6 (>= 2.38)",
@@ -465,7 +465,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.23.2",
+    "Version": "5.24",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "5.23.2"
+    "source:Version": "5.24"
   },
   {
     "Architecture": "amd64",
@@ -1266,7 +1266,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "70",
+    "Installed-Size": "69",
     "Origin": "",
     "Package": "libcap-ng0",
     "Pre-Depends": "",
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.9.3-1+b1",
+    "Version": "0.9.5-1",
     "binary:Package": "libcap-ng0:amd64",
     "binary:Summary": "alternate POSIX capabilities library",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap-ng",
-    "source:Version": "0.9.3-1"
+    "source:Version": "0.9.5-1"
   },
   {
     "Architecture": "amd64",
@@ -1403,10 +1403,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libcurl3t64-gnutls (<< 8.20.0-3~)",
-    "Depends": "libnghttp3-9 (>= 1.11.0~), libngtcp2-16 (>= 1.20.0), libbrotli1 (>= 0.6.0), libc6 (>= 2.43), libgnutls30t64 (>= 3.8.6), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnettle8t64, libnghttp2-14 (>= 1.50.0), libngtcp2-crypto-gnutls8 (>= 1.22.0), libpsl5t64 (>= 0.16.0), libssh2-1t64 (>= 1.11.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
+    "Depends": "libnghttp3-9 (>= 1.11.0~), libngtcp2-16 (>= 1.24.0), libbrotli1 (>= 0.6.0), libc6 (>= 2.43), libgnutls30t64 (>= 3.8.6), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnettle8t64, libnghttp2-14 (>= 1.50.0), libngtcp2-crypto-gnutls8 (>= 1.22.0), libpsl5t64 (>= 0.16.0), libssh2-1t64 (>= 1.11.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1136",
+    "Installed-Size": "1148",
     "Origin": "",
     "Package": "libcurl4-gnutls",
     "Pre-Depends": "",
@@ -1417,7 +1417,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.22.0~rc2-2",
+    "Version": "8.22.0~rc3-1",
     "binary:Package": "libcurl4-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1425,27 +1425,27 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.22.0~rc2-2"
+    "source:Version": "8.22.0~rc3-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "libcurl3",
-    "Breaks": "libcurl4 (<< 8.22.0~rc2-2)",
-    "Depends": "libnghttp3-9 (>= 1.11.0~), libngtcp2-16 (>= 1.20.0), libbrotli1 (>= 0.6.0), libc6 (>= 2.43), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnghttp2-14 (>= 1.50.0), libngtcp2-crypto-ossl0 (>= 1.24.0), libpsl5t64 (>= 0.16.0), libssh2-1t64 (>= 1.11.1), libssl3t64 (>= 3.2.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
+    "Breaks": "libcurl4 (<< 8.22.0~rc3-1)",
+    "Depends": "libnghttp3-9 (>= 1.11.0~), libngtcp2-16 (>= 1.24.0), libbrotli1 (>= 0.6.0), libc6 (>= 2.43), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnghttp2-14 (>= 1.50.0), libngtcp2-crypto-ossl0 (>= 1.24.0), libpsl5t64 (>= 0.16.0), libssh2-1t64 (>= 1.11.1), libssl3t64 (>= 3.5.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1145",
+    "Installed-Size": "1157",
     "Origin": "",
     "Package": "libcurl4t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcurl4 (= 8.22.0~rc2-2)",
+    "Provides": "libcurl4 (= 8.22.0~rc3-1)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.22.0~rc2-2",
+    "Version": "8.22.0~rc3-1",
     "binary:Package": "libcurl4t64:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.22.0~rc2-2"
+    "source:Version": "8.22.0~rc3-1"
   },
   {
     "Architecture": "amd64",
@@ -4105,7 +4105,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-doc, rsyslog-mysql, rsyslog-pgsql, rsyslog-mongodb, rsyslog-elasticsearch, rsyslog-kafka, rsyslog-hiredis, rsyslog-snmp, rsyslog-kubernetes, rsyslog-docker, rsyslog-clickhouse, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.2608.0-1",
+    "Version": "8.2608.0-3",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4113,7 +4113,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.2608.0-1"
+    "source:Version": "8.2608.0-3"
   },
   {
     "Architecture": "all",
