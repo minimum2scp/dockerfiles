@@ -258,7 +258,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "225",
+    "Installed-Size": "228",
     "Origin": "",
     "Package": "debianutils",
     "Pre-Depends": "libc6 (>= 2.38)",
@@ -269,7 +269,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.23.2",
+    "Version": "5.24",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "5.23.2"
+    "source:Version": "5.24"
   },
   {
     "Architecture": "amd64",
@@ -818,7 +818,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "70",
+    "Installed-Size": "69",
     "Origin": "",
     "Package": "libcap-ng0",
     "Pre-Depends": "",
@@ -829,7 +829,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.9.3-1+b1",
+    "Version": "0.9.5-1",
     "binary:Package": "libcap-ng0:amd64",
     "binary:Summary": "alternate POSIX capabilities library",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap-ng",
-    "source:Version": "0.9.3-1"
+    "source:Version": "0.9.5-1"
   },
   {
     "Architecture": "amd64",

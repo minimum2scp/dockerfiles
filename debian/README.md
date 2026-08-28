@@ -27,7 +27,7 @@ ii   coreutils                 9.10-1                     amd64  GNU core utilit
 ii   dash                      0.5.12-12                  amd64  POSIX-compliant shell
 ii   debconf                   1.5.92                     all    Debian configuration management system
 ii   debian-archive-keyring    2025.1                     all    OpenPGP archive certificates of the Debian archive
-ii   debianutils               5.23.2                     amd64  Miscellaneous utilities specific to Debian
+ii   debianutils               5.24                       amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                 1:3.12-1                   amd64  File comparison utilities
 ii   dpkg                      1.23.7                     amd64  Debian package management system
 ii   findutils                 4.11.0-2                   amd64  utilities for finding files--find, xargs
@@ -47,7 +47,7 @@ ii   libbz2-1.0                1.0.8-6+b2                 amd64  high-quality bl
 ii   libc-bin                  2.43-4                     amd64  GNU C Library: Binaries
 ii   libc-gconv-modules-extra  2.43-4                     amd64  GNU C Library: Non-essential gconv modules
 ii   libc6                     2.43-4                     amd64  GNU C Library: Shared libraries
-ii   libcap-ng0                0.9.3-1+b1                 amd64  alternate POSIX capabilities library
+ii   libcap-ng0                0.9.5-1                    amd64  alternate POSIX capabilities library
 ii   libcrypt1                 1:4.5.2+20251210-1         amd64  libcrypt shared library
 ii   libdb5.3t64               5.3.28+dfsg2-11+b1         amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0         0.283                      amd64  Debian Configuration Management System (C-implementation library)
