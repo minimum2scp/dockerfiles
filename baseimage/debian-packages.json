@@ -6,7 +6,7 @@
     "Depends": "passwd (>= 1:4.19.0-4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "491",
+    "Installed-Size": "496",
     "Origin": "",
     "Package": "adduser",
     "Pre-Depends": "",
@@ -17,7 +17,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "liblocale-gettext-perl, perl, cron, quota, ecryptfs-utils (>= 67-1)",
-    "Version": "3.158",
+    "Version": "3.159",
     "binary:Package": "adduser",
     "binary:Summary": "add and remove users and groups",
     "db:Status-Abbrev": "ii ",
@@ -25,7 +25,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "adduser",
-    "source:Version": "3.158"
+    "source:Version": "3.159"
   },
   {
     "Architecture": "amd64",
