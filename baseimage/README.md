@@ -92,7 +92,7 @@ ii   init-system-helpers          1.69+nmu1                  all    helper tools
 ii   initscripts                  3.18-1                     all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.4.0-1                    amd64  access control list - shared library
-ii   libapparmor1                 4.1.8-1                    amd64  changehat AppArmor library
+ii   libapparmor1                 4.1.8-2                    amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.3.3                      amd64  package management runtime library
 ii   libattr1                     1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
 ii   libaudit-common              1:4.1.2-1                  all    Dynamic library for security auditing - common files
@@ -116,7 +116,7 @@ ii   libdb5.3t64                  5.3.28+dfsg2-11+b1         amd64  Berkeley v5.
 ii   libdebconfclient0            0.283                      amd64  Debian Configuration Management System (C-implementation library)
 ii   liberror-perl                0.17030-1                  all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-2+b2                amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.8.3-1                    amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.8.4-1                    amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2304.0-3                 amd64  fast json library for C
 ii   libffi8                      3.8.0-2                    amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.17.0-2                   amd64  library for generating and verifying FIDO 2.0 objects
@@ -151,7 +151,7 @@ ii   libpam-modules               1.7.0-8                    amd64  Pluggable Au
 ii   libpam-modules-bin           1.7.0-8                    amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.7.0-8                    all    Runtime support for the PAM library
 ii   libpam0g                     1.7.0-8                    amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0                 10.46-1+b2                 amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0                 10.48-1                    amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.42                  5.42.3-1                   amd64  shared Perl library
 ii   libpipeline1                 1.5.8-3                    amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2+b2             amd64  lib for parsing cmdline parameters
@@ -195,9 +195,9 @@ ii   mount                        2.42.2-4                   amd64  tools for mo
 ii   ncurses-base                 6.6+20260608-2             all    basic terminal type definitions
 ii   ncurses-bin                  6.6+20260608-2             amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                     amd64  NET-3 networking toolkit
-ii   openssh-common               1:10.4p1-5                 amd64  common files for OpenSSH
-ii   openssh-server               1:10.4p1-5                 amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.4p1-5                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-common               1:10.5p1-1                 amd64  common files for OpenSSH
+ii   openssh-server               1:10.5p1-1                 amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.5p1-1                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.6.4-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.6.4-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.26                       all    Orphaned System-V-like init scripts

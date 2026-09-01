@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.1.8-1",
+    "Version": "4.1.8-2",
     "binary:Package": "libapparmor1:amd64",
     "binary:Summary": "changehat AppArmor library",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apparmor",
-    "source:Version": "4.1.8-1"
+    "source:Version": "4.1.8-2"
   },
   {
     "Architecture": "amd64",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.8.3-1",
+    "Version": "2.8.4-1",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.8.3-1"
+    "source:Version": "2.8.4-1"
   },
   {
     "Architecture": "amd64",
@@ -2554,7 +2554,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "774",
+    "Installed-Size": "793",
     "Origin": "",
     "Package": "libpcre2-8-0",
     "Pre-Depends": "",
@@ -2565,7 +2565,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.46-1+b2",
+    "Version": "10.48-1",
     "binary:Package": "libpcre2-8-0:amd64",
     "binary:Summary": "New Perl Compatible Regular Expression Library- 8 bit runtime files",
     "db:Status-Abbrev": "ii ",
@@ -2573,7 +2573,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre2",
-    "source:Version": "10.46-1"
+    "source:Version": "10.48-1"
   },
   {
     "Architecture": "amd64",
@@ -3786,7 +3786,7 @@
     "Depends": "libc6 (>= 2.38), libfido2-1 (>= 1.8.0), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1611",
+    "Installed-Size": "1618",
     "Origin": "",
     "Package": "openssh-common",
     "Pre-Depends": "",
@@ -3797,7 +3797,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:10.4p1-5",
+    "Version": "1:10.5p1-1",
     "binary:Package": "openssh-common",
     "binary:Summary": "common files for OpenSSH",
     "db:Status-Abbrev": "ii ",
@@ -3805,16 +3805,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:10.4p1-5"
+    "source:Version": "1:10.5p1-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "runit (<< 2.1.2-51~)",
-    "Depends": "libpam-modules, libpam-runtime, openssh-common (= 1:10.4p1-5), openssh-sftp-server, procps, ucf, debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.14.0~), systemd | systemd-standalone-sysusers | systemd-sysusers, systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, libaudit1 (>= 1:2.2.1), libc6 (>= 2.42), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0), libwrap0 (>= 7.6-4~), libwtmpdb0 (>= 0.13.0), zlib1g (>= 1:1.1.4)",
+    "Depends": "libpam-modules, libpam-runtime, openssh-common (= 1:10.5p1-1), openssh-sftp-server, procps, ucf, debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.14.0~), systemd | systemd-standalone-sysusers | systemd-sysusers, systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, libaudit1 (>= 1:2.2.1), libc6 (>= 2.42), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0), libwrap0 (>= 7.6-4~), libwtmpdb0 (>= 0.13.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3589",
+    "Installed-Size": "3598",
     "Origin": "",
     "Package": "openssh-server",
     "Pre-Depends": "",
@@ -3825,7 +3825,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "molly-guard, monkeysphere, ssh-askpass, ufw",
-    "Version": "1:10.4p1-5",
+    "Version": "1:10.5p1-1",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3833,13 +3833,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:10.4p1-5"
+    "source:Version": "1:10.5p1-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "openssh-common (= 1:10.4p1-5), libc6 (>= 2.38)",
+    "Depends": "openssh-common (= 1:10.5p1-1), libc6 (>= 2.38)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
     "Installed-Size": "181",
@@ -3853,7 +3853,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:10.4p1-5",
+    "Version": "1:10.5p1-1",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:10.4p1-5"
+    "source:Version": "1:10.5p1-1"
   },
   {
     "Architecture": "amd64",
