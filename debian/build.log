@@ -97,8 +97,8 @@ I: Retrieving libpam-runtime 1.7.0-8
 I: Validating libpam-runtime 1.7.0-8
 I: Retrieving libpam0g 1.7.0-8
 I: Validating libpam0g 1.7.0-8
-I: Retrieving libpcre2-8-0 10.46-1+b2
-I: Validating libpcre2-8-0 10.46-1+b2
+I: Retrieving libpcre2-8-0 10.48-1
+I: Validating libpcre2-8-0 10.48-1
 I: Retrieving libseccomp2 2.6.1-1
 I: Validating libseccomp2 2.6.1-1
 I: Retrieving libselinux1 3.11-2
