@@ -370,7 +370,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "105",
+    "Installed-Size": "106",
     "Origin": "",
     "Package": "gcc-16-base",
     "Pre-Depends": "",
@@ -381,7 +381,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "16.2.0-1",
+    "Version": "16.2.0-2",
     "binary:Package": "gcc-16-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -389,7 +389,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-16",
-    "source:Version": "16.2.0-1"
+    "source:Version": "16.2.0-2"
   },
   {
     "Architecture": "amd64",
@@ -927,7 +927,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "gcc-16-base (= 16.2.0-1), libc6 (>= 2.35)",
+    "Depends": "gcc-16-base (= 16.2.0-2), libc6 (>= 2.35)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "197",
@@ -935,13 +935,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:16.2.0-1)",
+    "Provides": "libgcc1 (= 1:16.2.0-2)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "16.2.0-1",
+    "Version": "16.2.0-2",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-16",
-    "source:Version": "16.2.0-1"
+    "source:Version": "16.2.0-2"
   },
   {
     "Architecture": "amd64",
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.48-1",
+    "Version": "10.48-2",
     "binary:Package": "libpcre2-8-0:amd64",
     "binary:Summary": "New Perl Compatible Regular Expression Library- 8 bit runtime files",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre2",
-    "source:Version": "10.48-1"
+    "source:Version": "10.48-2"
   },
   {
     "Architecture": "amd64",
@@ -1487,7 +1487,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-16-base (= 16.2.0-1), libc6 (>= 2.38), libgcc-s1 (>= 4.3)",
+    "Depends": "gcc-16-base (= 16.2.0-2), libc6 (>= 2.38), libgcc-s1 (>= 4.3)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "3320",
@@ -1501,7 +1501,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "16.2.0-1",
+    "Version": "16.2.0-2",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -1509,7 +1509,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-16",
-    "source:Version": "16.2.0-1"
+    "source:Version": "16.2.0-2"
   },
   {
     "Architecture": "amd64",
@@ -1518,18 +1518,18 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1281",
+    "Installed-Size": "1377",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "",
-    "Recommends": "libzstd1",
+    "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
-    "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "261.2-1",
+    "Suggests": "liblz4-1, liblzma5, libzstd1",
+    "Version": "262~rc1-2",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "261.2-1"
+    "source:Version": "262~rc1-2"
   },
   {
     "Architecture": "amd64",
@@ -1574,7 +1574,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "357",
+    "Installed-Size": "377",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "261.2-1",
+    "Version": "262~rc1-2",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "261.2-1"
+    "source:Version": "262~rc1-2"
   },
   {
     "Architecture": "amd64",
