@@ -21,7 +21,7 @@ installed packages:
 ii   apt                       3.3.3                      amd64  commandline package manager
 ii   base-files                14.2                       amd64  Debian base system miscellaneous files
 ii   base-passwd               3.6.8                      amd64  Debian base system master password and group files
-ii   bash                      5.3-3+b1                   amd64  GNU Bourne Again SHell
+ii   bash                      5.3-4                      amd64  GNU Bourne Again SHell
 ii   bsdutils                  1:2.42.3-1                 amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                 9.10-1                     amd64  GNU core utilities
 ii   dash                      0.5.12-12                  amd64  POSIX-compliant shell
@@ -40,7 +40,7 @@ ii   libacl1                   2.4.0-1                    amd64  access control 
 ii   libapt-pkg7.0             3.3.3                      amd64  package management runtime library
 ii   libattr1                  1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
 ii   libaudit-common           1:4.1.2-1                  all    Dynamic library for security auditing - common files
-ii   libaudit1                 1:4.1.2-1+b1               amd64  Dynamic library for security auditing
+ii   libaudit1                 1:4.1.2-1+b2               amd64  Dynamic library for security auditing
 ii   libblkid1                 2.42.3-1                   amd64  block device ID library
 ii   libbsd0                   0.12.2-3                   amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                1.0.8-6+b2                 amd64  high-quality block-sorting file compressor library - runtime

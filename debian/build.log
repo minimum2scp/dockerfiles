@@ -13,8 +13,8 @@ I: Retrieving base-files 14.2
 I: Validating base-files 14.2
 I: Retrieving base-passwd 3.6.8
 I: Validating base-passwd 3.6.8
-I: Retrieving bash 5.3-3+b1
-I: Validating bash 5.3-3+b1
+I: Retrieving bash 5.3-4
+I: Validating bash 5.3-4
 I: Retrieving bsdutils 1:2.42.3-1
 I: Validating bsdutils 1:2.42.3-1
 I: Retrieving coreutils 9.10-1
@@ -51,8 +51,8 @@ I: Retrieving libattr1 1:2.6.0-1
 I: Validating libattr1 1:2.6.0-1
 I: Retrieving libaudit-common 1:4.1.2-1
 I: Validating libaudit-common 1:4.1.2-1
-I: Retrieving libaudit1 1:4.1.2-1+b1
-I: Validating libaudit1 1:4.1.2-1+b1
+I: Retrieving libaudit1 1:4.1.2-1+b2
+I: Validating libaudit1 1:4.1.2-1+b2
 I: Retrieving libblkid1 2.42.3-1
 I: Validating libblkid1 2.42.3-1
 I: Retrieving libbsd0 0.12.2-3
