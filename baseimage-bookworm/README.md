@@ -152,7 +152,7 @@ ii   libpam-modules           1.5.2-6+deb12u2                 amd64  Pluggable A
 ii   libpam-modules-bin       1.5.2-6+deb12u2                 amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime           1.5.2-6+deb12u2                 all    Runtime support for the PAM library
 ii   libpam0g                 1.5.2-6+deb12u2                 amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0             10.42-1                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0             10.42-1+deb12u1                 amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.36              5.36.0-7+deb12u3                amd64  shared Perl library
 ii   libpipeline1             1.5.7-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.19+dfsg-1                     amd64  lib for parsing cmdline parameters
@@ -169,7 +169,7 @@ ii   libsepol2                3.4-2.1                         amd64  SELinux lib
 ii   libslang2                2.3.3-3                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1            2.38.1-5+deb12u3                amd64  smart column output alignment library
 ii   libss2                   1.47.0-2+b2                     amd64  command-line interface parsing library
-ii   libssh2-1                1.10.0-3+b1                     amd64  SSH2 client-side library
+ii   libssh2-1                1.10.0-3+deb12u1                amd64  SSH2 client-side library
 ii   libssl3                  3.0.20-1~deb12u2                amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.2.0-14+deb12u1               amd64  GNU Standard C++ Library v3
 ii   libsystemd0              252.39-1~deb12u2                amd64  systemd utility library
