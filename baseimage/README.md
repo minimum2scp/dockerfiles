@@ -101,10 +101,10 @@ ii   libblkid1                    2.42.3-1                   amd64  block device
 ii   libbrotli1                   1.2.0-4+b1                 amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-3                   amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6+b2                 amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.43-4                     amd64  GNU C Library: Binaries
-ii   libc-gconv-modules-extra     2.43-4                     amd64  GNU C Library: Non-essential gconv modules
-ii   libc-l10n                    2.43-4                     all    GNU C Library: localization files
-ii   libc6                        2.43-4                     amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.43-5                     amd64  GNU C Library: Binaries
+ii   libc-gconv-modules-extra     2.43-5                     amd64  GNU C Library: Non-essential gconv modules
+ii   libc-l10n                    2.43-5                     all    GNU C Library: localization files
+ii   libc6                        2.43-5                     amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.9.5-2                    amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.78-1+b1                amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.2                 amd64  library for parsing and generating CBOR (RFC 7049)
@@ -185,7 +185,7 @@ ii   libxxhash0                   0.8.3-2+b2                 amd64  shared libra
 ii   libyaml-0-2                  0.2.5-2+b1                 amd64  Fast YAML 1.1 parser and emitter library
 ii   libzstd1                     1.5.7+dfsg-4               amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                   all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.43-4                     all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.43-5                     all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.42.3-1  amd64  system login tools
 ii   login.defs                   1:4.19.3-2                 all    system user management configuration
 ii   lv                           4.51-10.1                  amd64  Powerful Multilingual File Viewer
