@@ -506,11 +506,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libapt-pkg5.0 (<< 1.7~b), lsb-base (<< 10.2019031300)",
-    "Depends": "tar (>= 1.28-1)",
+    "Breaks": "bash-completion (<< 1:2.12~)",
+    "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6399",
+    "Installed-Size": "4976",
     "Origin": "",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.38), liblzma5 (>= 5.4.0), libmd0 (>= 0.0.0), libselinux1 (>= 3.1~), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.23.7",
+    "Version": "1.23.9",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.23.7"
+    "source:Version": "1.23.9"
   },
   {
     "Architecture": "all",
