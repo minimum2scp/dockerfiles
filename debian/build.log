@@ -29,8 +29,8 @@ I: Retrieving debianutils 5.24
 I: Validating debianutils 5.24
 I: Retrieving diffutils 1:3.12-1
 I: Validating diffutils 1:3.12-1
-I: Retrieving dpkg 1.23.10
-I: Validating dpkg 1.23.10
+I: Retrieving dpkg 1.23.11
+I: Validating dpkg 1.23.11
 I: Retrieving findutils 4.11.0-2
 I: Validating findutils 4.11.0-2
 I: Retrieving gcc-16-base 16.2.0-2
