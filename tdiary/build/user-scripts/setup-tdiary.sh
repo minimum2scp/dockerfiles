@@ -11,40 +11,17 @@ DATA_ROOT=$HOME/tdiary
 ## git clone tdiary-xxx
 ##
 mkdir -p $GHQ_ROOT/github.com/tdiary/
-for repo in tdiary-core \
-            tdiary-contrib \
-            tdiary-blogkit \
-            tdiary-cache-redis \
-            tdiary-cache-memcached \
-            tdiary-cache-null \
-            tdiary-io-mongodb \
-            tdiary-io-rdb \
-            tdiary-theme \
-            tdiary-theme-nonfree \
-            tdiary-style-emptdiary \
-            tdiary-style-etdiary \
-            tdiary-style-gfm \
-            tdiary-style-rd \
-; do
+for repo in tdiary-core; do
   git clone https://github.com/tdiary/${repo}.git $GHQ_ROOT/github.com/tdiary/${repo}
 done
 
 ## run bundle install
 cd $GHQ_ROOT/github.com/tdiary/tdiary-core
 mkdir -p vendor/bundle
+bash -l -c "bundle config set --local with docker"
+bash -l -c "bundle config set --local without development:test"
 bash -l -c "bundle config set --local path vendor/bundle"
 bash -l -c "bundle install --jobs=4"
-
-## add Gemfile.local
-install -m 644 -p /tmp/build/tdiary/$GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local $GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local
-
-## run bundle install again
-bash -l -c "bundle lock --update faraday octokit"
-bash -l -c "bundle install"
-bash -l -c "bundle clean"
-
-## show diff
-GIT_PAGER= git diff Gemfile.lock
 
 ##
 ## tdiary data

@@ -40,19 +40,6 @@ describe 'minimum2scp/tdiary' do
 
       %w[
         tdiary-core
-        tdiary-contrib
-        tdiary-blogkit
-        tdiary-cache-redis
-        tdiary-cache-memcached
-        tdiary-cache-null
-        tdiary-io-mongodb
-        tdiary-io-rdb
-        tdiary-theme
-        tdiary-theme-nonfree
-        tdiary-style-emptdiary
-        tdiary-style-etdiary
-        tdiary-style-gfm
-        tdiary-style-rd
       ].each do |repo|
         describe file("/home/debian/go/src/github.com/tdiary/#{repo}") do
           it { should be_directory }
