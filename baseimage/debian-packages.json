@@ -2050,7 +2050,7 @@
     "Depends": "libc6 (>= 2.38), libestr0 (>= 0.1.0), libfastjson4 (>= 0.99.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "187",
+    "Installed-Size": "200",
     "Origin": "",
     "Package": "liblognorm5",
     "Pre-Depends": "",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.0+really-1",
+    "Version": "2.1.1-1",
     "binary:Package": "liblognorm5:amd64",
     "binary:Summary": "log normalizing library",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "liblognorm",
-    "source:Version": "2.1.0+really-1"
+    "source:Version": "2.1.1-1"
   },
   {
     "Architecture": "amd64",
@@ -2106,7 +2106,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "457",
+    "Installed-Size": "482",
     "Origin": "",
     "Package": "liblzma5",
     "Pre-Depends": "",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.8.3-1",
+    "Version": "5.8.4-1",
     "binary:Package": "liblzma5:amd64",
     "binary:Summary": "XZ-format compression library",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xz-utils",
-    "source:Version": "5.8.3-1"
+    "source:Version": "5.8.4-1"
   },
   {
     "Architecture": "amd64",
