@@ -81,8 +81,8 @@ I: Retrieving libhogweed6t64 3.10.2-1+b1
 I: Validating libhogweed6t64 3.10.2-1+b1
 I: Retrieving liblz4-1 1.10.0-10
 I: Validating liblz4-1 1.10.0-10
-I: Retrieving liblzma5 5.8.3-1
-I: Validating liblzma5 5.8.3-1
+I: Retrieving liblzma5 5.8.4-1
+I: Validating liblzma5 5.8.4-1
 I: Retrieving libmd0 1.2.0-2
 I: Validating libmd0 1.2.0-2
 I: Retrieving libmount1 2.42.3-1
