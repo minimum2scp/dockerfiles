@@ -105,7 +105,7 @@ ii   libc-bin                     2.43-5                     amd64  GNU C Librar
 ii   libc-gconv-modules-extra     2.43-5                     amd64  GNU C Library: Non-essential gconv modules
 ii   libc-l10n                    2.43-5                     all    GNU C Library: localization files
 ii   libc6                        2.43-5                     amd64  GNU C Library: Shared libraries
-ii   libcap-ng0                   0.9.5-2                    amd64  alternate POSIX capabilities library
+ii   libcap-ng0                   0.9.6-1                    amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.78-1+b1                amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.2                 amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1+b1                amd64  common error description library
@@ -151,7 +151,7 @@ ii   libpam-modules               1.7.0-8                    amd64  Pluggable Au
 ii   libpam-modules-bin           1.7.0-8                    amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.7.0-8                    all    Runtime support for the PAM library
 ii   libpam0g                     1.7.0-8                    amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0                 10.48-2                    amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0                 10.48-3                    amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.42                  5.42.3-1                   amd64  shared Perl library
 ii   libpipeline1                 1.5.8-3                    amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2+b2             amd64  lib for parsing cmdline parameters
