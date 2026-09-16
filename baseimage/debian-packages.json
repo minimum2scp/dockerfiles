@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "liblz4-1, liblzma5, libzstd1",
-    "Version": "262~rc2-1",
+    "Version": "262~rc3-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "262~rc2-1"
+    "source:Version": "262~rc3-1"
   },
   {
     "Architecture": "amd64",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "262~rc2-1",
+    "Version": "262~rc3-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "262~rc2-1"
+    "source:Version": "262~rc3-1"
   },
   {
     "Architecture": "amd64",
@@ -4295,13 +4295,13 @@
     "Package": "systemd-standalone-sysusers",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-sysusers (= 262~rc2-1)",
+    "Provides": "systemd-sysusers (= 262~rc3-1)",
     "Recommends": "libaudit1, libblkid1, libcrypt1, libmount1, libselinux1",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "libcryptsetup12, libssl3t64",
-    "Version": "262~rc2-1",
+    "Version": "262~rc3-1",
     "binary:Package": "systemd-standalone-sysusers",
     "binary:Summary": "standalone sysusers binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "262~rc2-1"
+    "source:Version": "262~rc3-1"
   },
   {
     "Architecture": "amd64",
@@ -4323,13 +4323,13 @@
     "Package": "systemd-standalone-tmpfiles",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-tmpfiles (= 262~rc2-1)",
+    "Provides": "systemd-tmpfiles (= 262~rc3-1)",
     "Recommends": "libacl1, libblkid1, libmount1, libselinux1",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "libcryptsetup12, libssl3t64",
-    "Version": "262~rc2-1",
+    "Version": "262~rc3-1",
     "binary:Package": "systemd-standalone-tmpfiles",
     "binary:Summary": "standalone tmpfiles binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4337,7 +4337,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "262~rc2-1"
+    "source:Version": "262~rc3-1"
   },
   {
     "Architecture": "all",
