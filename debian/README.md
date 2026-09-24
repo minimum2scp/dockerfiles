@@ -35,7 +35,7 @@ ii   gcc-16-base               16.2.0-3                   amd64  GCC, the GNU Co
 ii   grep                      3.12-1                     amd64  GNU grep, egrep and fgrep
 ii   gzip                      1.14-1                     amd64  GNU compression utilities
 ii   hostname                  3.25                       amd64  utility to set/show the host name or domain name
-ii   init-system-helpers       1.69+nmu2                  all    helper tools for all init systems
+ii   init-system-helpers       1.69+nmu3                  all    helper tools for all init systems
 ii   libacl1                   2.4.0-1                    amd64  access control list - shared library
 ii   libapt-pkg7.0             3.3.3                      amd64  package management runtime library
 ii   libattr1                  1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
@@ -72,15 +72,15 @@ ii   libsepol2                 3.11-1                     amd64  SELinux library
 ii   libsmartcols1             2.42.3-1                   amd64  smart column output alignment library
 ii   libssl3t64                3.6.4-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                16.2.0-3                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0               262~rc3-1                  amd64  systemd utility library
+ii   libsystemd0               262-1                      amd64  systemd utility library
 ii   libtinfo6                 6.6+20260608-2             amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                  262~rc3-1                  amd64  libudev shared library
+ii   libudev1                  262-1                      amd64  libudev shared library
 ii   libuuid1                  2.42.3-1                   amd64  Universally Unique ID library
 ii   libxxhash0                0.8.3-2+b2                 amd64  shared library for xxhash
 ii   libzstd1                  1.5.7+dfsg-4               amd64  fast lossless compression algorithm
 ii   login                     1:4.16.0-2+really2.42.3-1  amd64  system login tools
 ii   login.defs                1:4.19.3-2                 all    system user management configuration
-ii   mawk                      1.3.4.20260302-1           amd64  Pattern scanning and text processing language
+ii   mawk                      1.3.4.20260302-2           amd64  Pattern scanning and text processing language
 ii   mount                     2.42.3-1                   amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base              6.6+20260608-2             all    basic terminal type definitions
 ii   ncurses-bin               6.6+20260608-2             amd64  terminal-related programs and man pages
