@@ -70,9 +70,9 @@ ii   bsdutils                     1:2.42.3-1                 amd64  basic utilit
 ii   bzip2                        1.0.8-6+b2                 amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20260816                   all    Common CA certificates
 ii   coreutils                    9.10-1                     amd64  GNU core utilities
-ii   cron                         3.0pl1-209                 amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-209                 all    process scheduling daemon's configuration files
-ii   curl                         8.22.0-1                   amd64  command line tool for transferring data with URL syntax
+ii   cron                         3.0pl1-210                 amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-210                 all    process scheduling daemon's configuration files
+ii   curl                         8.23.0~rc1-2               amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                  amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                     all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                     all    OpenPGP archive certificates of the Debian archive
@@ -88,7 +88,7 @@ ii   grep                         3.12-1                     amd64  GNU grep, eg
 ii   groff-base                   1.24.1-1                   amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.14-1                     amd64  GNU compression utilities
 ii   hostname                     3.25                       amd64  utility to set/show the host name or domain name
-ii   init-system-helpers          1.69+nmu2                  all    helper tools for all init systems
+ii   init-system-helpers          1.69+nmu3                  all    helper tools for all init systems
 ii   initscripts                  3.18-1                     all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.4.0-1                    amd64  access control list - shared library
@@ -110,13 +110,13 @@ ii   libcap2                      1:2.78-1+b1                amd64  POSIX 1003.1
 ii   libcbor0.10                  0.10.2-2.2                 amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1+b1                amd64  common error description library
 ii   libcrypt1                    1:4.5.2+20251210-1         amd64  libcrypt shared library
-ii   libcurl4-gnutls              8.22.0-1                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.22.0-1                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl4-gnutls              8.23.0~rc1-2               amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.23.0~rc1-2               amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-11+b1         amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.283                      amd64  Debian Configuration Management System (C-implementation library)
 ii   liberror-perl                0.17030-1                  all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-2+b2                amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.8.4-1                    amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.8.4-2                    amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2609.0-1                 amd64  fast json library for C
 ii   libffi8                      3.8.0-2                    amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.17.0-2                   amd64  library for generating and verifying FIDO 2.0 objects
@@ -170,13 +170,13 @@ ii   libsqlite3-0                 3.53.4-2                   amd64  SQLite 3 sha
 ii   libssh2-1t64                 1.11.1-6                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.4-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   16.2.0-3                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  262~rc3-1                  amd64  systemd utility library
+ii   libsystemd0                  262-1                      amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2+b1                amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-12+b1                 amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-11                    all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.6+20260608-2             amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-2+b2                 amd64  universal charset detection library - shared library
-ii   libudev1                     262~rc3-1                  amd64  libudev shared library
+ii   libudev1                     262-1                      amd64  libudev shared library
 ii   libunistring5                1.4.2-1                    amd64  Unicode string library for C
 ii   libuuid1                     2.42.3-1                   amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-37                   amd64  Wietse Venema's TCP wrappers library
@@ -190,7 +190,7 @@ ii   login                        1:4.16.0-2+really2.42.3-1  amd64  system login
 ii   login.defs                   1:4.19.3-2                 all    system user management configuration
 ii   lv                           4.51-10.1                  amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.1-1                   amd64  tools for reading manual pages
-ii   mawk                         1.3.4.20260302-1           amd64  Pattern scanning and text processing language
+ii   mawk                         1.3.4.20260302-2           amd64  Pattern scanning and text processing language
 ii   mount                        2.42.3-1                   amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.6+20260608-2             all    basic terminal type definitions
 ii   ncurses-bin                  6.6+20260608-2             amd64  terminal-related programs and man pages
@@ -213,8 +213,8 @@ ii   sensible-utils               0.0.26                     all    Utilities fo
 ii   sqv                          1.5.0-1                    amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                     amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-8                 amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  262~rc3-1                  amd64  standalone sysusers binary for use in non-systemd systems
-ii   systemd-standalone-tmpfiles  262~rc3-1                  amd64  standalone tmpfiles binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  262-1                      amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-tmpfiles  262-1                      amd64  standalone tmpfiles binary for use in non-systemd systems
 ii   sysv-rc                      3.18-1                     all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.18-1                     amd64  System-V-like init
 ii   sysvinit-utils               3.18-1                     amd64  System-V-like utilities

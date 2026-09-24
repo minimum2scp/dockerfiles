@@ -286,7 +286,7 @@
     "Depends": "libc6 (>= 2.38), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), sensible-utils, libpam-runtime",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "247",
+    "Installed-Size": "248",
     "Origin": "",
     "Package": "cron",
     "Pre-Depends": "cron-daemon-common",
@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron, logrotate, checksecurity, supercat, bat",
-    "Version": "3.0pl1-209",
+    "Version": "3.0pl1-210",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-209"
+    "source:Version": "3.0pl1-210"
   },
   {
     "Architecture": "all",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-209",
+    "Version": "3.0pl1-210",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,13 +333,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-209"
+    "source:Version": "3.0pl1-210"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libcurl4t64 (= 8.22.0-1), libc6 (>= 2.43), zlib1g (>= 1:1.1.4)",
+    "Depends": "libcurl4t64 (= 8.23.0~rc1-2), libc6 (>= 2.43), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "520",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.22.0-1",
+    "Version": "8.23.0~rc1-2",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.22.0-1"
+    "source:Version": "8.23.0~rc1-2"
   },
   {
     "Architecture": "amd64",
@@ -790,7 +790,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "131",
+    "Installed-Size": "132",
     "Origin": "",
     "Package": "init-system-helpers",
     "Pre-Depends": "",
@@ -801,7 +801,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.69+nmu2",
+    "Version": "1.69+nmu3",
     "binary:Package": "init-system-helpers",
     "binary:Summary": "helper tools for all init systems",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.69+nmu2"
+    "source:Version": "1.69+nmu3"
   },
   {
     "Architecture": "all",
@@ -1406,7 +1406,7 @@
     "Depends": "libnghttp3-9 (>= 1.11.0~), libngtcp2-16 (>= 1.24.0), libbrotli1 (>= 0.6.0), libc6 (>= 2.43), libgnutls30t64 (>= 3.8.6), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnettle8t64, libnghttp2-14 (>= 1.50.0), libngtcp2-crypto-gnutls8 (>= 1.22.0), libpsl5t64 (>= 0.16.0), libssh2-1t64 (>= 1.11.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1148",
+    "Installed-Size": "1156",
     "Origin": "",
     "Package": "libcurl4-gnutls",
     "Pre-Depends": "",
@@ -1417,7 +1417,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.22.0-1",
+    "Version": "8.23.0~rc1-2",
     "binary:Package": "libcurl4-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1425,27 +1425,27 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.22.0-1"
+    "source:Version": "8.23.0~rc1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "libcurl3",
-    "Breaks": "libcurl4 (<< 8.22.0-1)",
+    "Breaks": "libcurl4 (<< 8.23.0~rc1-2)",
     "Depends": "libnghttp3-9 (>= 1.11.0~), libngtcp2-16 (>= 1.24.0), libbrotli1 (>= 0.6.0), libc6 (>= 2.43), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnghttp2-14 (>= 1.50.0), libngtcp2-crypto-ossl0 (>= 1.24.0), libpsl5t64 (>= 0.16.0), libssh2-1t64 (>= 1.11.1), libssl3t64 (>= 3.5.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1161",
+    "Installed-Size": "1165",
     "Origin": "",
     "Package": "libcurl4t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcurl4 (= 8.22.0-1)",
+    "Provides": "libcurl4 (= 8.23.0~rc1-2)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.22.0-1",
+    "Version": "8.23.0~rc1-2",
     "binary:Package": "libcurl4t64:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.22.0-1"
+    "source:Version": "8.23.0~rc1-2"
   },
   {
     "Architecture": "amd64",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.8.4-1",
+    "Version": "2.8.4-2",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.8.4-1"
+    "source:Version": "2.8.4-2"
   },
   {
     "Architecture": "amd64",
@@ -3086,7 +3086,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1377",
+    "Installed-Size": "1381",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "",
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "liblz4-1, liblzma5, libzstd1",
-    "Version": "262~rc3-1",
+    "Version": "262-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "262~rc3-1"
+    "source:Version": "262-1"
   },
   {
     "Architecture": "amd64",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "262~rc3-1",
+    "Version": "262-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "262~rc3-1"
+    "source:Version": "262-1"
   },
   {
     "Architecture": "amd64",
@@ -3646,7 +3646,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "295",
+    "Installed-Size": "299",
     "Origin": "",
     "Package": "mawk",
     "Pre-Depends": "",
@@ -3657,7 +3657,7 @@
     "Section": "interpreters",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.3.4.20260302-1",
+    "Version": "1.3.4.20260302-2",
     "binary:Package": "mawk",
     "binary:Summary": "Pattern scanning and text processing language",
     "db:Status-Abbrev": "ii ",
@@ -3665,7 +3665,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "mawk",
-    "source:Version": "1.3.4.20260302-1"
+    "source:Version": "1.3.4.20260302-2"
   },
   {
     "Architecture": "amd64",
@@ -4295,13 +4295,13 @@
     "Package": "systemd-standalone-sysusers",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-sysusers (= 262~rc3-1)",
+    "Provides": "systemd-sysusers (= 262-1)",
     "Recommends": "libaudit1, libblkid1, libcrypt1, libmount1, libselinux1",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "libcryptsetup12, libssl3t64",
-    "Version": "262~rc3-1",
+    "Version": "262-1",
     "binary:Package": "systemd-standalone-sysusers",
     "binary:Summary": "standalone sysusers binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "262~rc3-1"
+    "source:Version": "262-1"
   },
   {
     "Architecture": "amd64",
@@ -4318,18 +4318,18 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1110",
+    "Installed-Size": "1114",
     "Origin": "",
     "Package": "systemd-standalone-tmpfiles",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-tmpfiles (= 262~rc3-1)",
+    "Provides": "systemd-tmpfiles (= 262-1)",
     "Recommends": "libacl1, libblkid1, libmount1, libselinux1",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "libcryptsetup12, libssl3t64",
-    "Version": "262~rc3-1",
+    "Version": "262-1",
     "binary:Package": "systemd-standalone-tmpfiles",
     "binary:Summary": "standalone tmpfiles binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4337,7 +4337,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "262~rc3-1"
+    "source:Version": "262-1"
   },
   {
     "Architecture": "all",
