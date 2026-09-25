@@ -101,8 +101,8 @@ I: Retrieving libpcre2-8-0 10.48-3
 I: Validating libpcre2-8-0 10.48-3
 I: Retrieving libseccomp2 2.6.1-1+b1
 I: Validating libseccomp2 2.6.1-1+b1
-I: Retrieving libselinux1 3.11-2
-I: Validating libselinux1 3.11-2
+I: Retrieving libselinux1 3.11-2.1
+I: Validating libselinux1 3.11-2.1
 I: Retrieving libsemanage-common 3.11-1
 I: Validating libsemanage-common 3.11-1
 I: Retrieving libsemanage2 3.11-1+b1
