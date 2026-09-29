@@ -63,7 +63,7 @@ ii   libpam-modules            1.7.0-8                    amd64  Pluggable Authe
 ii   libpam-modules-bin        1.7.0-8                    amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime            1.7.0-8                    all    Runtime support for the PAM library
 ii   libpam0g                  1.7.0-8                    amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0              10.48-3                    amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0              10.48-3.1                  amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2               2.6.1-1+b1                 amd64  high level interface to Linux seccomp filter
 ii   libselinux1               3.11-2.1                   amd64  SELinux runtime shared libraries
 ii   libsemanage-common        3.11-1                     all    Common files for SELinux policy management libraries
@@ -79,13 +79,13 @@ ii   libuuid1                  2.42.4-1                   amd64  Universally Uni
 ii   libxxhash0                0.8.3-2+b2                 amd64  shared library for xxhash
 ii   libzstd1                  1.5.7+dfsg-4               amd64  fast lossless compression algorithm
 ii   login                     1:4.16.0-2+really2.42.4-1  amd64  system login tools
-ii   login.defs                1:4.19.3-2                 all    system user management configuration
+ii   login.defs                1:4.20.2-2                 all    system user management configuration
 ii   mawk                      1.3.4.20260302-2           amd64  Pattern scanning and text processing language
 ii   mount                     2.42.4-1                   amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base              6.6+20260608-2             all    basic terminal type definitions
 ii   ncurses-bin               6.6+20260608-2             amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy   3.6.4-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   passwd                    1:4.19.3-2                 amd64  change and administer password and group data
+ii   passwd                    1:4.20.2-2                 amd64  change and administer password and group data
 ii   perl-base                 5.42.3-1                   amd64  minimal Perl system
 ii   sed                       4.9-3                      amd64  GNU stream editor for filtering/transforming text
 ii   sqv                       1.5.0-1                    amd64  OpenPGP signature verification program from Sequoia
