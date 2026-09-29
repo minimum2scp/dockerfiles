@@ -151,7 +151,7 @@ ii   libpam-modules               1.7.0-8                    amd64  Pluggable Au
 ii   libpam-modules-bin           1.7.0-8                    amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.7.0-8                    all    Runtime support for the PAM library
 ii   libpam0g                     1.7.0-8                    amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0                 10.48-3                    amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0                 10.48-3.1                  amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.42                  5.42.3-1                   amd64  shared Perl library
 ii   libpipeline1                 1.5.8-3                    amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2+b2             amd64  lib for parsing cmdline parameters
@@ -187,7 +187,7 @@ ii   libzstd1                     1.5.7+dfsg-4               amd64  fast lossles
 ii   localepurge                  0.7.3.11                   all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.43-6                     all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.42.4-1  amd64  system login tools
-ii   login.defs                   1:4.19.3-2                 all    system user management configuration
+ii   login.defs                   1:4.20.2-2                 all    system user management configuration
 ii   lv                           4.51-10.1                  amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.1-1                   amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20260302-2           amd64  Pattern scanning and text processing language
@@ -201,7 +201,7 @@ ii   openssh-sftp-server          1:10.5p1-1                 amd64  secure shell
 ii   openssl                      3.6.4-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.6.4-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.26                       all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.19.3-2                 amd64  change and administer password and group data
+ii   passwd                       1:4.20.2-2                 amd64  change and administer password and group data
 ii   perl                         5.42.3-1                   amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.42.3-1                   amd64  minimal Perl system
 ii   perl-modules-5.42            5.42.3-1                   all    Core Perl modules
@@ -212,7 +212,7 @@ ii   sed                          4.9-3                      amd64  GNU stream e
 ii   sensible-utils               0.0.26                     all    Utilities for sensible alternative selection
 ii   sqv                          1.5.0-1                    amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                     amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.17p2-8                 amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.17p2-9                 amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  262-1                      amd64  standalone sysusers binary for use in non-systemd systems
 ii   systemd-standalone-tmpfiles  262-1                      amd64  standalone tmpfiles binary for use in non-systemd systems
 ii   sysv-rc                      3.18-1                     all    System-V-like runlevel change mechanism
