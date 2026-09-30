@@ -85,7 +85,7 @@ ii   gcc-16-base                  16.2.0-3                   amd64  GCC, the GNU
 ii   git                          1:2.55.0-1                 amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.55.0-1                 all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.12-1                     amd64  GNU grep, egrep and fgrep
-ii   groff-base                   1.24.1-1                   amd64  GNU troff text-formatting system (base system components)
+ii   groff-base                   1.24.2-2                   amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.14-1                     amd64  GNU compression utilities
 ii   hostname                     3.25                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.69+nmu3                  all    helper tools for all init systems
@@ -168,7 +168,7 @@ ii   libslang2                    2.3.3-6                    amd64  S-Lang progr
 ii   libsmartcols1                2.42.4-1                   amd64  smart column output alignment library
 ii   libsqlite3-0                 3.53.4-2                   amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-6                   amd64  SSH2 client-side library
-ii   libssl3t64                   3.6.4-1                    amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3t64                   3.6.5-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   16.2.0-3                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  262-1                      amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2+b1                amd64  Manage ASN.1 structures (runtime)
@@ -198,8 +198,8 @@ ii   net-tools                    2.10-2                     amd64  NET-3 networ
 ii   openssh-common               1:10.5p1-1                 amd64  common files for OpenSSH
 ii   openssh-server               1:10.5p1-1                 amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:10.5p1-1                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.6.4-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   openssl-provider-legacy      3.6.4-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                      3.6.5-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl-provider-legacy      3.6.5-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.26                       all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.20.2-2                 amd64  change and administer password and group data
 ii   perl                         5.42.3-1                   amd64  Larry Wall's Practical Extraction and Report Language
