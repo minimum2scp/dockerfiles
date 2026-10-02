@@ -108,7 +108,7 @@ ii   libc6                        2.43-6                     amd64  GNU C Librar
 ii   libcap-ng0                   0.9.6-1                    amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.78-1+b1                amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2.2                 amd64  library for parsing and generating CBOR (RFC 7049)
-ii   libcom-err2                  1.47.4-1+b1                amd64  common error description library
+ii   libcom-err2                  1.47.4-1+b2                amd64  common error description library
 ii   libcrypt1                    1:4.5.2+20251210-1         amd64  libcrypt shared library
 ii   libcurl4-gnutls              8.23.0~rc2-1               amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.23.0~rc2-1               amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -220,7 +220,7 @@ ii   sysvinit-core                3.18-1                     amd64  System-V-lik
 ii   sysvinit-utils               3.18-1                     amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-6                amd64  GNU version of the tar archiving utility
 ii   tree                         2.3.2-1                    amd64  displays an indented directory tree, in color
-ii   tzdata                       2026c-1                    all    time zone and daylight-saving time data
+ii   tzdata                       2026e-1                    all    time zone and daylight-saving time data
 ii   ucf                          3.0056                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-31                     amd64  De-archiver for .zip files
 ii   util-linux                   2.42.4-1                   amd64  miscellaneous system utilities
