@@ -151,7 +151,7 @@ ii   libpam-modules               1.7.0-5                            amd64  Plug
 ii   libpam-modules-bin           1.7.0-5                            amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.7.0-5                            all    Runtime support for the PAM library
 ii   libpam0g                     1.7.0-5                            amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0                 10.46-1~deb13u2                    amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0                 10.46-1~deb13u3                    amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.40                  5.40.1-6+deb13u1                   amd64  shared Perl library
 ii   libpipeline1                 1.5.8-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2                        amd64  lib for parsing cmdline parameters
@@ -169,7 +169,7 @@ ii   libslang2                    2.3.3-5+b2                         amd64  S-La
 ii   libsmartcols1                2.41.5-0+deb13u1                   amd64  smart column output alignment library
 ii   libsqlite3-0                 3.46.1-7+deb13u2                   amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-1+deb13u2                   amd64  SSH2 client-side library
-ii   libssl3t64                   3.5.7-1~deb13u2                    amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3t64                   3.5.7-1~deb13u3                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-19                          amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  257.13-1~deb13u1                   amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-2+deb13u1                   amd64  Manage ASN.1 structures (runtime)
@@ -198,8 +198,8 @@ ii   net-tools                    2.10-1.3                           amd64  NET-
 ii   openssh-client               1:10.0p1-7+deb13u4                 amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:10.0p1-7+deb13u4                 amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:10.0p1-7+deb13u4                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.5.7-1~deb13u2                    amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   openssl-provider-legacy      3.5.7-1~deb13u2                    amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                      3.5.7-1~deb13u3                    amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl-provider-legacy      3.5.7-1~deb13u3                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.21+deb13u2                       all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.17.4-2                         amd64  change and administer password and group data
 ii   perl                         5.40.1-6+deb13u1                   amd64  Larry Wall's Practical Extraction and Report Language
