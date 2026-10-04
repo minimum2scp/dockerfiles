@@ -117,7 +117,7 @@ ii   libdebconfclient0        0.270                           amd64  Debian Conf
 ii   libedit2                 3.1-20221030-2                  amd64  BSD editline and history libraries
 ii   liberror-perl            0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                 0.1.11-1                        amd64  Helper functions for handling strings (lib)
-ii   libexpat1                2.5.0-1+deb12u3                 amd64  XML parsing C library - runtime library
+ii   libexpat1                2.5.0-1+deb12u4                 amd64  XML parsing C library - runtime library
 ii   libext2fs2               1.47.0-2+b2                     amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4             1.2304.0-1                      amd64  fast json library for C
 ii   libffi8                  3.4.4-1                         amd64  Foreign Function Interface library runtime
@@ -152,7 +152,7 @@ ii   libpam-modules           1.5.2-6+deb12u2                 amd64  Pluggable A
 ii   libpam-modules-bin       1.5.2-6+deb12u2                 amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime           1.5.2-6+deb12u2                 all    Runtime support for the PAM library
 ii   libpam0g                 1.5.2-6+deb12u2                 amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0             10.42-1+deb12u1                 amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0             10.42-1+deb12u2                 amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.36              5.36.0-7+deb12u3                amd64  shared Perl library
 ii   libpipeline1             1.5.7-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.19+dfsg-1                     amd64  lib for parsing cmdline parameters
