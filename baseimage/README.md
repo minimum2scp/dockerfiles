@@ -116,7 +116,7 @@ ii   libdb5.3t64                  5.3.28+dfsg2-11+b1         amd64  Berkeley v5.
 ii   libdebconfclient0            0.283                      amd64  Debian Configuration Management System (C-implementation library)
 ii   liberror-perl                0.17030-1                  all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-2+b2                amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.8.5-2                    amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.9.0-1                    amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2609.0-1                 amd64  fast json library for C
 ii   libffi8                      3.8.0-2                    amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.17.0-2                   amd64  library for generating and verifying FIDO 2.0 objects
@@ -187,7 +187,7 @@ ii   libzstd1                     1.5.7+dfsg-4               amd64  fast lossles
 ii   localepurge                  0.7.3.11                   all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.43-7                     all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.42.4-1  amd64  system login tools
-ii   login.defs                   1:4.20.2-2                 all    system user management configuration
+ii   login.defs                   1:4.20.3-1                 all    system user management configuration
 ii   lv                           4.51-10.1                  amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.1-1                   amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20260302-2           amd64  Pattern scanning and text processing language
@@ -195,13 +195,13 @@ ii   mount                        2.42.4-1                   amd64  tools for mo
 ii   ncurses-base                 6.6+20260608-2             all    basic terminal type definitions
 ii   ncurses-bin                  6.6+20260608-2             amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                     amd64  NET-3 networking toolkit
-ii   openssh-common               1:10.5p1-1                 amd64  common files for OpenSSH
-ii   openssh-server               1:10.5p1-1                 amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.5p1-1                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-common               1:10.6p1-1                 amd64  common files for OpenSSH
+ii   openssh-server               1:10.6p1-1                 amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.6p1-1                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.6.5-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.6.5-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.26                       all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.20.2-2                 amd64  change and administer password and group data
+ii   passwd                       1:4.20.3-1                 amd64  change and administer password and group data
 ii   perl                         5.42.3-1                   amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.42.3-1                   amd64  minimal Perl system
 ii   perl-modules-5.42            5.42.3-1                   all    Core Perl modules
@@ -214,7 +214,6 @@ ii   sqv                          1.5.0-1                    amd64  OpenPGP sign
 ii   startpar                     0.67-1                     amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-9                 amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  262-1                      amd64  standalone sysusers binary for use in non-systemd systems
-ii   systemd-standalone-tmpfiles  262-1                      amd64  standalone tmpfiles binary for use in non-systemd systems
 ii   sysv-rc                      3.18-1                     all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.18-1                     amd64  System-V-like init
 ii   sysvinit-utils               3.18-1                     amd64  System-V-like utilities
