@@ -136,7 +136,7 @@ ii   liblastlog2-2                2.41.5-0+deb13u1                   amd64  last
 ii   libldap2                     2.6.10+dfsg-1                      amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-5                            amd64  log normalizing library
 ii   liblz4-1                     1.10.0-4                           amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                     5.8.1-1+deb13u1                    amd64  XZ-format compression library
+ii   liblzma5                     5.8.1-1+deb13u2                    amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b1                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.41.5-0+deb13u1                   amd64  device mounting library
 ii   libncursesw6                 6.5+20250216-2                     amd64  shared libraries for terminal handling (wide character support)
