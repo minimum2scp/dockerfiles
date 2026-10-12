@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.1.8-2",
+    "Version": "4.1.8-3",
     "binary:Package": "libapparmor1:amd64",
     "binary:Summary": "changehat AppArmor library",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apparmor",
-    "source:Version": "4.1.8-2"
+    "source:Version": "4.1.8-3"
   },
   {
     "Architecture": "amd64",
