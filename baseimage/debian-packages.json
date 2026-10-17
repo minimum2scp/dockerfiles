@@ -2719,21 +2719,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg1-11), libc6 (>= 2.38), libssl3t64 (>= 3.0.0)",
+    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg1-12), libc6 (>= 2.38), libssl3t64 (>= 3.0.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "153",
+    "Installed-Size": "161",
     "Origin": "",
     "Package": "libsasl2-2",
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg1-11)",
+    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg1-12)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg1-11",
+    "Version": "2.1.28+dfsg1-12",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -2741,7 +2741,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg1-11"
+    "source:Version": "2.1.28+dfsg1-12"
   },
   {
     "Architecture": "amd64",
@@ -2750,7 +2750,7 @@
     "Depends": "libc6 (>= 2.14), libdb5.3t64",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "67",
+    "Installed-Size": "71",
     "Origin": "",
     "Package": "libsasl2-modules-db",
     "Pre-Depends": "",
@@ -2761,7 +2761,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg1-11",
+    "Version": "2.1.28+dfsg1-12",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -2769,7 +2769,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg1-11"
+    "source:Version": "2.1.28+dfsg1-12"
   },
   {
     "Architecture": "amd64",
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "liblz4-1, liblzma5, libzstd1",
-    "Version": "262-1",
+    "Version": "262.1-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "262-1"
+    "source:Version": "262.1-1"
   },
   {
     "Architecture": "amd64",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "262-1",
+    "Version": "262.1-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "262-1"
+    "source:Version": "262.1-1"
   },
   {
     "Architecture": "amd64",
@@ -4290,18 +4290,18 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1000",
+    "Installed-Size": "1004",
     "Origin": "",
     "Package": "systemd-standalone-sysusers",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-sysusers (= 262-1)",
+    "Provides": "systemd-sysusers (= 262.1-1)",
     "Recommends": "libaudit1, libblkid1, libcrypt1, libmount1, libselinux1",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "libcryptsetup12, libssl3t64",
-    "Version": "262-1",
+    "Version": "262.1-1",
     "binary:Package": "systemd-standalone-sysusers",
     "binary:Summary": "standalone sysusers binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "262-1"
+    "source:Version": "262.1-1"
   },
   {
     "Architecture": "all",

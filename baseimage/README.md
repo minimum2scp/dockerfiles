@@ -157,8 +157,8 @@ ii   libpipeline1                 1.5.8-3                    amd64  Unix process
 ii   libpopt0                     1.19+dfsg-2+b2             amd64  lib for parsing cmdline parameters
 ii   libproc2-1                   2:4.0.7-1                  amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.23.3-1                   amd64  Library for Public Suffix List (shared libraries)
-ii   libsasl2-2                   2.1.28+dfsg1-11            amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db          2.1.28+dfsg1-11            amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2                   2.1.28+dfsg1-12            amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db          2.1.28+dfsg1-12            amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.6.1-1+b1                 amd64  high level interface to Linux seccomp filter
 ii   libselinux1                  3.11-2.1                   amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.11-1                     all    Common files for SELinux policy management libraries
@@ -170,13 +170,13 @@ ii   libsqlite3-0                 3.53.4-2                   amd64  SQLite 3 sha
 ii   libssh2-1t64                 1.11.1-6                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.5-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   16.2.0-3                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  262-1                      amd64  systemd utility library
+ii   libsystemd0                  262.1-1                    amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2+b1                amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-12+b1                 amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-11                    all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.6+20260608-2             amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-2+b2                 amd64  universal charset detection library - shared library
-ii   libudev1                     262-1                      amd64  libudev shared library
+ii   libudev1                     262.1-1                    amd64  libudev shared library
 ii   libunistring5                1.4.2-1                    amd64  Unicode string library for C
 ii   libuuid1                     2.42.4-1                   amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-37                   amd64  Wietse Venema's TCP wrappers library
@@ -213,7 +213,7 @@ ii   sensible-utils               0.0.26                     all    Utilities fo
 ii   sqv                          1.5.0-1                    amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                     amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-9                 amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  262-1                      amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  262.1-1                    amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.18-1                     all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.18-1                     amd64  System-V-like init
 ii   sysvinit-utils               3.18-1                     amd64  System-V-like utilities
