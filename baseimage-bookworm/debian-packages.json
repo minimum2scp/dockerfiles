@@ -1109,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.9-2+b6",
+    "Version": "1.0.9-2+deb12u1",
     "binary:Package": "libbrotli1:amd64",
     "binary:Summary": "library implementing brotli encoder and decoder (shared libraries)",
     "db:Status-Abbrev": "ii ",
@@ -1117,7 +1117,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "brotli",
-    "source:Version": "1.0.9-2"
+    "source:Version": "1.0.9-2+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -4374,7 +4374,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2569",
+    "Installed-Size": "2570",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -4385,7 +4385,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2026c-0+deb12u1",
+    "Version": "2026e-0+deb12u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4393,7 +4393,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2026c-0+deb12u1"
+    "source:Version": "2026e-0+deb12u1"
   },
   {
     "Architecture": "all",
