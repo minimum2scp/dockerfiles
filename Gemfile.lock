@@ -13,10 +13,13 @@ GEM
     logger (1.7.0)
     method_source (1.1.0)
     multi_json (1.21.2)
-    net-scp (4.1.0)
-      net-ssh (>= 2.6.5, < 8.0.0)
-    net-ssh (7.3.6)
+    net-scp (4.1.2)
+      net-ssh (>= 2.6.5, < 9.0.0)
+    net-ssh (8.0.4)
+      logger
+      openssl (>= 3.2.0)
     net-telnet (0.2.0)
+    openssl (4.0.2)
     pry (0.16.0)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -79,9 +82,10 @@ CHECKSUMS
   logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
   method_source (1.1.0) sha256=181301c9c45b731b4769bc81e8860e72f9161ad7d66dd99103c9ab84f560f5c5
   multi_json (1.21.2) sha256=245531eaf54bdba57aba515ff08b4503505c5e09911daa89c5a561e2f85bea8e
-  net-scp (4.1.0) sha256=a99b0b92a1e5d360b0de4ffbf2dc0c91531502d3d4f56c28b0139a7c093d1a5d
-  net-ssh (7.3.6) sha256=3364dedce752b9f5221e12ae970880d871a8e733e4730e4b9bd89e0b6808ce4b
+  net-scp (4.1.2) sha256=bc550fdc22b4a8f25b8bbf3fc6b41d0ee00692e4f78d2cb7726c35ebfa664aa0
+  net-ssh (8.0.4) sha256=969e1675fe82894178dd04b69236e5dc404e464f57ba006e87679dc448f9bf1b
   net-telnet (0.2.0) sha256=253007c0f8dc3fd66e569d53ebbce5ef6e94d6246ab9c04d73a7629b0eebd39a
+  openssl (4.0.2) sha256=1037ad2868ae58df9ad917891c0c0f9815a1172f6846d4bcdd508e4c2ee747c2
   pry (0.16.0) sha256=d76c69065698ed1f85e717bd33d7942c38a50868f6b0673c636192b3d1b6054e
   pry-doc (1.7.0) sha256=6ada9fec062b54441c6444e44f94c345e5c8c0af499d654e40d5a581eb222d8e
   rake (13.4.2) sha256=cb825b2bd5f1f8e91ca37bddb4b9aaf345551b4731da62949be002fa89283701
