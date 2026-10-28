@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   apt                       3.3.4                      amd64  commandline package manager
+ii   apt                       3.3.5                      amd64  commandline package manager
 ii   base-files                14.2                       amd64  Debian base system miscellaneous files
 ii   base-passwd               3.6.8                      amd64  Debian base system master password and group files
 ii   bash                      5.3-4                      amd64  GNU Bourne Again SHell
@@ -37,7 +37,7 @@ ii   gzip                      1.14-1                     amd64  GNU compression
 ii   hostname                  3.25                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers       1.69+nmu3                  all    helper tools for all init systems
 ii   libacl1                   2.4.0-1                    amd64  access control list - shared library
-ii   libapt-pkg7.0             3.3.4                      amd64  package management runtime library
+ii   libapt-pkg7.0             3.3.5                      amd64  package management runtime library
 ii   libattr1                  1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
 ii   libaudit-common           1:4.2.1-1                  all    Dynamic library for security auditing - common files
 ii   libaudit1                 1:4.2.1-1                  amd64  Dynamic library for security auditing
@@ -67,7 +67,7 @@ ii   libpcre2-8-0              10.48-3.1                  amd64  New Perl Compat
 ii   libseccomp2               2.6.1-1+b2                 amd64  high level interface to Linux seccomp filter
 ii   libselinux1               3.11-2.1+b1                amd64  SELinux runtime shared libraries
 ii   libsemanage-common        3.11-1                     all    Common files for SELinux policy management libraries
-ii   libsemanage2              3.11-1+b1                  amd64  SELinux policy management library
+ii   libsemanage2              3.11-1+b2                  amd64  SELinux policy management library
 ii   libsepol2                 3.11-1                     amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1             2.42.4-1                   amd64  smart column output alignment library
 ii   libssl3t64                3.6.5-1                    amd64  Secure Sockets Layer toolkit - shared libraries

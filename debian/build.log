@@ -7,8 +7,8 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
-I: Retrieving apt 3.3.4
-I: Validating apt 3.3.4
+I: Retrieving apt 3.3.5
+I: Validating apt 3.3.5
 I: Retrieving base-files 14.2
 I: Validating base-files 14.2
 I: Retrieving base-passwd 3.6.8
@@ -45,8 +45,8 @@ I: Retrieving init-system-helpers 1.69+nmu3
 I: Validating init-system-helpers 1.69+nmu3
 I: Retrieving libacl1 2.4.0-1
 I: Validating libacl1 2.4.0-1
-I: Retrieving libapt-pkg7.0 3.3.4
-I: Validating libapt-pkg7.0 3.3.4
+I: Retrieving libapt-pkg7.0 3.3.5
+I: Validating libapt-pkg7.0 3.3.5
 I: Retrieving libattr1 1:2.6.0-1
 I: Validating libattr1 1:2.6.0-1
 I: Retrieving libaudit-common 1:4.2.1-1
@@ -105,8 +105,8 @@ I: Retrieving libselinux1 3.11-2.1+b1
 I: Validating libselinux1 3.11-2.1+b1
 I: Retrieving libsemanage-common 3.11-1
 I: Validating libsemanage-common 3.11-1
-I: Retrieving libsemanage2 3.11-1+b1
-I: Validating libsemanage2 3.11-1+b1
+I: Retrieving libsemanage2 3.11-1+b2
+I: Validating libsemanage2 3.11-1+b2
 I: Retrieving libsepol2 3.11-1
 I: Validating libsepol2 3.11-1
 I: Retrieving libsmartcols1 2.42.4-1
