@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.159                      all    add and remove users and groups
-ii   apt                          3.3.4                      amd64  commandline package manager
+ii   apt                          3.3.5                      amd64  commandline package manager
 ii   base-files                   14.2                       amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.8                      amd64  Debian base system master password and group files
 ii   bash                         5.3-4                      amd64  GNU Bourne Again SHell
@@ -92,8 +92,8 @@ ii   init-system-helpers          1.69+nmu3                  all    helper tools
 ii   initscripts                  3.18-1                     all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.4.0-1                    amd64  access control list - shared library
-ii   libapparmor1                 4.1.8-3                    amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.3.4                      amd64  package management runtime library
+ii   libapparmor1                 4.1.8-3+b1                 amd64  changehat AppArmor library
+ii   libapt-pkg7.0                3.3.5                      amd64  package management runtime library
 ii   libattr1                     1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
 ii   libaudit-common              1:4.2.1-1                  all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.2.1-1                  amd64  Dynamic library for security auditing
@@ -162,7 +162,7 @@ ii   libsasl2-modules-db          2.1.28+dfsg1-12            amd64  Cyrus SASL -
 ii   libseccomp2                  2.6.1-1+b2                 amd64  high level interface to Linux seccomp filter
 ii   libselinux1                  3.11-2.1+b1                amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.11-1                     all    Common files for SELinux policy management libraries
-ii   libsemanage2                 3.11-1+b1                  amd64  SELinux policy management library
+ii   libsemanage2                 3.11-1+b2                  amd64  SELinux policy management library
 ii   libsepol2                    3.11-1                     amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-6                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.42.4-1                   amd64  smart column output alignment library
