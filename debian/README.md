@@ -63,7 +63,7 @@ ii   libpam-modules            1.7.0-8                    amd64  Pluggable Authe
 ii   libpam-modules-bin        1.7.0-8                    amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime            1.7.0-8                    all    Runtime support for the PAM library
 ii   libpam0g                  1.7.0-8                    amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0              10.48-3.1                  amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0              10.49-1                    amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2               2.6.1-1+b2                 amd64  high level interface to Linux seccomp filter
 ii   libselinux1               3.11-2.1+b1                amd64  SELinux runtime shared libraries
 ii   libsemanage-common        3.11-1                     all    Common files for SELinux policy management libraries
@@ -91,7 +91,7 @@ ii   sed                       4.9-3                      amd64  GNU stream edit
 ii   sqv                       1.5.0-1                    amd64  OpenPGP signature verification program from Sequoia
 ii   sysvinit-utils            3.18-1                     amd64  System-V-like utilities
 ii   tar                       1.35+dfsg-7                amd64  GNU version of the tar archiving utility
-ii   tzdata                    2026e-1                    all    time zone and daylight-saving time data
+ii   tzdata                    2026f-1                    all    time zone and daylight-saving time data
 ii   util-linux                2.42.4-1                   amd64  miscellaneous system utilities
 ii   zlib1g                    1:1.3.dfsg+really1.3.2-4   amd64  compression library - runtime
 ```
