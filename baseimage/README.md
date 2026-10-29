@@ -151,7 +151,7 @@ ii   libpam-modules               1.7.0-8                    amd64  Pluggable Au
 ii   libpam-modules-bin           1.7.0-8                    amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.7.0-8                    all    Runtime support for the PAM library
 ii   libpam0g                     1.7.0-8                    amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0                 10.48-3.1                  amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0                 10.49-1                    amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.42                  5.42.3-1                   amd64  shared Perl library
 ii   libpipeline1                 1.5.8-3                    amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2+b2             amd64  lib for parsing cmdline parameters
@@ -206,7 +206,7 @@ ii   perl                         5.42.3-1                   amd64  Larry Wall's
 ii   perl-base                    5.42.3-1                   amd64  minimal Perl system
 ii   perl-modules-5.42            5.42.3-1                   all    Core Perl modules
 ii   procps                       2:4.0.7-1                  amd64  /proc file system utilities
-ii   rsyslog                      8.2608.0-4                 amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2610.0-1                 amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.7                     all    dh-runit implementation detail
 ii   sed                          4.9-3                      amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                     all    Utilities for sensible alternative selection
@@ -219,7 +219,7 @@ ii   sysvinit-core                3.18-1                     amd64  System-V-lik
 ii   sysvinit-utils               3.18-1                     amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-7                amd64  GNU version of the tar archiving utility
 ii   tree                         2.3.2-1                    amd64  displays an indented directory tree, in color
-ii   tzdata                       2026e-1                    all    time zone and daylight-saving time data
+ii   tzdata                       2026f-1                    all    time zone and daylight-saving time data
 ii   ucf                          3.0056                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-31                     amd64  De-archiver for .zip files
 ii   util-linux                   2.42.4-1                   amd64  miscellaneous system utilities
