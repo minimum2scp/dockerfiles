@@ -69,7 +69,7 @@ ii   bsdextrautils                2.42.4-1                   amd64  extra utilit
 ii   bsdutils                     1:2.42.4-1                 amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6+b2                 amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20260816+nmu1              all    Common CA certificates
-ii   coreutils                    9.10-1                     amd64  GNU core utilities
+ii   coreutils                    9.12-0.2                   amd64  GNU core utilities
 ii   cron                         3.0pl1-212                 amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-212                 all    process scheduling daemon's configuration files
 ii   curl                         8.23.0-1                   amd64  command line tool for transferring data with URL syntax
@@ -92,7 +92,7 @@ ii   init-system-helpers          1.69+nmu3                  all    helper tools
 ii   initscripts                  3.18-1                     all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.4.0-1                    amd64  access control list - shared library
-ii   libapparmor1                 4.1.8-3+b1                 amd64  changehat AppArmor library
+ii   libapparmor1                 5.0.2-5                    amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.3.5                      amd64  package management runtime library
 ii   libattr1                     1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
 ii   libaudit-common              1:4.2.1-1                  all    Dynamic library for security auditing - common files
