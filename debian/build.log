@@ -17,8 +17,8 @@ I: Retrieving bash 5.3-4
 I: Validating bash 5.3-4
 I: Retrieving bsdutils 1:2.42.4-1
 I: Validating bsdutils 1:2.42.4-1
-I: Retrieving coreutils 9.10-1
-I: Validating coreutils 9.10-1
+I: Retrieving coreutils 9.12-0.2
+I: Validating coreutils 9.12-0.2
 I: Retrieving dash 0.5.12-12
 I: Validating dash 0.5.12-12
 I: Retrieving debconf 1.5.92
