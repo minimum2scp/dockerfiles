@@ -69,7 +69,7 @@ ii   bsdextrautils                2.42.4-1                   amd64  extra utilit
 ii   bsdutils                     1:2.42.4-1                 amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6+b2                 amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20260816+nmu1              all    Common CA certificates
-ii   coreutils                    9.12-0.2                   amd64  GNU core utilities
+ii   coreutils                    9.12-0.3                   amd64  GNU core utilities
 ii   cron                         3.0pl1-212                 amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-212                 all    process scheduling daemon's configuration files
 ii   curl                         8.23.0-1                   amd64  command line tool for transferring data with URL syntax
