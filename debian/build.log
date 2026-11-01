@@ -51,8 +51,8 @@ I: Retrieving libattr1 1:2.6.0-1
 I: Validating libattr1 1:2.6.0-1
 I: Retrieving libaudit-common 1:4.2.1-1
 I: Validating libaudit-common 1:4.2.1-1
-I: Retrieving libaudit1 1:4.2.1-1
-I: Validating libaudit1 1:4.2.1-1
+I: Retrieving libaudit1 1:4.2.1-1+b1
+I: Validating libaudit1 1:4.2.1-1+b1
 I: Retrieving libblkid1 2.42.4-1
 I: Validating libblkid1 2.42.4-1
 I: Retrieving libbsd0 0.12.2-3
