@@ -71,8 +71,8 @@ I: Retrieving libcap2 1:2.78-1+b1
 I: Validating libcap2 1:2.78-1+b1
 I: Retrieving libcrypt1 1:4.5.2+20251210-1
 I: Validating libcrypt1 1:4.5.2+20251210-1
-I: Retrieving libdb5.3t64 5.3.28+dfsg2-11+b1
-I: Validating libdb5.3t64 5.3.28+dfsg2-11+b1
+I: Retrieving libdb5.3t64 5.3.28+dfsg2-12
+I: Validating libdb5.3t64 5.3.28+dfsg2-12
 I: Retrieving libdebconfclient0 0.283
 I: Validating libdebconfclient0 0.283
 I: Retrieving libgcc-s1 16.2.0-4
