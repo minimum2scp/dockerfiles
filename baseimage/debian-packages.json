@@ -1458,22 +1458,22 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libdb5.3 (<< 5.3.28+dfsg2-11)",
+    "Breaks": "libdb5.3 (<< 5.3.28+dfsg2-12)",
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1859",
+    "Installed-Size": "1902",
     "Origin": "",
     "Package": "libdb5.3t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libdb5.3 (= 5.3.28+dfsg2-11+b1)",
+    "Provides": "libdb5.3 (= 5.3.28+dfsg2-12)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.3.28+dfsg2-11+b1",
+    "Version": "5.3.28+dfsg2-12",
     "binary:Package": "libdb5.3t64:amd64",
     "binary:Summary": "Berkeley v5.3 Database Libraries [runtime]",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "db5.3",
-    "source:Version": "5.3.28+dfsg2-11"
+    "source:Version": "5.3.28+dfsg2-12"
   },
   {
     "Architecture": "amd64",
@@ -1529,7 +1529,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.17030-1",
+    "Version": "0.17031-1",
     "binary:Package": "liberror-perl",
     "binary:Summary": "Perl module for error/exception handling in an OO-ish way",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "liberror-perl",
-    "source:Version": "0.17030-1"
+    "source:Version": "0.17031-1"
   },
   {
     "Architecture": "amd64",

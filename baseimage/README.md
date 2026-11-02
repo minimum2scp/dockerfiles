@@ -112,9 +112,9 @@ ii   libcom-err2                  1.47.4-1+b2                amd64  common error
 ii   libcrypt1                    1:4.5.2+20251210-1         amd64  libcrypt shared library
 ii   libcurl4-gnutls              8.23.0-1                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.23.0-1                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libdb5.3t64                  5.3.28+dfsg2-11+b1         amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3t64                  5.3.28+dfsg2-12            amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.283                      amd64  Debian Configuration Management System (C-implementation library)
-ii   liberror-perl                0.17030-1                  all    Perl module for error/exception handling in an OO-ish way
+ii   liberror-perl                0.17031-1                  all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-2+b2                amd64  Helper functions for handling strings (lib)
 ii   libexpat1                    2.9.0-1                    amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2609.0-1                 amd64  fast json library for C
