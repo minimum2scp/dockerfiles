@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron, logrotate, checksecurity, supercat, bat",
-    "Version": "3.0pl1-212",
+    "Version": "3.0pl1-213",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-212"
+    "source:Version": "3.0pl1-213"
   },
   {
     "Architecture": "all",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-212",
+    "Version": "3.0pl1-213",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-212"
+    "source:Version": "3.0pl1-213"
   },
   {
     "Architecture": "amd64",
@@ -1574,7 +1574,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "457",
+    "Installed-Size": "458",
     "Origin": "",
     "Package": "libexpat1",
     "Pre-Depends": "libc6 (>= 2.38)",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.9.0-1",
+    "Version": "2.10.0-1",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.9.0-1"
+    "source:Version": "2.10.0-1"
   },
   {
     "Architecture": "amd64",
@@ -2666,7 +2666,7 @@
     "Depends": "libc6 (>= 2.38), libsystemd0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "252",
+    "Installed-Size": "253",
     "Origin": "",
     "Package": "libproc2-1",
     "Pre-Depends": "",
@@ -2677,7 +2677,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:4.0.7-1",
+    "Version": "2:4.0.7-1.1",
     "binary:Package": "libproc2-1:amd64",
     "binary:Summary": "library for accessing process information from /proc",
     "db:Status-Abbrev": "ii ",
@@ -2685,7 +2685,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:4.0.7-1"
+    "source:Version": "2:4.0.7-1.1"
   },
   {
     "Architecture": "amd64",
@@ -2974,7 +2974,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1927",
+    "Installed-Size": "2009",
     "Origin": "",
     "Package": "libsqlite3-0",
     "Pre-Depends": "",
@@ -2985,7 +2985,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.53.4-2",
+    "Version": "3.54.1-1",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -2993,7 +2993,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.53.4-2"
+    "source:Version": "3.54.1-1"
   },
   {
     "Architecture": "amd64",
@@ -4066,7 +4066,7 @@
     "Depends": "libc6 (>= 2.38), libncursesw6 (>= 6.1), libproc2-1 (>= 2:4.0.7), libsystemd0 (>= 254), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2691",
+    "Installed-Size": "2692",
     "Origin": "",
     "Package": "procps",
     "Pre-Depends": "",
@@ -4077,7 +4077,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:4.0.7-1",
+    "Version": "2:4.0.7-1.1",
     "binary:Package": "procps",
     "binary:Summary": "/proc file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4085,7 +4085,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:4.0.7-1"
+    "source:Version": "2:4.0.7-1.1"
   },
   {
     "Architecture": "amd64",

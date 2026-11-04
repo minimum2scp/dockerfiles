@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.42.4-1                 amd64  basic utilit
 ii   bzip2                        1.0.8-6+b2                 amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20260816+nmu1              all    Common CA certificates
 ii   coreutils                    9.12-0.3                   amd64  GNU core utilities
-ii   cron                         3.0pl1-212                 amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-212                 all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-213                 amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-213                 all    process scheduling daemon's configuration files
 ii   curl                         8.23.0-1                   amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                  amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                     all    Debian configuration management system
@@ -116,7 +116,7 @@ ii   libdb5.3t64                  5.3.28+dfsg2-12            amd64  Berkeley v5.
 ii   libdebconfclient0            0.283                      amd64  Debian Configuration Management System (C-implementation library)
 ii   liberror-perl                0.17031-1                  all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-2+b2                amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.9.0-1                    amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.10.0-1                   amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2609.0-1                 amd64  fast json library for C
 ii   libffi8                      3.8.0-2                    amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.17.0-2                   amd64  library for generating and verifying FIDO 2.0 objects
@@ -155,7 +155,7 @@ ii   libpcre2-8-0                 10.49-1                    amd64  New Perl Com
 ii   libperl5.42                  5.42.3-1                   amd64  shared Perl library
 ii   libpipeline1                 1.5.8-3                    amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2+b2             amd64  lib for parsing cmdline parameters
-ii   libproc2-1                   2:4.0.7-1                  amd64  library for accessing process information from /proc
+ii   libproc2-1                   2:4.0.7-1.1                amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.23.3-1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libsasl2-2                   2.1.28+dfsg1-12            amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-12            amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -166,7 +166,7 @@ ii   libsemanage2                 3.11-1+b2                  amd64  SELinux poli
 ii   libsepol2                    3.11-1                     amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-6                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.42.4-1                   amd64  smart column output alignment library
-ii   libsqlite3-0                 3.53.4-2                   amd64  SQLite 3 shared library
+ii   libsqlite3-0                 3.54.1-1                   amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-6                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.5-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   16.2.0-4                   amd64  GNU Standard C++ Library v3
@@ -205,7 +205,7 @@ ii   passwd                       1:4.20.3-1                 amd64  change and a
 ii   perl                         5.42.3-1                   amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.42.3-1                   amd64  minimal Perl system
 ii   perl-modules-5.42            5.42.3-1                   all    Core Perl modules
-ii   procps                       2:4.0.7-1                  amd64  /proc file system utilities
+ii   procps                       2:4.0.7-1.1                amd64  /proc file system utilities
 ii   rsyslog                      8.2610.0-1                 amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.7                     all    dh-runit implementation detail
 ii   sed                          4.9-3                      amd64  GNU stream editor for filtering/transforming text
