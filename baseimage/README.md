@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.159                      all    add and remove users and groups
-ii   apt                          3.3.5                      amd64  commandline package manager
+ii   apt                          3.3.6                      amd64  commandline package manager
 ii   base-files                   14.2                       amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.8                      amd64  Debian base system master password and group files
 ii   bash                         5.3-4                      amd64  GNU Bourne Again SHell
@@ -93,7 +93,7 @@ ii   initscripts                  3.18-1                     all    scripts for 
 ii   insserv                      1.27.0-1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.4.0-1                    amd64  access control list - shared library
 ii   libapparmor1                 5.0.2-5                    amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.3.5                      amd64  package management runtime library
+ii   libapt-pkg7.0                3.3.6                      amd64  package management runtime library
 ii   libattr1                     1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
 ii   libaudit-common              1:4.2.1-1                  all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.2.1-1+b1               amd64  Dynamic library for security auditing
@@ -166,7 +166,7 @@ ii   libsemanage2                 3.11-1+b2                  amd64  SELinux poli
 ii   libsepol2                    3.11-1                     amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-6                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.42.4-1                   amd64  smart column output alignment library
-ii   libsqlite3-0                 3.54.1-1                   amd64  SQLite 3 shared library
+ii   libsqlite3-0                 3.54.1-2                   amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-6                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.5-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   16.2.0-4                   amd64  GNU Standard C++ Library v3
@@ -212,7 +212,7 @@ ii   sed                          4.9-3                      amd64  GNU stream e
 ii   sensible-utils               0.0.26                     all    Utilities for sensible alternative selection
 ii   sqv                          1.5.0-1                    amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                     amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.17p2-9                 amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.17p2-11                amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  262.1-1                    amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.18-1                     all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.18-1                     amd64  System-V-like init
