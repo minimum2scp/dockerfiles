@@ -7,8 +7,8 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
-I: Retrieving apt 3.3.6
-I: Validating apt 3.3.6
+I: Retrieving apt 3.3.7
+I: Validating apt 3.3.7
 I: Retrieving base-files 14.2
 I: Validating base-files 14.2
 I: Retrieving base-passwd 3.6.8
@@ -45,8 +45,8 @@ I: Retrieving init-system-helpers 1.69+nmu3
 I: Validating init-system-helpers 1.69+nmu3
 I: Retrieving libacl1 2.4.0-1
 I: Validating libacl1 2.4.0-1
-I: Retrieving libapt-pkg7.0 3.3.6
-I: Validating libapt-pkg7.0 3.3.6
+I: Retrieving libapt-pkg7.0 3.3.7
+I: Validating libapt-pkg7.0 3.3.7
 I: Retrieving libattr1 1:2.6.0-1
 I: Validating libattr1 1:2.6.0-1
 I: Retrieving libaudit-common 1:4.2.1-1
@@ -117,12 +117,12 @@ I: Retrieving libssl3t64 3.6.5-1
 I: Validating libssl3t64 3.6.5-1
 I: Retrieving libstdc++6 16.2.0-4
 I: Validating libstdc++6 16.2.0-4
-I: Retrieving libsystemd0 262.1-1
-I: Validating libsystemd0 262.1-1
+I: Retrieving libsystemd0 262.2-1
+I: Validating libsystemd0 262.2-1
 I: Retrieving libtinfo6 6.6+20260608-2
 I: Validating libtinfo6 6.6+20260608-2
-I: Retrieving libudev1 262.1-1
-I: Validating libudev1 262.1-1
+I: Retrieving libudev1 262.2-1
+I: Validating libudev1 262.2-1
 I: Retrieving libuuid1 2.42.4-1
 I: Validating libuuid1 2.42.4-1
 I: Retrieving libxxhash0 0.8.3-2+b2
