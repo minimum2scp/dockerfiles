@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.159                      all    add and remove users and groups
-ii   apt                          3.3.6                      amd64  commandline package manager
+ii   apt                          3.3.7                      amd64  commandline package manager
 ii   base-files                   14.2                       amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.8                      amd64  Debian base system master password and group files
 ii   bash                         5.3-4                      amd64  GNU Bourne Again SHell
@@ -93,7 +93,7 @@ ii   initscripts                  3.18-1                     all    scripts for 
 ii   insserv                      1.27.0-1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.4.0-1                    amd64  access control list - shared library
 ii   libapparmor1                 5.0.2-5                    amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.3.6                      amd64  package management runtime library
+ii   libapt-pkg7.0                3.3.7                      amd64  package management runtime library
 ii   libattr1                     1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
 ii   libaudit-common              1:4.2.1-1                  all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.2.1-1+b1               amd64  Dynamic library for security auditing
@@ -170,13 +170,13 @@ ii   libsqlite3-0                 3.54.1-2                   amd64  SQLite 3 sha
 ii   libssh2-1t64                 1.11.1-6                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.5-1                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   16.2.0-4                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  262.1-1                    amd64  systemd utility library
+ii   libsystemd0                  262.2-1                    amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2+b1                amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-12+b1                 amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-11                    all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.6+20260608-2             amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-2+b2                 amd64  universal charset detection library - shared library
-ii   libudev1                     262.1-1                    amd64  libudev shared library
+ii   libudev1                     262.2-1                    amd64  libudev shared library
 ii   libunistring5                1.4.2-1                    amd64  Unicode string library for C
 ii   libuuid1                     2.42.4-1                   amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-37                   amd64  Wietse Venema's TCP wrappers library
@@ -195,9 +195,9 @@ ii   mount                        2.42.4-1                   amd64  tools for mo
 ii   ncurses-base                 6.6+20260608-2             all    basic terminal type definitions
 ii   ncurses-bin                  6.6+20260608-2             amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                     amd64  NET-3 networking toolkit
-ii   openssh-common               1:10.6p1-1                 amd64  common files for OpenSSH
-ii   openssh-server               1:10.6p1-1                 amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.6p1-1                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-common               1:10.6p2-1                 amd64  common files for OpenSSH
+ii   openssh-server               1:10.6p2-1                 amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.6p2-1                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.6.5-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.6.5-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.26                       all    Orphaned System-V-like init scripts
@@ -213,7 +213,7 @@ ii   sensible-utils               0.0.26                     all    Utilities fo
 ii   sqv                          1.5.0-1                    amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                     amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-11                amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  262.1-1                    amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  262.2-1                    amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.18-1                     all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.18-1                     amd64  System-V-like init
 ii   sysvinit-utils               3.18-1                     amd64  System-V-like utilities
