@@ -21,7 +21,7 @@ installed packages:
 ii   apt                       3.3.7                      amd64  commandline package manager
 ii   base-files                14.2                       amd64  Debian base system miscellaneous files
 ii   base-passwd               3.6.8                      amd64  Debian base system master password and group files
-ii   bash                      5.3-4                      amd64  GNU Bourne Again SHell
+ii   bash                      5.3-4+b1                   amd64  GNU Bourne Again SHell
 ii   bsdutils                  1:2.42.4-1                 amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                 9.12-0.3                   amd64  GNU core utilities
 ii   dash                      0.5.12-12                  amd64  POSIX-compliant shell
@@ -48,7 +48,7 @@ ii   libc-bin                  2.43-7                     amd64  GNU C Library: 
 ii   libc-gconv-modules-extra  2.43-7                     amd64  GNU C Library: Non-essential gconv modules
 ii   libc6                     2.43-7                     amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                0.9.6-1+b1                 amd64  alternate POSIX capabilities library
-ii   libcap2                   1:2.78-1+b1                amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                   1:2.78-1+b2                amd64  POSIX 1003.1e capabilities (library)
 ii   libcrypt1                 1:4.5.2+20251210-1         amd64  libcrypt shared library
 ii   libdb5.3t64               5.3.28+dfsg2-12            amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0         0.283                      amd64  Debian Configuration Management System (C-implementation library)

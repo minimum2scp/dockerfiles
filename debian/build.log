@@ -13,8 +13,8 @@ I: Retrieving base-files 14.2
 I: Validating base-files 14.2
 I: Retrieving base-passwd 3.6.8
 I: Validating base-passwd 3.6.8
-I: Retrieving bash 5.3-4
-I: Validating bash 5.3-4
+I: Retrieving bash 5.3-4+b1
+I: Validating bash 5.3-4+b1
 I: Retrieving bsdutils 1:2.42.4-1
 I: Validating bsdutils 1:2.42.4-1
 I: Retrieving coreutils 9.12-0.3
@@ -67,8 +67,8 @@ I: Retrieving libc6 2.43-7
 I: Validating libc6 2.43-7
 I: Retrieving libcap-ng0 0.9.6-1+b1
 I: Validating libcap-ng0 0.9.6-1+b1
-I: Retrieving libcap2 1:2.78-1+b1
-I: Validating libcap2 1:2.78-1+b1
+I: Retrieving libcap2 1:2.78-1+b2
+I: Validating libcap2 1:2.78-1+b2
 I: Retrieving libcrypt1 1:4.5.2+20251210-1
 I: Validating libcrypt1 1:4.5.2+20251210-1
 I: Retrieving libdb5.3t64 5.3.28+dfsg2-12
