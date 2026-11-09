@@ -90,7 +90,7 @@ ii   passwd                    1:4.20.3-1                 amd64  change and admi
 ii   perl-base                 5.42.3-1                   amd64  minimal Perl system
 ii   sed                       4.9-3                      amd64  GNU stream editor for filtering/transforming text
 ii   sqv                       1.5.0-1                    amd64  OpenPGP signature verification program from Sequoia
-ii   sysvinit-utils            3.18-1                     amd64  System-V-like utilities
+ii   sysvinit-utils            3.18-2                     amd64  System-V-like utilities
 ii   tar                       1.35+dfsg-7                amd64  GNU version of the tar archiving utility
 ii   tzdata                    2026f-1                    all    time zone and daylight-saving time data
 ii   util-linux                2.42.4-1                   amd64  miscellaneous system utilities
