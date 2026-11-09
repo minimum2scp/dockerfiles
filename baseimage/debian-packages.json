@@ -706,7 +706,7 @@
     "Depends": "libc6 (>= 2.38), libgcc-s1 (>= 4.0), libstdc++6 (>= 11), libuchardet0 (>= 0.0.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4627",
+    "Installed-Size": "4502",
     "Origin": "",
     "Package": "groff-base",
     "Pre-Depends": "",
@@ -717,7 +717,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "groff",
-    "Version": "1.24.2-2",
+    "Version": "1.25.0-2",
     "binary:Package": "groff-base",
     "binary:Summary": "GNU troff text-formatting system (base system components)",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "groff",
-    "source:Version": "1.24.2-2"
+    "source:Version": "1.25.0-2"
   },
   {
     "Architecture": "amd64",
@@ -829,7 +829,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.18-1",
+    "Version": "3.18-2",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.18-1"
+    "source:Version": "3.18-2"
   },
   {
     "Architecture": "amd64",
@@ -4329,7 +4329,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.18-1",
+    "Version": "3.18-2",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4337,7 +4337,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.18-1"
+    "source:Version": "3.18-2"
   },
   {
     "Architecture": "amd64",
@@ -4346,7 +4346,7 @@
     "Depends": "initscripts, sysv-rc | file-rc | openrc, sysvinit-utils (>= 2.86.ds1-66), mount, login, libc6 (>= 2.38), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "365",
+    "Installed-Size": "368",
     "Origin": "",
     "Package": "sysvinit-core",
     "Pre-Depends": "",
@@ -4357,7 +4357,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "3.18-1",
+    "Version": "3.18-2",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init",
     "db:Status-Abbrev": "ii ",
@@ -4365,19 +4365,19 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.18-1"
+    "source:Version": "3.18-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "lsb-base (<< 11.3~)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.38)",
+    "Depends": "",
     "Enhances": "",
     "Essential": "yes",
     "Installed-Size": "100",
     "Origin": "",
     "Package": "sysvinit-utils",
-    "Pre-Depends": "",
+    "Pre-Depends": "libc6 (>= 2.38)",
     "Priority": "required",
     "Provides": "lsb-base (= 11.1.0)",
     "Recommends": "",
@@ -4385,7 +4385,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.18-1",
+    "Version": "3.18-2",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4393,7 +4393,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.18-1"
+    "source:Version": "3.18-2"
   },
   {
     "Architecture": "amd64",

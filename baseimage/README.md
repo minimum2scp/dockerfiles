@@ -85,11 +85,11 @@ ii   gcc-16-base                  16.2.0-4                   amd64  GCC, the GNU
 ii   git                          1:2.55.0-1                 amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.55.0-1                 all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.12-1                     amd64  GNU grep, egrep and fgrep
-ii   groff-base                   1.24.2-2                   amd64  GNU troff text-formatting system (base system components)
+ii   groff-base                   1.25.0-2                   amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.14-1                     amd64  GNU compression utilities
 ii   hostname                     3.25                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.69+nmu3                  all    helper tools for all init systems
-ii   initscripts                  3.18-1                     all    scripts for initializing and shutting down the system
+ii   initscripts                  3.18-2                     all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.4.0-1                    amd64  access control list - shared library
 ii   libapparmor1                 5.0.2-5                    amd64  changehat AppArmor library
@@ -214,9 +214,9 @@ ii   sqv                          1.5.0-1                    amd64  OpenPGP sign
 ii   startpar                     0.67-1                     amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-11                amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  262.2-1                    amd64  standalone sysusers binary for use in non-systemd systems
-ii   sysv-rc                      3.18-1                     all    System-V-like runlevel change mechanism
-ii   sysvinit-core                3.18-1                     amd64  System-V-like init
-ii   sysvinit-utils               3.18-1                     amd64  System-V-like utilities
+ii   sysv-rc                      3.18-2                     all    System-V-like runlevel change mechanism
+ii   sysvinit-core                3.18-2                     amd64  System-V-like init
+ii   sysvinit-utils               3.18-2                     amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-7                amd64  GNU version of the tar archiving utility
 ii   tree                         2.3.2-1                    amd64  displays an indented directory tree, in color
 ii   tzdata                       2026f-1                    all    time zone and daylight-saving time data
