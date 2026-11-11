@@ -92,7 +92,7 @@ ii   init-system-helpers          1.69+nmu3                  all    helper tools
 ii   initscripts                  3.18-2                     all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.4.0-1                    amd64  access control list - shared library
-ii   libapparmor1                 5.0.2-5                    amd64  changehat AppArmor library
+ii   libapparmor1                 5.0.2-5.1                  amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.3.7                      amd64  package management runtime library
 ii   libattr1                     1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
 ii   libaudit-common              1:4.2.1-1                  all    Dynamic library for security auditing - common files
@@ -141,7 +141,7 @@ ii   libmount1                    2.42.4-1                   amd64  device mount
 ii   libncursesw6                 6.6+20260608-2             amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10.2-1+b1                amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.25-2+b2               amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14                1.70.0-1                   amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14                1.71.0-1                   amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnghttp3-9                 1.17.0-1                   amd64  HTTP/3 mapping over QUIC and QPACK (library)
 ii   libngtcp2-16                 1.24.0-1                   amd64  QUIC protocol library
 ii   libngtcp2-crypto-gnutls8     1.24.0-1                   amd64  crypto helper library for with GnuTLS backend

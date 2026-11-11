@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.0.2-5",
+    "Version": "5.0.2-5.1",
     "binary:Package": "libapparmor1:amd64",
     "binary:Summary": "changehat AppArmor library",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apparmor",
-    "source:Version": "5.0.2-5"
+    "source:Version": "5.0.2-5.1"
   },
   {
     "Architecture": "amd64",
@@ -2274,7 +2274,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "240",
+    "Installed-Size": "231",
     "Origin": "",
     "Package": "libnghttp2-14",
     "Pre-Depends": "",
@@ -2285,7 +2285,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.70.0-1",
+    "Version": "1.71.0-1",
     "binary:Package": "libnghttp2-14:amd64",
     "binary:Summary": "library implementing HTTP/2 protocol (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2293,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nghttp2",
-    "source:Version": "1.70.0-1"
+    "source:Version": "1.71.0-1"
   },
   {
     "Architecture": "amd64",
