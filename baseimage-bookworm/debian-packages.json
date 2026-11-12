@@ -31,21 +31,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)",
-    "Depends": "adduser, gpgv | gpgv2 | gpgv1, libapt-pkg6.0 (>= 2.6.1), debian-archive-keyring, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.7.5), libseccomp2 (>= 2.4.2), libstdc++6 (>= 11), libsystemd0",
+    "Depends": "adduser, gpgv | gpgv2 | gpgv1, libapt-pkg6.0 (>= 2.6.2), debian-archive-keyring, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.7.5), libseccomp2 (>= 2.4.2), libstdc++6 (>= 11), libsystemd0",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "4232",
     "Origin": "",
     "Package": "apt",
     "Pre-Depends": "",
-    "Priority": "required",
-    "Provides": "apt-transport-https (= 2.6.1)",
+    "Priority": "important",
+    "Provides": "apt-transport-https (= 2.6.2)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base",
-    "Version": "2.6.1",
+    "Version": "2.6.2",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "2.6.1"
+    "source:Version": "2.6.2"
   },
   {
     "Architecture": "amd64",
@@ -963,13 +963,13 @@
     "Package": "libapt-pkg6.0",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libapt-pkg (= 2.6.1)",
-    "Recommends": "apt (>= 2.6.1)",
+    "Provides": "libapt-pkg (= 2.6.2)",
+    "Recommends": "apt (>= 2.6.2)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.6.1",
+    "Version": "2.6.2",
     "binary:Package": "libapt-pkg6.0:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "2.6.1"
+    "source:Version": "2.6.2"
   },
   {
     "Architecture": "amd64",
@@ -2775,7 +2775,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg-10), libc6 (>= 2.34)",
+    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg-10+deb12u1), libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "167",
@@ -2784,12 +2784,12 @@
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg-10)",
+    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg-10+deb12u1)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg-10",
+    "Version": "2.1.28+dfsg-10+deb12u1",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -2797,7 +2797,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg-10"
+    "source:Version": "2.1.28+dfsg-10+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -2817,7 +2817,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg-10",
+    "Version": "2.1.28+dfsg-10+deb12u1",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -2825,7 +2825,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg-10"
+    "source:Version": "2.1.28+dfsg-10+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -4077,7 +4077,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-doc, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.2302.0-1+deb12u1",
+    "Version": "8.2302.0-1+deb12u2",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4085,7 +4085,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.2302.0-1+deb12u1"
+    "source:Version": "8.2302.0-1+deb12u2"
   },
   {
     "Architecture": "all",
@@ -4374,7 +4374,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2570",
+    "Installed-Size": "2571",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -4385,7 +4385,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2026e-0+deb12u1",
+    "Version": "2026f-0+deb12u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4393,7 +4393,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2026e-0+deb12u1"
+    "source:Version": "2026f-0+deb12u1"
   },
   {
     "Architecture": "all",

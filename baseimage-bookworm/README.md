@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                  3.134                           all    add and remove users and groups
-ii   apt                      2.6.1                           amd64  commandline package manager
+ii   apt                      2.6.2                           amd64  commandline package manager
 ii   base-files               12.4+deb12u15                   amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                           amd64  Debian base system master password and group files
 ii   bash                     5.2.15-2+b13                    amd64  GNU Bourne Again SHell
@@ -94,7 +94,7 @@ ii   init-system-helpers      1.65.2+deb12u1                  all    helper tool
 ii   initscripts              3.06-4                          all    scripts for initializing and shutting down the system
 ii   insserv                  1.24.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-3                         amd64  access control list - shared library
-ii   libapt-pkg6.0            2.6.1                           amd64  package management runtime library
+ii   libapt-pkg6.0            2.6.2                           amd64  package management runtime library
 ii   libattr1                 1:2.5.1-4                       amd64  extended attribute handling - shared library
 ii   libaudit-common          1:3.0.9-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1                1:3.0.9-1                       amd64  Dynamic library for security auditing
@@ -159,8 +159,8 @@ ii   libpopt0                 1.19+dfsg-1                     amd64  lib for par
 ii   libproc2-0               2:4.0.2-3                       amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.2-1                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2               2.1.28+dfsg-10                  amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db      2.1.28+dfsg-10                  amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2               2.1.28+dfsg-10+deb12u1          amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db      2.1.28+dfsg-10+deb12u1          amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2              2.5.4-1+deb12u1                 amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.4-1+b6                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.4-1                           all    Common files for SELinux policy management libraries
@@ -205,7 +205,7 @@ ii   perl                     5.36.0-7+deb12u4                amd64  Larry Wall'
 ii   perl-base                5.36.0-7+deb12u4                amd64  minimal Perl system
 ii   perl-modules-5.36        5.36.0-7+deb12u4                all    Core Perl modules
 ii   procps                   2:4.0.2-3                       amd64  /proc file system utilities
-ii   rsyslog                  8.2302.0-1+deb12u1              amd64  reliable system and kernel logging daemon
+ii   rsyslog                  8.2302.0-1+deb12u2              amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.15.2                          all    dh-runit implementation detail
 ii   sed                      4.9-1+deb12u1                   amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17+nmu1                     all    Utilities for sensible alternative selection
@@ -216,7 +216,7 @@ ii   sysvinit-core            3.06-4                          amd64  System-V-li
 ii   sysvinit-utils           3.06-4                          amd64  System-V-like utilities
 ii   tar                      1.34+dfsg-1.2+deb12u1           amd64  GNU version of the tar archiving utility
 ii   tree                     2.1.0-1                         amd64  displays an indented directory tree, in color
-ii   tzdata                   2026e-0+deb12u1                 all    time zone and daylight-saving time data
+ii   tzdata                   2026f-0+deb12u1                 all    time zone and daylight-saving time data
 ii   ucf                      3.0043+nmu1+deb12u1             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                    6.0-28+deb12u1                  amd64  De-archiver for .zip files
 ii   usr-is-merged            37~deb12u1                      all    Transitional package to assert a merged-/usr system
