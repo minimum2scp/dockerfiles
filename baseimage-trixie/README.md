@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.152                              all    add and remove users and groups
-ii   apt                          3.0.3                              amd64  commandline package manager
+ii   apt                          3.0.4                              amd64  commandline package manager
 ii   base-files                   13.8+deb13u7                       amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                              amd64  Debian base system master password and group files
 ii   bash                         5.2.37-2+b10                       amd64  GNU Bourne Again SHell
@@ -93,7 +93,7 @@ ii   initscripts                  3.14-4                             all    scri
 ii   insserv                      1.26.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                         amd64  access control list - shared library
 ii   libapparmor1                 4.1.0-1                            amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.0.3                              amd64  package management runtime library
+ii   libapt-pkg7.0                3.0.4                              amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                          amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.2-2+deb13u1                  all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.0.2-2+deb13u1                  amd64  Dynamic library for security auditing
@@ -223,10 +223,10 @@ ii   tzdata                       2026c-0+deb13u1                    all    time
 ii   ucf                          3.0052                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29+deb13u1                     amd64  De-archiver for .zip files
 ii   util-linux                   2.41.5-0+deb13u1                   amd64  miscellaneous system utilities
-ii   vim-common                   2:9.1.1230-2+deb13u1               all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.1.1230-2+deb13u1               amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.1.1230-2+deb13u2               all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.1.1230-2+deb13u2               amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-1                          amd64  Displays user-friendly dialog boxes from shell scripts
-ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1        amd64  compression library - runtime
+ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+deb13u1   amd64  compression library - runtime
 ii   zsh                          5.9-8+b24                          amd64  shell with lots of features
 ii   zsh-common                   5.9-8                              all    architecture independent files for Zsh
 ii   zstd                         1.5.7+dfsg-1                       amd64  fast lossless compression algorithm -- CLI tool
