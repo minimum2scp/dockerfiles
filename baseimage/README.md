@@ -72,13 +72,13 @@ ii   ca-certificates              20260816+nmu1              all    Common CA ce
 ii   coreutils                    9.12-0.3                   amd64  GNU core utilities
 ii   cron                         3.0pl1-213                 amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-213                 all    process scheduling daemon's configuration files
-ii   curl                         8.23.0-1                   amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.23.0-2                   amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                  amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                     all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                     all    OpenPGP archive certificates of the Debian archive
 ii   debianutils                  5.24                       amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.12-1                   amd64  File comparison utilities
-ii   dpkg                         1.23.11                    amd64  Debian package management system
+ii   dpkg                         1.23.12                    amd64  Debian package management system
 ii   etckeeper                    1.18.23-2                  all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.11.0-3                   amd64  utilities for finding files--find, xargs
 ii   gcc-16-base                  16.2.0-4                   amd64  GCC, the GNU Compiler Collection (base package)
@@ -110,8 +110,8 @@ ii   libcap2                      1:2.78-1+b2                amd64  POSIX 1003.1
 ii   libcbor0.10                  0.10.2-2.2                 amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1+b3                amd64  common error description library
 ii   libcrypt1                    1:4.5.2+20251210-1         amd64  libcrypt shared library
-ii   libcurl4-gnutls              8.23.0-1                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.23.0-1                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl4-gnutls              8.23.0-2                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.23.0-2                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-12            amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.283                      amd64  Debian Configuration Management System (C-implementation library)
 ii   liberror-perl                0.17031-1                  all    Perl module for error/exception handling in an OO-ish way
@@ -132,7 +132,7 @@ ii   libk5crypto3                 1.22.1-3                   amd64  MIT Kerberos
 ii   libkeyutils1                 1.6.3-6+b2                 amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.22.1-3                   amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.22.1-3                   amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap2                     2.6.14+dfsg-2              amd64  OpenLDAP libraries
+ii   libldap2                     2.6.14+dfsg-2+b1           amd64  OpenLDAP libraries
 ii   liblognorm5                  2.1.1-1                    amd64  log normalizing library
 ii   liblz4-1                     1.10.0-10                  amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.8.4-1                    amd64  XZ-format compression library
@@ -152,7 +152,7 @@ ii   libpam-modules-bin           1.7.0-8                    amd64  Pluggable Au
 ii   libpam-runtime               1.7.0-8                    all    Runtime support for the PAM library
 ii   libpam0g                     1.7.0-8                    amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.49-1                    amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libperl5.42                  5.42.3-1                   amd64  shared Perl library
+ii   libperl5.44                  5.44.0-3                   amd64  shared Perl library
 ii   libpipeline1                 1.5.8-3                    amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-3                amd64  lib for parsing cmdline parameters
 ii   libproc2-1                   2:4.0.7-1.1                amd64  library for accessing process information from /proc
@@ -172,7 +172,7 @@ ii   libssl3t64                   3.6.5-1                    amd64  Secure Socke
 ii   libstdc++6                   16.2.0-4                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  262.2-1                    amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2+b1                amd64  Manage ASN.1 structures (runtime)
-ii   libtext-charwidth-perl       0.04-12+b1                 amd64  get display widths of characters on the terminal
+ii   libtext-charwidth-perl       0.04-12+b2                 amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-11                    all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.6+20260608-2             amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-2+b2                 amd64  universal charset detection library - shared library
@@ -202,9 +202,9 @@ ii   openssl                      3.6.5-1                    amd64  Secure Socke
 ii   openssl-provider-legacy      3.6.5-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.26                       all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.20.3-1                 amd64  change and administer password and group data
-ii   perl                         5.42.3-1                   amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                    5.42.3-1                   amd64  minimal Perl system
-ii   perl-modules-5.42            5.42.3-1                   all    Core Perl modules
+ii   perl                         5.44.0-3                   amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                    5.44.0-3                   amd64  minimal Perl system
+ii   perl-modules-5.44            5.44.0-3                   all    Core Perl modules
 ii   procps                       2:4.0.7-1.1                amd64  /proc file system utilities
 ii   rsyslog                      8.2610.0-3                 amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.7                     all    dh-runit implementation detail
@@ -224,7 +224,7 @@ ii   ucf                          3.0056                     all    Update Confi
 ii   unzip                        6.0-31                     amd64  De-archiver for .zip files
 ii   util-linux                   2.42.4-1                   amd64  miscellaneous system utilities
 ii   vim-common                   2:9.2.0858-1               all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.2.0858-1               amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                     2:9.2.0858-1+b1            amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-2+b2               amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.2-4   amd64  compression library - runtime
 ii   zsh                          5.9.2-1+b2                 amd64  shell with lots of features
