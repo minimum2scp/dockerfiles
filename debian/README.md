@@ -29,7 +29,7 @@ ii   debconf                   1.5.92                     all    Debian configur
 ii   debian-archive-keyring    2025.1                     all    OpenPGP archive certificates of the Debian archive
 ii   debianutils               5.24                       amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                 1:3.12-1                   amd64  File comparison utilities
-ii   dpkg                      1.23.11                    amd64  Debian package management system
+ii   dpkg                      1.23.12                    amd64  Debian package management system
 ii   findutils                 4.11.0-3                   amd64  utilities for finding files--find, xargs
 ii   gcc-16-base               16.2.0-4                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   grep                      3.12-1                     amd64  GNU grep, egrep and fgrep
@@ -87,7 +87,7 @@ ii   ncurses-base              6.6+20260608-2             all    basic terminal 
 ii   ncurses-bin               6.6+20260608-2             amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy   3.6.5-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                    1:4.20.3-1                 amd64  change and administer password and group data
-ii   perl-base                 5.42.3-1                   amd64  minimal Perl system
+ii   perl-base                 5.44.0-3                   amd64  minimal Perl system
 ii   sed                       4.9-3                      amd64  GNU stream editor for filtering/transforming text
 ii   sqv                       1.5.0-1                    amd64  OpenPGP signature verification program from Sequoia
 ii   sysvinit-utils            3.18-2                     amd64  System-V-like utilities
