@@ -19,8 +19,8 @@ I: Retrieving bsdutils 1:2.42.4-1
 I: Validating bsdutils 1:2.42.4-1
 I: Retrieving coreutils 9.12-0.3
 I: Validating coreutils 9.12-0.3
-I: Retrieving dash 0.5.12-12
-I: Validating dash 0.5.12-12
+I: Retrieving dash 0.5.12-13
+I: Validating dash 0.5.12-13
 I: Retrieving debconf 1.5.92
 I: Validating debconf 1.5.92
 I: Retrieving debian-archive-keyring 2025.1
