@@ -73,7 +73,7 @@ ii   coreutils                    9.12-0.3                   amd64  GNU core uti
 ii   cron                         3.0pl1-213                 amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-213                 all    process scheduling daemon's configuration files
 ii   curl                         8.23.0-2                   amd64  command line tool for transferring data with URL syntax
-ii   dash                         0.5.12-12                  amd64  POSIX-compliant shell
+ii   dash                         0.5.12-13                  amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                     all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                     all    OpenPGP archive certificates of the Debian archive
 ii   debianutils                  5.24                       amd64  Miscellaneous utilities specific to Debian
@@ -146,7 +146,7 @@ ii   libnghttp3-9                 1.17.0-1                   amd64  HTTP/3 mappi
 ii   libngtcp2-16                 1.24.0-1                   amd64  QUIC protocol library
 ii   libngtcp2-crypto-gnutls8     1.24.0-1                   amd64  crypto helper library for with GnuTLS backend
 ii   libngtcp2-crypto-ossl0       1.24.0-1                   amd64  crypto helper library for with OpenSSL backend
-ii   libp11-kit0                  0.26.5-1                   amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0                  0.26.6-2                   amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.7.0-8                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.7.0-8                    amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.7.0-8                    all    Runtime support for the PAM library
@@ -189,7 +189,7 @@ ii   locales                      2.43-7                     all    GNU C Librar
 ii   login                        1:4.16.0-2+really2.42.4-1  amd64  system login tools
 ii   login.defs                   1:4.20.3-1                 all    system user management configuration
 ii   lv                           4.51-10.1                  amd64  Powerful Multilingual File Viewer
-ii   man-db                       2.13.1-1                   amd64  tools for reading manual pages
+ii   man-db                       2.13.2-1                   amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20260302-2           amd64  Pattern scanning and text processing language
 ii   mount                        2.42.4-1                   amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.6+20260608-2             all    basic terminal type definitions
