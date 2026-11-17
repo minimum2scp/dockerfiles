@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.159                      all    add and remove users and groups
-ii   apt                          3.3.7                      amd64  commandline package manager
+ii   apt                          3.3.8                      amd64  commandline package manager
 ii   base-files                   14.2                       amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.8                      amd64  Debian base system master password and group files
 ii   bash                         5.3-4+b1                   amd64  GNU Bourne Again SHell
@@ -72,7 +72,7 @@ ii   ca-certificates              20260816+nmu1              all    Common CA ce
 ii   coreutils                    9.12-0.3                   amd64  GNU core utilities
 ii   cron                         3.0pl1-213                 amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-213                 all    process scheduling daemon's configuration files
-ii   curl                         8.23.0-2                   amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.24.0~rc1-1               amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-13                  amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                     all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                     all    OpenPGP archive certificates of the Debian archive
@@ -93,7 +93,7 @@ ii   initscripts                  3.18-2                     all    scripts for 
 ii   insserv                      1.27.0-1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.4.0-1                    amd64  access control list - shared library
 ii   libapparmor1                 5.0.2-5.1                  amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.3.7                      amd64  package management runtime library
+ii   libapt-pkg7.0                3.3.8                      amd64  package management runtime library
 ii   libattr1                     1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
 ii   libaudit-common              1:4.2.1-1                  all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.2.1-1+b1               amd64  Dynamic library for security auditing
@@ -110,8 +110,8 @@ ii   libcap2                      1:2.78-1+b2                amd64  POSIX 1003.1
 ii   libcbor0.10                  0.10.2-2.2                 amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1+b3                amd64  common error description library
 ii   libcrypt1                    1:4.5.2+20251210-1         amd64  libcrypt shared library
-ii   libcurl4-gnutls              8.23.0-2                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.23.0-2                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl4-gnutls              8.24.0~rc1-1               amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.24.0~rc1-1               amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-12            amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.283                      amd64  Debian Configuration Management System (C-implementation library)
 ii   liberror-perl                0.17031-1                  all    Perl module for error/exception handling in an OO-ish way
@@ -189,7 +189,7 @@ ii   locales                      2.43-7                     all    GNU C Librar
 ii   login                        1:4.16.0-2+really2.42.4-1  amd64  system login tools
 ii   login.defs                   1:4.20.3-1                 all    system user management configuration
 ii   lv                           4.51-10.1                  amd64  Powerful Multilingual File Viewer
-ii   man-db                       2.13.2-1                   amd64  tools for reading manual pages
+ii   man-db                       2.13.3-1                   amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20260302-2           amd64  Pattern scanning and text processing language
 ii   mount                        2.42.4-1                   amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.6+20260608-2             all    basic terminal type definitions
