@@ -221,7 +221,7 @@ ii   tar                          1.35+dfsg-7                amd64  GNU version 
 ii   tree                         2.3.2-1                    amd64  displays an indented directory tree, in color
 ii   tzdata                       2026f-1                    all    time zone and daylight-saving time data
 ii   ucf                          3.0056                     all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                        6.0-31                     amd64  De-archiver for .zip files
+ii   unzip                        6.0-32                     amd64  De-archiver for .zip files
 ii   util-linux                   2.42.4-1                   amd64  miscellaneous system utilities
 ii   vim-common                   2:9.2.0858-1               all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.2.0858-1+b1            amd64  Vi IMproved - enhanced vi editor - compact version
