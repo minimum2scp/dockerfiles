@@ -55,7 +55,7 @@ ii   libdebconfclient0         0.283                      amd64  Debian Configur
 ii   libgcc-s1                 16.2.0-4                   amd64  GCC support library
 ii   libgmp10                  2:6.3.0+dfsg-5+b2          amd64  Multiprecision arithmetic library
 ii   libhogweed6t64            3.10.2-1+b1                amd64  low level cryptographic library (public-key cryptos)
-ii   liblz4-1                  1.10.0-10                  amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                  1.11.1-2                   amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                  5.8.4-1                    amd64  XZ-format compression library
 ii   libmd0                    1.3.0-1                    amd64  message digest functions from BSD systems - shared library
 ii   libmount1                 2.42.4-1                   amd64  device mounting library
