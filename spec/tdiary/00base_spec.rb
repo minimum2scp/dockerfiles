@@ -9,6 +9,9 @@ describe 'minimum2scp/tdiary' do
       ## wait for tdiary startup
       wait_container_port 80
       wait_container_port 19292
+      ## sleep until tdiary enters RUNNING state
+      ## (see startsecs in /etc/supervisord/conf.d/tdiary.conf and `supervisorctl maintail`)
+      sleep 3
     end
 
     after(:all) do
