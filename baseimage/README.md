@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.42.4-1                 amd64  basic utilit
 ii   bzip2                        1.0.8-6+b2                 amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20260816+nmu1              all    Common CA certificates
 ii   coreutils                    9.12-0.3                   amd64  GNU core utilities
-ii   cron                         3.0pl1-213                 amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-213                 all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-214                 amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-214                 all    process scheduling daemon's configuration files
 ii   curl                         8.24.0~rc1-1               amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-13                  amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                     all    Debian configuration management system
@@ -81,7 +81,7 @@ ii   diffutils                    1:3.12-1                   amd64  File compari
 ii   dpkg                         1.23.12                    amd64  Debian package management system
 ii   etckeeper                    1.18.23-2                  all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.11.0-3                   amd64  utilities for finding files--find, xargs
-ii   gcc-16-base                  16.2.0-4                   amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-16-base                  16.2.0-5                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.55.0-1                 amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.55.0-1                 all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.12-1                     amd64  GNU grep, egrep and fgrep
@@ -120,7 +120,7 @@ ii   libexpat1                    2.10.0-1                   amd64  XML parsing 
 ii   libfastjson4                 1.2609.0-1                 amd64  fast json library for C
 ii   libffi8                      3.8.0-2                    amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.17.0-2                   amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    16.2.0-4                   amd64  GCC support library
+ii   libgcc-s1                    16.2.0-5                   amd64  GCC support library
 ii   libgdbm-compat4t64           1.26-1+b2                  amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.26-1+b2                  amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-5+b2          amd64  Multiprecision arithmetic library
@@ -169,7 +169,7 @@ ii   libsmartcols1                2.42.4-1                   amd64  smart column
 ii   libsqlite3-0                 3.54.1-2                   amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-6                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.6.5-1                    amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   16.2.0-4                   amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   16.2.0-5                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  262.2-1                    amd64  systemd utility library
 ii   libtasn1-6                   4.21.0-2+b1                amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-12+b2                 amd64  get display widths of characters on the terminal
