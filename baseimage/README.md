@@ -124,14 +124,14 @@ ii   libgcc-s1                    16.2.0-5                   amd64  GCC support 
 ii   libgdbm-compat4t64           1.26-1+b2                  amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.26-1+b2                  amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-5+b2          amd64  Multiprecision arithmetic library
-ii   libgnutls30t64               3.8.13-1                   amd64  GNU TLS library - main runtime library
-ii   libgssapi-krb5-2             1.22.1-3                   amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgnutls30t64               3.8.14-2                   amd64  GNU TLS library - main runtime library
+ii   libgssapi-krb5-2             1.22.3-1                   amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10.2-1+b1                amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.8-5                    amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3                 1.22.1-3                   amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3                 1.22.3-1                   amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-6+b2                 amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3                    1.22.1-3                   amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0              1.22.1-3                   amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3                    1.22.3-1                   amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0              1.22.3-1                   amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap2                     2.6.14+dfsg-2+b1           amd64  OpenLDAP libraries
 ii   liblognorm5                  2.1.1-1                    amd64  log normalizing library
 ii   liblz4-1                     1.11.1-2                   amd64  Fast LZ compression algorithm library - runtime
