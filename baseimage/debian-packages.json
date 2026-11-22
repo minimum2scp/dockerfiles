@@ -2778,7 +2778,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "202",
+    "Installed-Size": "201",
     "Origin": "",
     "Package": "libseccomp2",
     "Pre-Depends": "",
@@ -2789,7 +2789,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.6.1-1+b2",
+    "Version": "2.6.2-1",
     "binary:Package": "libseccomp2:amd64",
     "binary:Summary": "high level interface to Linux seccomp filter",
     "db:Status-Abbrev": "ii ",
@@ -2797,7 +2797,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libseccomp",
-    "source:Version": "2.6.1-1"
+    "source:Version": "2.6.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3422,7 +3422,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "156",
+    "Installed-Size": "159",
     "Origin": "",
     "Package": "libyaml-0-2",
     "Pre-Depends": "",
@@ -3433,7 +3433,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.2.5-2+b1",
+    "Version": "0.2.6-1",
     "binary:Package": "libyaml-0-2:amd64",
     "binary:Summary": "Fast YAML 1.1 parser and emitter library",
     "db:Status-Abbrev": "ii ",
@@ -3441,7 +3441,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libyaml",
-    "source:Version": "0.2.5-2"
+    "source:Version": "0.2.6-1"
   },
   {
     "Architecture": "amd64",
