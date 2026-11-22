@@ -42,7 +42,7 @@ describe 'minimum2scp/ruby-bookworm' do
     end
 
     describe command('ruby3.1 -v') do
-      its(:stdout) { should start_with('ruby 3.1.2p') }
+      its(:stdout) { should start_with('ruby 3.1.7p') }
     end
 
     describe file('/opt/rbenv') do
