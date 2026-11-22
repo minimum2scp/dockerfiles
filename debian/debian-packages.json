@@ -1322,7 +1322,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "202",
+    "Installed-Size": "201",
     "Origin": "",
     "Package": "libseccomp2",
     "Pre-Depends": "",
@@ -1333,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.6.1-1+b2",
+    "Version": "2.6.2-1",
     "binary:Package": "libseccomp2:amd64",
     "binary:Summary": "high level interface to Linux seccomp filter",
     "db:Status-Abbrev": "ii ",
@@ -1341,7 +1341,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libseccomp",
-    "source:Version": "2.6.1-1"
+    "source:Version": "2.6.2-1"
   },
   {
     "Architecture": "amd64",
