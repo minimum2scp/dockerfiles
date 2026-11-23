@@ -717,7 +717,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "groff",
-    "Version": "1.25.0-2",
+    "Version": "1.25.0-3",
     "binary:Package": "groff-base",
     "binary:Summary": "GNU troff text-formatting system (base system components)",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "groff",
-    "source:Version": "1.25.0-2"
+    "source:Version": "1.25.0-3"
   },
   {
     "Architecture": "amd64",
@@ -902,7 +902,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "112",
+    "Installed-Size": "113",
     "Origin": "",
     "Package": "libapparmor1",
     "Pre-Depends": "",
@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.0.2-5.1",
+    "Version": "5.0.2-6",
     "binary:Package": "libapparmor1:amd64",
     "binary:Summary": "changehat AppArmor library",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apparmor",
-    "source:Version": "5.0.2-5.1"
+    "source:Version": "5.0.2-6"
   },
   {
     "Architecture": "amd64",
@@ -997,7 +997,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.2.1-1",
+    "Version": "1:4.2.1-1.1.2",
     "binary:Package": "libaudit-common",
     "binary:Summary": "Dynamic library for security auditing - common files",
     "db:Status-Abbrev": "ii ",
@@ -1005,16 +1005,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:4.2.1-1"
+    "source:Version": "1:4.2.1-1.1.2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libaudit-common (>= 1:4.2.1-1), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9)",
+    "Depends": "libaudit-common (>= 1:4.2.1-1.1.2), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "211",
+    "Installed-Size": "210",
     "Origin": "",
     "Package": "libaudit1",
     "Pre-Depends": "",
@@ -1025,7 +1025,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.2.1-1+b1",
+    "Version": "1:4.2.1-1.1.2",
     "binary:Package": "libaudit1:amd64",
     "binary:Summary": "Dynamic library for security auditing",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:4.2.1-1"
+    "source:Version": "1:4.2.1-1.1.2"
   },
   {
     "Architecture": "amd64",
@@ -3562,7 +3562,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "252",
+    "Installed-Size": "253",
     "Origin": "",
     "Package": "login.defs",
     "Pre-Depends": "",
@@ -3573,7 +3573,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.20.3-1",
+    "Version": "1:4.20.4-1",
     "binary:Package": "login.defs",
     "binary:Summary": "system user management configuration",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.20.3-1"
+    "source:Version": "1:4.20.4-1"
   },
   {
     "Architecture": "amd64",
@@ -3954,7 +3954,7 @@
     "Depends": "base-passwd (>= 3.6.4), libpam-modules, login.defs, libacl1 (>= 2.2.23), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.11.0), libc6 (>= 2.43), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsemanage2 (>= 2.0.32)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4736",
+    "Installed-Size": "4733",
     "Origin": "",
     "Package": "passwd",
     "Pre-Depends": "",
@@ -3965,7 +3965,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.20.3-1",
+    "Version": "1:4.20.4-1",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.20.3-1"
+    "source:Version": "1:4.20.4-1"
   },
   {
     "Architecture": "amd64",

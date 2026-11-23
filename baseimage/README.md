@@ -85,18 +85,18 @@ ii   gcc-16-base                  16.2.0-5                   amd64  GCC, the GNU
 ii   git                          1:2.55.0-1                 amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.55.0-1                 all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.12-1                     amd64  GNU grep, egrep and fgrep
-ii   groff-base                   1.25.0-2                   amd64  GNU troff text-formatting system (base system components)
+ii   groff-base                   1.25.0-3                   amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.14-1                     amd64  GNU compression utilities
 ii   hostname                     3.25                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.69+nmu3                  all    helper tools for all init systems
 ii   initscripts                  3.18-2                     all    scripts for initializing and shutting down the system
 ii   insserv                      1.27.0-1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.4.0-1                    amd64  access control list - shared library
-ii   libapparmor1                 5.0.2-5.1                  amd64  changehat AppArmor library
+ii   libapparmor1                 5.0.2-6                    amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.3.8                      amd64  package management runtime library
 ii   libattr1                     1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
-ii   libaudit-common              1:4.2.1-1                  all    Dynamic library for security auditing - common files
-ii   libaudit1                    1:4.2.1-1+b1               amd64  Dynamic library for security auditing
+ii   libaudit-common              1:4.2.1-1.1.2              all    Dynamic library for security auditing - common files
+ii   libaudit1                    1:4.2.1-1.1.2              amd64  Dynamic library for security auditing
 ii   libblkid1                    2.42.4-1                   amd64  block device ID library
 ii   libbrotli1                   1.2.0-4.1                  amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-3                   amd64  utility functions from BSD systems - shared library
@@ -187,7 +187,7 @@ ii   libzstd1                     1.5.7+dfsg-4               amd64  fast lossles
 ii   localepurge                  0.7.3.11                   all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.43-7                     all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.42.4-1  amd64  system login tools
-ii   login.defs                   1:4.20.3-1                 all    system user management configuration
+ii   login.defs                   1:4.20.4-1                 all    system user management configuration
 ii   lv                           4.51-10.1                  amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.3-1                   amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20260302-2           amd64  Pattern scanning and text processing language
@@ -201,7 +201,7 @@ ii   openssh-sftp-server          1:10.6p2-1                 amd64  secure shell
 ii   openssl                      3.6.5-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.6.5-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.26                       all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.20.3-1                 amd64  change and administer password and group data
+ii   passwd                       1:4.20.4-1                 amd64  change and administer password and group data
 ii   perl                         5.44.0-3                   amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.44.0-3                   amd64  minimal Perl system
 ii   perl-modules-5.44            5.44.0-3                   all    Core Perl modules
