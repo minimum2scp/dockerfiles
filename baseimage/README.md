@@ -72,7 +72,7 @@ ii   ca-certificates              20261123                   all    Common CA ce
 ii   coreutils                    9.12-0.3                   amd64  GNU core utilities
 ii   cron                         3.0pl1-214                 amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-214                 all    process scheduling daemon's configuration files
-ii   curl                         8.24.0~rc1-1               amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.24.0~rc2-1               amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-13                  amd64  POSIX-compliant shell
 ii   debconf                      1.5.92                     all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                     all    OpenPGP archive certificates of the Debian archive
@@ -110,8 +110,8 @@ ii   libcap2                      1:2.78-1+b2                amd64  POSIX 1003.1
 ii   libcbor0.10                  0.10.2-2.2                 amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.4-1+b3                amd64  common error description library
 ii   libcrypt1                    1:4.5.2+20251210-1         amd64  libcrypt shared library
-ii   libcurl4-gnutls              8.24.0~rc1-1               amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.24.0~rc1-1               amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl4-gnutls              8.24.0~rc2-1               amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.24.0~rc2-1               amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-12            amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.283                      amd64  Debian Configuration Management System (C-implementation library)
 ii   liberror-perl                0.17031-1                  all    Perl module for error/exception handling in an OO-ish way
@@ -212,7 +212,7 @@ ii   sed                          4.9-3                      amd64  GNU stream e
 ii   sensible-utils               0.0.26                     all    Utilities for sensible alternative selection
 ii   sqv                          1.5.0-1                    amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                     amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.17p2-11                amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.17p2-12                amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  262.2-1                    amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.18-2                     all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.18-2                     amd64  System-V-like init
