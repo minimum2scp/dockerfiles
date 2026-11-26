@@ -183,11 +183,11 @@ ii   libuuid1                     2.41.5-0+deb13u1                   amd64  Univ
 ii   libwrap0                     7.6.q-36                           amd64  Wietse Venema's TCP wrappers library
 ii   libwtmpdb0                   0.73.0-3+deb13u1                   amd64  wtmp database shared library
 ii   libxxhash0                   0.8.3-2                            amd64  shared library for xxhash
-ii   libzstd1                     1.5.7+dfsg-1                       amd64  fast lossless compression algorithm
+ii   libzstd1                     1.5.7+dfsg-1+deb13u1               amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                           all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.41-12+deb13u5                    all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.41.5-0+deb13u1  amd64  system login tools
-ii   login.defs                   1:4.17.4-2                         all    system user management configuration
+ii   login.defs                   1:4.17.4-2+deb13u1                 all    system user management configuration
 ii   lv                           4.51-10                            amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.1-1                           amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20250131-1                   amd64  Pattern scanning and text processing language
@@ -201,7 +201,7 @@ ii   openssh-sftp-server          1:10.0p1-7+deb13u4                 amd64  secu
 ii   openssl                      3.5.9-1~deb13u1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.5.9-1~deb13u1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.21+deb13u2                       all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.17.4-2                         amd64  change and administer password and group data
+ii   passwd                       1:4.17.4-2+deb13u1                 amd64  change and administer password and group data
 ii   perl                         5.40.1-6+deb13u1                   amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.1-6+deb13u1                   amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-6+deb13u1                   all    Core Perl modules
@@ -229,5 +229,5 @@ ii   whiptail                     0.52.25-1                          amd64  Disp
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+deb13u1   amd64  compression library - runtime
 ii   zsh                          5.9-8+b25                          amd64  shell with lots of features
 ii   zsh-common                   5.9-8                              all    architecture independent files for Zsh
-ii   zstd                         1.5.7+dfsg-1                       amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                         1.5.7+dfsg-1+deb13u1               amd64  fast lossless compression algorithm -- CLI tool
 ```
