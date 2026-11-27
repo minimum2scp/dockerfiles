@@ -199,7 +199,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libbz2-1.0 (= 1.0.8-6+b2), libc6 (>= 2.34)",
+    "Depends": "libbz2-1.0 (= 1.0.8-7), libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "113",
@@ -213,7 +213,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "bzip2-doc",
-    "Version": "1.0.8-6+b2",
+    "Version": "1.0.8-7",
     "binary:Package": "bzip2",
     "binary:Summary": "high-quality block-sorting file compressor - utilities",
     "db:Status-Abbrev": "ii ",
@@ -221,7 +221,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bzip2",
-    "source:Version": "1.0.8-6"
+    "source:Version": "1.0.8-7"
   },
   {
     "Architecture": "all",
@@ -538,7 +538,7 @@
     "Depends": "git | mercurial | brz | darcs, debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "157",
+    "Installed-Size": "156",
     "Origin": "",
     "Package": "etckeeper",
     "Pre-Depends": "",
@@ -549,7 +549,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "sudo",
-    "Version": "1.18.23-2",
+    "Version": "1.18.23-2.1",
     "binary:Package": "etckeeper",
     "binary:Summary": "store /etc in git, mercurial, brz or darcs",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "etckeeper",
-    "source:Version": "1.18.23-2"
+    "source:Version": "1.18.23-2.1"
   },
   {
     "Architecture": "amd64",
@@ -997,7 +997,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.2.1-1.1.2",
+    "Version": "1:4.2.1-1.3",
     "binary:Package": "libaudit-common",
     "binary:Summary": "Dynamic library for security auditing - common files",
     "db:Status-Abbrev": "ii ",
@@ -1005,16 +1005,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:4.2.1-1.1.2"
+    "source:Version": "1:4.2.1-1.3"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libaudit-common (>= 1:4.2.1-1.1.2), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9)",
+    "Depends": "libaudit-common (>= 1:4.2.1-1.3), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "210",
+    "Installed-Size": "218",
     "Origin": "",
     "Package": "libaudit1",
     "Pre-Depends": "",
@@ -1025,7 +1025,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.2.1-1.1.2",
+    "Version": "1:4.2.1-1.3",
     "binary:Package": "libaudit1:amd64",
     "binary:Summary": "Dynamic library for security auditing",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:4.2.1-1.1.2"
+    "source:Version": "1:4.2.1-1.3"
   },
   {
     "Architecture": "amd64",
@@ -1123,7 +1123,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.4)",
+    "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "100",
@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.8-6+b2",
+    "Version": "1.0.8-7",
     "binary:Package": "libbz2-1.0:amd64",
     "binary:Summary": "high-quality block-sorting file compressor library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -1145,7 +1145,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bzip2",
-    "source:Version": "1.0.8-6"
+    "source:Version": "1.0.8-7"
   },
   {
     "Architecture": "amd64",
@@ -3433,7 +3433,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.2.6-1",
+    "Version": "0.2.7-1",
     "binary:Package": "libyaml-0-2:amd64",
     "binary:Summary": "Fast YAML 1.1 parser and emitter library",
     "db:Status-Abbrev": "ii ",
@@ -3441,7 +3441,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libyaml",
-    "source:Version": "0.2.6-1"
+    "source:Version": "0.2.7-1"
   },
   {
     "Architecture": "amd64",

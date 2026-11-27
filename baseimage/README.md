@@ -67,7 +67,7 @@ ii   base-passwd                  3.6.8                      amd64  Debian base 
 ii   bash                         5.3-4+b1                   amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.42.4-1                   amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.42.4-1                 amd64  basic utilities from 4.4BSD-Lite
-ii   bzip2                        1.0.8-6+b2                 amd64  high-quality block-sorting file compressor - utilities
+ii   bzip2                        1.0.8-7                    amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20261123                   all    Common CA certificates
 ii   coreutils                    9.12-0.3                   amd64  GNU core utilities
 ii   cron                         3.0pl1-214                 amd64  process scheduling daemon
@@ -79,7 +79,7 @@ ii   debian-archive-keyring       2025.1                     all    OpenPGP arch
 ii   debianutils                  5.24                       amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.12-1                   amd64  File comparison utilities
 ii   dpkg                         1.23.12                    amd64  Debian package management system
-ii   etckeeper                    1.18.23-2                  all    store /etc in git, mercurial, brz or darcs
+ii   etckeeper                    1.18.23-2.1                all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.11.0-3                   amd64  utilities for finding files--find, xargs
 ii   gcc-16-base                  16.2.0-5                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.55.0-1                 amd64  fast, scalable, distributed revision control system
@@ -95,12 +95,12 @@ ii   libacl1                      2.4.0-1                    amd64  access contr
 ii   libapparmor1                 5.0.2-6                    amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.3.8                      amd64  package management runtime library
 ii   libattr1                     1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
-ii   libaudit-common              1:4.2.1-1.1.2              all    Dynamic library for security auditing - common files
-ii   libaudit1                    1:4.2.1-1.1.2              amd64  Dynamic library for security auditing
+ii   libaudit-common              1:4.2.1-1.3                all    Dynamic library for security auditing - common files
+ii   libaudit1                    1:4.2.1-1.3                amd64  Dynamic library for security auditing
 ii   libblkid1                    2.42.4-1                   amd64  block device ID library
 ii   libbrotli1                   1.2.1-1                    amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-3                   amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0                   1.0.8-6+b2                 amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0                   1.0.8-7                    amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                     2.43-7                     amd64  GNU C Library: Binaries
 ii   libc-gconv-modules-extra     2.43-7                     amd64  GNU C Library: Non-essential gconv modules
 ii   libc-l10n                    2.43-7                     all    GNU C Library: localization files
@@ -182,7 +182,7 @@ ii   libuuid1                     2.42.4-1                   amd64  Universally 
 ii   libwrap0                     7.6.q-37                   amd64  Wietse Venema's TCP wrappers library
 ii   libwtmpdb0                   0.75.0-6                   amd64  wtmp database shared library
 ii   libxxhash0                   0.8.3-2+b2                 amd64  shared library for xxhash
-ii   libyaml-0-2                  0.2.6-1                    amd64  Fast YAML 1.1 parser and emitter library
+ii   libyaml-0-2                  0.2.7-1                    amd64  Fast YAML 1.1 parser and emitter library
 ii   libzstd1                     1.5.7+dfsg-4               amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                   all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.43-7                     all    GNU C Library: National Language (locale) data [support]
