@@ -39,11 +39,11 @@ ii   init-system-helpers       1.69+nmu3                  all    helper tools fo
 ii   libacl1                   2.4.0-1                    amd64  access control list - shared library
 ii   libapt-pkg7.0             3.3.8                      amd64  package management runtime library
 ii   libattr1                  1:2.6.0-1                  amd64  filesystem extended attributes handling - shared library
-ii   libaudit-common           1:4.2.1-1.1.2              all    Dynamic library for security auditing - common files
-ii   libaudit1                 1:4.2.1-1.1.2              amd64  Dynamic library for security auditing
+ii   libaudit-common           1:4.2.1-1.3                all    Dynamic library for security auditing - common files
+ii   libaudit1                 1:4.2.1-1.3                amd64  Dynamic library for security auditing
 ii   libblkid1                 2.42.4-1                   amd64  block device ID library
 ii   libbsd0                   0.12.2-3                   amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0                1.0.8-6+b2                 amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0                1.0.8-7                    amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                  2.43-7                     amd64  GNU C Library: Binaries
 ii   libc-gconv-modules-extra  2.43-7                     amd64  GNU C Library: Non-essential gconv modules
 ii   libc6                     2.43-7                     amd64  GNU C Library: Shared libraries
