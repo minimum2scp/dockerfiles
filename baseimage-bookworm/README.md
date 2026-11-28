@@ -148,10 +148,10 @@ ii   libnewt0.52              0.52.23-1+b1                    amd64  Not Erik's 
 ii   libnghttp2-14            1.52.0-1+deb12u3                amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                  1.3.0-2                         amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0              0.24.1-2                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules           1.5.2-6+deb12u2                 amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin       1.5.2-6+deb12u2                 amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime           1.5.2-6+deb12u2                 all    Runtime support for the PAM library
-ii   libpam0g                 1.5.2-6+deb12u2                 amd64  Pluggable Authentication Modules library
+ii   libpam-modules           1.5.2-6+deb12u3                 amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin       1.5.2-6+deb12u3                 amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime           1.5.2-6+deb12u3                 all    Runtime support for the PAM library
+ii   libpam0g                 1.5.2-6+deb12u3                 amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.42-1+deb12u2                 amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.36              5.36.0-7+deb12u4                amd64  shared Perl library
 ii   libpipeline1             1.5.7-1                         amd64  Unix process pipeline manipulation library
@@ -183,7 +183,7 @@ ii   libunistring2            1.0-2                           amd64  Unicode str
 ii   libuuid1                 2.38.1-5+deb12u3                amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0               0.8.1-1                         amd64  shared library for xxhash
-ii   libzstd1                 1.5.4+dfsg2-5                   amd64  fast lossless compression algorithm
+ii   libzstd1                 1.5.4+dfsg2-5+deb12u1           amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                  2.36-9+deb12u14                 all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.13+dfsg1-1+deb12u2          amd64  system login tools
@@ -228,5 +228,5 @@ ii   whiptail                 0.52.23-1+b1                    amd64  Displays us
 ii   zlib1g                   1:1.2.13.dfsg-1                 amd64  compression library - runtime
 ii   zsh                      5.9-4+b15                       amd64  shell with lots of features
 ii   zsh-common               5.9-4                           all    architecture independent files for Zsh
-ii   zstd                     1.5.4+dfsg2-5                   amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                     1.5.4+dfsg2-5+deb12u1           amd64  fast lossless compression algorithm -- CLI tool
 ```
